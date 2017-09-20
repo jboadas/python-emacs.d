@@ -1,0 +1,126 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/home/jboadas/devel/python/selenium/selenium2/V316/" . "test/")
+ ("/home/jboadas/devel/python/selenium/selenium2/" . "V316/")
+ ("/home/jboadas/devel/python/selenium/V316/" . "utils/")
+ ("/home/jboadas/devel/python/selenium/" . "selenium2/")
+ ("/home/" . "jboadas/")
+ ("/home/jboadas/devel/python/" . "selenium/")
+ ("/home/jboadas/Downloads/" . "infoman/")
+ ("/home/jboadas/devel/" . "python/")
+ ("/home/jboadas/" . ".emacs.d/")
+ ("c:/Lisp/home/" . ".emacs.d/")
+ ("c:/Lisp/" . "home/")
+ ("c:/devel/haskell/my-yesod/static/" . "tmp/")
+ ("c:/devel/haskell/my-yesod/" . "templates/")
+ ("c:/devel/haskell/" . "Fractals.hsproj/")
+ ("c:/devel/" . "fsharp/")
+ ("c:/" . "Lisp/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/home/jboadas/.emacs.d/"
+ "/home/jboadas/devel/python/selenium/selenium2/V316/"
+ "/home/jboadas/devel/python/selenium/selenium2/V316/test/"
+ "/home/jboadas/devel/python/selenium/selenium2/V316/utils/"
+ "/home/jboadas/devel/python/selenium/selenium2/V316/functions/"
+ "/home/jboadas/devel/python/selenium/V316/utils/"
+ "/home/jboadas/devel/python/selenium/V316/functions/"
+ "/home/jboadas/devel/python/selenium/"
+ "/home/jboadas/devel/ocaml/"
+ "/home/jboadas/"
+ "c:/Lisp/home/.emacs.d/"
+ "c:/devel/fsharp/"
+ "c:/devel/haskell/Fractals.hsproj/"
+ "c:/devel/haskell/"
+ "c:/devel/haskell/my-yesod/templates/"
+ "c:/devel/haskell/my-yesod/app/"
+ "c:/devel/haskell/my-yesod/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ "init.el"
+ "V316.py"
+ "changeRegion.py"
+ "test.py"
+ "functions.py"
+ "utils.py"
+ "printTest.py"
+ "testPackages.py"
+ "test_V316.py"
+ "pathmagic.py"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/home/jboadas/.emacs.d/" (22978 24182 326090 988000) "snippets/" "README.md" "elpa/" "init.el" "./" "opam-user-setup.el" ".git/" "tuareg-master/" "auto-save-list/" "ido.last" "themes/" "../")
+
+ ("/home/jboadas/" (22978 24150 285672 258000) ".eclipse/" ".xfce4-session.verbose-log.last" ".gksu.lock" "GOG Games/" ".putty/" ".designer/" ".aspell.es.prepl" ".youtube-upload-credentials.json" ".ICEauthority" ".macromedia/" "skypeforlinux/" ".ssr/" ".dwarffortress/" "Pictures/" ".aspell.es.pws" ".xinitrc" ".ssh/" ".cache/" "go/" ".oracle_jre_usage/" ".shutter/" ".tmp/" ".gnome2/" ".bluefish/" ".dbeaver-drivers/" ".mozilla/" ".purple/" ".xfce4-session.verbose-log" ".Xresources" ".grive-setup.log" "torrents/" ".vim/" "Sep20-1.avi" "Templates/" ".local/" ".node-gyp/" "Downloads/" "Documents/" ".thumbnails/" ".bash_profile" ".extend.bashrc" ".bash_logout" ".kompozer.net/" ".wine/" ".profile" ".ccache/" ".Xclients" ".gtk-bookmarks" ".python_history" "./" ".bashrc" ".npm/" "Public/" ".ocp/" ".gitconfig" "Jagex/" ".java/" ".m2/" ".gnupg/" ".config/" ".xsession-errors.old" ".audacity-data/" ".emacs.d/" ".guayadeque/" ".openshot_qt/" ".ccross/" ".smex-items" ".grafx2/" ".netbeans/" "jagexcache/" ".xsession-errors" ".swt/" "jagex_cl_oldschool_LIVE.dat" ".runescape" ".crawl/" ".icons/" ".adobe/" ".bash_history" "random.dat" "Videos/" ".mono/" ".ocamlinit" ".gnome/" ".atom/" ".xprofile" "Desktop/" ".pki/" ".aspell.en.pws" ".dropbox-dist/" ".dir_colors" ".osbuddy/" "Screenshots/" ".Xauthority" "Drive/" ".mtpaint" ".aspell.en.prepl" "geckodriver.log" ".thunderbird/" ".tooling/" ".dbeaver4/" ".vimrc" "Music/" ".opam/" ".utop-history" "devel/" ".dmrc" "../" ".esd_auth" ".viminfo" ".extend.xinitrc" ".jsweet-node_modules/" ".dropbox/" ".xsession" ".gimp-2.8/")
+
+ ("/home/jboadas/devel/python/selenium/selenium2/V316/" (22977 28476 962402 852000) "__init__.py" "utils.py" "functions.py" "V316.py" "./" "__pycache__/" "../" "changeRegion.py")
+
+ ("/home/jboadas/devel/python/selenium/selenium2/V316/test/" (22977 28240 476901 656000) "./" "test.py" "../")
+
+ ("/home/jboadas/devel/python/selenium/selenium2/V316/utils/" (22977 27513 223306 283000) "printTest.py" "./" "__pycache__/" "../" "changeRegion.py")
+
+ ("/home/jboadas/devel/python/selenium/selenium2/V316/functions/" (22977 27449 412664 11000) "./" "testPackages.py" "__pycache__/" "../")
+
+ ("/home/jboadas/devel/python/" (22977 25282 843651 26000) "./" "test-scripts/" "selenium/" "../")
+
+ ("/home/jboadas/devel/python/selenium/selenium2/" (22977 25314 470659 518000) "V316/" "./" "../")
+
+ ("/home/jboadas/devel/python/selenium/" (22977 25106 918380 463000) "selenium2/" "build/" "src/" "README.md" "helper/" "versions/" "./" ".git/" "backups/" "../")
+
+ ("/home/jboadas/devel/python/selenium/V316/utils/" (22977 15627 10724 168000) ".#changeRegion.py" "printTest.py" "./" "__pycache__/" "../" "changeRegion.py")
+
+ ("/home/jboadas/devel/python/selenium/V316/functions/" (22977 13981 170189 936000) "./" "testPackages.py" "pathmagic.py" "__pycache__/" "../" "registration.py")
+
+ ("/home/jboadas/devel/python/selenium/V316/" (22977 10190 3915 53000) "__init__.py" "./" "utils/" "functions/" "../")
+
+ ("/home/" (22821 51383 670757 624000) "./" "jboadas/" "../")
+
+ ("/home/jboadas/devel/" (22971 59388 919198 373000) "bash/" "go/" "python/" "./" "ocaml/" "java/" "various/" "../")
+
+ ("/home/jboadas/devel/ocaml/" (22859 53986 769286 21000) "myapp/" "compara-paquetes.ml" "./" "test.ml" "../" "flatten.ml")
+
+ ("/home/jboadas/develop/" (22743 11730 308466 828000) "haskell/" "Java/" "emacs/" "./" "Great Books/" "../" "Ocaml/")
+
+ ("/home/jboadas/Downloads/" (22759 1959 69491 531000) "ocaml-4.04-refman.pdf" "jdk-8u121-linux-x64.tar.gz" "emacs-keys.txt" "ocaml-4.04-refman.info.tar.gz" "Udemy - Kotlin Programming Next Level Java Development/" "java-debian.org" "ocaml-4.04-refman-html.tar.gz" "var-cache-apt-archives/" "eclipse-jee-neon-3-linux-gtk-x86_64.tar.gz" "ideaIC-2017.1.tar.gz" "Vivienda - Auyama/" "./" "urw_3.40_amd64.deb" "infoman/" "../")
+
+ ("/home/jboadas/Downloads/infoman/" (22759 1878 458116 907000) "ocaml.info.body-11.gz" "ocaml.info.body-23.gz" "ocaml.info.body-1.gz" "ocaml.info.body-4.gz" "ocaml.info.body-22.gz" "ocaml.info.body-9.gz" "ocaml.info.body-15.gz" "ocaml.info.body-8.gz" "ocaml.info.body-18.gz" "ocaml.info.hocaml.info.hind.gz" "ocaml.info.haux.gz" "ocaml.info.body-6.gz" "ocaml.info.body-5.gz" "ocaml.info.body-16.gz" "ocaml.info.body-27.gz" "ocaml.info.body-20.gz" "ocaml.info.body-10.gz" "ocaml.info.body-3.gz" "ocaml.info.body-2.gz" "ocaml.info.body-19.gz" "ocaml.info.body-13.gz" "./" "ocaml.info.body-12.gz" "ocaml.info.body-25.gz" "ocaml.info.hocaml.info.kwd.hind.gz" "../" "ocaml.info.body-26.gz" "ocaml.info.gz" "ocaml.info.body-14.gz" "ocaml.info.body-7.gz" "ocaml.info.body-24.gz" "ocaml.info.body-17.gz" "ocaml.info.body-21.gz")
+
+ ("c:/Lisp/home/.emacs.d/" (22630 42982 0 0) "tuareg-master/" "themes/" "init.el" "ido.last" "elpa/" "auto-save-list/" "../" "./")
+
+ ("c:/Lisp/home/" (22630 42982 0 0) "_viminfo" "xaa" "tmp/" "repo/" "java-debian.org" "Instalar arch.org" "fsharp.emacs.d.zip" "es.pws" "es.prepl" "en.pws" "en.prepl" "emacs-keys.txt" "edb_pgjdbc.exe" "arch.txt" "aprender-clojure.org" ".viminfo" ".ssh/" ".smex-items" ".ocamlinit" ".lein/" ".idlerc/" ".gitconfig" ".gem/" ".fontconfig/" ".emacs.d/" ".cache/" ".bash_profile" ".bash_history" "../" "./")
+
+ ("c:/devel/fsharp/" (22625 27775 0 0) "tests.fsx" "../" "./")
+
+ ("c:/devel/haskell/Fractals.hsproj/" (22064 12684 0 0) "_LineGraphics.hsplay" "_Fractals.hsplay" "LineGraphics.hs" "Fractals.hs" "Fractals.cabal" "../" "./")
+
+ ("c:/devel/haskell/" (22625 24859 0 0) "test.o" "test.hs" "test.hi" "test.exe" "test-stack/" "my-yesod/" "inicio.o" "inicio.hs" "inicio.hi" "inicio.exe" "gtk2hs/" "game/" "Fractals.zip" "Fractals.hsproj/" "fay-test.js" "fay-test.html" "fay-test.hs" "../" "./")
+
+ ("c:/devel/" (22616 13968 0 0) "WebFControl/" "sigec14-antes limpieza.rar" "sigec14 - antes version perla.rar" "sigec14/" "scala/" "ring.wiki/" "racket/" "perlaairlines/" "perla original.rar" "perla original/" "ocaml/" "microsatas-certificado.p12" "Licencia Savannah.rar" "Java/" "Haxe/" "haskell/" "go/" "fsharp/" "compile_results.log" "Clojure/" "C++/" "As3/" "ANTES UPDATE 23-07-2013.rar" "00-Design/" "../" "./")
+
+ ("c:/Lisp/" (22617 9297 0 0) "home/" "haskell.emacs.d.zip" "emacs-24.5/" "Aspell/" ".emacs.d-clojure.zip" "../" "./")
+
+ ("c:/devel/haskell/my-yesod/templates/" (22592 11151 0 0) "profile.hamlet" "homepage.lucius" "homepage.julius" "homepage.hamlet" "default-layout.lucius" "default-layout.hamlet" "default-layout-wrapper.hamlet" "../" "./")
+
+ ("c:/devel/haskell/my-yesod/static/tmp/" (22592 15668 0 0) "autogen-yWbYL5Pf.css" "autogen-r3XaZuvR.js" "autogen-dyDfk8nC.css" "autogen-8iASS6X3.css" "../" "./")
+
+ ("c:/devel/haskell/my-yesod/static/" (22592 15280 0 0) "tmp/" "fonts/" "css/" "../" "./")
+
+ ("c:/devel/haskell/my-yesod/app/" (22592 11151 0 0) "main.hs" "DevelMain.hs" "devel.hs" "../" "./")
+
+ ("c:/devel/haskell/my-yesod/" (22592 19993 0 0) "yesod-devel/" "test/" "templates/" "static/" "stack.yaml" "Settings.hs" "Settings/" "my-yesod.sqlite3" "my-yesod.cabal" "Model.hs" "Import.hs" "Import/" "Handler/" "Foundation.hs" "dist/" "config/" "Application.hs" "app/" ".stack-work/" ".gitignore" ".dir-locals.el" "../" "./")
+
+ ("c:/Lisp/emacs-24.5/" (22241 29889 0 0) "var/" "share/" "libexec/" "bin/" "../" "./")
+
+ ("c:/Lisp/emacs-24.5/bin/" (21827 21370 0 0) "runemacs.exe" "libXpm.dll" "grep-changelog" "etags.exe" "emacsclientw.exe" "emacsclient.exe" "emacs.exe" "emacs-24.5.exe" "ebrowse.exe" "ctags.exe" "addpm.exe" "../" "./")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t

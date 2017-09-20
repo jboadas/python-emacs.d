@@ -1,2 +1,3 @@
-# python-emacs.d
-My Python emacs
+# emacs
+
+This emacs configuration is tuned up to use Python.
