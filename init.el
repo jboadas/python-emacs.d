@@ -234,6 +234,10 @@
 (add-hook 'elpy-mode-hook 'py-autopep8-enable-on-save)
 
 (custom-set-faces
+ ;; custom-set-faces was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
  '(company-scrollbar-bg ((t (:background "#191919"))))
  '(company-scrollbar-fg ((t (:background "#0C0C0C"))))
  '(company-tooltip ((t (:inherit default :background "gray15"))))
@@ -243,3 +247,11 @@
  '(company-tooltip-selection ((t (:inherit font-lock-function-name-face :background "brown4" :foreground "snow1"))))
  '(highlight ((t (:background "dark slate gray"))))
  '(show-paren-match ((t (:background "black" :foreground "green")))))
+(custom-set-variables
+ ;; custom-set-variables was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(package-selected-packages
+   (quote
+    (web-mode smex smartparens py-autopep8 powerline popup material-theme ido-vertical-mode ido-ubiquitous hl-todo highlight-parentheses flycheck flx-ido elpy company-quickhelp))))
