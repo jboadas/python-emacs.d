@@ -10,7 +10,7 @@
  ("/home/jboadas/devel/python/" . "selenium/")
  ("/home/jboadas/Downloads/" . "infoman/")
  ("/home/jboadas/devel/" . "python/")
- ("/home/jboadas/" . ".emacs.d/")
+ ("/home/jboadas/" . "devel/")
  ("c:/Lisp/home/" . ".emacs.d/")
  ("c:/Lisp/" . "home/")
  ("c:/devel/haskell/my-yesod/static/" . "tmp/")
@@ -22,8 +22,8 @@
 
 ;; ----- ido-work-directory-list -----
 (
- "/home/jboadas/.emacs.d/"
  "/home/jboadas/devel/python/selenium/selenium2/V316/"
+ "/home/jboadas/.emacs.d/"
  "/home/jboadas/devel/python/selenium/selenium2/V316/test/"
  "/home/jboadas/devel/python/selenium/selenium2/V316/utils/"
  "/home/jboadas/devel/python/selenium/selenium2/V316/functions/"
@@ -43,25 +43,29 @@
 
 ;; ----- ido-work-file-list -----
 (
- "init.el"
- "V316.py"
- "changeRegion.py"
- "test.py"
- "functions.py"
- "utils.py"
- "printTest.py"
- "testPackages.py"
- "test_V316.py"
- "pathmagic.py"
+ "st01register.py"
+ "testcase_lp05_register_paidaccount_nodomain_coupon.py"
+ "testcase_lp04_register_freeaccount_paid_domain.py"
+ "testcase_lp03_register_freeaccount_free_domain.py"
+ "testcase_lp02_register_company.py"
+ "testcase_lp01_register_natural_person.py"
+ "changeregion.py"
+ "data.py"
+ "testcase_alltests.py"
+ "testlog_changeregion.py"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/home/jboadas/.emacs.d/" (22978 24182 326090 988000) "snippets/" "README.md" "elpa/" "init.el" "./" "opam-user-setup.el" ".git/" "tuareg-master/" "auto-save-list/" "ido.last" "themes/" "../")
+ ("/home/jboadas/devel/python/selenium/selenium2/V316/" (22995 53084 129804 552000) "__init__.py" "testcase_lp02_register_company.py" "changeregion.py" "loadselenium.py" "testcase_lp01_register_natural_person.py" "testlog_changeregion.py" "icinga.log" "./" "data.py" "testcase_lp05_register_paidaccount_nodomain_coupon.py" "loadlogs.py" "run_all_tests.sh" "testcase_lp03_register_freeaccount_free_domain.py" "geckodriver.log" "testcase_changeregion.py" "st01register.py" "__pycache__/" "../" "testcase_lp04_register_freeaccount_paid_domain.py")
 
- ("/home/jboadas/" (22978 24150 285672 258000) ".eclipse/" ".xfce4-session.verbose-log.last" ".gksu.lock" "GOG Games/" ".putty/" ".designer/" ".aspell.es.prepl" ".youtube-upload-credentials.json" ".ICEauthority" ".macromedia/" "skypeforlinux/" ".ssr/" ".dwarffortress/" "Pictures/" ".aspell.es.pws" ".xinitrc" ".ssh/" ".cache/" "go/" ".oracle_jre_usage/" ".shutter/" ".tmp/" ".gnome2/" ".bluefish/" ".dbeaver-drivers/" ".mozilla/" ".purple/" ".xfce4-session.verbose-log" ".Xresources" ".grive-setup.log" "torrents/" ".vim/" "Sep20-1.avi" "Templates/" ".local/" ".node-gyp/" "Downloads/" "Documents/" ".thumbnails/" ".bash_profile" ".extend.bashrc" ".bash_logout" ".kompozer.net/" ".wine/" ".profile" ".ccache/" ".Xclients" ".gtk-bookmarks" ".python_history" "./" ".bashrc" ".npm/" "Public/" ".ocp/" ".gitconfig" "Jagex/" ".java/" ".m2/" ".gnupg/" ".config/" ".xsession-errors.old" ".audacity-data/" ".emacs.d/" ".guayadeque/" ".openshot_qt/" ".ccross/" ".smex-items" ".grafx2/" ".netbeans/" "jagexcache/" ".xsession-errors" ".swt/" "jagex_cl_oldschool_LIVE.dat" ".runescape" ".crawl/" ".icons/" ".adobe/" ".bash_history" "random.dat" "Videos/" ".mono/" ".ocamlinit" ".gnome/" ".atom/" ".xprofile" "Desktop/" ".pki/" ".aspell.en.pws" ".dropbox-dist/" ".dir_colors" ".osbuddy/" "Screenshots/" ".Xauthority" "Drive/" ".mtpaint" ".aspell.en.prepl" "geckodriver.log" ".thunderbird/" ".tooling/" ".dbeaver4/" ".vimrc" "Music/" ".opam/" ".utop-history" "devel/" ".dmrc" "../" ".esd_auth" ".viminfo" ".extend.xinitrc" ".jsweet-node_modules/" ".dropbox/" ".xsession" ".gimp-2.8/")
+ ("/home/jboadas/" (22995 53387 680859 733000) ".eclipse/" ".xfce4-session.verbose-log.last" ".gksu.lock" "GOG Games/" ".putty/" ".designer/" ".aspell.es.prepl" ".youtube-upload-credentials.json" ".ICEauthority" ".macromedia/" "skypeforlinux/" ".ssr/" ".dwarffortress/" "Pictures/" ".aspell.es.pws" ".xinitrc" ".ssh/" ".cache/" "go/" ".oracle_jre_usage/" ".shutter/" ".tmp/" ".gnome2/" ".bluefish/" ".dbeaver-drivers/" ".mozilla/" ".purple/" ".xfce4-session.verbose-log" ".Xresources" ".grive-setup.log" "torrents/" ".vim/" "Templates/" ".local/" ".node-gyp/" "Downloads/" "Documents/" ".thumbnails/" ".bash_profile" ".extend.bashrc" ".bash_logout" ".kompozer.net/" ".wine/" ".profile" ".ccache/" ".Xclients" ".gtk-bookmarks" ".python_history" "./" ".bashrc" ".npm/" "Public/" ".git-credentials" ".ocp/" ".gitconfig" "Jagex/" ".java/" ".m2/" ".gnupg/" ".config/" ".xsession-errors.old" ".audacity-data/" ".emacs.d/" ".guayadeque/" ".openshot_qt/" ".ccross/" ".smex-items" ".grafx2/" ".netbeans/" "jagexcache/" ".xsession-errors" ".swt/" ".crawl/" ".icons/" ".adobe/" ".bash_history" ".joxi/" "Videos/" ".mono/" ".ocamlinit" ".gnome/" ".atom/" ".xprofile" "Desktop/" ".pki/" ".aspell.en.pws" ".dropbox-dist/" ".dir_colors" ".osbuddy/" "Screenshots/" ".Xauthority" "Drive/" ".mtpaint" ".aspell.en.prepl" ".thunderbird/" ".tooling/" ".dbeaver4/" ".vimrc" "Music/" ".opam/" ".utop-history" "devel/" ".dmrc" "Oct03-4.avi" "../" ".esd_auth" ".viminfo" ".extend.xinitrc" ".jsweet-node_modules/" ".dropbox/" ".xsession" ".gimp-2.8/")
 
- ("/home/jboadas/devel/python/selenium/selenium2/V316/" (22977 28476 962402 852000) "__init__.py" "utils.py" "functions.py" "V316.py" "./" "__pycache__/" "../" "changeRegion.py")
+ ("/home/jboadas/devel/python/selenium/selenium2/" (22980 304 749674 925000) "V316/" "./" "../")
+
+ ("/home/jboadas/devel/python/selenium/" (22980 323 849637 50000) "selenium2/" "build/" "src/" "README.md" ".gitlab-ci.yml" "helper/" "versions/" "./" ".git/" "backups/" ".gitignore" "../")
+
+ ("/home/jboadas/.emacs.d/" (22986 18775 905265 852000) "snippets/" "README.md" "elpa/" "init.el" "./" ".git/" "ido.last" "themes/" "../")
 
  ("/home/jboadas/devel/python/selenium/selenium2/V316/test/" (22977 28240 476901 656000) "./" "test.py" "../")
 
@@ -70,10 +74,6 @@
  ("/home/jboadas/devel/python/selenium/selenium2/V316/functions/" (22977 27449 412664 11000) "./" "testPackages.py" "__pycache__/" "../")
 
  ("/home/jboadas/devel/python/" (22977 25282 843651 26000) "./" "test-scripts/" "selenium/" "../")
-
- ("/home/jboadas/devel/python/selenium/selenium2/" (22977 25314 470659 518000) "V316/" "./" "../")
-
- ("/home/jboadas/devel/python/selenium/" (22977 25106 918380 463000) "selenium2/" "build/" "src/" "README.md" "helper/" "versions/" "./" ".git/" "backups/" "../")
 
  ("/home/jboadas/devel/python/selenium/V316/utils/" (22977 15627 10724 168000) ".#changeRegion.py" "printTest.py" "./" "__pycache__/" "../" "changeRegion.py")
 
