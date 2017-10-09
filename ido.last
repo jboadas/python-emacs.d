@@ -43,23 +43,23 @@
 
 ;; ----- ido-work-file-list -----
 (
+ "data.py"
  "st01register.py"
+ "testcase_lp06_register_paidaccount_nodomain_paypal.py"
+ "changeregion.py"
  "testcase_lp05_register_paidaccount_nodomain_coupon.py"
  "testcase_lp04_register_freeaccount_paid_domain.py"
  "testcase_lp03_register_freeaccount_free_domain.py"
  "testcase_lp02_register_company.py"
  "testcase_lp01_register_natural_person.py"
- "changeregion.py"
- "data.py"
- "testcase_alltests.py"
- "testlog_changeregion.py"
+ "loadselenium.py"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/home/jboadas/devel/python/selenium/selenium2/V316/" (22995 53084 129804 552000) "__init__.py" "testcase_lp02_register_company.py" "changeregion.py" "loadselenium.py" "testcase_lp01_register_natural_person.py" "testlog_changeregion.py" "icinga.log" "./" "data.py" "testcase_lp05_register_paidaccount_nodomain_coupon.py" "loadlogs.py" "run_all_tests.sh" "testcase_lp03_register_freeaccount_free_domain.py" "geckodriver.log" "testcase_changeregion.py" "st01register.py" "__pycache__/" "../" "testcase_lp04_register_freeaccount_paid_domain.py")
+ ("/home/jboadas/devel/python/selenium/selenium2/V316/" (22999 65168 943207 871000) "__init__.py" "testcase_lp02_register_company.py" "changeregion.py" "loadselenium.py" "testcase_lp01_register_natural_person.py" "icinga.log" "./" "data.py" "testcase_lp05_register_paidaccount_nodomain_coupon.py" "loadlogs.py" "run_all_tests.sh" "testcase_lp03_register_freeaccount_free_domain.py" "geckodriver.log" "testcase_changeregion.py" "testcase_lp06_register_paidaccount_nodomain_paypal.py" "st01register.py" "__pycache__/" "../" "testcase_lp04_register_freeaccount_paid_domain.py")
 
- ("/home/jboadas/" (22995 53387 680859 733000) ".eclipse/" ".xfce4-session.verbose-log.last" ".gksu.lock" "GOG Games/" ".putty/" ".designer/" ".aspell.es.prepl" ".youtube-upload-credentials.json" ".ICEauthority" ".macromedia/" "skypeforlinux/" ".ssr/" ".dwarffortress/" "Pictures/" ".aspell.es.pws" ".xinitrc" ".ssh/" ".cache/" "go/" ".oracle_jre_usage/" ".shutter/" ".tmp/" ".gnome2/" ".bluefish/" ".dbeaver-drivers/" ".mozilla/" ".purple/" ".xfce4-session.verbose-log" ".Xresources" ".grive-setup.log" "torrents/" ".vim/" "Templates/" ".local/" ".node-gyp/" "Downloads/" "Documents/" ".thumbnails/" ".bash_profile" ".extend.bashrc" ".bash_logout" ".kompozer.net/" ".wine/" ".profile" ".ccache/" ".Xclients" ".gtk-bookmarks" ".python_history" "./" ".bashrc" ".npm/" "Public/" ".git-credentials" ".ocp/" ".gitconfig" "Jagex/" ".java/" ".m2/" ".gnupg/" ".config/" ".xsession-errors.old" ".audacity-data/" ".emacs.d/" ".guayadeque/" ".openshot_qt/" ".ccross/" ".smex-items" ".grafx2/" ".netbeans/" "jagexcache/" ".xsession-errors" ".swt/" ".crawl/" ".icons/" ".adobe/" ".bash_history" ".joxi/" "Videos/" ".mono/" ".ocamlinit" ".gnome/" ".atom/" ".xprofile" "Desktop/" ".pki/" ".aspell.en.pws" ".dropbox-dist/" ".dir_colors" ".osbuddy/" "Screenshots/" ".Xauthority" "Drive/" ".mtpaint" ".aspell.en.prepl" ".thunderbird/" ".tooling/" ".dbeaver4/" ".vimrc" "Music/" ".opam/" ".utop-history" "devel/" ".dmrc" "Oct03-4.avi" "../" ".esd_auth" ".viminfo" ".extend.xinitrc" ".jsweet-node_modules/" ".dropbox/" ".xsession" ".gimp-2.8/")
+ ("/home/jboadas/" (23000 57210 295911 873000) ".eclipse/" ".xfce4-session.verbose-log.last" ".gksu.lock" "GOG Games/" ".putty/" ".designer/" ".aspell.es.prepl" ".youtube-upload-credentials.json" ".ICEauthority" ".macromedia/" "skypeforlinux/" ".ssr/" ".dwarffortress/" "Pictures/" ".aspell.es.pws" ".xinitrc" ".ssh/" ".cache/" "go/" ".oracle_jre_usage/" ".shutter/" ".tmp/" ".gnome2/" ".bluefish/" ".dbeaver-drivers/" ".mozilla/" ".purple/" ".xfce4-session.verbose-log" ".Xresources" ".grive-setup.log" "torrents/" ".vim/" "Templates/" ".local/" ".node-gyp/" "Downloads/" "Documents/" ".thumbnails/" ".bash_profile" ".extend.bashrc" ".bash_logout" ".kompozer.net/" ".wine/" ".profile" ".ccache/" ".Xclients" ".gtk-bookmarks" ".python_history" "./" ".bashrc" ".npm/" "Public/" ".git-credentials" ".ocp/" ".gitconfig" "Jagex/" ".java/" ".m2/" ".gnupg/" ".config/" ".xsession-errors.old" ".audacity-data/" ".emacs.d/" ".guayadeque/" ".openshot_qt/" ".ccross/" ".smex-items" ".grafx2/" ".netbeans/" "jagexcache/" ".xsession-errors" ".swt/" ".crawl/" ".icons/" ".adobe/" ".bash_history" ".joxi/" "Videos/" ".mono/" ".ocamlinit" ".gnome/" ".atom/" ".xprofile" "Desktop/" ".pki/" ".aspell.en.pws" ".dropbox-dist/" ".dir_colors" ".osbuddy/" "Screenshots/" ".Xauthority" "Drive/" ".mtpaint" ".aspell.en.prepl" ".thunderbird/" ".tooling/" ".dbeaver4/" ".vimrc" "Music/" ".opam/" ".utop-history" "devel/" "Oct07-1.avi" ".dmrc" "../" ".esd_auth" ".viminfo" ".extend.xinitrc" ".jsweet-node_modules/" ".dropbox/" ".xsession" ".gimp-2.8/")
 
  ("/home/jboadas/devel/python/selenium/selenium2/" (22980 304 749674 925000) "V316/" "./" "../")
 
