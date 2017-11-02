@@ -254,4 +254,4 @@
  ;; If there is more than one, they won't work right.
  '(package-selected-packages
    (quote
-    (web-mode smex smartparens py-autopep8 powerline popup material-theme ido-vertical-mode ido-ubiquitous hl-todo highlight-parentheses flycheck flx-ido elpy company-quickhelp))))
+    (markdown-preview-mode web-mode smex smartparens py-autopep8 powerline popup material-theme ido-vertical-mode ido-ubiquitous hl-todo highlight-parentheses flycheck flx-ido elpy company-quickhelp))))

@@ -4,7 +4,7 @@
 
 ;; Author: Jorgen Schaefer <contact@jorgenschaefer.de>
 ;; URL: https://github.com/jorgenschaefer/elpy
-;; Version: 1.16.1
+;; Version: 1.17.0
 ;; Keywords: Python, IDE, Languages, Tools
 ;; Package-Requires: ((company "0.9.2") (find-file-in-project "3.3")  (highlight-indentation "0.5.0") (pyvenv "1.3") (yasnippet "0.8.0") (s "1.11.0"))
 
@@ -49,7 +49,7 @@
 (require 'elpy-profile)
 (require 'pyvenv)
 
-(defconst elpy-version "1.16.1"
+(defconst elpy-version "1.17.0"
   "The version of the Elpy lisp code.")
 
 ;;;;;;;;;;;;;;;;;;;;;;
@@ -221,7 +221,9 @@ this to prevent this from happening."
   :group 'elpy)
 
 (defcustom elpy-rpc-python-command (if (equal system-type 'windows-nt)
-                                       "pythonw"
+                                       (or (executable-find "py")
+                                           (executable-find "pythonw")
+                                           "python")
                                      "python")
   "The Python interpreter for the RPC backend.
 
@@ -231,6 +233,7 @@ and not an interactive shell like ipython."
                  (const :tag "python2" "python2")
                  (const :tag "python3" "python3")
                  (const :tag "pythonw (Python on Windows)" "pythonw")
+                 (const :tag "py (other Python on Windows)" "py")
                  (string :tag "Other"))
   :safe (lambda (val)
           (member val '("python" "python2" "python3" "pythonw")))
@@ -1637,7 +1640,7 @@ code is executed."
       (python-shell-send-buffer arg))
     (elpy-shell-display-buffer)
     (when has-if-main
-      (message (concat "Removed if __main__ == '__main__' construct, "
+      (message (concat "Removed if __name__ == '__main__' construct, "
                        "use a prefix argument to evaluate.")))))
 
 (defun elpy-shell-send-current-statement ()
@@ -1783,7 +1786,7 @@ with a prefix argument)."
                                    (buffer-file-name))))
         (extra-args (if whole-project-p
                         (concat
-                         (if (equal python-check-command "pylint")
+                         (if (string-match "pylint$" python-check-command)
                              " --ignore="
                            " --exclude=")
                          (mapconcat #'identity
@@ -3455,15 +3458,15 @@ This is needed to get information on the identifier with jedi
 
   (defun elpy-xref--get-completion-table ()
     "Return the completion table for identifiers."
-    (let ((table ())
-          (id-at-point (elpy-xref--identifier-at-point))
-          (references (elpy-rpc-get-names)))
+    (let ((id-at-point (elpy-xref--identifier-at-point))
+          (table nil))
       (when id-at-point
-        (add-to-list 'table id-at-point))
+        (push id-at-point table))
       (cl-loop
-       for ref in references
+       for ref in (elpy-rpc-get-names)
        for name = (alist-get 'name ref)
-       do (add-to-list 'table name t))
+       unless (member name table)
+       do (push name table))
       table))
 
   ;; Apropos
@@ -3597,10 +3600,9 @@ If you need your modeline, you can set the variable `elpy-remove-modeline-lighte
      (company-mode 1)
      (when (> (buffer-size) elpy-rpc-ignored-buffer-size)
        (message
-	(format
-	 (concat "Buffer larger than elpy-rpc-ignored-buffer-size (%d)."
-		 " Elpy will turn off completion.")
-	 elpy-rpc-ignored-buffer-size))))
+	(concat "Buffer %s larger than elpy-rpc-ignored-buffer-size (%d)."
+		" Elpy will turn off completion.")
+	(buffer-name) elpy-rpc-ignored-buffer-size)))
     (`buffer-stop
      (company-mode -1)
      (kill-local-variable 'company-idle-delay)

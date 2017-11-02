@@ -3,7 +3,7 @@
 ;; ----- ido-last-directory-list -----
 (
  ("/home/jboadas/devel/python/selenium/selenium2/V316/" . "test/")
- ("/home/jboadas/devel/python/selenium/selenium2/" . "V316/")
+ ("/home/jboadas/devel/python/selenium/selenium2/" . "maintests/")
  ("/home/jboadas/devel/python/selenium/V316/" . "utils/")
  ("/home/jboadas/devel/python/selenium/" . "selenium2/")
  ("/home/" . "jboadas/")
@@ -22,14 +22,18 @@
 
 ;; ----- ido-work-directory-list -----
 (
+ "/home/jboadas/devel/python/selenium/selenium2/maintests/"
+ "/home/jboadas/devel/python/selenium/selenium2/headless/"
+ "/home/jboadas/Downloads/"
  "/home/jboadas/devel/python/selenium/selenium2/V316/"
+ "/home/jboadas/devel/python/selenium/"
+ "/home/jboadas/devel/python/test-scripts/"
  "/home/jboadas/.emacs.d/"
  "/home/jboadas/devel/python/selenium/selenium2/V316/test/"
  "/home/jboadas/devel/python/selenium/selenium2/V316/utils/"
  "/home/jboadas/devel/python/selenium/selenium2/V316/functions/"
  "/home/jboadas/devel/python/selenium/V316/utils/"
  "/home/jboadas/devel/python/selenium/V316/functions/"
- "/home/jboadas/devel/python/selenium/"
  "/home/jboadas/devel/ocaml/"
  "/home/jboadas/"
  "c:/Lisp/home/.emacs.d/"
@@ -43,27 +47,35 @@
 
 ;; ----- ido-work-file-list -----
 (
- "data.py"
  "st01register.py"
- "testcase_lp06_register_paidaccount_nodomain_paypal.py"
+ "st01share.py"
+ "st02share.py"
+ "st02panel.py"
+ "st02checkallpanels.py"
+ "st01registerVPS.py"
  "changeregion.py"
- "testcase_lp05_register_paidaccount_nodomain_coupon.py"
- "testcase_lp04_register_freeaccount_paid_domain.py"
- "testcase_lp03_register_freeaccount_free_domain.py"
- "testcase_lp02_register_company.py"
- "testcase_lp01_register_natural_person.py"
+ "loadlogs.py"
  "loadselenium.py"
+ "data.py"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/home/jboadas/devel/python/selenium/selenium2/V316/" (22999 65168 943207 871000) "__init__.py" "testcase_lp02_register_company.py" "changeregion.py" "loadselenium.py" "testcase_lp01_register_natural_person.py" "icinga.log" "./" "data.py" "testcase_lp05_register_paidaccount_nodomain_coupon.py" "loadlogs.py" "run_all_tests.sh" "testcase_lp03_register_freeaccount_free_domain.py" "geckodriver.log" "testcase_changeregion.py" "testcase_lp06_register_paidaccount_nodomain_paypal.py" "st01register.py" "__pycache__/" "../" "testcase_lp04_register_freeaccount_paid_domain.py")
+ ("/home/jboadas/devel/python/selenium/selenium2/maintests/" (23034 6208 617815 35000) "screenshoots/" "testcase_lp10_register_vps2048.py" ".#st02checkallpanels.py" "__init__.py" "testcase_lp02_register_company.py" "testcase_lp06_register_paidaccount_com_domain_paypal.py" "testcase_lp07_register_paidaccount_pl_domain_przelewy.py" "testcase_lp00_changeregion.py" "testcase_lp11_register_vps_ispconfig.py" "testcase_lp12_register_vps_webmin.py" "pytest.ini" "st02checkallpanels.py" "changeregion.py" ".cache/" "loadselenium.py" "st01share.py" "testcase_lp01_register_natural_person.py" "testcase_lp13_register_vps_centospanel.py" "icinga.log" "run_all_tests_concurrent_headless.sh" "./" "st02panel.py" "testcase_lp09_register_vps1024.py" "data.py" "testcase_lp05_register_paidaccount_no_domain_coupon.py" "loadlogs.py" "testcase_lp14_register_vps_admin.py" "run_all_tests.sh" "testcase_lp08_register_vps512.py" "testcase_lp03_register_freeaccount_free_domain.py" "st01registerVPS.py" "ghostdriver.log" "geckodriver.log" "st01register.py" "__pycache__/" "st02share.py" "../" "testcase_lp04_register_freeaccount_paid_domain.py")
 
- ("/home/jboadas/" (23000 57210 295911 873000) ".eclipse/" ".xfce4-session.verbose-log.last" ".gksu.lock" "GOG Games/" ".putty/" ".designer/" ".aspell.es.prepl" ".youtube-upload-credentials.json" ".ICEauthority" ".macromedia/" "skypeforlinux/" ".ssr/" ".dwarffortress/" "Pictures/" ".aspell.es.pws" ".xinitrc" ".ssh/" ".cache/" "go/" ".oracle_jre_usage/" ".shutter/" ".tmp/" ".gnome2/" ".bluefish/" ".dbeaver-drivers/" ".mozilla/" ".purple/" ".xfce4-session.verbose-log" ".Xresources" ".grive-setup.log" "torrents/" ".vim/" "Templates/" ".local/" ".node-gyp/" "Downloads/" "Documents/" ".thumbnails/" ".bash_profile" ".extend.bashrc" ".bash_logout" ".kompozer.net/" ".wine/" ".profile" ".ccache/" ".Xclients" ".gtk-bookmarks" ".python_history" "./" ".bashrc" ".npm/" "Public/" ".git-credentials" ".ocp/" ".gitconfig" "Jagex/" ".java/" ".m2/" ".gnupg/" ".config/" ".xsession-errors.old" ".audacity-data/" ".emacs.d/" ".guayadeque/" ".openshot_qt/" ".ccross/" ".smex-items" ".grafx2/" ".netbeans/" "jagexcache/" ".xsession-errors" ".swt/" ".crawl/" ".icons/" ".adobe/" ".bash_history" ".joxi/" "Videos/" ".mono/" ".ocamlinit" ".gnome/" ".atom/" ".xprofile" "Desktop/" ".pki/" ".aspell.en.pws" ".dropbox-dist/" ".dir_colors" ".osbuddy/" "Screenshots/" ".Xauthority" "Drive/" ".mtpaint" ".aspell.en.prepl" ".thunderbird/" ".tooling/" ".dbeaver4/" ".vimrc" "Music/" ".opam/" ".utop-history" "devel/" "Oct07-1.avi" ".dmrc" "../" ".esd_auth" ".viminfo" ".extend.xinitrc" ".jsweet-node_modules/" ".dropbox/" ".xsession" ".gimp-2.8/")
+ ("/home/jboadas/" (23033 52168 615101 366000) ".eclipse/" ".xfce4-session.verbose-log.last" ".gksu.lock" "Nov01-1.avi" "GOG Games/" ".mplayer/" ".putty/" ".designer/" ".mysql_history" ".aspell.es.prepl" ".youtube-upload-credentials.json" ".ICEauthority" ".macromedia/" "skypeforlinux/" ".ssr/" ".dwarffortress/" "Pictures/" ".aspell.es.pws" ".xinitrc" ".ssh/" ".cache/" "go/" ".oracle_jre_usage/" ".shutter/" ".tmp/" ".gnome2/" ".bluefish/" ".dbeaver-drivers/" ".mozilla/" ".purple/" ".xfce4-session.verbose-log" ".Xresources" ".grive-setup.log" "torrents/" ".vim/" "Templates/" ".local/" ".node-gyp/" "Downloads/" "Documents/" ".thumbnails/" ".bash_profile" ".extend.bashrc" ".bash_logout" ".kompozer.net/" ".wine/" ".profile" ".ccache/" ".Xclients" ".gtk-bookmarks" ".python_history" "./" ".bashrc" ".npm/" "Public/" ".git-credentials" ".ocp/" ".gitconfig" "Jagex/" ".java/" ".m2/" ".gnupg/" ".config/" ".xsession-errors.old" ".audacity-data/" ".emacs.d/" ".guayadeque/" ".openshot_qt/" ".ccross/" ".smex-items" ".grafx2/" ".netbeans/" "jagexcache/" ".xsession-errors" ".swt/" ".crawl/" ".icons/" ".adobe/" ".bash_history" ".joxi/" "Videos/" ".mono/" ".ocamlinit" ".gnome/" ".atom/" ".xprofile" "Desktop/" ".pki/" ".aspell.en.pws" ".dropbox-dist/" ".dir_colors" ".mysql/" ".osbuddy/" "Screenshots/" ".Xauthority" "Drive/" ".mtpaint" ".aspell.en.prepl" ".thunderbird/" ".tooling/" ".dbeaver4/" ".vimrc" "Music/" ".opam/" ".utop-history" "devel/" ".dmrc" "../" ".esd_auth" ".viminfo" ".extend.xinitrc" ".jsweet-node_modules/" ".dropbox/" ".xsession" ".gimp-2.8/")
 
- ("/home/jboadas/devel/python/selenium/selenium2/" (22980 304 749674 925000) "V316/" "./" "../")
+ ("/home/jboadas/devel/python/selenium/selenium2/headless/" (23027 33115 369825 229000) "./" "geckodriver.log" "../" "headless.py")
 
- ("/home/jboadas/devel/python/selenium/" (22980 323 849637 50000) "selenium2/" "build/" "src/" "README.md" ".gitlab-ci.yml" "helper/" "versions/" "./" ".git/" "backups/" ".gitignore" "../")
+ ("/home/jboadas/Downloads/" (23024 58893 103876 589000) "data-selenium.html~" "Danny Ocean - Me Rehúso [Mambo Remix] [720p].mp4" "breadcums.png" "selenium-python.pdf" "./" "Untitled spreadsheet - Sheet1.csv" "data-selenium.html" "Testing v315 new version.ods" "python-pypdf2-1.26.0-1-any.pkg.tar.xz" "pago-bomba.pdf" ".lockedbysupport" "../" "receipt.pdf" "Danny Ocean -  Me Rehúso (Official Audio) [720p].mp4" "mercadopago.png")
+
+ ("/home/jboadas/devel/python/selenium/selenium2/" (23016 60787 785796 489000) "./" "../" "headless/" "maintests/")
+
+ ("/home/jboadas/devel/python/selenium/" (23016 59381 409533 801000) "selenium2/" "build/" "src/" "README.md" ".gitlab-ci.yml" "helper/" "versions/" "./" ".git/" "backups/" ".gitignore" "../")
+
+ ("/home/jboadas/devel/python/selenium/selenium2/V316/" (23016 58570 95361 122000) "screenshoots/" "__init__.py" "testcase_lp02_register_company.py" "testcase_lp07_register_paidaccount_pl_domain_przelewy.py" "changeregion.py" "loadselenium.py" "testcase_lp01_register_natural_person.py" "icinga.log" "./" "data.py" "testcase_lp05_register_paidaccount_nodomain_coupon.py" "loadlogs.py" "run_all_tests.sh" "testcase_lp03_register_freeaccount_free_domain.py" "geckodriver.log" "testcase_changeregion.py" "testcase_lp06_register_paidaccount_nodomain_paypal.py" "st01register.py" "__pycache__/" "../" "testcase_lp04_register_freeaccount_paid_domain.py")
+
+ ("/home/jboadas/devel/python/test-scripts/" (23016 54179 979831 38000) "exceptions.py" "pop3.py" "dict.py" "example-siblings/" "mail-content.txt" "./" "python-emailvoid/" "pathmagic.py" "python_org_search.py" "test_python_org_search.py" "tem-email.py" "../" "headless/")
 
  ("/home/jboadas/.emacs.d/" (22986 18775 905265 852000) "snippets/" "README.md" "elpa/" "init.el" "./" ".git/" "ido.last" "themes/" "../")
 
@@ -88,8 +100,6 @@
  ("/home/jboadas/devel/ocaml/" (22859 53986 769286 21000) "myapp/" "compara-paquetes.ml" "./" "test.ml" "../" "flatten.ml")
 
  ("/home/jboadas/develop/" (22743 11730 308466 828000) "haskell/" "Java/" "emacs/" "./" "Great Books/" "../" "Ocaml/")
-
- ("/home/jboadas/Downloads/" (22759 1959 69491 531000) "ocaml-4.04-refman.pdf" "jdk-8u121-linux-x64.tar.gz" "emacs-keys.txt" "ocaml-4.04-refman.info.tar.gz" "Udemy - Kotlin Programming Next Level Java Development/" "java-debian.org" "ocaml-4.04-refman-html.tar.gz" "var-cache-apt-archives/" "eclipse-jee-neon-3-linux-gtk-x86_64.tar.gz" "ideaIC-2017.1.tar.gz" "Vivienda - Auyama/" "./" "urw_3.40_amd64.deb" "infoman/" "../")
 
  ("/home/jboadas/Downloads/infoman/" (22759 1878 458116 907000) "ocaml.info.body-11.gz" "ocaml.info.body-23.gz" "ocaml.info.body-1.gz" "ocaml.info.body-4.gz" "ocaml.info.body-22.gz" "ocaml.info.body-9.gz" "ocaml.info.body-15.gz" "ocaml.info.body-8.gz" "ocaml.info.body-18.gz" "ocaml.info.hocaml.info.hind.gz" "ocaml.info.haux.gz" "ocaml.info.body-6.gz" "ocaml.info.body-5.gz" "ocaml.info.body-16.gz" "ocaml.info.body-27.gz" "ocaml.info.body-20.gz" "ocaml.info.body-10.gz" "ocaml.info.body-3.gz" "ocaml.info.body-2.gz" "ocaml.info.body-19.gz" "ocaml.info.body-13.gz" "./" "ocaml.info.body-12.gz" "ocaml.info.body-25.gz" "ocaml.info.hocaml.info.kwd.hind.gz" "../" "ocaml.info.body-26.gz" "ocaml.info.gz" "ocaml.info.body-14.gz" "ocaml.info.body-7.gz" "ocaml.info.body-24.gz" "ocaml.info.body-17.gz" "ocaml.info.body-21.gz")
 
