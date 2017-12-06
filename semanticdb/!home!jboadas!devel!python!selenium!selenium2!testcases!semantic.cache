@@ -1,0 +1,509 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode python-mode
+      :tags 
+        '( ("\"\"\"test free account with a free domain\"\"\"" code nil nil [20 62])
+            ("unittest" include nil nil [63 78])
+            ("loadselenium" include nil nil [79 98])
+            ("st01register" include nil nil [99 118])
+            ("Lp03" type
+               (:documentation "
+    Register FREE account with a free domain
+    "
+                :superclasses ("unittest.TestCase")
+                :members 
+                  ( ("test_register_free_account" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [254 258]))                          
+                        :documentation "free account with a free domain")
+                        (reparse-symbol indented_block_body) [223 728])
+                    ("tearDown" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [746 750]))                          )
+                        (reparse-symbol indented_block_body) [733 781]))                  
+                :type "class")
+                nil [121 781])
+            ("if" code nil nil [783 830]))          
+      :file "testcase_lp03_register_freeaccount_free_domain.py"
+      :pointmax 830
+      :fsize 1051
+      :lastmodtime '(23041 54332 8958 211000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode python-mode
+      :tags 
+        '( ("\"\"\"free account with a paid domain\"\"\"" code nil nil [20 57])
+            ("unittest" include nil nil [58 73])
+            ("loadselenium" include nil nil [74 93])
+            ("st01register" include nil nil [94 113])
+            ("Lp04" type
+               (:documentation "
+    Register FREE account with a paid domain
+    "
+                :superclasses ("unittest.TestCase")
+                :members 
+                  ( ("test_register" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [232 236]))                          
+                        :documentation "free account with a paid .com domain")
+                        (reparse-symbol indented_block_body) [214 714])
+                    ("tearDown" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [732 736]))                          )
+                        (reparse-symbol indented_block_body) [719 767]))                  
+                :type "class")
+                nil [116 767])
+            ("if" code nil nil [769 816]))          
+      :file "testcase_lp04_register_freeaccount_paid_domain.py"
+      :pointmax 816
+      :fsize 1041
+      :lastmodtime '(23041 54332 12291 585000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode python-mode
+      :tags 
+        '( ("\"\"\"paid account without domain with coupon\"\"\"" code nil nil [20 65])
+            ("unittest" include nil nil [66 81])
+            ("loadselenium" include nil nil [82 101])
+            ("st01register" include nil nil [102 121])
+            ("Lp05" type
+               (:documentation "
+    Register paid account without a domain with coupon code
+    "
+                :superclasses ("unittest.TestCase")
+                :members 
+                  ( ("setUp" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [247 251]))                          )
+                        (reparse-symbol indented_block_body) [237 458])
+                    ("test_register" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [481 485]))                          
+                        :documentation "paid account without domain with coupon")
+                        (reparse-symbol indented_block_body) [463 962])
+                    ("tearDown" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [980 984]))                          )
+                        (reparse-symbol indented_block_body) [967 1015]))                  
+                :type "class")
+                nil [124 1015])
+            ("if" code nil nil [1017 1064]))          
+      :file "testcase_lp05_register_paidaccount_no_domain_coupon.py"
+      :pointmax 1064
+      :fsize 1063
+      :lastmodtime '(23041 54332 12291 585000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode python-mode
+      :tags 
+        '( ("\"\"\"paid account with paypal\"\"\"" code nil nil [20 50])
+            ("unittest" include nil nil [51 66])
+            ("loadselenium" include nil nil [67 86])
+            ("st01register" include nil nil [87 106])
+            ("Lp06" type
+               (:documentation "
+    Register paid account with PayPal method with
+    .com domain (+payment module)
+    "
+                :superclasses ("unittest.TestCase")
+                :members 
+                  ( ("setUp" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [256 260]))                          )
+                        (reparse-symbol indented_block_body) [246 467])
+                    ("test_register" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [490 494]))                          
+                        :documentation "
+        Register paid account with PayPal method with
+        .com domain (+payment module)
+        ")
+                        (reparse-symbol indented_block_body) [472 1037])
+                    ("tearDown" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [1055 1059]))                          )
+                        (reparse-symbol indented_block_body) [1042 1090]))                  
+                :type "class")
+                nil [109 1090])
+            ("if" code nil nil [1092 1139]))          
+      :file "testcase_lp06_register_paidaccount_com_domain_paypal.py"
+      :pointmax 1139
+      :fsize 1138
+      :lastmodtime '(23041 54332 12291 585000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode python-mode
+      :tags 
+        '( ("\"\"\"paid account with pl domain and przelewy24 payment method\"\"\"" code nil nil [20 83])
+            ("unittest" include nil nil [84 99])
+            ("loadselenium" include nil nil [100 119])
+            ("st01register" include nil nil [120 139])
+            ("Lp07" type
+               (:documentation "
+    Register paid account with Przelwy method with
+    .pl domain (+payment module)
+    "
+                :superclasses ("unittest.TestCase")
+                :members 
+                  ( ("setUp" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [289 293]))                          )
+                        (reparse-symbol indented_block_body) [279 500])
+                    ("test_register" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [523 527]))                          
+                        :documentation "paid account with pl domain and przelewy24 payment method")
+                        (reparse-symbol indented_block_body) [505 1117])
+                    ("tearDown" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [1135 1139]))                          )
+                        (reparse-symbol indented_block_body) [1122 1170]))                  
+                :type "class")
+                nil [142 1170])
+            ("if" code nil nil [1172 1219]))          
+      :file "testcase_lp07_register_paidaccount_pl_domain_przelewy.py"
+      :pointmax 1219
+      :fsize 1218
+      :lastmodtime '(23041 54332 12291 585000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode python-mode
+      :tags 
+        '( ("\"\"\"register vps512\"\"\"" code nil nil [20 41])
+            ("unittest" include nil nil [42 57])
+            ("loadselenium" include nil nil [58 77])
+            ("st01registervps" include nil nil [78 100])
+            ("Lp08" type
+               (:documentation "
+    Register VPS512
+    "
+                :superclasses ("unittest.TestCase")
+                :members 
+                  ( ("setUp" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [186 190]))                          )
+                        (reparse-symbol indented_block_body) [176 403])
+                    ("test_register" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [426 430]))                          
+                        :documentation "register vps512")
+                        (reparse-symbol indented_block_body) [408 1011])
+                    ("tearDown" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [1029 1033]))                          )
+                        (reparse-symbol indented_block_body) [1016 1064]))                  
+                :type "class")
+                nil [103 1064])
+            ("if" code nil nil [1066 1113]))          
+      :file "testcase_lp08_register_vps512.py"
+      :pointmax 1113
+      :fsize 1112
+      :lastmodtime '(23042 8601 963080 298000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode python-mode
+      :tags 
+        '( ("\"\"\"register vps 1024\"\"\"" code nil nil [20 43])
+            ("unittest" include nil nil [44 59])
+            ("loadselenium" include nil nil [60 79])
+            ("st01registervps" include nil nil [80 102])
+            ("Lp09" type
+               (:documentation "
+    Register VPS1024
+    "
+                :superclasses ("unittest.TestCase")
+                :members 
+                  ( ("setUp" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [189 193]))                          )
+                        (reparse-symbol indented_block_body) [179 406])
+                    ("test_register" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [429 433]))                          
+                        :documentation "register vps 1024")
+                        (reparse-symbol indented_block_body) [411 1018])
+                    ("tearDown" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [1036 1040]))                          )
+                        (reparse-symbol indented_block_body) [1023 1071]))                  
+                :type "class")
+                nil [105 1071])
+            ("if" code nil nil [1073 1120]))          
+      :file "testcase_lp09_register_vps1024.py"
+      :pointmax 1120
+      :fsize 1119
+      :lastmodtime '(23041 54332 15624 959000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode python-mode
+      :tags 
+        '( ("\"\"\"register vps 2048\"\"\"" code nil nil [20 43])
+            ("unittest" include nil nil [44 59])
+            ("loadselenium" include nil nil [60 79])
+            ("st01registervps" include nil nil [80 102])
+            ("Lp10" type
+               (:documentation "
+    Register VPS2048
+    "
+                :superclasses ("unittest.TestCase")
+                :members 
+                  ( ("setUp" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [189 193]))                          )
+                        (reparse-symbol indented_block_body) [179 406])
+                    ("test_register_vps_2048" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [438 442]))                          
+                        :documentation "register vps 2048")
+                        (reparse-symbol indented_block_body) [411 1022])
+                    ("tearDown" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [1040 1044]))                          )
+                        (reparse-symbol indented_block_body) [1027 1075]))                  
+                :type "class")
+                nil [105 1075])
+            ("if" code nil nil [1077 1124]))          
+      :file "testcase_lp10_register_vps2048.py"
+      :pointmax 1124
+      :fsize 1123
+      :lastmodtime '(23041 54332 18958 333000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode python-mode
+      :tags 
+        '( ("\"\"\"Register VPS with ispconfig\"\"\"" code nil nil [1 34])
+            ("unittest" include nil nil [54 69])
+            ("loadselenium" include nil nil [70 89])
+            ("st01registervps" include nil nil [90 112])
+            ("Lp11" type
+               (:documentation "Register VPS with ispconfig"
+                :superclasses ("unittest.TestCase")
+                :members 
+                  ( ("setUp" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [200 204]))                          )
+                        (reparse-symbol indented_block_body) [190 417])
+                    ("test_register_vps_ispconfig" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [454 458]))                          
+                        :documentation "Register VPS with ispconfig")
+                        (reparse-symbol indented_block_body) [422 1059])
+                    ("tearDown" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [1077 1081]))                          )
+                        (reparse-symbol indented_block_body) [1064 1112]))                  
+                :type "class")
+                nil [115 1112])
+            ("if" code nil nil [1114 1161]))          
+      :file "testcase_lp11_register_vps_ispconfig.py"
+      :pointmax 1161
+      :fsize 1160
+      :lastmodtime '(23041 54332 18958 333000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode python-mode
+      :tags 
+        '( ("\"\"\"Register VPS with webmin\"\"\"" code nil nil [1 31])
+            ("unittest" include nil nil [51 66])
+            ("loadselenium" include nil nil [67 86])
+            ("st01registervps" include nil nil [87 109])
+            ("Lp12" type
+               (:documentation "Register VPS with webmin"
+                :superclasses ("unittest.TestCase")
+                :members 
+                  ( ("setUp" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [194 198]))                          )
+                        (reparse-symbol indented_block_body) [184 411])
+                    ("test_register_vps_webmin" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [445 449]))                          
+                        :documentation "Register VPS with webmin")
+                        (reparse-symbol indented_block_body) [416 1045])
+                    ("tearDown" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [1063 1067]))                          )
+                        (reparse-symbol indented_block_body) [1050 1098]))                  
+                :type "class")
+                nil [112 1098])
+            ("if" code nil nil [1100 1147]))          
+      :file "testcase_lp12_register_vps_webmin.py"
+      :pointmax 1147
+      :fsize 1146
+      :lastmodtime '(23041 54332 18958 333000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode python-mode
+      :tags 
+        '( ("\"\"\"Register VPS with centos panel\"\"\"" code nil nil [1 37])
+            ("unittest" include nil nil [57 72])
+            ("loadselenium" include nil nil [73 92])
+            ("st01registervps" include nil nil [93 115])
+            ("Lp13" type
+               (:documentation "Register VPS with centos panel"
+                :superclasses ("unittest.TestCase")
+                :members 
+                  ( ("setUp" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [206 210]))                          )
+                        (reparse-symbol indented_block_body) [196 423])
+                    ("test_register_vps_centospanel" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [462 466]))                          
+                        :documentation "Register VPS with centos panel")
+                        (reparse-symbol indented_block_body) [428 1072])
+                    ("tearDown" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [1090 1094]))                          )
+                        (reparse-symbol indented_block_body) [1077 1125]))                  
+                :type "class")
+                nil [118 1125])
+            ("if" code nil nil [1127 1174]))          
+      :file "testcase_lp13_register_vps_centospanel.py"
+      :pointmax 1174
+      :fsize 1173
+      :lastmodtime '(23041 54332 18958 333000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode python-mode
+      :tags 
+        '( ("\"\"\"Register VPS with admin support\"\"\"" code nil nil [1 38])
+            ("unittest" include nil nil [58 73])
+            ("loadselenium" include nil nil [74 93])
+            ("st01registervps" include nil nil [94 116])
+            ("Lp14" type
+               (:documentation "Register VPS with admin support"
+                :superclasses ("unittest.TestCase")
+                :members 
+                  ( ("setUp" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [208 212]))                          )
+                        (reparse-symbol indented_block_body) [198 425])
+                    ("test_register_vps_admin" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [458 462]))                          
+                        :documentation "Register VPS with admin support")
+                        (reparse-symbol indented_block_body) [430 1059])
+                    ("tearDown" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [1077 1081]))                          )
+                        (reparse-symbol indented_block_body) [1064 1112]))                  
+                :type "class")
+                nil [119 1112])
+            ("if" code nil nil [1114 1161]))          
+      :file "testcase_lp14_register_vps_admin.py"
+      :pointmax 1161
+      :fsize 1160
+      :lastmodtime '(23041 54332 18958 333000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode python-mode
+      :tags 
+        '( ("\"\"\"test access to all panels\"\"\"" code nil nil [1 32])
+            ("unittest" include nil nil [52 67])
+            ("loadselenium" include nil nil [68 87])
+            ("st02checkallpanels" include nil nil [88 113])
+            ("Lp15" type
+               (:documentation "test access to all panels"
+                :superclasses ("unittest.TestCase")
+                :members 
+                  ( ("setUp" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [199 203]))                          )
+                        (reparse-symbol indented_block_body) [189 501])
+                    ("test_all_panels" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [526 530]))                          
+                        :documentation "test access to all panels")
+                        (reparse-symbol indented_block_body) [506 652])
+                    ("tearDown" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [670 674]))                          )
+                        (reparse-symbol indented_block_body) [657 705]))                  
+                :type "class")
+                nil [116 705])
+            ("if" code nil nil [707 754]))          
+      :file "testcase_lp15_test_all_panels.py"
+      :pointmax 754
+      :fsize 753
+      :lastmodtime '(23044 53257 524568 93000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode python-mode
+      :tags 
+        '( ("\"\"\" test change regions on icinga\"\"\"" code nil nil [20 56])
+            ("unittest" include nil nil [57 72])
+            ("loadselenium" include nil nil [73 92])
+            ("changeregion" include nil nil [93 112])
+            ("Lp00" type
+               (:documentation "change regions on icinga"
+                :superclasses ("unittest.TestCase")
+                :members 
+                  ( ("setUp" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [196 200]))                          )
+                        (reparse-symbol indented_block_body) [186 574])
+                    ("test_change_all_regions" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [607 611]))                          
+                        :documentation "try to change each main region and lang")
+                        (reparse-symbol indented_block_body) [579 1718])
+                    ("tearDown" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [1736 1740]))                          )
+                        (reparse-symbol indented_block_body) [1723 1775]))                  
+                :type "class")
+                nil [115 1775])
+            ("if" code nil nil [1777 1824]))          
+      :file "testcase_lp00_changeregion.py"
+      :pointmax 1824
+      :fsize 1823
+      :lastmodtime '(23044 52878 541141 372000)
+      :unmatched-syntax nil))
+  :file "!home!jboadas!devel!python!selenium!selenium2!testcases!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

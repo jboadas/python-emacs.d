@@ -1,0 +1,40 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode python-mode
+      :tags 
+        '( ("gzip" include nil nil [1 12])
+            ("os" include nil nil [13 22])
+            ("logging" include nil nil [23 37])
+            ("logging.handlers" include nil nil [38 61])
+            ("GZipRotator" type
+               (:members 
+                  ( ("__call__" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [100 104])
+                            ("source" variable nil (reparse-symbol function_parameters) [106 112])
+                            ("dest" variable nil (reparse-symbol function_parameters) [114 118]))                          )
+                        (reparse-symbol indented_block_body) [87 331]))                  
+                :type "class")
+                nil [64 331])
+            ("logformatter" variable nil nil [333 411])
+            ("log" variable nil nil [412 507])
+            ("log" code nil nil [508 535])
+            ("log" code nil nil [536 566])
+            ("log" variable nil nil [567 594])
+            ("logger" variable nil nil [596 630])
+            ("logger" code nil nil [631 653])
+            ("logger" code nil nil [654 684])
+            ("for" code nil nil [686 748]))          
+      :file "rotate-logs.py"
+      :pointmax 748
+      :fsize 747
+      :lastmodtime '(23062 50549 890605 236000)
+      :unmatched-syntax nil))
+  :file "!home!jboadas!devel!python!test-scripts!logrotation!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

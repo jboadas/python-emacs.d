@@ -1,0 +1,180 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode python-mode
+      :tags 
+        '( ("mysql.connector" include nil nil [1 23])
+            ("sshtunnel" include nil nil [24 64])
+            ("ssh_host" variable nil nil [66 94])
+            ("ssh_user" variable nil nil [95 115])
+            ("ssh_password" variable nil nil [116 143])
+            ("ssh_port" variable nil nil [144 159])
+            ("sql_hostname" variable nil nil [161 187])
+            ("sql_username" variable nil nil [188 211])
+            ("sql_password" variable nil nil [212 241])
+            ("sql_main_database" variable nil nil [242 270])
+            ("sql_port" variable nil nil [271 286]))          
+      :file "icinga-mysql.py"
+      :pointmax 1139
+      :fsize 1138
+      :lastmodtime '(23042 12649 713404 0)
+      :unmatched-syntax '((INDENT_BLOCK 993 . 1039) (COLON 991 . 992) (ELSE 987 . 991) (INDENT_BLOCK 973 . 986) (COLON 971 . 972) (TRY 288 . 291) (AS 967 . 969) (INDENT_BLOCK 993 . 1039) (COLON 991 . 992) (ELSE 987 . 991) (INDENT_BLOCK 973 . 986) (COLON 971 . 972) (TRY 288 . 291) (AS 967 . 969)))
+    (semanticdb-table "semanticdb-table"
+      :major-mode python-mode
+      :tags 
+        '( ("\"\"\" demo of date arithmetic \"\"\"" code nil nil [1 32])
+            ("datetime" include nil nil [33 48])
+            ("calculations" function (:documentation "some date calculations") nil [51 345])
+            ("calculations" code nil nil [347 361]))          
+      :file "date_arithmetic.py"
+      :pointmax 362
+      :fsize 361
+      :lastmodtime '(23052 47994 217528 0)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode python-mode
+      :tags 
+        '( ("TEXTS" variable nil nil [1 678])
+            ("upgrade_periods" variable nil nil [680 722])
+            ("print" code nil nil [724 746])
+            ("for" code nil nil [748 859]))          
+      :file "iterating_dict.py"
+      :pointmax 859
+      :fsize 867
+      :lastmodtime '(23053 34771 551923 0)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode python-mode
+      :tags 
+        '( ("sys" include nil nil [390 400])
+            ("imaplib" include nil nil [401 415])
+            ("getpass" include nil nil [416 430])
+            ("email" include nil nil [431 443])
+            ("email.header" include nil nil [444 463])
+            ("datetime" include nil nil [464 479])
+            ("EMAIL_ACCOUNT" variable nil nil [482 538])
+            ("EMAIL_FOLDER" variable nil nil [703 725])
+            ("process_mailbox" function
+               (:documentation "
+    Do something with emails messages in the folder.
+    For the sake of this example, print some headers.
+    "
+                :arguments 
+                  ( ("M" variable nil (reparse-symbol function_parameters) [748 749]))                  )
+                nil [728 2114])
+            ("try" code nil nil [2169 2321])
+            ("print" code nil nil [2322 2341])
+            ("print" code nil nil [2342 2357])
+            ("if" code nil nil [2387 2447])
+            ("if" code nil nil [2485 2634]))          
+      :file "get_imap.py"
+      :pointmax 2649
+      :fsize 3010
+      :lastmodtime '(23055 20713 142566 0)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode python-mode
+      :tags 
+        '( ("imaplib" include nil nil [1 15])
+            ("M" variable nil nil [17 49])
+            ("M" code nil nil [50 104])
+            ("M" code nil nil [105 115])
+            ("typ, data" code nil nil [116 149])
+            ("for" code nil nil [150 269])
+            ("M" code nil nil [269 278])
+            ("M" code nil nil [279 289]))          
+      :file "imap_tests.py"
+      :pointmax 290
+      :fsize 289
+      :lastmodtime '(23053 62515 187641 0)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode python-mode
+      :tags 
+        '( ("os" include nil nil [21 30])
+            ("socket" include nil nil [31 44])
+            ("print" code nil nil [46 64])
+            ("print" code nil nil [65 92]))          
+      :file "curr-dir.py"
+      :pointmax 93
+      :fsize 92
+      :lastmodtime '(23062 62070 492583 0)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode python-mode
+      :tags 
+        '( ("os" include nil nil [22 31])
+            ("subprocess" include nil nil [32 49])
+            ("re" include nil nil [50 59])
+            ("translate_months" function (:arguments 
+              ( ("month" variable nil (reparse-symbol function_parameters) [83 88]))              ) nil [62 343])
+            ("convert_to_txt" function (:arguments 
+              ( ("filename" variable nil (reparse-symbol function_parameters) [364 372]))              ) nil [345 485])
+            ("convert_all_pdf" function nil nil [487 823])
+            ("create_email" function (:arguments 
+              ( ("content" variable nil (reparse-symbol function_parameters) [842 849]))              ) nil [825 1521])
+            ("process_all_txt" function nil nil [1523 2061])
+            ("cwd" variable nil nil [2063 2080])
+            ("print" code nil nil [2081 2091])
+            ("convert_all_pdf" code nil nil [2092 2109])
+            ("process_all_txt" code nil nil [2110 2127]))          
+      :file "convert-pdf-txt.py"
+      :pointmax 2128
+      :fsize 2127
+      :lastmodtime '(23035 9346 0 0)
+      :unmatched-syntax '((INDENT_BLOCK 468 . 485) (NEWLINE 467 . 468) (COLON 466 . 467) (TRY 379 . 382) (AS 462 . 464)))
+    (semanticdb-table "semanticdb-table"
+      :major-mode python-mode
+      :tags 
+        '( ("\"\"\"utilities to make ssh-tunnel and connect to mysql\"\"\"" code nil nil [1 56])
+            ("re" include nil nil [57 66])
+            ("MySQLdb" include nil nil [67 81])
+            ("sshtunnel" include nil nil [82 122])
+            ("get_domain_list" function (:documentation "get all selenium domain list") nil [125 1557])
+            ("delete_domain" function
+               (:documentation "delete a domain using ssh and a remote scrip"
+                :arguments 
+                  ( ("domain_name" variable nil (reparse-symbol function_parameters) [1577 1588]))                  )
+                nil [1559 2159])
+            ("print_domains" function (:documentation "print each item for a domain list") nil [2161 2307])
+            ("search_pl_paid_domain" function
+               (:documentation "search for pl paid domains"
+                :arguments 
+                  ( ("domain" variable nil (reparse-symbol function_parameters) [2334 2340]))                  )
+                nil [2308 2527])
+            ("delete_all_domains" function (:documentation "delete all domains") nil [2529 2834])
+            ("print_domains" code nil nil [2884 2899]))          
+      :file "ssh_delete_domain.py"
+      :pointmax 2943
+      :fsize 2942
+      :lastmodtime '(23071 6944 81806 614000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode python-mode
+      :tags 
+        '( ("max_tries" variable nil nil [1 14])
+            ("counter" variable nil nil [15 26])
+            ("while" code nil nil [27 260]))          
+      :file "test_continue.py"
+      :pointmax 260
+      :fsize 259
+      :lastmodtime '(23069 45370 31919 221000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode python-mode
+      :tags 
+        '( ("\"utility to run expiration vps script\"" code nil nil [1 39])
+            ("paramiko" include nil nil [40 70])
+            ("expire_vps" function (:documentation "run the expiration vps script") nil [72 820])
+            ("expire_vps" code nil nil [1187 1199]))          
+      :file "run_vps_expiration.py"
+      :pointmax 1200
+      :fsize 1199
+      :lastmodtime '(23071 6306 315867 15000)
+      :unmatched-syntax nil))
+  :file "!home!jboadas!devel!python!test-scripts!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

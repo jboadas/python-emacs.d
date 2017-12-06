@@ -39,7 +39,7 @@
 ;;
 ;; UI
 ;;
-;;quita el puto beep
+;;quita el beep
 (setq ring-bell-function 'ignore)
 ;; para que se pueda borrar una region por defecto
 (delete-selection-mode t)
@@ -101,11 +101,8 @@
 ;; elimina el marcador de fin de buffer
 (setq-default indicate-empty-lines nil)
 ;;carga el tema
-(load-theme 'deeper-blue)
-;;(load-theme 'material t)
-;;(add-to-list 'custom-theme-load-path "~/.emacs.d/themes")
-;;(add-to-list 'load-path "~/.emacs.d/themes")
-;;(load-theme 'tomorrow-night-bright t)
+;;(load-theme 'deeper-blue)
+(load-theme 'material t)
 
 ;; resalta la linea actual del cursor
 (global-hl-line-mode 1)
@@ -125,10 +122,10 @@
 ;;    (set-face-attribute
 ;;     'default nil :font "Consolas 10"))
 ;; CAMBIA LA FUENTE POR DEFECTO LINUX
-(if (member "Source Code Pro" (font-family-list))
-    (set-face-attribute
-     'default nil :font "Source Code Pro 8"))
-;; configuracion de powerline
+;;(if (member "Source Code Pro" (font-family-list))
+;;    (set-face-attribute
+;;     'default nil :font "Source Code Pro 12"))
+;; Configuracion de powerline
 (add-to-list 'load-path "~/.emacs.d/vendor/powerline")
 (require 'powerline)
 (powerline-center-theme)
@@ -227,11 +224,32 @@
 (elpy-enable)
 
 (setq python-shell-completion-native-enable nil)
+;; (when (require 'flycheck nil t)
+;;   (setq elpy-modules (delq 'elpy-module-flymake elpy-modules))
+;;   (add-hook 'elpy-mode-hook 'flycheck-mode))
 (when (require 'flycheck nil t)
   (setq elpy-modules (delq 'elpy-module-flymake elpy-modules))
-  (add-hook 'elpy-mode-hook 'flycheck-mode))
+  (add-hook 'elpy-mode-hook (lambda ()
+                              (flycheck-mode 1)
+                              (semantic-mode 1)
+                              (setq flycheck-checker 'python-pylint
+                                    flycheck-checker-error-threshold 900
+                                    flycheck-pylintrc "~/.pylintrc"))))
+
 (require 'py-autopep8)
 (add-hook 'elpy-mode-hook 'py-autopep8-enable-on-save)
+
+(defun my-horizontal-recenter ()
+  "make the point horizontally centered in the window"
+  (interactive)
+  (let ((mid (/ (window-width) 2))
+        (line-len (save-excursion (end-of-line) (current-column)))
+        (cur (current-column)))
+    (if (< mid cur)
+        (set-window-hscroll (selected-window)
+                            (- cur mid)))))
+
+(global-set-key (kbd "C-S-l") 'my-horizontal-recenter)
 
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
@@ -252,6 +270,9 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
+ '(custom-safe-themes
+   (quote
+    ("a24c5b3c12d147da6cef80938dca1223b7c7f70f2f382b26308eba014dc4833a" "732b807b0543855541743429c9979ebfb363e27ec91e82f463c91e68c772f6e3" default)))
  '(package-selected-packages
    (quote
     (markdown-preview-mode web-mode smex smartparens py-autopep8 powerline popup material-theme ido-vertical-mode ido-ubiquitous hl-todo highlight-parentheses flycheck flx-ido elpy company-quickhelp))))
