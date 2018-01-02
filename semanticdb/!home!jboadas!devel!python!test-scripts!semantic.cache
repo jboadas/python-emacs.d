@@ -133,24 +133,24 @@
             ("re" include nil nil [57 66])
             ("MySQLdb" include nil nil [67 81])
             ("sshtunnel" include nil nil [82 122])
-            ("get_domain_list" function (:documentation "get all selenium domain list") nil [125 1557])
+            ("get_domain_list" function (:documentation "get all selenium domain list") nil [125 1558])
             ("delete_domain" function
                (:documentation "delete a domain using ssh and a remote scrip"
                 :arguments 
-                  ( ("domain_name" variable nil (reparse-symbol function_parameters) [1577 1588]))                  )
-                nil [1559 2159])
-            ("print_domains" function (:documentation "print each item for a domain list") nil [2161 2307])
+                  ( ("domain_name" variable nil (reparse-symbol function_parameters) [1578 1589]))                  )
+                nil [1560 2157])
+            ("print_domains" function (:documentation "print each item for a domain list") nil [2159 2305])
             ("search_pl_paid_domain" function
                (:documentation "search for pl paid domains"
                 :arguments 
-                  ( ("domain" variable nil (reparse-symbol function_parameters) [2334 2340]))                  )
-                nil [2308 2527])
-            ("delete_all_domains" function (:documentation "delete all domains") nil [2529 2834])
-            ("print_domains" code nil nil [2884 2899]))          
+                  ( ("domain" variable nil (reparse-symbol function_parameters) [2333 2339]))                  )
+                nil [2307 2526])
+            ("delete_all_domains" function (:documentation "delete all domains") nil [2528 2983])
+            ("delete_all_domains" code nil nil [3051 3071]))          
       :file "ssh_delete_domain.py"
-      :pointmax 2943
-      :fsize 2942
-      :lastmodtime '(23071 6944 81806 614000)
+      :pointmax 3092
+      :fsize 3091
+      :lastmodtime '(23097 13222 228783 612000)
       :unmatched-syntax nil)
     (semanticdb-table "semanticdb-table"
       :major-mode python-mode

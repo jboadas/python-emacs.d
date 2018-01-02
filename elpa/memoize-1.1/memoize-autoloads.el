@@ -1,9 +1,9 @@
 ;;; memoize-autoloads.el --- automatically extracted autoloads
 ;;
 ;;; Code:
-(add-to-list 'load-path (directory-file-name (or (file-name-directory #$) (car load-path))))
+(add-to-list 'load-path (or (file-name-directory #$) (car load-path)))
 
-;;;### (autoloads nil nil ("memoize.el") (22973 38145 205606 371000))
+;;;### (autoloads nil nil ("memoize.el") (23106 42681 41943 244000))
 
 ;;;***
 

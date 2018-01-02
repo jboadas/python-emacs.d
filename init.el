@@ -221,6 +221,8 @@
 ;; resalta el parentesis que cierra
 (show-paren-mode 1)
 
+(setq elpy-rpc-python-command "python3")
+
 (elpy-enable)
 
 (setq python-shell-completion-native-enable nil)
@@ -265,14 +267,3 @@
  '(company-tooltip-selection ((t (:inherit font-lock-function-name-face :background "brown4" :foreground "snow1"))))
  '(highlight ((t (:background "dark slate gray"))))
  '(show-paren-match ((t (:background "black" :foreground "green")))))
-(custom-set-variables
- ;; custom-set-variables was added by Custom.
- ;; If you edit it by hand, you could mess it up, so be careful.
- ;; Your init file should contain only one such instance.
- ;; If there is more than one, they won't work right.
- '(custom-safe-themes
-   (quote
-    ("a24c5b3c12d147da6cef80938dca1223b7c7f70f2f382b26308eba014dc4833a" "732b807b0543855541743429c9979ebfb363e27ec91e82f463c91e68c772f6e3" default)))
- '(package-selected-packages
-   (quote
-    (markdown-preview-mode web-mode smex smartparens py-autopep8 powerline popup material-theme ido-vertical-mode ido-ubiquitous hl-todo highlight-parentheses flycheck flx-ido elpy company-quickhelp))))

@@ -105,31 +105,32 @@
             ("ACCOUNT_PASSWORD" variable nil nil [617 649])
             ("PAYPAL_USERNAME" variable nil nil [650 692])
             ("PAYPAL_SLEEP" variable nil nil [693 710])
-            ("WEB_DRIVER_WAIT" variable nil nil [711 730])
-            ("VPS_MAX_TRIES" variable nil nil [731 749])
-            ("TRAINING_LOG_PATH" variable nil nil [750 790])
-            ("GENERAL_PATH" variable nil nil [859 881])
-            ("CREDENTIALS_FILE_NAME" variable nil nil [882 921])
-            ("LOCAL_DATABASE_NAME" variable nil nil [922 957])
-            ("REGIONS" variable nil nil [958 2329])
-            ("TYPE_OF_USER" variable nil nil [2330 2367])
-            ("TYPE_OF_ACCOUNT" variable nil nil [2368 2440])
-            ("EMAIL_HEADERS" variable nil nil [2441 2568])
-            ("XPATH_REGISTER" variable nil nil [2569 6272])
-            ("XPATH_REGION" variable nil nil [6274 6526])
-            ("XPATH_DROPMAIL" variable nil nil [6528 6959])
-            ("CSS_SELECTOR_HOSTING" variable nil nil [6961 7366])
-            ("TEXTS" variable nil nil [7369 8046])
-            ("NAVIGATION_SELECTORS" variable nil nil [8048 8606])
-            ("PARAM_LIST" variable nil nil [8608 8691])
-            ("UPGRADE_AMOUNT" variable nil nil [8693 8795])
-            ("SUMMARY_PARAMETERS" variable nil nil [8798 9146])
-            ("UPGRADE_PARAMETERS" variable nil nil [9148 9384]))          
+            ("WEB_DRIVER_WAIT" variable nil nil [711 731])
+            ("VPS_MAX_TRIES" variable nil nil [732 750])
+            ("TRAINING_LOG_PATH" variable nil nil [751 791])
+            ("TRAINING_CONF_PATH" variable nil nil [792 859])
+            ("GENERAL_PATH" variable nil nil [860 882])
+            ("CREDENTIALS_FILE_NAME" variable nil nil [883 922])
+            ("LOCAL_DATABASE_NAME" variable nil nil [923 958])
+            ("REGIONS" variable nil nil [959 2330])
+            ("TYPE_OF_USER" variable nil nil [2331 2368])
+            ("TYPE_OF_ACCOUNT" variable nil nil [2369 2441])
+            ("EMAIL_HEADERS" variable nil nil [2442 2569])
+            ("XPATH_REGISTER" variable nil nil [2570 6273])
+            ("XPATH_REGION" variable nil nil [6275 6527])
+            ("XPATH_DROPMAIL" variable nil nil [6529 6960])
+            ("TEXTS" variable nil nil [6962 7636])
+            ("NAVIGATION_SELECTORS" variable nil nil [7638 8196])
+            ("HARD_NAVIGATION" variable nil nil [8198 8592])
+            ("PARAM_LIST" variable nil nil [8595 8678])
+            ("UPGRADE_AMOUNT" variable nil nil [8680 8782])
+            ("SUMMARY_PARAMETERS" variable nil nil [8785 9133])
+            ("UPGRADE_PARAMETERS" variable nil nil [9135 9371]))          
       :file "data.py"
-      :pointmax 9385
-      :fsize 9393
-      :lastmodtime '(23078 62748 684726 680000)
-      :unmatched-syntax nil)
+      :pointmax 9372
+      :fsize 9380
+      :lastmodtime '(23091 54723 696621 142000)
+      :unmatched-syntax '(($EOI 9372 . 9372)))
     (semanticdb-table "semanticdb-table"
       :major-mode python-mode
       :tags 
@@ -371,205 +372,206 @@
                         :arguments 
                           ( ("self" variable nil (reparse-symbol function_parameters) [920 924])
                             ("kwargs" variable nil (reparse-symbol function_parameters) [926 934]))                          
-                        :documentation "checks the parameters pased to the")
-                        (reparse-symbol indented_block_body) [899 2194])
+                        :documentation "checks the parameters")
+                        (reparse-symbol indented_block_body) [899 2145])
                     ("generate_name" function
                        (:parent "dummy"
                         :arguments 
-                          ( ("self" variable nil (reparse-symbol function_parameters) [2217 2221]))                          
+                          ( ("self" variable nil (reparse-symbol function_parameters) [2168 2172]))                          
                         :documentation "generate the name of the account")
-                        (reparse-symbol indented_block_body) [2199 2661])
+                        (reparse-symbol indented_block_body) [2150 2612])
                     ("waiting_field" function
                        (:parent "dummy"
                         :arguments 
-                          ( ("self" variable nil (reparse-symbol function_parameters) [2684 2688])
-                            ("field" variable nil (reparse-symbol function_parameters) [2690 2695])
-                            ("value" variable nil (reparse-symbol function_parameters) [2697 2702]))                          
+                          ( ("self" variable nil (reparse-symbol function_parameters) [2635 2639])
+                            ("field" variable nil (reparse-symbol function_parameters) [2641 2646])
+                            ("value" variable nil (reparse-symbol function_parameters) [2648 2653]))                          
                         :documentation "stub method to write on a textfield")
-                        (reparse-symbol indented_block_body) [2666 3474])
+                        (reparse-symbol indented_block_body) [2617 3425])
                     ("get_num" function
                        (:parent "dummy"
                         :arguments 
-                          ( ("self" variable nil (reparse-symbol function_parameters) [3491 3495])
-                            ("text_num" variable nil (reparse-symbol function_parameters) [3497 3505]))                          
+                          ( ("self" variable nil (reparse-symbol function_parameters) [3442 3446])
+                            ("text_num" variable nil (reparse-symbol function_parameters) [3448 3456])
+                            ("desc" variable nil (reparse-symbol function_parameters) [3458 3462]))                          
                         :documentation "converts a text extraxted from the page ina float number")
-                        (reparse-symbol indented_block_body) [3479 4170])
+                        (reparse-symbol indented_block_body) [3430 4310])
                     ("_pass_dummy_payment_screen" function
                        (:parent "dummy"
                         :arguments 
-                          ( ("self" variable nil (reparse-symbol function_parameters) [4219 4223])
-                            ("is_free_or_paid_domain" variable nil (reparse-symbol function_parameters) [4225 4247])
-                            ("type_of_account" variable nil (reparse-symbol function_parameters) [4261 4276]))                          
+                          ( ("self" variable nil (reparse-symbol function_parameters) [4359 4363])
+                            ("is_free_or_paid_domain" variable nil (reparse-symbol function_parameters) [4365 4387])
+                            ("type_of_account" variable nil (reparse-symbol function_parameters) [4401 4416]))                          
                         :documentation "refresh the page to pass the dummy payment screen")
-                        (reparse-symbol indented_block_body) [4175 4634])
+                        (reparse-symbol indented_block_body) [4315 4774])
                     ("change_type_of_payment" function
                        (:parent "dummy"
                         :arguments 
-                          ( ("self" variable nil (reparse-symbol function_parameters) [4679 4683])
-                            ("is_free_or_paid_domain" variable nil (reparse-symbol function_parameters) [4685 4707])
-                            ("type_of_account" variable nil (reparse-symbol function_parameters) [4721 4736])
-                            ("type_of_payment" variable nil (reparse-symbol function_parameters) [4738 4753]))                          
+                          ( ("self" variable nil (reparse-symbol function_parameters) [4819 4823])
+                            ("is_free_or_paid_domain" variable nil (reparse-symbol function_parameters) [4825 4847])
+                            ("type_of_account" variable nil (reparse-symbol function_parameters) [4861 4876])
+                            ("type_of_payment" variable nil (reparse-symbol function_parameters) [4878 4893]))                          
                         :documentation "change the type of payment of the registration")
-                        (reparse-symbol indented_block_body) [4639 7302])
+                        (reparse-symbol indented_block_body) [4779 7442])
                     ("_przelewy_payment" function
                        (:parent "dummy"
                         :arguments 
-                          ( ("self" variable nil (reparse-symbol function_parameters) [7329 7333]))                          )
-                        (reparse-symbol indented_block_body) [7307 9708])
+                          ( ("self" variable nil (reparse-symbol function_parameters) [7469 7473]))                          )
+                        (reparse-symbol indented_block_body) [7447 9848])
                     ("_paypal_payment" function
                        (:parent "dummy"
                         :arguments 
-                          ( ("self" variable nil (reparse-symbol function_parameters) [9733 9737])
-                            ("is_logged" variable nil (reparse-symbol function_parameters) [9739 9748]))                          )
-                        (reparse-symbol indented_block_body) [9713 12328])
+                          ( ("self" variable nil (reparse-symbol function_parameters) [9873 9877])
+                            ("is_logged" variable nil (reparse-symbol function_parameters) [9879 9888]))                          )
+                        (reparse-symbol indented_block_body) [9853 12468])
                     ("process_payments" function
                        (:parent "dummy"
                         :arguments 
-                          ( ("self" variable nil (reparse-symbol function_parameters) [12367 12371])
-                            ("is_free_or_paid_domain" variable nil (reparse-symbol function_parameters) [12373 12395])
-                            ("type_of_account" variable nil (reparse-symbol function_parameters) [12409 12424])
-                            ("type_of_payment" variable nil (reparse-symbol function_parameters) [12426 12441]))                          
+                          ( ("self" variable nil (reparse-symbol function_parameters) [12507 12511])
+                            ("is_free_or_paid_domain" variable nil (reparse-symbol function_parameters) [12513 12535])
+                            ("type_of_account" variable nil (reparse-symbol function_parameters) [12549 12564])
+                            ("type_of_payment" variable nil (reparse-symbol function_parameters) [12566 12581]))                          
                         :documentation "process different type of payments on registration")
-                        (reparse-symbol indented_block_body) [12333 13497])
+                        (reparse-symbol indented_block_body) [12473 13637])
                     ("choose_register" function
                        (:parent "dummy"
                         :arguments 
-                          ( ("self" variable nil (reparse-symbol function_parameters) [13522 13526]))                          
+                          ( ("self" variable nil (reparse-symbol function_parameters) [13662 13666]))                          
                         :documentation "choose register instead of use a domain")
-                        (reparse-symbol indented_block_body) [13502 14239])
+                        (reparse-symbol indented_block_body) [13642 14379])
                     ("fill_profile_data" function
                        (:parent "dummy"
                         :arguments 
-                          ( ("self" variable nil (reparse-symbol function_parameters) [14266 14270])
-                            ("type_of_user" variable nil (reparse-symbol function_parameters) [14272 14284]))                          
+                          ( ("self" variable nil (reparse-symbol function_parameters) [14406 14410])
+                            ("type_of_user" variable nil (reparse-symbol function_parameters) [14412 14424]))                          
                         :documentation "fill the profile data")
-                        (reparse-symbol indented_block_body) [14244 16310])
+                        (reparse-symbol indented_block_body) [14384 16450])
                     ("_connect_imap_server" function
                        (:parent "dummy"
                         :arguments 
-                          ( ("self" variable nil (reparse-symbol function_parameters) [16340 16344]))                          )
-                        (reparse-symbol indented_block_body) [16315 17080])
+                          ( ("self" variable nil (reparse-symbol function_parameters) [16480 16484]))                          )
+                        (reparse-symbol indented_block_body) [16455 17220])
                     ("_login_imap_server" function
                        (:parent "dummy"
                         :arguments 
-                          ( ("self" variable nil (reparse-symbol function_parameters) [17108 17112])
-                            ("mail_server" variable nil (reparse-symbol function_parameters) [17114 17125]))                          )
-                        (reparse-symbol indented_block_body) [17085 18104])
+                          ( ("self" variable nil (reparse-symbol function_parameters) [17248 17252])
+                            ("mail_server" variable nil (reparse-symbol function_parameters) [17254 17265]))                          )
+                        (reparse-symbol indented_block_body) [17225 18244])
                     ("_delete_emails" function
                        (:parent "dummy"
                         :arguments 
-                          ( ("self" variable nil (reparse-symbol function_parameters) [18128 18132])
-                            ("mail_server" variable nil (reparse-symbol function_parameters) [18134 18145]))                          )
-                        (reparse-symbol indented_block_body) [18109 18709])
+                          ( ("self" variable nil (reparse-symbol function_parameters) [18268 18272])
+                            ("mail_server" variable nil (reparse-symbol function_parameters) [18274 18285]))                          )
+                        (reparse-symbol indented_block_body) [18249 18849])
                     ("_get_emails_list" function
                        (:parent "dummy"
                         :arguments 
-                          ( ("self" variable nil (reparse-symbol function_parameters) [18735 18739])
-                            ("mail_server" variable nil (reparse-symbol function_parameters) [18741 18752]))                          )
-                        (reparse-symbol indented_block_body) [18714 20516])
+                          ( ("self" variable nil (reparse-symbol function_parameters) [18875 18879])
+                            ("mail_server" variable nil (reparse-symbol function_parameters) [18881 18892]))                          )
+                        (reparse-symbol indented_block_body) [18854 20656])
                     ("fill_email_info" function
                        (:parent "dummy"
                         :arguments 
-                          ( ("self" variable nil (reparse-symbol function_parameters) [20541 20545]))                          
+                          ( ("self" variable nil (reparse-symbol function_parameters) [20681 20685]))                          
                         :documentation "use a email on icinga to fill the registration email")
-                        (reparse-symbol indented_block_body) [20521 23874])
+                        (reparse-symbol indented_block_body) [20661 24014])
                     ("fill_user_data" function
                        (:parent "dummy"
                         :arguments 
-                          ( ("self" variable nil (reparse-symbol function_parameters) [23911 23915])
-                            ("type_of_user" variable nil (reparse-symbol function_parameters) [23917 23929])
-                            ("is_free_or_paid_domain" variable nil (reparse-symbol function_parameters) [23943 23965])
-                            ("type_of_account" variable nil (reparse-symbol function_parameters) [23979 23994]))                          
+                          ( ("self" variable nil (reparse-symbol function_parameters) [24051 24055])
+                            ("type_of_user" variable nil (reparse-symbol function_parameters) [24057 24069])
+                            ("is_free_or_paid_domain" variable nil (reparse-symbol function_parameters) [24083 24105])
+                            ("type_of_account" variable nil (reparse-symbol function_parameters) [24119 24134]))                          
                         :documentation "fill the user data of the profile")
-                        (reparse-symbol indented_block_body) [23879 26621])
+                        (reparse-symbol indented_block_body) [24019 26761])
                     ("log_out" function
                        (:parent "dummy"
                         :arguments 
-                          ( ("self" variable nil (reparse-symbol function_parameters) [26638 26642]))                          
+                          ( ("self" variable nil (reparse-symbol function_parameters) [26778 26782]))                          
                         :documentation "logout from the current account")
-                        (reparse-symbol indented_block_body) [26626 27080])
+                        (reparse-symbol indented_block_body) [26766 27220])
                     ("wait_register_redirection" function
                        (:parent "dummy"
                         :arguments 
-                          ( ("self" variable nil (reparse-symbol function_parameters) [27115 27119]))                          
+                          ( ("self" variable nil (reparse-symbol function_parameters) [27255 27259]))                          
                         :documentation "wait for the redirect to the panel after success registration")
-                        (reparse-symbol indented_block_body) [27085 28155])
+                        (reparse-symbol indented_block_body) [27225 28295])
                     ("get_rate" function
                        (:parent "dummy"
                         :arguments 
-                          ( ("self" variable nil (reparse-symbol function_parameters) [28173 28177])
-                            ("source" variable nil (reparse-symbol function_parameters) [28179 28185])
-                            ("target" variable nil (reparse-symbol function_parameters) [28187 28193]))                          
+                          ( ("self" variable nil (reparse-symbol function_parameters) [28313 28317])
+                            ("source" variable nil (reparse-symbol function_parameters) [28319 28325])
+                            ("target" variable nil (reparse-symbol function_parameters) [28327 28333]))                          
                         :documentation "
         rate.
         Returns how much target you from 1.00 source
         ")
-                        (reparse-symbol indented_block_body) [28160 28811])
+                        (reparse-symbol indented_block_body) [28300 28951])
                     ("create_account" function
                        (:parent "dummy"
                         :arguments 
-                          ( ("self" variable nil (reparse-symbol function_parameters) [28835 28839]))                          
+                          ( ("self" variable nil (reparse-symbol function_parameters) [28975 28979]))                          
                         :documentation "create the account using the button")
-                        (reparse-symbol indented_block_body) [28816 29858])
+                        (reparse-symbol indented_block_body) [28956 29998])
                     ("check_profile" function
                        (:parent "dummy"
                         :arguments 
-                          ( ("self" variable nil (reparse-symbol function_parameters) [29881 29885])
-                            ("type_of_user" variable nil (reparse-symbol function_parameters) [29887 29899]))                          
+                          ( ("self" variable nil (reparse-symbol function_parameters) [30021 30025])
+                            ("type_of_user" variable nil (reparse-symbol function_parameters) [30027 30039]))                          
                         :documentation "check the user profile inside the panel after registration")
-                        (reparse-symbol indented_block_body) [29863 31362])
+                        (reparse-symbol indented_block_body) [30003 31502])
                     ("get_pdf_link" function
                        (:parent "dummy"
                         :arguments 
-                          ( ("self" variable nil (reparse-symbol function_parameters) [31384 31388]))                          
+                          ( ("self" variable nil (reparse-symbol function_parameters) [31524 31528]))                          
                         :documentation "get the link of the pdf receipt")
-                        (reparse-symbol indented_block_body) [31367 32175])
+                        (reparse-symbol indented_block_body) [31507 32315])
                     ("_compare_paid_items" function
                        (:parent "dummy"
                         :arguments 
-                          ( ("self" variable nil (reparse-symbol function_parameters) [32217 32221])
-                            ("region" variable nil (reparse-symbol function_parameters) [32223 32229])
-                            ("type_of_payment" variable nil (reparse-symbol function_parameters) [32231 32246])
-                            ("paid" variable nil (reparse-symbol function_parameters) [32248 32252])
-                            ("calculated" variable nil (reparse-symbol function_parameters) [32254 32264]))                          
+                          ( ("self" variable nil (reparse-symbol function_parameters) [32357 32361])
+                            ("region" variable nil (reparse-symbol function_parameters) [32363 32369])
+                            ("type_of_payment" variable nil (reparse-symbol function_parameters) [32371 32386])
+                            ("paid" variable nil (reparse-symbol function_parameters) [32388 32392])
+                            ("calculated" variable nil (reparse-symbol function_parameters) [32394 32404]))                          
                         :documentation "
         compare the price in the payments module with the calculated price
         from the registration page
         ")
-                        (reparse-symbol indented_block_body) [32180 34056])
+                        (reparse-symbol indented_block_body) [32320 34196])
                     ("check_price" function
                        (:parent "dummy"
                         :arguments 
-                          ( ("self" variable nil (reparse-symbol function_parameters) [34077 34081])
-                            ("type_of_payment" variable nil (reparse-symbol function_parameters) [34083 34098])
-                            ("calculated_amount" variable nil (reparse-symbol function_parameters) [34120 34137]))                          
+                          ( ("self" variable nil (reparse-symbol function_parameters) [34217 34221])
+                            ("type_of_payment" variable nil (reparse-symbol function_parameters) [34223 34238])
+                            ("calculated_amount" variable nil (reparse-symbol function_parameters) [34260 34277]))                          
                         :documentation "
         get the price from the payments module and
         compare with the amount from the register page
         ")
-                        (reparse-symbol indented_block_body) [34061 36396])
+                        (reparse-symbol indented_block_body) [34201 36551])
                     ("max_tries_select_account" function
                        (:parent "dummy"
                         :arguments 
-                          ( ("self" variable nil (reparse-symbol function_parameters) [36443 36447])
-                            ("url" variable nil (reparse-symbol function_parameters) [36449 36452])
-                            ("type_of" variable nil (reparse-symbol function_parameters) [36454 36461])
-                            ("id_element" variable nil (reparse-symbol function_parameters) [36463 36473]))                          
+                          ( ("self" variable nil (reparse-symbol function_parameters) [36598 36602])
+                            ("url" variable nil (reparse-symbol function_parameters) [36604 36607])
+                            ("type_of" variable nil (reparse-symbol function_parameters) [36609 36616])
+                            ("id_element" variable nil (reparse-symbol function_parameters) [36618 36628]))                          
                         :documentation " tryes to get the type of account element")
-                        (reparse-symbol indented_block_body) [36401 37463])
+                        (reparse-symbol indented_block_body) [36556 37618])
                     ("get_test_name" function
                        (:parent "dummy"
                         :arguments 
-                          ( ("self" variable nil (reparse-symbol function_parameters) [37486 37490])
-                            ("args" variable nil (reparse-symbol function_parameters) [37492 37498]))                          
+                          ( ("self" variable nil (reparse-symbol function_parameters) [37641 37645])
+                            ("args" variable nil (reparse-symbol function_parameters) [37647 37653]))                          
                         :documentation "get the name of a test")
-                        (reparse-symbol indented_block_body) [37468 37744]))                  
+                        (reparse-symbol indented_block_body) [37623 37899]))                  
                 :type "class")
-                nil [602 37744]))          
+                nil [602 37899]))          
       :file "st01share.py"
-      :pointmax 37744
-      :fsize 37743
-      :lastmodtime '(23079 449 36642 946000)
+      :pointmax 37899
+      :fsize 37898
+      :lastmodtime '(23086 50587 559577 497000)
       :unmatched-syntax nil)
     (semanticdb-table "semanticdb-table"
       :major-mode python-mode
@@ -659,115 +661,114 @@ This module will handle register hosting accounts
                           ( ("self" variable nil (reparse-symbol function_parameters) [14424 14428])
                             ("elem_id" variable nil (reparse-symbol function_parameters) [14430 14437]))                          
                         :documentation "get the text element with price and returns float")
-                        (reparse-symbol indented_block_body) [14410 14966])
+                        (reparse-symbol indented_block_body) [14410 14975])
                     ("get_hosting_price" function
                        (:parent "dummy"
                         :arguments 
-                          ( ("self" variable nil (reparse-symbol function_parameters) [14993 14997])
-                            ("type_of_account" variable nil (reparse-symbol function_parameters) [14999 15014]))                          
-                        :documentation "stub method to get the hosting price from")
-                        (reparse-symbol indented_block_body) [14971 15345])
+                          ( ("self" variable nil (reparse-symbol function_parameters) [15002 15006])
+                            ("type_of_account" variable nil (reparse-symbol function_parameters) [15008 15023]))                          
+                        :documentation "stub method to get the hosting pricen")
+                        (reparse-symbol indented_block_body) [14980 15317])
                     ("get_coupon_discount" function
                        (:parent "dummy"
                         :arguments 
-                          ( ("self" variable nil (reparse-symbol function_parameters) [15374 15378])
-                            ("is_coupon_used" variable nil (reparse-symbol function_parameters) [15380 15394]))                          
+                          ( ("self" variable nil (reparse-symbol function_parameters) [15346 15350])
+                            ("is_coupon_used" variable nil (reparse-symbol function_parameters) [15352 15366]))                          
                         :documentation "
         stub method to get the coupon discount price
-        from the register page
         ")
-                        (reparse-symbol indented_block_body) [15350 15762])
+                        (reparse-symbol indented_block_body) [15322 15703])
                     ("get_domain_price" function
                        (:parent "dummy"
                         :arguments 
-                          ( ("self" variable nil (reparse-symbol function_parameters) [15788 15792])
-                            ("is_free_or_paid_domain" variable nil (reparse-symbol function_parameters) [15794 15816]))                          
+                          ( ("self" variable nil (reparse-symbol function_parameters) [15729 15733])
+                            ("is_free_or_paid_domain" variable nil (reparse-symbol function_parameters) [15735 15757]))                          
                         :documentation "stub method to get the domain price")
-                        (reparse-symbol indented_block_body) [15767 16199])
+                        (reparse-symbol indented_block_body) [15708 16102])
                     ("get_total_price" function
                        (:parent "dummy"
                         :arguments 
-                          ( ("self" variable nil (reparse-symbol function_parameters) [16224 16228]))                          
+                          ( ("self" variable nil (reparse-symbol function_parameters) [16127 16131]))                          
                         :documentation "stub method to get the total price")
-                        (reparse-symbol indented_block_body) [16204 16427])
+                        (reparse-symbol indented_block_body) [16107 16292])
                     ("save_payments_info" function
                        (:parent "dummy"
                         :arguments 
-                          ( ("self" variable nil (reparse-symbol function_parameters) [16468 16472])
-                            ("is_free_or_paid_domain" variable nil (reparse-symbol function_parameters) [16474 16496])
-                            ("type_of_account" variable nil (reparse-symbol function_parameters) [16510 16525])
-                            ("is_coupon_used" variable nil (reparse-symbol function_parameters) [16527 16541]))                          
+                          ( ("self" variable nil (reparse-symbol function_parameters) [16333 16337])
+                            ("is_free_or_paid_domain" variable nil (reparse-symbol function_parameters) [16339 16361])
+                            ("type_of_account" variable nil (reparse-symbol function_parameters) [16375 16390])
+                            ("is_coupon_used" variable nil (reparse-symbol function_parameters) [16392 16406]))                          
                         :documentation "
         method to calculate total price and verify
         the price on the page
         ")
-                        (reparse-symbol indented_block_body) [16432 18386])
+                        (reparse-symbol indented_block_body) [16297 18251])
                     ("check_accounts" function
                        (:parent "dummy"
                         :arguments 
-                          ( ("self" variable nil (reparse-symbol function_parameters) [18410 18414]))                          
+                          ( ("self" variable nil (reparse-symbol function_parameters) [18275 18279]))                          
                         :documentation "
         method to check the account exist and is correct
         after registration
         ")
-                        (reparse-symbol indented_block_body) [18391 21059])
+                        (reparse-symbol indented_block_body) [18256 20924])
                     ("check_success_redirection" function
                        (:parent "dummy"
                         :arguments 
-                          ( ("self" variable nil (reparse-symbol function_parameters) [21094 21098]))                          
+                          ( ("self" variable nil (reparse-symbol function_parameters) [20959 20963]))                          
                         :documentation " check if redirection is successful")
-                        (reparse-symbol indented_block_body) [21064 21478])
+                        (reparse-symbol indented_block_body) [20929 21343])
                     ("check_active_status" function
                        (:parent "dummy"
                         :arguments 
-                          ( ("self" variable nil (reparse-symbol function_parameters) [21507 21511]))                          
+                          ( ("self" variable nil (reparse-symbol function_parameters) [21372 21376]))                          
                         :documentation " check active status")
-                        (reparse-symbol indented_block_body) [21483 21847])
+                        (reparse-symbol indented_block_body) [21348 21712])
                     ("check_person_type" function
                        (:parent "dummy"
                         :arguments 
-                          ( ("self" variable nil (reparse-symbol function_parameters) [21874 21878])
-                            ("type_of_user" variable nil (reparse-symbol function_parameters) [21880 21892]))                          
+                          ( ("self" variable nil (reparse-symbol function_parameters) [21739 21743])
+                            ("type_of_user" variable nil (reparse-symbol function_parameters) [21745 21757]))                          
                         :documentation " check person type")
-                        (reparse-symbol indented_block_body) [21852 22233])
+                        (reparse-symbol indented_block_body) [21717 22098])
                     ("check_domain_correct" function
                        (:parent "dummy"
                         :arguments 
-                          ( ("self" variable nil (reparse-symbol function_parameters) [22263 22267])
-                            ("is_free_or_paid_domain" variable nil (reparse-symbol function_parameters) [22269 22291]))                          
+                          ( ("self" variable nil (reparse-symbol function_parameters) [22128 22132])
+                            ("is_free_or_paid_domain" variable nil (reparse-symbol function_parameters) [22134 22156]))                          
                         :documentation " check domain")
-                        (reparse-symbol indented_block_body) [22238 22663])
+                        (reparse-symbol indented_block_body) [22103 22528])
                     ("check_price_correct" function
                        (:parent "dummy"
                         :arguments 
-                          ( ("self" variable nil (reparse-symbol function_parameters) [22692 22696])
-                            ("type_of_payment" variable nil (reparse-symbol function_parameters) [22698 22713])
-                            ("amount_after_coupon" variable nil (reparse-symbol function_parameters) [22743 22762]))                          
+                          ( ("self" variable nil (reparse-symbol function_parameters) [22557 22561])
+                            ("type_of_payment" variable nil (reparse-symbol function_parameters) [22563 22578])
+                            ("amount_after_coupon" variable nil (reparse-symbol function_parameters) [22608 22627]))                          
                         :documentation " check price")
-                        (reparse-symbol indented_block_body) [22668 23147])
+                        (reparse-symbol indented_block_body) [22533 23012])
                     ("check_conditions" function
                        (:parent "dummy"
                         :arguments 
-                          ( ("self" variable nil (reparse-symbol function_parameters) [23186 23190])
-                            ("amount_after_coupon" variable nil (reparse-symbol function_parameters) [23192 23211])
-                            ("register_args" variable nil (reparse-symbol function_parameters) [23213 23228]))                          
+                          ( ("self" variable nil (reparse-symbol function_parameters) [23051 23055])
+                            ("amount_after_coupon" variable nil (reparse-symbol function_parameters) [23057 23076])
+                            ("register_args" variable nil (reparse-symbol function_parameters) [23078 23093]))                          
                         :documentation " method to verify all conditions of the test")
-                        (reparse-symbol indented_block_body) [23152 25277])
+                        (reparse-symbol indented_block_body) [23017 25142])
                     ("register" function
                        (:parent "dummy"
                         :arguments 
-                          ( ("self" variable nil (reparse-symbol function_parameters) [25295 25299])
-                            ("register_args" variable nil (reparse-symbol function_parameters) [25301 25316]))                          
+                          ( ("self" variable nil (reparse-symbol function_parameters) [25160 25164])
+                            ("register_args" variable nil (reparse-symbol function_parameters) [25166 25181]))                          
                         :documentation " method to perform all register steps")
-                        (reparse-symbol indented_block_body) [25282 28929]))                  
+                        (reparse-symbol indented_block_body) [25147 28794]))                  
                 :type "class")
-                nil [460 28929])
-            ("if" code nil nil [28931 29472]))          
+                nil [460 28794])
+            ("if" code nil nil [28796 29338]))          
       :file "st01register.py"
-      :pointmax 29472
-      :fsize 29471
-      :lastmodtime '(23078 63039 463991 916000)
-      :unmatched-syntax '((INDENT_BLOCK 27880 . 28007) (NEWLINE 27879 . 27880) (COLON 27878 . 27879) (TRY 26544 . 26547) (AS 27870 . 27872) (INDENT_BLOCK 26111 . 26238) (NEWLINE 26110 . 26111) (COLON 26109 . 26110) (TRY 26014 . 26017) (AS 26101 . 26103) (INDENT_BLOCK 24814 . 25049) (NEWLINE 24813 . 24814) (COLON 24812 . 24813) (TRY 23403 . 23406) (AS 24804 . 24806) (INDENT_BLOCK 20414 . 20614) (NEWLINE 20413 . 20414) (COLON 20412 . 20413) (TRY 18744 . 18747) (AS 20404 . 20406) (INDENT_BLOCK 13228 . 13424) (NEWLINE 13227 . 13228) (COLON 13226 . 13227) (TRY 11563 . 11566) (AS 13218 . 13220) (INDENT_BLOCK 10589 . 10845) (NEWLINE 10588 . 10589) (COLON 10587 . 10588) (TRY 9423 . 9426) (AS 10579 . 10581) (INDENT_BLOCK 8395 . 8696) (NEWLINE 8394 . 8395) (COLON 8393 . 8394) (TRY 6846 . 6849) (AS 8385 . 8387) (INDENT_BLOCK 2722 . 3005) (NEWLINE 2721 . 2722) (COLON 2720 . 2721) (TRY 1920 . 1923) (AS 2712 . 2714) (INDENT_BLOCK 5175 . 5218) (NEWLINE 5174 . 5175)))
+      :pointmax 29338
+      :fsize 29337
+      :lastmodtime '(23086 51267 96179 146000)
+      :unmatched-syntax nil)
     (semanticdb-table "semanticdb-table"
       :major-mode python-mode
       :tags 
@@ -1140,22 +1141,22 @@ This module will handle register hosting accounts
                     ("navigate_to" function
                        (:parent "dummy"
                         :arguments 
-                          ( ("self" variable nil (reparse-symbol function_parameters) [905 909])
-                            ("locator" variable nil (reparse-symbol function_parameters) [911 918]))                          
+                          ( ("self" variable nil (reparse-symbol function_parameters) [1141 1145])
+                            ("locator" variable nil (reparse-symbol function_parameters) [1147 1154]))                          
                         :documentation "method used to navigate between panels")
-                        (reparse-symbol indented_block_body) [889 2309])
+                        (reparse-symbol indented_block_body) [1125 2545])
                     ("login" function
                        (:parent "dummy"
                         :arguments 
-                          ( ("self" variable nil (reparse-symbol function_parameters) [2896 2900]))                          
+                          ( ("self" variable nil (reparse-symbol function_parameters) [3132 3136]))                          
                         :documentation "method to login into the panel")
-                        (reparse-symbol indented_block_body) [2886 4246]))                  
+                        (reparse-symbol indented_block_body) [3122 4482]))                  
                 :type "class")
-                nil [404 4246]))          
+                nil [404 4482]))          
       :file "st02share.py"
-      :pointmax 4246
-      :fsize 4245
-      :lastmodtime '(23077 44526 363562 780000)
+      :pointmax 4482
+      :fsize 4481
+      :lastmodtime '(23087 54094 196874 11000)
       :unmatched-syntax nil)
     (semanticdb-table "semanticdb-table"
       :major-mode python-mode
@@ -1173,12 +1174,12 @@ This module will handle register hosting accounts
                 :members 
                   ( ("__init__" function
                        (:suite 
-                          ( ("self" variable nil (reparse-symbol indented_block_body) [355 393])
-                            ("self" variable nil (reparse-symbol indented_block_body) [402 444])
-                            ("self" variable nil (reparse-symbol indented_block_body) [453 501])
-                            ("self" variable nil (reparse-symbol indented_block_body) [510 528])
-                            ("for" code nil (reparse-symbol indented_block_body) [537 604])
-                            ("self" variable nil (reparse-symbol indented_block_body) [612 639]))                          
+                          ( ("self" variable nil (reparse-symbol indented_block_body) [381 419])
+                            ("self" variable nil (reparse-symbol indented_block_body) [428 470])
+                            ("self" variable nil (reparse-symbol indented_block_body) [479 527])
+                            ("self" variable nil (reparse-symbol indented_block_body) [536 554])
+                            ("for" code nil (reparse-symbol indented_block_body) [563 630])
+                            ("self" variable nil (reparse-symbol indented_block_body) [638 665]))                          
                         :parent "dummy"
                         :arguments 
                           ( ("self" variable nil (reparse-symbol function_parameters) [304 308])
@@ -1193,38 +1194,52 @@ This module will handle register hosting accounts
                             ("filename" variable nil (reparse-symbol function_parameters) [671 679]))                          
                         :documentation "create the database with its tables")
                         (reparse-symbol indented_block_body) [645 1128])
+                    ("execute_query" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [1151 1155])
+                            ("query" variable nil (reparse-symbol function_parameters) [1157 1162]))                          
+                        :documentation "execute a query on icinga")
+                        (reparse-symbol indented_block_body) [1133 2427])
                     ("get_selenium_accounts" function
                        (:parent "dummy"
                         :arguments 
-                          ( ("self" variable nil (reparse-symbol function_parameters) [1159 1163]))                          
+                          ( ("self" variable nil (reparse-symbol function_parameters) [2458 2462]))                          
                         :documentation "get all selenium accounts from database")
-                        (reparse-symbol indented_block_body) [1133 4099])
+                        (reparse-symbol indented_block_body) [2432 5398])
                     ("get_random_account" function
                        (:parent "dummy"
                         :arguments 
-                          ( ("self" variable nil (reparse-symbol function_parameters) [4127 4131])
-                            ("region" variable nil (reparse-symbol function_parameters) [4133 4139]))                          
+                          ( ("self" variable nil (reparse-symbol function_parameters) [5426 5430])
+                            ("region" variable nil (reparse-symbol function_parameters) [5432 5438]))                          
                         :documentation "get a random aba account from the database")
-                        (reparse-symbol indented_block_body) [4104 4251])
+                        (reparse-symbol indented_block_body) [5403 5550])
                     ("get_total_accounts" function
                        (:parent "dummy"
                         :arguments 
-                          ( ("self" variable nil (reparse-symbol function_parameters) [4279 4283]))                          
+                          ( ("self" variable nil (reparse-symbol function_parameters) [5578 5582]))                          
                         :documentation "return the total accounts created on icinga")
-                        (reparse-symbol indented_block_body) [4256 4838])
+                        (reparse-symbol indented_block_body) [5555 6137])
                     ("write_accounts_to_file" function
                        (:parent "dummy"
                         :arguments 
-                          ( ("self" variable nil (reparse-symbol function_parameters) [4870 4874])
-                            ("region" variable nil (reparse-symbol function_parameters) [4876 4882]))                          
+                          ( ("self" variable nil (reparse-symbol function_parameters) [6169 6173])
+                            ("region" variable nil (reparse-symbol function_parameters) [6175 6181]))                          
                         :documentation "write accounts list to a file")
-                        (reparse-symbol indented_block_body) [4843 5113]))                  
+                        (reparse-symbol indented_block_body) [6142 6412])
+                    ("get_hosting_account_ids" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [6445 6449])
+                            ("account" variable nil (reparse-symbol function_parameters) [6451 6458]))                          
+                        :documentation "get the ids of hosting accounts")
+                        (reparse-symbol indented_block_body) [6417 6507]))                  
                 :type "class")
-                nil [223 5113]))          
+                nil [223 6507]))          
       :file "icingamysql.py"
-      :pointmax 5113
-      :fsize 5112
-      :lastmodtime '(23077 44526 346895 928000)
+      :pointmax 6507
+      :fsize 6506
+      :lastmodtime '(23098 50074 906183 899000)
       :unmatched-syntax nil)
     (semanticdb-table "semanticdb-table"
       :major-mode js-mode
@@ -1325,6 +1340,8 @@ This module will handle register hosting accounts
             ("st02checkallpanels" include nil nil [185 210])
             ("st03hostingaccounts" include nil nil [211 237])
             ("st04vpsservers" include nil nil [238 259])
+            ("st05domains" include nil nil [260 278])
+            ("st06ftp" include nil nil [279 293])
             ("TestBase" type
                (:documentation "base class to all tests"
                 :superclasses ("unittest.TestCase")
@@ -1333,28 +1350,28 @@ This module will handle register hosting accounts
                        (:decorators 
                           ( ("classmethod" function (:type "decorator") nil nil))                          
                         :arguments 
-                          ( ("cls" variable nil (reparse-symbol function_parameters) [368 371]))                          )
-                        (reparse-symbol indented_block_body) [336 1064])
+                          ( ("cls" variable nil (reparse-symbol function_parameters) [402 405]))                          )
+                        (reparse-symbol indented_block_body) [370 1264])
                     ("tearDownClass" function
                        (:decorators 
                           ( ("classmethod" function (:type "decorator") nil nil))                          
                         :arguments 
-                          ( ("cls" variable nil (reparse-symbol function_parameters) [1170 1173]))                          )
-                        (reparse-symbol indented_block_body) [1135 1203])
+                          ( ("cls" variable nil (reparse-symbol function_parameters) [1304 1307]))                          )
+                        (reparse-symbol indented_block_body) [1269 1337])
                     ("main" function
                        (:typemodifiers ("static")
                         :decorators 
                           ( ("staticmethod" function (:type "decorator") nil nil))                          
                         :documentation "calling unittest")
-                        (reparse-symbol indented_block_body) [1208 1293]))                  
+                        (reparse-symbol indented_block_body) [1342 1427]))                  
                 :type "class")
-                nil [262 1293])
-            ("if" code nil nil [1295 1342]))          
+                nil [296 1427])
+            ("if" code nil nil [1429 1476]))          
       :file "basetest.py"
-      :pointmax 1342
-      :fsize 1341
-      :lastmodtime '(23077 44526 343562 558000)
-      :unmatched-syntax nil)
+      :pointmax 1476
+      :fsize 1475
+      :lastmodtime '(23099 48516 101589 944000)
+      :unmatched-syntax '((INDENT_BLOCK 383 . 1427) (INDENT_BLOCK 383 . 1420) (INDENT_BLOCK 383 . 1418) (NAME 1228 . 1231) (NEWLINE 1246 . 1247) (INDENT_BLOCK 383 . 1410)))
     (semanticdb-table "semanticdb-table"
       :major-mode python-mode
       :tags 
@@ -1429,7 +1446,7 @@ This module will handle register hosting accounts
             ("Lp06" type
                (:documentation "
     Register paid account with PayPal method with
-    .com domain (+payment module)
+    .xyz domain (+payment module)
     "
                 :superclasses ("TestBase")
                 :members 
@@ -1437,7 +1454,7 @@ This module will handle register hosting accounts
                        (:parent "dummy"
                         :arguments 
                           ( ("self" variable nil (reparse-symbol function_parameters) [2195 2199]))                          
-                        :documentation "paid account with PayPal method with .com domain")
+                        :documentation "paid account with PayPal method with .xyz domain")
                         (reparse-symbol indented_block_body) [2180 2597]))                  
                 :type "class")
                 nil [2052 2597])
@@ -1460,7 +1477,7 @@ This module will handle register hosting accounts
       :file "testcase_01_register_hosting.py"
       :pointmax 3513
       :fsize 3512
-      :lastmodtime '(23077 44526 376896 260000)
+      :lastmodtime '(23098 52380 456289 452000)
       :unmatched-syntax nil)
     (semanticdb-table "semanticdb-table"
       :major-mode python-mode
@@ -1602,17 +1619,17 @@ This module will handle register hosting accounts
       :file "st03hostingaccounts.py"
       :pointmax 9255
       :fsize 9254
-      :lastmodtime '(23078 43717 338322 558000)
+      :lastmodtime '(23091 56299 745070 423000)
       :unmatched-syntax nil)
     (semanticdb-table "semanticdb-table"
       :major-mode python-mode
       :tags 
         '( ("\"\"\"
 run the script to fetch selenium accounts
-\"\"\"" code nil nil [35 84])
-            ("credentials" include nil nil [85 103])
-            ("icingamysql" include nil nil [104 122])
-            ("data" include nil nil [123 134])
+\"\"\"" code nil nil [20 69])
+            ("credentials" include nil nil [70 88])
+            ("icingamysql" include nil nil [89 107])
+            ("data" include nil nil [108 119])
             ("AccountsInfo" type
                (:documentation "
     connects to icinga mysql using icingamysql
@@ -1621,36 +1638,36 @@ run the script to fetch selenium accounts
                 :members 
                   ( ("__init__" function
                        (:suite 
-                          ( ("cre" variable nil (reparse-symbol indented_block_body) [288 319])
-                            ("ssh" variable nil (reparse-symbol indented_block_body) [328 354])
-                            ("mysql" variable nil (reparse-symbol indented_block_body) [363 393])
-                            ("self" variable nil (reparse-symbol indented_block_body) [402 449])
-                            ("self" code nil (reparse-symbol indented_block_body) [458 491]))                          
+                          ( ("cre" variable nil (reparse-symbol indented_block_body) [272 303])
+                            ("ssh" variable nil (reparse-symbol indented_block_body) [312 338])
+                            ("mysql" variable nil (reparse-symbol indented_block_body) [347 377])
+                            ("self" variable nil (reparse-symbol indented_block_body) [386 433])
+                            ("self" code nil (reparse-symbol indented_block_body) [442 475]))                          
                         :parent "dummy"
                         :arguments 
-                          ( ("self" variable nil (reparse-symbol function_parameters) [272 276]))                          
+                          ( ("self" variable nil (reparse-symbol function_parameters) [257 261]))                          
                         :constructor-flag t)
-                        (reparse-symbol indented_block_body) [259 491])
+                        (reparse-symbol indented_block_body) [244 476])
                     ("get_totals" function
                        (:parent "dummy"
                         :arguments 
-                          ( ("self" variable nil (reparse-symbol function_parameters) [511 515]))                          
+                          ( ("self" variable nil (reparse-symbol function_parameters) [496 500]))                          
                         :documentation "get the totals of accounts")
-                        (reparse-symbol indented_block_body) [496 605])
+                        (reparse-symbol indented_block_body) [481 590])
                     ("get_accounts" function
                        (:parent "dummy"
                         :arguments 
-                          ( ("self" variable nil (reparse-symbol function_parameters) [627 631])
-                            ("region" variable nil (reparse-symbol function_parameters) [633 639]))                          
+                          ( ("self" variable nil (reparse-symbol function_parameters) [612 616])
+                            ("region" variable nil (reparse-symbol function_parameters) [618 624]))                          
                         :documentation "get accounts from a region")
-                        (reparse-symbol indented_block_body) [610 812]))                  
+                        (reparse-symbol indented_block_body) [595 797]))                  
                 :type "class")
-                nil [137 812])
-            ("if" code nil nil [814 897]))          
+                nil [122 797])
+            ("if" code nil nil [799 882]))          
       :file "fetchaccountsinfo.py"
-      :pointmax 897
+      :pointmax 882
       :fsize 881
-      :lastmodtime '(23077 44526 346895 928000)
+      :lastmodtime '(23080 16613 738031 845000)
       :unmatched-syntax nil)
     (semanticdb-table "semanticdb-table"
       :major-mode python-mode
@@ -1700,259 +1717,267 @@ run the script to fetch selenium accounts
             ("st02share" include nil nil [134 150])
             ("changeregion" include nil nil [151 170])
             ("data" include nil nil [171 182])
-            ("selenium.webdriver.support.ui" include nil nil [183 238])
-            ("selenium.webdriver.common.by" include nil nil [239 282])
-            ("" code nil nil [322 527])
-            ("customexception" include nil nil [528 568])
+            ("backend_scripts" include nil nil [183 205])
+            ("selenium.webdriver.support.ui" include nil nil [206 261])
+            ("selenium.webdriver.common.by" include nil nil [262 305])
+            ("" code nil nil [345 550])
+            ("customexception" include nil nil [551 591])
             ("HostingShare" type
                (:documentation "this class handles the hosting accounts"
                 :members 
                   ( ("__init__" function
                        (:suite 
-                          ( ("self" variable nil (reparse-symbol indented_block_body) [686 734])
-                            ("self" variable nil (reparse-symbol indented_block_body) [743 762])
-                            ("self" variable nil (reparse-symbol indented_block_body) [771 788])
-                            ("self" variable nil (reparse-symbol indented_block_body) [797 846])
-                            ("self" variable nil (reparse-symbol indented_block_body) [855 898])
-                            ("self" variable nil (reparse-symbol indented_block_body) [907 958]))                          
+                          ( ("self" variable nil (reparse-symbol indented_block_body) [709 757])
+                            ("self" variable nil (reparse-symbol indented_block_body) [766 785])
+                            ("self" variable nil (reparse-symbol indented_block_body) [794 811])
+                            ("self" variable nil (reparse-symbol indented_block_body) [820 869])
+                            ("self" variable nil (reparse-symbol indented_block_body) [878 921])
+                            ("self" variable nil (reparse-symbol indented_block_body) [930 981])
+                            ("self" variable nil (reparse-symbol indented_block_body) [990 1041]))                          
                         :parent "dummy"
                         :arguments 
-                          ( ("self" variable nil (reparse-symbol function_parameters) [661 665])
-                            ("selenium" variable nil (reparse-symbol function_parameters) [667 675]))                          
+                          ( ("self" variable nil (reparse-symbol function_parameters) [684 688])
+                            ("selenium" variable nil (reparse-symbol function_parameters) [690 698]))                          
                         :constructor-flag t)
-                        (reparse-symbol indented_block_body) [648 959])
+                        (reparse-symbol indented_block_body) [671 1042])
                     ("set_up" function
                        (:parent "dummy"
                         :arguments 
-                          ( ("self" variable nil (reparse-symbol function_parameters) [975 979])
-                            ("account" variable nil (reparse-symbol function_parameters) [981 988]))                          
+                          ( ("self" variable nil (reparse-symbol function_parameters) [1058 1062])
+                            ("account" variable nil (reparse-symbol function_parameters) [1064 1071]))                          
                         :documentation "
         gets the account if none is provided
         change the region and perform login with
         the provided account
         ")
-                        (reparse-symbol indented_block_body) [964 1774])
+                        (reparse-symbol indented_block_body) [1047 1857])
                     ("keep_only_main_window" function
                        (:parent "dummy"
                         :arguments 
-                          ( ("self" variable nil (reparse-symbol function_parameters) [1805 1809]))                          
+                          ( ("self" variable nil (reparse-symbol function_parameters) [1888 1892]))                          
                         :documentation "keeps only the main window")
-                        (reparse-symbol indented_block_body) [1779 2594])
+                        (reparse-symbol indented_block_body) [1862 2677])
                     ("_get_master_window" function
                        (:parent "dummy"
                         :arguments 
-                          ( ("self" variable nil (reparse-symbol function_parameters) [2622 2626]))                          )
-                        (reparse-symbol indented_block_body) [2599 2866])
+                          ( ("self" variable nil (reparse-symbol function_parameters) [2705 2709]))                          )
+                        (reparse-symbol indented_block_body) [2682 2949])
                     ("login_support_panel" function
                        (:parent "dummy"
                         :arguments 
-                          ( ("self" variable nil (reparse-symbol function_parameters) [2895 2899]))                          
+                          ( ("self" variable nil (reparse-symbol function_parameters) [2978 2982]))                          
                         :documentation "login support panel")
-                        (reparse-symbol indented_block_body) [2871 6390])
+                        (reparse-symbol indented_block_body) [2954 6477])
+                    ("delete_hosting_acc_script" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [6512 6516]))                          
+                        :documentation "delete all hosting accounts using backend script")
+                        (reparse-symbol indented_block_body) [6482 6782])
                     ("delete_hosting_accounts" function
                        (:parent "dummy"
                         :arguments 
-                          ( ("self" variable nil (reparse-symbol function_parameters) [6423 6427]))                          
+                          ( ("self" variable nil (reparse-symbol function_parameters) [6815 6819]))                          
                         :documentation "delete all hosting accounts in a profile")
-                        (reparse-symbol indented_block_body) [6395 9624])
+                        (reparse-symbol indented_block_body) [6787 10016])
                     ("is_available_hosting_account" function
                        (:parent "dummy"
                         :arguments 
-                          ( ("self" variable nil (reparse-symbol function_parameters) [9662 9666]))                          
+                          ( ("self" variable nil (reparse-symbol function_parameters) [10054 10058]))                          
                         :documentation "checks if a hosting account is available")
-                        (reparse-symbol indented_block_body) [9629 11748])
+                        (reparse-symbol indented_block_body) [10021 11968])
                     ("need_clean_hosting_panel" function
                        (:parent "dummy"
                         :arguments 
-                          ( ("self" variable nil (reparse-symbol function_parameters) [11782 11786]))                          
+                          ( ("self" variable nil (reparse-symbol function_parameters) [12002 12006]))                          
                         :documentation "get current info & status of hosting accounts")
-                        (reparse-symbol indented_block_body) [11753 12868])
+                        (reparse-symbol indented_block_body) [11973 13088])
                     ("need_to_fill_profile" function
                        (:parent "dummy"
                         :arguments 
-                          ( ("self" variable nil (reparse-symbol function_parameters) [12898 12902]))                          
+                          ( ("self" variable nil (reparse-symbol function_parameters) [13118 13122]))                          
                         :documentation "checks if we need to fill the profile")
-                        (reparse-symbol indented_block_body) [12873 13541])
+                        (reparse-symbol indented_block_body) [13093 13761])
                     ("fill_profile_data" function
                        (:parent "dummy"
                         :arguments 
-                          ( ("self" variable nil (reparse-symbol function_parameters) [13568 13572]))                          
+                          ( ("self" variable nil (reparse-symbol function_parameters) [13788 13792]))                          
                         :documentation "fills the profile")
-                        (reparse-symbol indented_block_body) [13546 16614])
+                        (reparse-symbol indented_block_body) [13766 16834])
                     ("check_account" function
                        (:parent "dummy"
                         :arguments 
-                          ( ("self" variable nil (reparse-symbol function_parameters) [16637 16641])
-                            ("type_of_account" variable nil (reparse-symbol function_parameters) [16643 16658]))                          
+                          ( ("self" variable nil (reparse-symbol function_parameters) [16857 16861])
+                            ("type_of_account" variable nil (reparse-symbol function_parameters) [16863 16878]))                          
                         :documentation "check hosting account status and parameters")
-                        (reparse-symbol indented_block_body) [16619 19118])
+                        (reparse-symbol indented_block_body) [16839 19604])
                     ("_change_hosting_period" function
                        (:parent "dummy"
                         :arguments 
-                          ( ("self" variable nil (reparse-symbol function_parameters) [19150 19154])
-                            ("plan" variable nil (reparse-symbol function_parameters) [19156 19160])
-                            ("period" variable nil (reparse-symbol function_parameters) [19162 19168]))                          )
-                        (reparse-symbol indented_block_body) [19123 21740])
+                          ( ("self" variable nil (reparse-symbol function_parameters) [19636 19640])
+                            ("plan" variable nil (reparse-symbol function_parameters) [19642 19646])
+                            ("period" variable nil (reparse-symbol function_parameters) [19648 19654]))                          )
+                        (reparse-symbol indented_block_body) [19609 22226])
                     ("_compare_dates" function
                        (:parent "dummy"
                         :arguments 
-                          ( ("self" variable nil (reparse-symbol function_parameters) [21777 21781])
-                            ("before_date" variable nil (reparse-symbol function_parameters) [21783 21794])
-                            ("after_date" variable nil (reparse-symbol function_parameters) [21796 21806])
-                            ("period_in_months" variable nil (reparse-symbol function_parameters) [21808 21824]))                          )
-                        (reparse-symbol indented_block_body) [21745 22758])
+                          ( ("self" variable nil (reparse-symbol function_parameters) [22263 22267])
+                            ("before_date" variable nil (reparse-symbol function_parameters) [22269 22280])
+                            ("after_date" variable nil (reparse-symbol function_parameters) [22282 22292])
+                            ("period_in_months" variable nil (reparse-symbol function_parameters) [22294 22310]))                          )
+                        (reparse-symbol indented_block_body) [22231 23244])
                     ("_get_current_date" function
                        (:parent "dummy"
                         :arguments 
-                          ( ("self" variable nil (reparse-symbol function_parameters) [22785 22789]))                          )
-                        (reparse-symbol indented_block_body) [22763 24239])
+                          ( ("self" variable nil (reparse-symbol function_parameters) [23271 23275]))                          )
+                        (reparse-symbol indented_block_body) [23249 24725])
                     ("upgrade_to" function
                        (:parent "dummy"
                         :arguments 
-                          ( ("self" variable nil (reparse-symbol function_parameters) [24259 24263])
-                            ("plan" variable nil (reparse-symbol function_parameters) [24265 24269])
-                            ("period" variable nil (reparse-symbol function_parameters) [24271 24277]))                          
+                          ( ("self" variable nil (reparse-symbol function_parameters) [24745 24749])
+                            ("plan" variable nil (reparse-symbol function_parameters) [24751 24755])
+                            ("period" variable nil (reparse-symbol function_parameters) [24757 24763]))                          
                         :documentation "upgrade an existing account")
-                        (reparse-symbol indented_block_body) [24244 26475])
+                        (reparse-symbol indented_block_body) [24730 26987])
                     ("_get_style" function
                        (:parent "dummy"
                         :arguments 
-                          ( ("self" variable nil (reparse-symbol function_parameters) [26495 26499])
-                            ("element" variable nil (reparse-symbol function_parameters) [26501 26508])
-                            ("style" variable nil (reparse-symbol function_parameters) [26510 26515]))                          )
-                        (reparse-symbol indented_block_body) [26480 27225])
+                          ( ("self" variable nil (reparse-symbol function_parameters) [27007 27011])
+                            ("element" variable nil (reparse-symbol function_parameters) [27013 27020])
+                            ("style" variable nil (reparse-symbol function_parameters) [27022 27027]))                          )
+                        (reparse-symbol indented_block_body) [26992 27737])
                     ("add_account" function
                        (:parent "dummy"
                         :arguments 
-                          ( ("self" variable nil (reparse-symbol function_parameters) [27246 27250])
-                            ("account_type" variable nil (reparse-symbol function_parameters) [27252 27264]))                          
+                          ( ("self" variable nil (reparse-symbol function_parameters) [27758 27762])
+                            ("account_type" variable nil (reparse-symbol function_parameters) [27764 27776]))                          
                         :documentation "add a hosting account")
-                        (reparse-symbol indented_block_body) [27230 29580])
+                        (reparse-symbol indented_block_body) [27742 30158])
                     ("upgrade_and_check" function
                        (:parent "dummy"
                         :arguments 
-                          ( ("self" variable nil (reparse-symbol function_parameters) [29620 29624])
-                            ("account_plan" variable nil (reparse-symbol function_parameters) [29626 29638])
-                            ("period" variable nil (reparse-symbol function_parameters) [29640 29646])
-                            ("before_date" variable nil (reparse-symbol function_parameters) [29648 29659]))                          
+                          ( ("self" variable nil (reparse-symbol function_parameters) [30198 30202])
+                            ("account_plan" variable nil (reparse-symbol function_parameters) [30204 30216])
+                            ("period" variable nil (reparse-symbol function_parameters) [30218 30224])
+                            ("before_date" variable nil (reparse-symbol function_parameters) [30226 30237]))                          
                         :documentation "upgrade an account and compare dates")
-                        (reparse-symbol indented_block_body) [29585 30652])
+                        (reparse-symbol indented_block_body) [30163 31230])
                     ("_get_parameter" function
                        (:parent "dummy"
                         :arguments 
-                          ( ("self" variable nil (reparse-symbol function_parameters) [30676 30680])
-                            ("element" variable nil (reparse-symbol function_parameters) [30682 30689]))                          
+                          ( ("self" variable nil (reparse-symbol function_parameters) [31254 31258])
+                            ("element" variable nil (reparse-symbol function_parameters) [31260 31267]))                          
                         :documentation "get a sumary parameter and extract info")
-                        (reparse-symbol indented_block_body) [30657 31723])
+                        (reparse-symbol indented_block_body) [31235 32301])
                     ("_click_upgrade" function
                        (:parent "dummy"
                         :arguments 
-                          ( ("self" variable nil (reparse-symbol function_parameters) [31747 31751])
-                            ("selector" variable nil (reparse-symbol function_parameters) [31753 31761]))                          )
-                        (reparse-symbol indented_block_body) [31728 32684])
+                          ( ("self" variable nil (reparse-symbol function_parameters) [32325 32329])
+                            ("selector" variable nil (reparse-symbol function_parameters) [32331 32339]))                          )
+                        (reparse-symbol indented_block_body) [32306 33262])
                     ("_upgrade_parameters" function
                        (:parent "dummy"
                         :arguments 
-                          ( ("self" variable nil (reparse-symbol function_parameters) [32713 32717]))                          )
-                        (reparse-symbol indented_block_body) [32689 34036])
+                          ( ("self" variable nil (reparse-symbol function_parameters) [33291 33295]))                          )
+                        (reparse-symbol indented_block_body) [33267 34614])
                     ("get_info_parameters" function
                        (:parent "dummy"
                         :arguments 
-                          ( ("self" variable nil (reparse-symbol function_parameters) [34065 34069]))                          
+                          ( ("self" variable nil (reparse-symbol function_parameters) [34643 34647]))                          
                         :documentation "get available information of parameters")
-                        (reparse-symbol indented_block_body) [34041 35557])
+                        (reparse-symbol indented_block_body) [34619 36135])
                     ("clean_up" function
                        (:parent "dummy"
                         :arguments 
-                          ( ("self" variable nil (reparse-symbol function_parameters) [35575 35579]))                          
+                          ( ("self" variable nil (reparse-symbol function_parameters) [36153 36157]))                          
                         :documentation "
         delete all hosting accounts
         closes support panel if open
         performs logout
         ")
-                        (reparse-symbol indented_block_body) [35562 35885]))                  
+                        (reparse-symbol indented_block_body) [36140 36463]))                  
                 :type "class")
-                nil [571 35885]))          
+                nil [594 36463]))          
       :file "st03hostingshare.py"
-      :pointmax 35885
-      :fsize 35886
-      :lastmodtime '(23078 57826 321039 936000)
-      :unmatched-syntax nil)
+      :pointmax 36463
+      :fsize 36464
+      :lastmodtime '(23092 11921 536531 15000)
+      :unmatched-syntax '((INDENT_BLOCK 35909 . 36135) (NEWLINE 35908 . 35909) (COLON 35907 . 35908) (TRY 34797 . 34800) (AS 35899 . 35901) (INDENT_BLOCK 34388 . 34614) (NEWLINE 34387 . 34388) (COLON 34386 . 34387) (TRY 33391 . 33394) (AS 34378 . 34380) (INDENT_BLOCK 33051 . 33262) (NEWLINE 33050 . 33051) (COLON 33049 . 33050) (TRY 32350 . 32353) (AS 33041 . 33043) (INDENT_BLOCK 32093 . 32301) (NEWLINE 32092 . 32093) (COLON 32091 . 32092) (TRY 31406 . 31409) (AS 32083 . 32085) (INDENT_BLOCK 29957 . 30158) (NEWLINE 29956 . 29957) (COLON 29955 . 29956) (TRY 27908 . 27911) (AS 29947 . 29949) (INDENT_BLOCK 26777 . 26987) (NEWLINE 26776 . 26777) (COLON 26775 . 26776) (TRY 24954 . 24957) (AS 26767 . 26769) (INDENT_BLOCK 24287 . 24725) (NEWLINE 24286 . 24287) (COLON 24285 . 24286) (TRY 23359 . 23362) (AS 24277 . 24279) (INDENT_BLOCK 16615 . 16834) (NEWLINE 16614 . 16615) (COLON 16613 . 16614) (TRY 13835 . 13838) (AS 16605 . 16607) (INDENT_BLOCK 12324 . 12581) (NEWLINE 12323 . 12324) (COLON 12322 . 12323) (TRY 12172 . 12175) (AS 12314 . 12316) (INDENT_BLOCK 10412 . 10690) (NEWLINE 10411 . 10412) (COLON 10410 . 10411) (TRY 10260 . 10263) (AS 10402 . 10404) (INDENT_BLOCK 9394 . 9732) (NEWLINE 9393 . 9394) (COLON 9392 . 9393) (TRY 7086 . 7089) (AS 9384 . 9386) (INDENT_BLOCK 6021 . 6477) (NEWLINE 6020 . 6021) (COLON 6019 . 6020) (TRY 3185 . 3188) (AS 6011 . 6013) (INDENT_BLOCK 2598 . 2677) (NEWLINE 2597 . 2598) (COLON 2596 . 2597) (TRY 1944 . 1947) (AS 2588 . 2590)))
     (semanticdb-table "semanticdb-table"
       :major-mode python-mode
       :tags 
-        '( ("\"\"\"module to test vps servers\"\"\"" code nil nil [35 67])
-            ("time" include nil nil [68 79])
-            ("datetime" include nil nil [80 95])
-            ("loadlogs" include nil nil [96 111])
-            ("loadselenium" include nil nil [112 131])
-            ("st01register" include nil nil [132 151])
-            ("st02share" include nil nil [152 168])
-            ("st03hostingshare" include nil nil [169 192])
-            ("st04vpsshare" include nil nil [193 212])
-            ("backend_scripts" include nil nil [213 235])
-            ("customexception" include nil nil [236 276])
+        '( ("\"\"\"module to test vps servers\"\"\"" code nil nil [20 52])
+            ("time" include nil nil [53 64])
+            ("datetime" include nil nil [65 80])
+            ("loadlogs" include nil nil [81 96])
+            ("loadselenium" include nil nil [97 116])
+            ("st01register" include nil nil [117 136])
+            ("st02share" include nil nil [137 153])
+            ("st03hostingshare" include nil nil [154 177])
+            ("st04vpsshare" include nil nil [178 197])
+            ("backend_scripts" include nil nil [198 220])
+            ("customexception" include nil nil [221 261])
             ("CheckVpsServers" type
                (:documentation "this class handles the VPS servers"
                 :members 
                   ( ("__init__" function
                        (:suite 
-                          ( ("self" variable nil (reparse-symbol indented_block_body) [392 440])
-                            ("self" variable nil (reparse-symbol indented_block_body) [449 468])
-                            ("self" variable nil (reparse-symbol indented_block_body) [477 494])
-                            ("self" variable nil (reparse-symbol indented_block_body) [503 546])
-                            ("self" variable nil (reparse-symbol indented_block_body) [555 615])
-                            ("self" variable nil (reparse-symbol indented_block_body) [624 672])
-                            ("self" variable nil (reparse-symbol indented_block_body) [681 732]))                          
+                          ( ("self" variable nil (reparse-symbol indented_block_body) [377 425])
+                            ("self" variable nil (reparse-symbol indented_block_body) [434 453])
+                            ("self" variable nil (reparse-symbol indented_block_body) [462 479])
+                            ("self" variable nil (reparse-symbol indented_block_body) [488 531])
+                            ("self" variable nil (reparse-symbol indented_block_body) [540 600])
+                            ("self" variable nil (reparse-symbol indented_block_body) [609 657])
+                            ("self" variable nil (reparse-symbol indented_block_body) [666 717]))                          
                         :parent "dummy"
                         :arguments 
-                          ( ("self" variable nil (reparse-symbol function_parameters) [367 371])
-                            ("selenium" variable nil (reparse-symbol function_parameters) [373 381]))                          
+                          ( ("self" variable nil (reparse-symbol function_parameters) [352 356])
+                            ("selenium" variable nil (reparse-symbol function_parameters) [358 366]))                          
                         :constructor-flag t)
-                        (reparse-symbol indented_block_body) [354 733])
+                        (reparse-symbol indented_block_body) [339 718])
                     ("pre_cleanup_vps" function
                        (:parent "dummy"
                         :arguments 
-                          ( ("self" variable nil (reparse-symbol function_parameters) [758 762])
-                            ("account" variable nil (reparse-symbol function_parameters) [764 771]))                          
+                          ( ("self" variable nil (reparse-symbol function_parameters) [743 747])
+                            ("account" variable nil (reparse-symbol function_parameters) [749 756]))                          
                         :documentation "log in and cleans all vps")
-                        (reparse-symbol indented_block_body) [738 1481])
+                        (reparse-symbol indented_block_body) [723 1466])
                     ("vps_servers" function
                        (:parent "dummy"
                         :arguments 
-                          ( ("self" variable nil (reparse-symbol function_parameters) [1502 1506])
-                            ("account" variable nil (reparse-symbol function_parameters) [1508 1515]))                          
+                          ( ("self" variable nil (reparse-symbol function_parameters) [1487 1491])
+                            ("account" variable nil (reparse-symbol function_parameters) [1493 1500]))                          
                         :documentation "add, delete, pay, distro vps servers")
-                        (reparse-symbol indented_block_body) [1486 3367])
+                        (reparse-symbol indented_block_body) [1471 3352])
                     ("upgrade_vps_servers" function
                        (:parent "dummy"
                         :arguments 
-                          ( ("self" variable nil (reparse-symbol function_parameters) [3396 3400])
-                            ("account" variable nil (reparse-symbol function_parameters) [3402 3409]))                          
+                          ( ("self" variable nil (reparse-symbol function_parameters) [3381 3385])
+                            ("account" variable nil (reparse-symbol function_parameters) [3387 3394]))                          
                         :documentation "add, delete, pay, distro vps servers")
-                        (reparse-symbol indented_block_body) [3372 6078])
+                        (reparse-symbol indented_block_body) [3357 6063])
                     ("reinstall_vps_servers" function
                        (:parent "dummy"
                         :arguments 
-                          ( ("self" variable nil (reparse-symbol function_parameters) [6109 6113])
-                            ("account" variable nil (reparse-symbol function_parameters) [6115 6122]))                          
+                          ( ("self" variable nil (reparse-symbol function_parameters) [6094 6098])
+                            ("account" variable nil (reparse-symbol function_parameters) [6100 6107]))                          
                         :documentation "reinstall vps servers")
-                        (reparse-symbol indented_block_body) [6083 8181])
+                        (reparse-symbol indented_block_body) [6068 8166])
                     ("expire_vps_servers" function
                        (:parent "dummy"
                         :arguments 
-                          ( ("self" variable nil (reparse-symbol function_parameters) [8209 8213])
-                            ("account" variable nil (reparse-symbol function_parameters) [8215 8222]))                          
+                          ( ("self" variable nil (reparse-symbol function_parameters) [8194 8198])
+                            ("account" variable nil (reparse-symbol function_parameters) [8200 8207]))                          
                         :documentation "change expiration date of vps server")
-                        (reparse-symbol indented_block_body) [8186 10825]))                  
+                        (reparse-symbol indented_block_body) [8171 10810]))                  
                 :type "class")
-                nil [279 10825])
-            ("if" code nil nil [10827 11542]))          
+                nil [264 10810])
+            ("if" code nil nil [10812 11781]))          
       :file "st04vpsservers.py"
-      :pointmax 11798
+      :pointmax 11781
       :fsize 11780
       :lastmodtime '(23077 44526 370229 520000)
-      :unmatched-syntax nil)
+      :unmatched-syntax '((INDENT_BLOCK 10151 . 10339) (NEWLINE 10150 . 10151) (COLON 10149 . 10150) (TRY 8460 . 8463) (AS 10141 . 10143) (INDENT_BLOCK 7492 . 7686) (NEWLINE 7491 . 7492) (COLON 7490 . 7491) (TRY 6354 . 6357) (AS 7482 . 7484) (INDENT_BLOCK 5412 . 5613) (NEWLINE 5411 . 5412) (COLON 5410 . 5411) (TRY 3651 . 3654) (AS 5402 . 5404) (INDENT_BLOCK 2717 . 2902) (NEWLINE 2716 . 2717) (COLON 2715 . 2716) (TRY 1733 . 1736) (AS 2707 . 2709) (INDENT_BLOCK 1253 . 1466) (NEWLINE 1252 . 1253) (COLON 1251 . 1252) (TRY 887 . 890) (AS 1243 . 1245)))
     (semanticdb-table "semanticdb-table"
       :major-mode python-mode
       :tags 
@@ -2021,109 +2046,109 @@ run the script to fetch selenium accounts
                        (:parent "dummy"
                         :arguments 
                           ( ("self" variable nil (reparse-symbol function_parameters) [5578 5582]))                          )
-                        (reparse-symbol indented_block_body) [5551 7475])
+                        (reparse-symbol indented_block_body) [5551 7468])
                     ("_fill_vps_passwords" function
                        (:parent "dummy"
                         :arguments 
-                          ( ("self" variable nil (reparse-symbol function_parameters) [7504 7508]))                          )
-                        (reparse-symbol indented_block_body) [7480 7823])
+                          ( ("self" variable nil (reparse-symbol function_parameters) [7497 7501]))                          )
+                        (reparse-symbol indented_block_body) [7473 7816])
                     ("add_vps_unpaid" function
                        (:parent "dummy"
                         :arguments 
-                          ( ("self" variable nil (reparse-symbol function_parameters) [7847 7851]))                          
+                          ( ("self" variable nil (reparse-symbol function_parameters) [7840 7844]))                          
                         :documentation "add unpaid vps")
-                        (reparse-symbol indented_block_body) [7828 9613])
+                        (reparse-symbol indented_block_body) [7821 9606])
                     ("compare_vps_dates" function
                        (:parent "dummy"
                         :arguments 
-                          ( ("self" variable nil (reparse-symbol function_parameters) [9653 9657])
-                            ("before_date" variable nil (reparse-symbol function_parameters) [9659 9670])
-                            ("after_date" variable nil (reparse-symbol function_parameters) [9672 9682])
-                            ("period_in_months" variable nil (reparse-symbol function_parameters) [9684 9700]))                          
+                          ( ("self" variable nil (reparse-symbol function_parameters) [9646 9650])
+                            ("before_date" variable nil (reparse-symbol function_parameters) [9652 9663])
+                            ("after_date" variable nil (reparse-symbol function_parameters) [9665 9675])
+                            ("period_in_months" variable nil (reparse-symbol function_parameters) [9677 9693]))                          
                         :documentation "compare two dates to check vps period")
-                        (reparse-symbol indented_block_body) [9618 10678])
+                        (reparse-symbol indented_block_body) [9611 10671])
                     ("get_current_date" function
                        (:parent "dummy"
                         :arguments 
-                          ( ("self" variable nil (reparse-symbol function_parameters) [10704 10708]))                          
+                          ( ("self" variable nil (reparse-symbol function_parameters) [10697 10701]))                          
                         :documentation "gets the current vps expiration date")
-                        (reparse-symbol indented_block_body) [10683 12146])
+                        (reparse-symbol indented_block_body) [10676 12139])
                     ("get_current_vps_plan" function
                        (:parent "dummy"
                         :arguments 
-                          ( ("self" variable nil (reparse-symbol function_parameters) [12176 12180]))                          
+                          ( ("self" variable nil (reparse-symbol function_parameters) [12169 12173]))                          
                         :documentation "gets the current vps plan")
-                        (reparse-symbol indented_block_body) [12151 13430])
+                        (reparse-symbol indented_block_body) [12144 13423])
                     ("pay_unpaid_vps" function
                        (:parent "dummy"
                         :arguments 
-                          ( ("self" variable nil (reparse-symbol function_parameters) [13454 13458]))                          
+                          ( ("self" variable nil (reparse-symbol function_parameters) [13447 13451]))                          
                         :documentation "pay for an unpayd vps")
-                        (reparse-symbol indented_block_body) [13435 15875])
+                        (reparse-symbol indented_block_body) [13428 16167])
                     ("add_vps_paid" function
                        (:parent "dummy"
                         :arguments 
-                          ( ("self" variable nil (reparse-symbol function_parameters) [15897 15901]))                          
+                          ( ("self" variable nil (reparse-symbol function_parameters) [16189 16193]))                          
                         :documentation "add paid vps")
-                        (reparse-symbol indented_block_body) [15880 19391])
+                        (reparse-symbol indented_block_body) [16172 19708])
                     ("_change_vps_plan" function
                        (:parent "dummy"
                         :arguments 
-                          ( ("self" variable nil (reparse-symbol function_parameters) [19417 19421])
-                            ("vps_plan" variable nil (reparse-symbol function_parameters) [19423 19431]))                          )
-                        (reparse-symbol indented_block_body) [19396 21206])
+                          ( ("self" variable nil (reparse-symbol function_parameters) [19734 19738])
+                            ("vps_plan" variable nil (reparse-symbol function_parameters) [19740 19748]))                          )
+                        (reparse-symbol indented_block_body) [19713 21517])
                     ("_change_vps_period" function
                        (:parent "dummy"
                         :arguments 
-                          ( ("self" variable nil (reparse-symbol function_parameters) [21234 21238])
-                            ("period" variable nil (reparse-symbol function_parameters) [21240 21246]))                          )
-                        (reparse-symbol indented_block_body) [21211 22129])
+                          ( ("self" variable nil (reparse-symbol function_parameters) [21545 21549])
+                            ("period" variable nil (reparse-symbol function_parameters) [21551 21557]))                          )
+                        (reparse-symbol indented_block_body) [21522 22440])
                     ("renew_vps" function
                        (:parent "dummy"
                         :arguments 
-                          ( ("self" variable nil (reparse-symbol function_parameters) [22148 22152])
-                            ("vps_plan" variable nil (reparse-symbol function_parameters) [22154 22162])
-                            ("period" variable nil (reparse-symbol function_parameters) [22164 22170]))                          
+                          ( ("self" variable nil (reparse-symbol function_parameters) [22459 22463])
+                            ("vps_plan" variable nil (reparse-symbol function_parameters) [22465 22473])
+                            ("period" variable nil (reparse-symbol function_parameters) [22475 22481]))                          
                         :documentation "renew the vps with the plan and period provided")
-                        (reparse-symbol indented_block_body) [22134 24512])
+                        (reparse-symbol indented_block_body) [22445 24823])
                     ("get_vps_distro" function
                        (:parent "dummy"
                         :arguments 
-                          ( ("self" variable nil (reparse-symbol function_parameters) [24536 24540]))                          
+                          ( ("self" variable nil (reparse-symbol function_parameters) [24847 24851]))                          
                         :documentation "check vps distribution of installed vps")
-                        (reparse-symbol indented_block_body) [24517 25953])
+                        (reparse-symbol indented_block_body) [24828 26264])
                     ("reinstall_vps" function
                        (:parent "dummy"
                         :arguments 
-                          ( ("self" variable nil (reparse-symbol function_parameters) [25976 25980]))                          
+                          ( ("self" variable nil (reparse-symbol function_parameters) [26287 26291]))                          
                         :documentation "reinstall vps")
-                        (reparse-symbol indented_block_body) [25958 29337])
+                        (reparse-symbol indented_block_body) [26269 29648])
                     ("downgrade_vps_date" function
                        (:parent "dummy"
                         :arguments 
-                          ( ("self" variable nil (reparse-symbol function_parameters) [29365 29369])
-                            ("id_vps" variable nil (reparse-symbol function_parameters) [29371 29377]))                          
+                          ( ("self" variable nil (reparse-symbol function_parameters) [29676 29680])
+                            ("id_vps" variable nil (reparse-symbol function_parameters) [29682 29688]))                          
                         :documentation "change vps date to trigger expiration")
-                        (reparse-symbol indented_block_body) [29342 31503])
+                        (reparse-symbol indented_block_body) [29653 31852])
                     ("get_vps_id" function
                        (:parent "dummy"
                         :arguments 
-                          ( ("self" variable nil (reparse-symbol function_parameters) [31523 31527]))                          
+                          ( ("self" variable nil (reparse-symbol function_parameters) [31872 31876]))                          
                         :documentation "gets the current vps id")
-                        (reparse-symbol indented_block_body) [31508 33194])
+                        (reparse-symbol indented_block_body) [31857 33598])
                     ("is_vps_expired" function
                        (:parent "dummy"
                         :arguments 
-                          ( ("self" variable nil (reparse-symbol function_parameters) [33218 33222]))                          
+                          ( ("self" variable nil (reparse-symbol function_parameters) [33622 33626]))                          
                         :documentation "returns true if the vps is expired")
-                        (reparse-symbol indented_block_body) [33199 34038]))                  
+                        (reparse-symbol indented_block_body) [33603 34442]))                  
                 :type "class")
-                nil [432 34038]))          
+                nil [432 34442]))          
       :file "st04vpsshare.py"
-      :pointmax 34038
+      :pointmax 34442
       :fsize 34441
       :lastmodtime '(23078 50530 421136 265000)
-      :unmatched-syntax '((INDENT_BLOCK 33717 . 34038) (NEWLINE 33716 . 33717) (COLON 33715 . 33716) (TRY 33357 . 33360) (AS 33707 . 33709) (INDENT_BLOCK 32807 . 33194) (NEWLINE 32806 . 32807) (COLON 32805 . 32806) (TRY 31649 . 31652) (AS 32797 . 32799) (INDENT_BLOCK 31272 . 31503) (NEWLINE 31271 . 31272) (COLON 31270 . 31271) (TRY 29523 . 29526) (AS 31262 . 31264) (INDENT_BLOCK 29102 . 29337) (NEWLINE 29101 . 29102) (COLON 29100 . 29101) (TRY 26079 . 26082) (AS 29092 . 29094) (INDENT_BLOCK 25735 . 25953) (NEWLINE 25734 . 25735) (COLON 25733 . 25734) (TRY 24667 . 24670) (AS 25725 . 25727) (INDENT_BLOCK 24285 . 24512) (NEWLINE 24284 . 24285) (COLON 24283 . 24284) (TRY 22308 . 22311) (AS 24275 . 24277) (INDENT_BLOCK 21879 . 22129) (NEWLINE 21878 . 21879) (COLON 21877 . 21878) (TRY 21340 . 21343) (AS 21869 . 21871) (INDENT_BLOCK 20783 . 21206) (NEWLINE 20782 . 20783) (COLON 20781 . 20782) (TRY 19594 . 19597) (AS 20773 . 20775) (INDENT_BLOCK 19130 . 19391) (NEWLINE 19129 . 19130) (COLON 19128 . 19129) (TRY 15939 . 15942) (AS 19120 . 19122) (INDENT_BLOCK 15601 . 15875) (NEWLINE 15600 . 15601) (COLON 15599 . 15600) (TRY 13505 . 13508) (AS 15591 . 15593) (INDENT_BLOCK 13007 . 13430) (NEWLINE 13006 . 13007) (COLON 13005 . 13006) (TRY 12304 . 12307) (AS 12997 . 12999) (INDENT_BLOCK 11738 . 12146) (NEWLINE 11737 . 11738) (COLON 11736 . 11737) (TRY 10843 . 10846) (AS 11728 . 11730) (INDENT_BLOCK 9339 . 9613) (NEWLINE 9338 . 9339) (COLON 9337 . 9338) (TRY 7891 . 7894) (AS 9329 . 9331) (INDENT_BLOCK 7169 . 7475) (NEWLINE 7168 . 7169) (COLON 7167 . 7168) (TRY 5684 . 5687) (AS 7159 . 7161) (INDENT_BLOCK 4194 . 4398) (NEWLINE 4193 . 4194) (COLON 4192 . 4193) (TRY 4037 . 4040) (AS 4184 . 4186) (INDENT_BLOCK 3685 . 3886) (NEWLINE 3684 . 3685) (COLON 3683 . 3684) (TRY 1370 . 1373) (AS 3675 . 3677)))
+      :unmatched-syntax '((INDENT_BLOCK 34121 . 34442) (NEWLINE 34120 . 34121) (COLON 34119 . 34120) (TRY 33761 . 33764) (AS 34111 . 34113) (INDENT_BLOCK 33182 . 33598) (NEWLINE 33181 . 33182) (COLON 33180 . 33181) (TRY 31998 . 32001) (AS 33172 . 33174) (INDENT_BLOCK 31600 . 31852) (NEWLINE 31599 . 31600) (COLON 31598 . 31599) (TRY 29834 . 29837) (AS 31590 . 31592) (INDENT_BLOCK 29413 . 29648) (NEWLINE 29412 . 29413) (COLON 29411 . 29412) (TRY 26390 . 26393) (AS 29403 . 29405) (INDENT_BLOCK 26046 . 26264) (NEWLINE 26045 . 26046) (COLON 26044 . 26045) (TRY 24978 . 24981) (AS 26036 . 26038) (INDENT_BLOCK 24596 . 24823) (NEWLINE 24595 . 24596) (COLON 24594 . 24595) (TRY 22619 . 22622) (AS 24586 . 24588) (INDENT_BLOCK 22190 . 22440) (NEWLINE 22189 . 22190) (COLON 22188 . 22189) (TRY 21651 . 21654) (AS 22180 . 22182) (INDENT_BLOCK 21100 . 21517) (NEWLINE 21099 . 21100) (COLON 21098 . 21099) (TRY 19911 . 19914) (AS 21090 . 21092) (INDENT_BLOCK 19447 . 19708) (NEWLINE 19446 . 19447) (COLON 19445 . 19446) (TRY 16231 . 16234) (AS 19437 . 19439) (INDENT_BLOCK 15893 . 16167) (NEWLINE 15892 . 15893) (COLON 15891 . 15892) (TRY 13498 . 13501) (AS 15883 . 15885) (INDENT_BLOCK 13000 . 13423) (NEWLINE 12999 . 13000) (COLON 12998 . 12999) (TRY 12297 . 12300) (AS 12990 . 12992) (INDENT_BLOCK 11731 . 12139) (NEWLINE 11730 . 11731) (COLON 11729 . 11730) (TRY 10836 . 10839) (AS 11721 . 11723) (INDENT_BLOCK 9332 . 9606) (NEWLINE 9331 . 9332) (COLON 9330 . 9331) (TRY 7884 . 7887) (AS 9322 . 9324) (INDENT_BLOCK 7190 . 7468) (NEWLINE 7189 . 7190) (COLON 7188 . 7189) (TRY 5684 . 5687) (AS 7180 . 7182) (INDENT_BLOCK 4194 . 4398) (NEWLINE 4193 . 4194) (COLON 4192 . 4193) (TRY 4037 . 4040) (AS 4184 . 4186) (INDENT_BLOCK 3685 . 3886) (NEWLINE 3684 . 3685) (COLON 3683 . 3684) (TRY 1370 . 1373) (AS 3675 . 3677)))
     (semanticdb-table "semanticdb-table"
       :major-mode python-mode
       :tags 
@@ -2196,111 +2221,160 @@ run the script to fetch selenium accounts
       :tags 
         '( ("\"\"\"module to test vps servers\"\"\"" code nil nil [35 67])
             ("loadlogs" include nil nil [68 83])
-            ("paramiko" include nil nil [84 114])
+            ("icingamysql" include nil nil [84 102])
+            ("paramiko" include nil nil [103 133])
             ("RunScripts" type
                (:documentation "this class handles the VPS servers"
                 :members 
                   ( ("__init__" function
                        (:suite 
-                          ( ("self" variable nil (reparse-symbol indented_block_body) [225 273])
-                            ("self" variable nil (reparse-symbol indented_block_body) [282 301])
-                            ("self" variable nil (reparse-symbol indented_block_body) [310 369])
-                            ("self" variable nil (reparse-symbol indented_block_body) [378 433]))                          
+                          ( ("self" variable nil (reparse-symbol indented_block_body) [244 292])
+                            ("self" variable nil (reparse-symbol indented_block_body) [301 320])
+                            ("self" variable nil (reparse-symbol indented_block_body) [329 388])
+                            ("self" variable nil (reparse-symbol indented_block_body) [397 452])
+                            ("self" variable nil (reparse-symbol indented_block_body) [461 520])
+                            ("self" variable nil (reparse-symbol indented_block_body) [529 613]))                          
                         :parent "dummy"
                         :arguments 
-                          ( ("self" variable nil (reparse-symbol function_parameters) [200 204])
-                            ("selenium" variable nil (reparse-symbol function_parameters) [206 214]))                          
+                          ( ("self" variable nil (reparse-symbol function_parameters) [219 223])
+                            ("selenium" variable nil (reparse-symbol function_parameters) [225 233]))                          
                         :constructor-flag t)
-                        (reparse-symbol indented_block_body) [187 434])
+                        (reparse-symbol indented_block_body) [206 614])
                     ("_run_command" function
                        (:parent "dummy"
                         :arguments 
-                          ( ("self" variable nil (reparse-symbol function_parameters) [456 460])
-                            ("command" variable nil (reparse-symbol function_parameters) [462 469]))                          )
-                        (reparse-symbol indented_block_body) [439 1087])
+                          ( ("self" variable nil (reparse-symbol function_parameters) [636 640])
+                            ("command" variable nil (reparse-symbol function_parameters) [642 649]))                          )
+                        (reparse-symbol indented_block_body) [619 1315])
                     ("expire_vps" function
                        (:parent "dummy"
                         :arguments 
-                          ( ("self" variable nil (reparse-symbol function_parameters) [1107 1111]))                          
+                          ( ("self" variable nil (reparse-symbol function_parameters) [1335 1339]))                          
                         :documentation "runs the expiration vps script")
-                        (reparse-symbol indented_block_body) [1092 1432])
+                        (reparse-symbol indented_block_body) [1320 1660])
                     ("delete_domain" function
                        (:parent "dummy"
                         :arguments 
-                          ( ("self" variable nil (reparse-symbol function_parameters) [1455 1459])
-                            ("domain_name" variable nil (reparse-symbol function_parameters) [1461 1472]))                          
+                          ( ("self" variable nil (reparse-symbol function_parameters) [1683 1687])
+                            ("domain_name" variable nil (reparse-symbol function_parameters) [1689 1700]))                          
                         :documentation "deletes a paid domain")
-                        (reparse-symbol indented_block_body) [1437 1887])
+                        (reparse-symbol indented_block_body) [1665 2160])
                     ("delete_profile" function
                        (:parent "dummy"
                         :arguments 
-                          ( ("self" variable nil (reparse-symbol function_parameters) [1911 1915])
-                            ("profile_name" variable nil (reparse-symbol function_parameters) [1917 1929]))                          
+                          ( ("self" variable nil (reparse-symbol function_parameters) [2184 2188])
+                            ("profile_name" variable nil (reparse-symbol function_parameters) [2190 2202]))                          
                         :documentation "deletes a profile")
-                        (reparse-symbol indented_block_body) [1892 2338]))                  
+                        (reparse-symbol indented_block_body) [2165 2656])
+                    ("delete_hosting_accounts" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [2689 2693])
+                            ("account" variable nil (reparse-symbol function_parameters) [2695 2702]))                          
+                        :documentation "delete all hosting accounts from an account")
+                        (reparse-symbol indented_block_body) [2661 3701]))                  
                 :type "class")
-                nil [117 2338]))          
+                nil [136 3701]))          
       :file "backend_scripts.py"
-      :pointmax 2338
-      :fsize 2337
-      :lastmodtime '(23077 44526 343562 558000)
+      :pointmax 3701
+      :fsize 3700
+      :lastmodtime '(23092 13464 694856 85000)
       :unmatched-syntax nil)
     (semanticdb-table "semanticdb-table"
       :major-mode python-mode
       :tags 
-        '( ("\"\"\"module to test domains on the panel\"\"\"" code nil nil [35 76])
-            ("time" include nil nil [77 88])
-            ("loadlogs" include nil nil [89 104])
-            ("loadselenium" include nil nil [105 124])
-            ("st01register" include nil nil [125 144])
-            ("st02share" include nil nil [145 161])
-            ("st03hostingshare" include nil nil [162 185])
-            ("st05domainsshare" include nil nil [186 209])
-            ("customexception" include nil nil [210 250])
+        '( ("\"\"\"module to test domains on the panel.\"\"\"" code nil nil [35 77])
+            ("time" include nil nil [78 89])
+            ("data" include nil nil [90 101])
+            ("loadselenium" include nil nil [102 121])
+            ("loadlogs" include nil nil [122 137])
+            ("st02share" include nil nil [138 154])
+            ("st01register" include nil nil [155 174])
+            ("st03hostingshare" include nil nil [175 198])
+            ("st05domainsshare" include nil nil [199 222])
+            ("ftp_helper" include nil nil [223 240])
+            ("customexception" include nil nil [241 281])
             ("CheckDomains" type
-               (:documentation "this class handles the domains"
+               (:documentation "class handles the domains"
                 :members 
                   ( ("__init__" function
                        (:suite 
-                          ( ("self" variable nil (reparse-symbol indented_block_body) [359 407])
-                            ("self" variable nil (reparse-symbol indented_block_body) [416 435])
-                            ("self" variable nil (reparse-symbol indented_block_body) [444 461])
-                            ("self" variable nil (reparse-symbol indented_block_body) [470 513])
-                            ("self" variable nil (reparse-symbol indented_block_body) [522 595])
-                            ("self" variable nil (reparse-symbol indented_block_body) [604 677]))                          
+                          ( ("self" variable nil (reparse-symbol indented_block_body) [385 433])
+                            ("self" variable nil (reparse-symbol indented_block_body) [442 459])
+                            ("self" variable nil (reparse-symbol indented_block_body) [468 487])
+                            ("self" variable nil (reparse-symbol indented_block_body) [496 539])
+                            ("self" variable nil (reparse-symbol indented_block_body) [548 621])
+                            ("self" variable nil (reparse-symbol indented_block_body) [630 703])
+                            ("self" variable nil (reparse-symbol indented_block_body) [712 745]))                          
                         :parent "dummy"
                         :arguments 
-                          ( ("self" variable nil (reparse-symbol function_parameters) [334 338])
-                            ("selenium" variable nil (reparse-symbol function_parameters) [340 348]))                          
+                          ( ("self" variable nil (reparse-symbol function_parameters) [360 364])
+                            ("selenium" variable nil (reparse-symbol function_parameters) [366 374]))                          
                         :constructor-flag t)
-                        (reparse-symbol indented_block_body) [321 678])
+                        (reparse-symbol indented_block_body) [347 746])
+                    ("_set_up" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [763 767])
+                            ("account" variable nil (reparse-symbol function_parameters) [769 776]))                          )
+                        (reparse-symbol indented_block_body) [751 982])
                     ("pre_cleanup_domains" function
                        (:parent "dummy"
                         :arguments 
-                          ( ("self" variable nil (reparse-symbol function_parameters) [707 711])
-                            ("account" variable nil (reparse-symbol function_parameters) [713 720]))                          
+                          ( ("self" variable nil (reparse-symbol function_parameters) [1011 1015])
+                            ("account" variable nil (reparse-symbol function_parameters) [1017 1024]))                          
                         :documentation "log in and cleans all domains")
-                        (reparse-symbol indented_block_body) [683 1709])
-                    ("create_free_domain" function
+                        (reparse-symbol indented_block_body) [987 1893])
+                    ("create_domain" function
                        (:parent "dummy"
                         :arguments 
-                          ( ("self" variable nil (reparse-symbol function_parameters) [1737 1741])
-                            ("account" variable nil (reparse-symbol function_parameters) [1743 1750]))                          
+                          ( ("self" variable nil (reparse-symbol function_parameters) [1916 1920])
+                            ("domain_type" variable nil (reparse-symbol function_parameters) [1922 1933])
+                            ("account" variable nil (reparse-symbol function_parameters) [1935 1942]))                          
                         :documentation "add and delete a free domain")
-                        (reparse-symbol indented_block_body) [1714 3210]))                  
+                        (reparse-symbol indented_block_body) [1898 3455])
+                    ("domains_limits" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [3479 3483])
+                            ("account" variable nil (reparse-symbol function_parameters) [3485 3492]))                          
+                        :documentation "verify domain limits")
+                        (reparse-symbol indented_block_body) [3460 5732])
+                    ("subdomain_tests" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [5757 5761])
+                            ("account" variable nil (reparse-symbol function_parameters) [5763 5770]))                          
+                        :documentation "verify domain limits")
+                        (reparse-symbol indented_block_body) [5737 9034])
+                    ("delete_domain_subdomain" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [9067 9071])
+                            ("account" variable nil (reparse-symbol function_parameters) [9073 9080]))                          
+                        :documentation "delete domain and subdomain")
+                        (reparse-symbol indented_block_body) [9039 11055])
+                    ("domain_alias" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [11077 11081])
+                            ("account" variable nil (reparse-symbol function_parameters) [11083 11090]))                          
+                        :documentation "create a domain alias and verify")
+                        (reparse-symbol indented_block_body) [11060 13559]))                  
                 :type "class")
-                nil [253 3210])
-            ("if" code nil nil [3212 3940]))          
+                nil [284 13559])
+            ("if" code nil nil [13561 14642]))          
       :file "st05domains.py"
-      :pointmax 3940
-      :fsize 3972
-      :lastmodtime '(23078 58922 988700 94000)
-      :unmatched-syntax '((INDENT_BLOCK 2495 . 2723) (NEWLINE 2494 . 2495) (COLON 2493 . 2494) (TRY 2004 . 2007) (AS 2485 . 2487) (INDENT_BLOCK 1455 . 1709) (NEWLINE 1454 . 1455) (COLON 1453 . 1454) (TRY 855 . 858) (AS 1445 . 1447)))
+      :pointmax 14642
+      :fsize 14641
+      :lastmodtime '(23092 15674 729253 247000)
+      :unmatched-syntax '((INDENT_BLOCK 12886 . 13098) (NEWLINE 12885 . 12886) (COLON 12884 . 12885) (TRY 11323 . 11326) (AS 12876 . 12878) (INDENT_BLOCK 10382 . 10594) (NEWLINE 10381 . 10382) (COLON 10380 . 10381) (TRY 9341 . 9344) (AS 10372 . 10374) (INDENT_BLOCK 8361 . 8573) (NEWLINE 8360 . 8361) (COLON 8359 . 8360) (TRY 5923 . 5926) (AS 8351 . 8353) (INDENT_BLOCK 5067 . 5277) (NEWLINE 5066 . 5067) (COLON 5065 . 5066) (TRY 3718 . 3721) (AS 5057 . 5059) (INDENT_BLOCK 2755 . 2978) (NEWLINE 2754 . 2755) (COLON 2753 . 2754) (TRY 2198 . 2201) (AS 2745 . 2747) (INDENT_BLOCK 1639 . 1893) (NEWLINE 1638 . 1639) (COLON 1637 . 1638) (TRY 1167 . 1170) (AS 1629 . 1631)))
     (semanticdb-table "semanticdb-table"
       :major-mode python-mode
       :tags 
         '( ("\"\"\" share module to test domains in panel\"\"\"" code nil nil [35 79])
             ("time" include nil nil [80 91])
+            ("data" include nil nil [92 103])
             ("loadlogs" include nil nil [104 119])
             ("st01share" include nil nil [120 136])
             ("st02share" include nil nil [137 153])
@@ -2313,12 +2387,12 @@ run the script to fetch selenium accounts
                 :members 
                   ( ("__init__" function
                        (:suite 
-                          ( ("self" variable nil (reparse-symbol indented_block_body) [531 579])
-                            ("self" variable nil (reparse-symbol indented_block_body) [588 607])
-                            ("self" variable nil (reparse-symbol indented_block_body) [616 633])
-                            ("self" variable nil (reparse-symbol indented_block_body) [642 685])
-                            ("self" variable nil (reparse-symbol indented_block_body) [694 743])
-                            ("self" variable nil (reparse-symbol indented_block_body) [752 803]))                          
+                          ( ("self" variable nil (reparse-symbol indented_block_body) [543 591])
+                            ("self" variable nil (reparse-symbol indented_block_body) [600 619])
+                            ("self" variable nil (reparse-symbol indented_block_body) [628 645])
+                            ("self" variable nil (reparse-symbol indented_block_body) [654 697])
+                            ("self" variable nil (reparse-symbol indented_block_body) [706 755])
+                            ("self" variable nil (reparse-symbol indented_block_body) [764 815]))                          
                         :parent "dummy"
                         :arguments 
                           ( ("self" variable nil (reparse-symbol function_parameters) [518 522])
@@ -2334,37 +2408,481 @@ run the script to fetch selenium accounts
         set up the account to be used in domains tests
         ")
                         (reparse-symbol indented_block_body) [821 1313])
-                    ("_delete_domain" function
+                    ("delete_domain" function
                        (:parent "dummy"
                         :arguments 
-                          ( ("self" variable nil (reparse-symbol function_parameters) [1337 1341]))                          )
-                        (reparse-symbol indented_block_body) [1318 4102])
+                          ( ("self" variable nil (reparse-symbol function_parameters) [2152 2156]))                          
+                        :documentation "deletes a domain")
+                        (reparse-symbol indented_block_body) [2134 5124])
                     ("get_domains_info" function
                        (:parent "dummy"
                         :arguments 
-                          ( ("self" variable nil (reparse-symbol function_parameters) [4128 4132]))                          
+                          ( ("self" variable nil (reparse-symbol function_parameters) [5150 5154]))                          
                         :documentation "get info of all domains in panel")
-                        (reparse-symbol indented_block_body) [4107 5106])
+                        (reparse-symbol indented_block_body) [5129 6128])
                     ("clean_domains_panel" function
                        (:parent "dummy"
                         :arguments 
-                          ( ("self" variable nil (reparse-symbol function_parameters) [5135 5139]))                          
+                          ( ("self" variable nil (reparse-symbol function_parameters) [6157 6161]))                          
                         :documentation "clean the panel for all domains")
-                        (reparse-symbol indented_block_body) [5111 5521])
+                        (reparse-symbol indented_block_body) [6133 6554])
+                    ("_get_domain_name" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [6580 6584])
+                            ("domain_type" variable nil (reparse-symbol function_parameters) [6586 6597])
+                            ("counter" variable nil (reparse-symbol function_parameters) [6599 6606]))                          )
+                        (reparse-symbol indented_block_body) [6559 6890])
+                    ("_get_domain_from_list" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [6921 6925])
+                            ("domain_name" variable nil (reparse-symbol function_parameters) [6927 6938]))                          )
+                        (reparse-symbol indented_block_body) [6895 7948])
                     ("add_domain" function
                        (:parent "dummy"
                         :arguments 
-                          ( ("self" variable nil (reparse-symbol function_parameters) [5541 5545])
-                            ("domain_type" variable nil (reparse-symbol function_parameters) [5547 5558]))                          
+                          ( ("self" variable nil (reparse-symbol function_parameters) [7968 7972])
+                            ("domain_type" variable nil (reparse-symbol function_parameters) [7974 7985])
+                            ("domain_name" variable nil (reparse-symbol function_parameters) [7987 7998]))                          
                         :documentation "adds a domain")
-                        (reparse-symbol indented_block_body) [5526 7838]))                  
+                        (reparse-symbol indented_block_body) [7953 9750])
+                    ("_dialog_domain_exists" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [9781 9785])
+                            ("domain_type" variable nil (reparse-symbol function_parameters) [9787 9798]))                          )
+                        (reparse-symbol indented_block_body) [9755 10408])
+                    ("verify_domain" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [10431 10435]))                          
+                        :documentation "verify that domain is active")
+                        (reparse-symbol indented_block_body) [10413 11461])
+                    ("check_free_limit" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [11487 11491])
+                            ("amount" variable nil (reparse-symbol function_parameters) [11493 11499])
+                            ("limit" variable nil (reparse-symbol function_parameters) [11501 11506])
+                            ("begin" variable nil (reparse-symbol function_parameters) [11508 11513]))                          
+                        :documentation "adds multiple domains and check limits")
+                        (reparse-symbol indented_block_body) [11466 12763])
+                    ("add_free_domains" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [12789 12793]))                          
+                        :documentation "add a lot of free domains")
+                        (reparse-symbol indented_block_body) [12768 13113])
+                    ("add_subdomain" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [13136 13140]))                          
+                        :documentation "add subdomain")
+                        (reparse-symbol indented_block_body) [13118 14413])
+                    ("verify_sub_domain" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [14440 14444]))                          
+                        :documentation "verify that sub_domain is active")
+                        (reparse-symbol indented_block_body) [14418 15494])
+                    ("get_php_version" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [15519 15523]))                          
+                        :documentation "get php version domain and subdomain")
+                        (reparse-symbol indented_block_body) [15499 17009])
+                    ("change_php_version_domain" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [17044 17048])
+                            ("version" variable nil (reparse-symbol function_parameters) [17050 17057]))                          
+                        :documentation "change php version")
+                        (reparse-symbol indented_block_body) [17014 18651])
+                    ("change_php_version_subdomain" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [18689 18693])
+                            ("version" variable nil (reparse-symbol function_parameters) [18695 18702]))                          
+                        :documentation "change php version")
+                        (reparse-symbol indented_block_body) [18656 20389])
+                    ("verify_php_versions" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [20418 20422])
+                            ("ver_dom_p" variable nil (reparse-symbol function_parameters) [20424 20433])
+                            ("ver_sub_p" variable nil (reparse-symbol function_parameters) [20435 20444]))                          
+                        :documentation "verify php version domain and subdomain")
+                        (reparse-symbol indented_block_body) [20394 21179])
+                    ("delete_sub_domain" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [21206 21210]))                          
+                        :documentation "delete subdomain")
+                        (reparse-symbol indented_block_body) [21184 23282])
+                    ("delete_domain_with_button" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [23317 23321]))                          
+                        :documentation "delete domain using the button")
+                        (reparse-symbol indented_block_body) [23287 25476])
+                    ("set_up_alias" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [25498 25502])
+                            ("org_name" variable nil (reparse-symbol function_parameters) [25504 25512])
+                            ("als_name" variable nil (reparse-symbol function_parameters) [25514 25522]))                          
+                        :documentation "create an alias of other domain")
+                        (reparse-symbol indented_block_body) [25481 27710]))                  
                 :type "class")
-                nil [436 7838]))          
+                nil [436 27710]))          
       :file "st05domainsshare.py"
-      :pointmax 7838
-      :fsize 8199
-      :lastmodtime '(23078 64871 83394 894000)
-      :unmatched-syntax nil))
+      :pointmax 27710
+      :fsize 27709
+      :lastmodtime '(23092 12732 564410 207000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode python-mode
+      :tags 
+        '( ("\"\"\"base module to test register hosting account\"\"\"" code nil nil [35 85])
+            ("basetest" include nil nil [86 115])
+            ("Lp40" type
+               (:documentation "
+    add a free domain
+    "
+                :superclasses ("TestBase")
+                :members 
+                  ( ("test_lp_40" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [199 203]))                          
+                        :documentation "add free domain")
+                        (reparse-symbol indented_block_body) [184 320]))                  
+                :type "class")
+                nil [118 320])
+            ("Lp41" type
+               (:documentation "
+    add a paid domain
+    "
+                :superclasses ("TestBase")
+                :members 
+                  ( ("test_lp_41" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [403 407]))                          
+                        :documentation "add paid domain")
+                        (reparse-symbol indented_block_body) [388 524]))                  
+                :type "class")
+                nil [322 524])
+            ("Lp42" type
+               (:documentation "
+    verify domain amount limits
+    "
+                :superclasses ("TestBase")
+                :members 
+                  ( ("test_lp_42" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [617 621]))                          
+                        :documentation "verify domain amount limits")
+                        (reparse-symbol indented_block_body) [602 745]))                  
+                :type "class")
+                nil [526 745])
+            ("Lp43" type
+               (:documentation "
+    add subdomain and change php version of both
+    "
+                :superclasses ("TestBase")
+                :members 
+                  ( ("test_lp_43" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [855 859]))                          
+                        :documentation "add subdomain and change php version of both")
+                        (reparse-symbol indented_block_body) [840 1001]))                  
+                :type "class")
+                nil [747 1001])
+            ("Lp44" type
+               (:documentation "
+    delete domain and subdomain
+    "
+                :superclasses ("TestBase")
+                :members 
+                  ( ("test_lp_44" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [1094 1098]))                          
+                        :documentation "delete domain and subdomain")
+                        (reparse-symbol indented_block_body) [1079 1231]))                  
+                :type "class")
+                nil [1003 1231])
+            ("Lp45" type
+               (:documentation "
+    create domain alias
+    "
+                :superclasses ("TestBase")
+                :members 
+                  ( ("test_lp_45" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [1316 1320]))                          
+                        :documentation "create domain alias")
+                        (reparse-symbol indented_block_body) [1301 1434]))                  
+                :type "class")
+                nil [1233 1434])
+            ("if" code nil nil [1436 1483]))          
+      :file "testcase_05_domains.py"
+      :pointmax 1483
+      :fsize 1482
+      :lastmodtime '(23088 18515 669956 340000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode python-mode
+      :tags 
+        '( ("\"\"\"
+run the script to fetch selenium accounts
+\"\"\"" code nil nil [20 69])
+            ("os" include nil nil [70 79])
+            ("ftplib" include nil nil [80 93])
+            ("socket" include nil nil [94 107])
+            ("urllib.request" include nil nil [108 129])
+            ("urllib.error" include nil nil [130 164])
+            ("credentials" include nil nil [165 183])
+            ("data" include nil nil [184 195])
+            ("loadlogs" include nil nil [196 211])
+            ("customexception" include nil nil [212 252])
+            ("FtpHelper" type
+               (:documentation "
+    stub class to connect to ftp on icinga
+    "
+                :members 
+                  ( ("__init__" function
+                       (:suite 
+                          ( ("self" variable nil (reparse-symbol indented_block_body) [364 412])
+                            ("cre" variable nil (reparse-symbol indented_block_body) [421 452])
+                            ("ssh" variable nil (reparse-symbol indented_block_body) [461 487])
+                            ("self" variable nil (reparse-symbol indented_block_body) [496 526])
+                            ("self" variable nil (reparse-symbol indented_block_body) [535 575])
+                            ("self" variable nil (reparse-symbol indented_block_body) [584 620])
+                            ("self" variable nil (reparse-symbol indented_block_body) [629 666])
+                            ("self" variable nil (reparse-symbol indented_block_body) [675 711]))                          
+                        :parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [349 353]))                          
+                        :constructor-flag t)
+                        (reparse-symbol indented_block_body) [336 712])
+                    ("upload_version_subdomain" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [746 750])
+                            ("account" variable nil (reparse-symbol function_parameters) [752 759]))                          
+                        :documentation "upload version to a sub-domain")
+                        (reparse-symbol indented_block_body) [717 961])
+                    ("upload_version_domain" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [992 996])
+                            ("account" variable nil (reparse-symbol function_parameters) [998 1005]))                          
+                        :documentation "upload version to a domain")
+                        (reparse-symbol indented_block_body) [966 1196])
+                    ("upload_alias_domain" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [1225 1229])
+                            ("account" variable nil (reparse-symbol function_parameters) [1231 1238]))                          
+                        :documentation "upload version to a domain")
+                        (reparse-symbol indented_block_body) [1201 2050])
+                    ("upload_free_domain" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [2078 2082])
+                            ("filename" variable nil (reparse-symbol function_parameters) [2084 2092])
+                            ("account" variable nil (reparse-symbol function_parameters) [2094 2101])
+                            ("is_domain" variable nil (reparse-symbol function_parameters) [2103 2112]))                          
+                        :documentation "upload file using ftp")
+                        (reparse-symbol indented_block_body) [2055 3096])
+                    ("upload_dummy_file_ftp" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [3127 3131])
+                            ("account" variable nil (reparse-symbol function_parameters) [3133 3140]))                          
+                        :documentation "upload file using ftp")
+                        (reparse-symbol indented_block_body) [3101 3661])
+                    ("create_dummy_file_local" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [4821 4825]))                          
+                        :documentation "creates a dummy file 1MB to upload using ftp")
+                        (reparse-symbol indented_block_body) [4793 5633])
+                    ("remove_dummy_file_local" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [5666 5670]))                          
+                        :documentation "deletes the local dummy file")
+                        (reparse-symbol indented_block_body) [5638 6250])
+                    ("get_file_path" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [6273 6277])
+                            ("file_name" variable nil (reparse-symbol function_parameters) [6279 6288]))                          
+                        :documentation "gets the path of the file")
+                        (reparse-symbol indented_block_body) [6255 6625])
+                    ("get_ftp_file_path" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [6652 6656])
+                            ("file_name" variable nil (reparse-symbol function_parameters) [6658 6667]))                          
+                        :documentation "gets the path of the file")
+                        (reparse-symbol indented_block_body) [6630 7000])
+                    ("get_php_version_live" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [7030 7034])
+                            ("account" variable nil (reparse-symbol function_parameters) [7036 7043])
+                            ("type_uri" variable nil (reparse-symbol function_parameters) [7045 7053]))                          
+                        :documentation "gets the php version from the page")
+                        (reparse-symbol indented_block_body) [7005 7587])
+                    ("get_alias_page" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [7611 7615])
+                            ("url" variable nil (reparse-symbol function_parameters) [7617 7620]))                          
+                        :documentation "gets the php version from the page")
+                        (reparse-symbol indented_block_body) [7592 8486])
+                    ("compare_php_version" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [8515 8519])
+                            ("account" variable nil (reparse-symbol function_parameters) [8521 8528])
+                            ("type_uri" variable nil (reparse-symbol function_parameters) [8530 8538])
+                            ("panel_version" variable nil (reparse-symbol function_parameters) [8540 8553]))                          
+                        :documentation "compare php version from the panel and live")
+                        (reparse-symbol indented_block_body) [8491 9094]))                  
+                :type "class")
+                nil [255 9094])
+            ("if" code nil nil [9096 9458]))          
+      :file "ftp_helper.py"
+      :pointmax 9458
+      :fsize 9457
+      :lastmodtime '(23098 50240 154424 454000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode python-mode
+      :tags 
+        '( ("\"\"\" share module to test domains in panel\"\"\"" code nil nil [35 79])
+            ("time" include nil nil [80 91])
+            ("data" include nil nil [92 103])
+            ("loadlogs" include nil nil [104 119])
+            ("st01share" include nil nil [120 136])
+            ("st02share" include nil nil [137 153])
+            ("ftp_helper" include nil nil [154 171])
+            ("selenium.webdriver.common.by" include nil nil [172 215])
+            ("" code nil nil [255 387])
+            ("customexception" include nil nil [388 428])
+            ("FtpShare" type
+               (:documentation "this class handles the ftp "
+                :members 
+                  ( ("__init__" function
+                       (:suite 
+                          ( ("self" variable nil (reparse-symbol indented_block_body) [530 578])
+                            ("self" variable nil (reparse-symbol indented_block_body) [587 606])
+                            ("self" variable nil (reparse-symbol indented_block_body) [615 632])
+                            ("self" variable nil (reparse-symbol indented_block_body) [641 684])
+                            ("self" variable nil (reparse-symbol indented_block_body) [693 742])
+                            ("self" variable nil (reparse-symbol indented_block_body) [751 784]))                          
+                        :parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [505 509])
+                            ("selenium" variable nil (reparse-symbol function_parameters) [511 519]))                          
+                        :constructor-flag t)
+                        (reparse-symbol indented_block_body) [492 785])
+                    ("set_up_ftp" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [805 809])
+                            ("account" variable nil (reparse-symbol function_parameters) [811 818]))                          
+                        :documentation "
+        set up the account to be used in ftp tests
+        ")
+                        (reparse-symbol indented_block_body) [790 1302])
+                    ("_get_num_ftp_accounts" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [1333 1337]))                          
+                        :documentation "log in and cleans all domains")
+                        (reparse-symbol indented_block_body) [1307 2061])
+                    ("verify_ftp_account" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [2089 2093]))                          
+                        :documentation "verify that account is active")
+                        (reparse-symbol indented_block_body) [2066 3136])
+                    ("verify_num_ftp_accounts" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [3169 3173])
+                            ("number_accounts" variable nil (reparse-symbol function_parameters) [3175 3190]))                          
+                        :documentation "verify the ftp number of accounts in panel")
+                        (reparse-symbol indented_block_body) [3141 4563])
+                    ("_choose_domain" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [4587 4591])
+                            ("type_domain" variable nil (reparse-symbol function_parameters) [4593 4604]))                          
+                        :documentation "choose a domain from the add dialog")
+                        (reparse-symbol indented_block_body) [4568 6109])
+                    ("add_ftp_account" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [6134 6138])
+                            ("username" variable nil (reparse-symbol function_parameters) [6140 6148])
+                            ("type_domain" variable nil (reparse-symbol function_parameters) [6150 6161]))                          
+                        :documentation "adds a ftp account")
+                        (reparse-symbol indented_block_body) [6114 7924])
+                    ("upload_and_down_file_to_ftp" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [7961 7965])
+                            ("account" variable nil (reparse-symbol function_parameters) [7967 7974]))                          
+                        :documentation "upload a file to selected account")
+                        (reparse-symbol indented_block_body) [7929 8804]))                  
+                :type "class")
+                nil [431 8804]))          
+      :file "st06ftpshare.py"
+      :pointmax 8804
+      :fsize 8803
+      :lastmodtime '(23098 47149 622701 765000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode python-mode
+      :tags 
+        '( ("\"\"\"base module to test register ftp accounts\"\"\"" code nil nil [35 82])
+            ("basetest" include nil nil [83 112])
+            ("Lp50" type
+               (:documentation "
+    create ftp accounts for domain/subdomain and
+    upload and download a file to each one 
+    "
+                :superclasses ("TestBase")
+                :members 
+                  ( ("test_lp_50" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [267 271]))                          
+                        :documentation "transfer file domain/subdomain")
+                        (reparse-symbol indented_block_body) [252 403]))                  
+                :type "class")
+                nil [115 403])
+            ("if" code nil nil [405 452]))          
+      :file "testcase_06_ftp.py"
+      :pointmax 452
+      :fsize 445
+      :lastmodtime '(23099 48536 671781 368000)
+      :unmatched-syntax '(($EOI 452 . 452)))
+    (semanticdb-table "semanticdb-table"
+      :file "st06ftp.py"
+      :fsize 5428
+      :lastmodtime '(23098 46857 530121 690000)))
   :file "!home!jboadas!devel!python!selenium!selenium2!maintests!semantic.cache"
   :semantic-tag-version "2.0"
   :semanticdb-version "2.2")

@@ -1,10 +1,10 @@
 ;;; ivy-autoloads.el --- automatically extracted autoloads
 ;;
 ;;; Code:
-(add-to-list 'load-path (directory-file-name (or (file-name-directory #$) (car load-path))))
+(add-to-list 'load-path (or (file-name-directory #$) (car load-path)))
 
-;;;### (autoloads nil "counsel" "counsel.el" (23079 59979 808299
-;;;;;;  887000))
+;;;### (autoloads nil "counsel" "counsel.el" (23106 42859 610753
+;;;;;;  79000))
 ;;; Generated autoloads from counsel.el
 
 (autoload 'counsel-el "counsel" "\
@@ -369,8 +369,7 @@ Switch to a shell buffer, or create one.
 
 (defvar counsel-mode nil "\
 Non-nil if Counsel mode is enabled.
-See the `counsel-mode' command
-for a description of this minor mode.
+See the command `counsel-mode' for a description of this minor mode.
 Setting this variable directly does not take effect;
 either customize it (see the info node `Easy Customization')
 or call the function `counsel-mode'.")
@@ -387,7 +386,7 @@ replacements.
 
 ;;;***
 
-;;;### (autoloads nil "ivy" "ivy.el" (23079 59979 984968 461000))
+;;;### (autoloads nil "ivy" "ivy.el" (23106 42859 690752 964000))
 ;;; Generated autoloads from ivy.el
 
 (autoload 'ivy-resume "ivy" "\
@@ -467,8 +466,7 @@ INHERIT-INPUT-METHOD is currently ignored.
 
 (defvar ivy-mode nil "\
 Non-nil if Ivy mode is enabled.
-See the `ivy-mode' command
-for a description of this minor mode.
+See the command `ivy-mode' for a description of this minor mode.
 Setting this variable directly does not take effect;
 either customize it (see the info node `Easy Customization')
 or call the function `ivy-mode'.")
@@ -506,7 +504,7 @@ Switch to another buffer in another window.
 
 ;;;***
 
-;;;### (autoloads nil "swiper" "swiper.el" (23079 59980 371639 307000))
+;;;### (autoloads nil "swiper" "swiper.el" (23106 42859 922752 629000))
 ;;; Generated autoloads from swiper.el
 
 (autoload 'swiper-avy "swiper" "\
@@ -528,7 +526,7 @@ Run `swiper' for all open buffers.
 ;;;***
 
 ;;;### (autoloads nil nil ("colir.el" "ivy-hydra.el" "ivy-overlay.el"
-;;;;;;  "ivy-pkg.el" "ivy-test.el") (23079 59980 421639 848000))
+;;;;;;  "ivy-pkg.el" "ivy-test.el") (23106 42860 217814 738000))
 
 ;;;***
 

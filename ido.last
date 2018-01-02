@@ -2,16 +2,18 @@
 
 ;; ----- ido-last-directory-list -----
 (
- ("/home/jboadas/devel/python/test-scripts/" . "logrotation/")
+ ("/home/jboadas/devel/python/selenium/selenium2/coinimp/" . "templates/")
+ ("/home/jboadas/devel/python/selenium/selenium2/maintests/" . "php_scripts/")
+ ("/home/jboadas/devel/python/test-scripts/" . "testcases/")
  ("/home/jboadas/devel/python/selenium/selenium2/V316/" . "test/")
- ("/home/jboadas/devel/python/selenium/selenium2/" . "maintests/")
+ ("/home/jboadas/devel/python/selenium/selenium2/" . "coinimp/")
  ("/home/jboadas/devel/python/selenium/V316/" . "utils/")
  ("/home/jboadas/devel/python/selenium/" . "selenium2/")
  ("/home/" . "jboadas/")
  ("/home/jboadas/devel/python/" . "selenium/")
  ("/home/jboadas/Downloads/" . "infoman/")
  ("/home/jboadas/devel/" . "python/")
- ("/home/jboadas/" . ".emacs.d/")
+ ("/home/jboadas/" . "devel/")
  ("c:/Lisp/home/" . ".emacs.d/")
  ("c:/Lisp/" . "home/")
  ("c:/devel/haskell/my-yesod/static/" . "tmp/")
@@ -23,9 +25,13 @@
 
 ;; ----- ido-work-directory-list -----
 (
+ "/home/jboadas/devel/python/selenium/selenium2/coinimp/"
+ "/home/jboadas/devel/python/selenium/selenium2/coinimp/templates/"
  "/home/jboadas/.emacs.d/"
  "/home/jboadas/devel/python/selenium/selenium2/maintests/"
  "/home/jboadas/devel/python/test-scripts/"
+ "/home/jboadas/devel/python/selenium/selenium2/maintests/php_scripts/"
+ "/home/jboadas/devel/python/test-scripts/testcases/"
  "/home/jboadas/.config/xfce4/xfconf/xfce-perchannel-xml/"
  "/home/jboadas/devel/python/selenium/"
  "/home/jboadas/devel/python/test-scripts/bash-name/"
@@ -53,37 +59,45 @@
 
 ;; ----- ido-work-file-list -----
 (
- "init.el"
- "st05domains.py"
- "st03hostingshare.py"
- "st01share.py"
- "st01register.py"
- "st05domainsshare.py"
- "st04vpsshare.py"
- "st04vpsservers.py"
- "backend_scripts.py"
- "st02checkallpanels.py"
+ "st02client.py"
+ "testcase_04_referals.py"
+ "testcase_02_register.py"
+ "index.html"
+ "st04referals.py"
+ "st01dashboardshare.py"
+ "st03register.py"
+ "st01dashboard.py"
+ "testcase_00_dashboard.py"
+ "loadselenium.py"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/home/jboadas/.emacs.d/" (23079 62710 498382 675000) "ido.last" ".git/" "auto-save-list/" "elpa/" "README.md" "init.el" "../" "semanticdb/" "snippets/" "./")
+ ("/home/jboadas/devel/python/selenium/selenium2/coinimp/" (23110 43554 746037 771000) "testcase_00_dashboard.py" "run_all_tests_headless.sh" "../" "./" "testcase_01_client.py" "testcase_04_referals.py" "loadlogs.py" "st01dashboard.py" "logs/" "run_all_tests.sh" "data.py" "st03register.py" "st04referals.py" "st01dashboardshare.py" "testcase_02_register.py" "loadselenium.py" "__pycache__/" "geckodriver.log" "st02client.py" "customexception.py" "coinimp.json" "templates/" "credentials.py")
 
- ("/home/jboadas/" (23079 63255 97523 998000) ".ICEauthority" ".icons/" ".gitconfig" "Videos/" ".cache/" ".xsession-errors.old" ".viminfo" "Documents/" "Pictures/" ".thumbnails/" ".ocp/" "Dic06-1.avi" "Music/" "Public/" ".bash_logout" ".mozilla/" ".gksu.lock" ".Xauthority" ".emacs.d/" "devel/" ".ocamlinit" ".ff-theme-util_1strun" ".vimrc" ".gnupg/" ".config/" ".pylint.d/" ".ssr/" ".bashrc" "Desktop/" ".pki/" ".xsession-errors" "python.emacs.d.tar.gz" ".vim/" ".Xresources" ".dmrc" ".esd_auth" ".dir_colors" ".putty/" ".xprofile" ".bash_profile" ".smex-items" "Downloads/" ".navicat64/" ".local/" ".extend.bashrc" ".xinitrc" ".ssh/" ".bash_history" "../" ".extend.xinitrc" ".thunderbird/" ".Xclients" ".opam/" "./" "Templates/" ".xsession" ".profile" ".python_history" ".guayadeque/")
+ ("/home/jboadas/devel/python/selenium/selenium2/coinimp/templates/" (23110 35080 217844 727000) "index.html" "../" "./")
 
- ("/home/jboadas/devel/python/selenium/selenium2/maintests/" (23079 62730 758596 336000) "testcase_00_general.py" "otheraccounts.txt" "basetest.py" "fetchaccountsinfo.py" "testcase_01_register_hosting.py" "backend_scripts.py" "loadlogs.py" "st04vpsservers.py" "st05domains.py" "st01register.py" "run_all_tests.sh" "accounts.db" "credentials.py" "set_env_headless.sh" "changeregion.py" "testcase_02_register_vps.py" "__pycache__/" "testcase_03_hosting_accounts.py" "st03hostingshare.py" "ghostdriver.log" "set_env.sh" "st01registervps.py" "customexception.py" "logs/" "data.py" "selenium.json" "st01share.py" "pytest.ini" "st05domainsshare.py" "__init__.py" "../" "loadselenium.py" "run_all_tests_headless.sh" "./" "st02share.py" "st03hostingaccounts.py" "st04vpsshare.py" "st02checkallpanels.py" "testcase_04_vpsaccounts.py" "icingamysql.py" "geckodriver.log")
+ ("/home/jboadas/" (23110 30093 594299 336000) ".smex-items" ".profile" ".bash_history" "Templates/" ".dbus/" ".config/" "Desktop/" ".themes/" "../" "./" ".emacs.d/" "Music/" ".cache/" ".pylint.d/" ".gconf/" ".xsession-errors.old" "Downloads/" ".sudo_as_admin_successful" "Videos/" ".bash_logout" ".Xauthority" "Dic29-7.avi" ".linuxmint/" ".xsession-errors" ".bashrc" ".ssh/" ".gitconfig" ".wget-hsts" ".thunderbird/" "Public/" "Dic29-6.avi" "Documents/" "Dic29-5.avi" ".navicat64/" "devel/" ".electrum-ltc/" "Pictures/" ".pki/" ".ssr/" ".ICEauthority" ".cinnamon/" "bin/" ".gksu.lock" ".dmrc" ".local/" "Dic29-8.avi" ".icons/" ".mozilla/")
 
- ("/home/jboadas/devel/" (23077 49811 907991 228000) "ocaml/" "reason/" "python/" "../" "./")
+ ("/home/jboadas/devel/python/selenium/selenium2/" (23109 13011 213395 569000) "coinimp/" "headless/" "../" "./" "maintests/")
+
+ ("/home/jboadas/devel/python/selenium/" (23109 13011 225395 640000) "../" "./" ".git/" "README.md" "selenium2/" "build/" "helper/" ".gitlab-ci.yml" "src/" ".gitignore" "backups/" "versions/")
+
+ ("/home/jboadas/devel/python/" (23109 13370 446873 139000) "test-scripts/" "../" "selenium/" "./" "reusing-browser/")
+
+ ("/home/jboadas/devel/" (23109 12907 540708 125000) "python.tar.gz" "python/" "../" "./")
+
+ ("/home/jboadas/.emacs.d/" (23106 42943 606783 659000) "./" "semanticdb/" "opam-user-setup.el" "elpa/" "../" "init.el" "auto-save-list/" ".git/" "README.md" "snippets/" "ido.last")
+
+ ("/home/jboadas/devel/python/selenium/selenium2/maintests/" (23101 10824 222830 301000) "testcase_00_general.py" "st06ftp.py" "otheraccounts.txt" "basetest.py" "fetchaccountsinfo.py" "testcase_01_register_hosting.py" "backend_scripts.py" "loadlogs.py" "st04vpsservers.py" "st05domains.py" "st01register.py" "run_all_tests.sh" "accounts.db" "credentials.py" "set_env_headless.sh" "changeregion.py" "testcase_02_register_vps.py" "__pycache__/" "testcase_03_hosting_accounts.py" "st03hostingshare.py" "ghostdriver.log" "set_env.sh" "st01registervps.py" "customexception.py" ".ropeproject/" "logs/" "testcase_05_domains.py" "ftp_helper.py" "data.py" "selenium.json" "st01share.py" "pytest.ini" "st05domainsshare.py" "php_scripts/" "testcase_06_ftp.py" "__init__.py" "../" "loadselenium.py" "run_all_tests_headless.sh" "./" "st02share.py" "st03hostingaccounts.py" "ftp_files/" "st04vpsshare.py" "st02checkallpanels.py" "testcase_04_vpsaccounts.py" "icingamysql.py" "geckodriver.log" "st06ftpshare.py")
+
+ ("/home/jboadas/devel/python/selenium/selenium2/maintests/php_scripts/" (23082 59653 76884 744000) "php_version.php" "../" "./")
+
+ ("/home/jboadas/devel/python/test-scripts/testcases/" (23069 26858 62326 531000) "testcase_lp03_register_freeaccount_free_domain.py" "testcase_lp07_register_paidaccount_pl_domain_przelewy.py" "testcase_lp15_test_all_panels.py" "testcase_lp04_register_freeaccount_paid_domain.py" "testcase_lp00_changeregion.py" "testcase_lp09_register_vps1024.py" "testcase_lp13_register_vps_centospanel.py" "testcase_lp02_register_company.py" "testcase_lp01_register_natural_person.py" "testcase_lp12_register_vps_webmin.py" "testcase_lp06_register_paidaccount_com_domain_paypal.py" "testcase_lp11_register_vps_ispconfig.py" "../" "testcase_lp10_register_vps2048.py" "./" "testcase_lp05_register_paidaccount_no_domain_coupon.py" "testcase_lp14_register_vps_admin.py" "testcase_lp08_register_vps512.py")
 
  ("/home/jboadas/devel/python/test-scripts/" (23072 18177 568517 506000) "debug.log" "send-gmail.py" "test_python_org_search.py" "headless/" "tem-email.py" "pathmagic.py" "bash-name/" "unicode.py" "test_continue.py" "imap_tests.py" "get_imap.py" "logrotation/" "paypal_calc.py" "mail-api.py" "iterating_dict.py" "convert-pdf-txt.py" "mail-content.txt" "dropmail.py" "backend/" "python-emailvoid/" "curr-dir.py" "run_vps_expiration.py" "python_org_search.py" "icinga-mysql.py" "other-accounts.txt" "ssh_delete_domain.py" "jrs.pdf" "exception-else.py" "dict.py" "testcases/" "test-pygame.py" "../" "example-siblings/" "./" "test-unittest.py" "date_arithmetic.py" "exceptions.py" "pop3.py")
 
- ("/home/jboadas/devel/python/selenium/" (23070 60672 765059 105000) "src/" "build/" ".gitlab-ci.yml" ".git/" "README.md" "selenium2/" ".gitignore" "helper/" "versions/" "../" "./" "backups/")
-
  ("/home/jboadas/.config/xfce4/xfconf/xfce-perchannel-xml/" (23070 47783 12320 47000) "xfce4-session.xml" "xfce4-keyboard-shortcuts.xml" "xfwm4.xml" "thunar.xml" "xfce4-mixer.xml" "xfce4-appfinder.xml" "xfce4-panel.xml" "keyboards.xml" "xfce4-notifyd.xml" "keyboard-layout.xml" "displays.xml" "xfce4-power-manager.xml" "parole.xml" "../" "./" "xfce4-desktop.xml" "xsettings.xml" "xfce4-settings-manager.xml" "ristretto.xml")
-
- ("/home/jboadas/devel/python/selenium/selenium2/" (23069 26862 89057 454000) "headless/" "maintests/" "../" "./")
-
- ("/home/jboadas/devel/python/" (23069 26858 655669 359000) "selenium/" "test-scripts/" "../" "reusing-browser/" "./")
 
  ("/home/jboadas/devel/python/test-scripts/bash-name/" (23062 56989 832866 500000) "logs/" "./" "unittests-2017-11-23.txt" "name.sh" "../")
 

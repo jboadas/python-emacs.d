@@ -1,0 +1,45 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode python-mode
+      :tags 
+        '( ("\"\"\"test free account with a free domain\"\"\"" code nil nil [20 62])
+            ("unittest" include nil nil [63 78])
+            ("loadselenium" include nil nil [79 98])
+            ("st01register" include nil nil [99 118])
+            ("Lp03" type
+               (:documentation "
+    Register FREE account with a free domain
+    "
+                :superclasses ("unittest.TestCase")
+                :members 
+                  ( ("setUp" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [229 233]))                          )
+                        (reparse-symbol indented_block_body) [219 440])
+                    ("test_register_free_account" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [476 480]))                          
+                        :documentation "free account with a free domain")
+                        (reparse-symbol indented_block_body) [445 950])
+                    ("tearDown" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [968 972]))                          )
+                        (reparse-symbol indented_block_body) [955 1003]))                  
+                :type "class")
+                nil [121 1003])
+            ("if" code nil nil [1005 1052]))          
+      :file "testcase_lp03_register_freeaccount_free_domain.py"
+      :pointmax 1052
+      :fsize 1051
+      :lastmodtime '(23041 54332 8958 0)
+      :unmatched-syntax nil))
+  :file "!home!jboadas!devel!python!test-scripts!testcases!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

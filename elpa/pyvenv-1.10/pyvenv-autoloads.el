@@ -1,9 +1,9 @@
 ;;; pyvenv-autoloads.el --- automatically extracted autoloads
 ;;
 ;;; Code:
-(add-to-list 'load-path (directory-file-name (or (file-name-directory #$) (car load-path))))
+(add-to-list 'load-path (or (file-name-directory #$) (car load-path)))
 
-;;;### (autoloads nil "pyvenv" "pyvenv.el" (22973 35426 266144 388000))
+;;;### (autoloads nil "pyvenv" "pyvenv.el" (23106 42856 330758 40000))
 ;;; Generated autoloads from pyvenv.el
 
 (autoload 'pyvenv-activate "pyvenv" "\
@@ -23,8 +23,7 @@ Activate a virtual environment from $WORKON_HOME.
 
 (defvar pyvenv-mode nil "\
 Non-nil if Pyvenv mode is enabled.
-See the `pyvenv-mode' command
-for a description of this minor mode.
+See the command `pyvenv-mode' for a description of this minor mode.
 Setting this variable directly does not take effect;
 either customize it (see the info node `Easy Customization')
 or call the function `pyvenv-mode'.")
@@ -41,8 +40,7 @@ Will show the current virtualenv in the mode line, and respect a
 
 (defvar pyvenv-tracking-mode nil "\
 Non-nil if Pyvenv-Tracking mode is enabled.
-See the `pyvenv-tracking-mode' command
-for a description of this minor mode.
+See the command `pyvenv-tracking-mode' for a description of this minor mode.
 Setting this variable directly does not take effect;
 either customize it (see the info node `Easy Customization')
 or call the function `pyvenv-tracking-mode'.")

@@ -1,10 +1,10 @@
 ;;; ido-completing-read+-autoloads.el --- automatically extracted autoloads
 ;;
 ;;; Code:
-(add-to-list 'load-path (directory-file-name (or (file-name-directory #$) (car load-path))))
+(add-to-list 'load-path (or (file-name-directory #$) (car load-path)))
 
 ;;;### (autoloads nil "ido-completing-read+" "ido-completing-read+.el"
-;;;;;;  (22973 38147 825619 918000))
+;;;;;;  (23106 42682 489789 642000))
 ;;; Generated autoloads from ido-completing-read+.el
 
 (defvar ido-cr+-minibuffer-depth -1 "\
@@ -64,8 +64,7 @@ See `ido-cr+-current-command' for more information.
 
 (defvar ido-ubiquitous-mode nil "\
 Non-nil if Ido-Ubiquitous mode is enabled.
-See the `ido-ubiquitous-mode' command
-for a description of this minor mode.
+See the command `ido-ubiquitous-mode' for a description of this minor mode.
 Setting this variable directly does not take effect;
 either customize it (see the info node `Easy Customization')
 or call the function `ido-ubiquitous-mode'.")
@@ -80,11 +79,6 @@ when ido completion is or is not used by customizing
 `ido-cr+-function-blacklist'.
 
 \(fn &optional ARG)" t nil)
-
-;;;***
-
-;;;### (autoloads nil nil ("ido-completing-read+-pkg.el") (22973
-;;;;;;  38146 328945 502000))
 
 ;;;***
 
