@@ -6,14 +6,14 @@
  ("/home/jboadas/devel/python/selenium/selenium2/maintests/" . "php_scripts/")
  ("/home/jboadas/devel/python/test-scripts/" . "testcases/")
  ("/home/jboadas/devel/python/selenium/selenium2/V316/" . "test/")
- ("/home/jboadas/devel/python/selenium/selenium2/" . "coinimp/")
+ ("/home/jboadas/devel/python/selenium/selenium2/" . "maintests/")
  ("/home/jboadas/devel/python/selenium/V316/" . "utils/")
  ("/home/jboadas/devel/python/selenium/" . "selenium2/")
  ("/home/" . "jboadas/")
  ("/home/jboadas/devel/python/" . "selenium/")
  ("/home/jboadas/Downloads/" . "infoman/")
  ("/home/jboadas/devel/" . "python/")
- ("/home/jboadas/" . "devel/")
+ ("/home/jboadas/" . ".emacs.d/")
  ("c:/Lisp/home/" . ".emacs.d/")
  ("c:/Lisp/" . "home/")
  ("c:/devel/haskell/my-yesod/static/" . "tmp/")
@@ -25,10 +25,10 @@
 
 ;; ----- ido-work-directory-list -----
 (
- "/home/jboadas/devel/python/selenium/selenium2/coinimp/"
- "/home/jboadas/devel/python/selenium/selenium2/coinimp/templates/"
  "/home/jboadas/.emacs.d/"
  "/home/jboadas/devel/python/selenium/selenium2/maintests/"
+ "/home/jboadas/devel/python/selenium/selenium2/coinimp/templates/"
+ "/home/jboadas/devel/python/selenium/selenium2/coinimp/"
  "/home/jboadas/devel/python/test-scripts/"
  "/home/jboadas/devel/python/selenium/selenium2/maintests/php_scripts/"
  "/home/jboadas/devel/python/test-scripts/testcases/"
@@ -59,37 +59,37 @@
 
 ;; ----- ido-work-file-list -----
 (
- "st02client.py"
- "testcase_04_referals.py"
- "testcase_02_register.py"
+ "init.el"
+ "st06ftp.py"
+ "st02share.py"
+ "st06ftpshare.py"
+ "testcase_06_ftp.py"
+ "ftp_helper.py"
+ "data.py"
+ "st01share.py"
+ "credentials.py"
  "index.html"
- "st04referals.py"
- "st01dashboardshare.py"
- "st03register.py"
- "st01dashboard.py"
- "testcase_00_dashboard.py"
- "loadselenium.py"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/home/jboadas/devel/python/selenium/selenium2/coinimp/" (23110 43554 746037 771000) "testcase_00_dashboard.py" "run_all_tests_headless.sh" "../" "./" "testcase_01_client.py" "testcase_04_referals.py" "loadlogs.py" "st01dashboard.py" "logs/" "run_all_tests.sh" "data.py" "st03register.py" "st04referals.py" "st01dashboardshare.py" "testcase_02_register.py" "loadselenium.py" "__pycache__/" "geckodriver.log" "st02client.py" "customexception.py" "coinimp.json" "templates/" "credentials.py")
+ ("/home/jboadas/.emacs.d/" (23117 13665 841968 195000) "elpa/" "../" "./" "semanticdb/" ".git/" "README.md" "snippets/" "auto-save-list/" "ido.last" "init.el")
+
+ ("/home/jboadas/devel/python/selenium/selenium2/maintests/" (23117 13693 538288 312000) "st03hostingaccounts.py" "testcase_00_general.py" "st01share.py" "run_all_tests_headless.sh" "ftp_files/" "testcase_05_domains.py" "st05domains.py" "../" "testcase_06_ftp.py" "st06ftp.py" "accounts.db" "./" "loadlogs.pyc" "selenium.json" "st01register.py" "st04vpsservers.py" "loadlogs.py" "testcase_02_register_vps.py" "logs/" "run_all_tests.sh" "data.py" "set_env_headless.sh" "st02share.py" "st02checkallpanels.py" "ftp_helper.py" "st04vpsshare.py" "pytest.ini" "data.pyc" "icingamysql.py" "st03hostingshare.py" "set_env.sh" "loadselenium.pyc" "__init__.py" "st05domainsshare.py" "loadselenium.py" "__pycache__/" "php_scripts/" "geckodriver.log" "st01registervps.py" "customexception.py" "changeregion.py" "fetchaccountsinfo.py" "testcase_03_hosting_accounts.py" "testcase_04_vpsaccounts.py" "basetest.py" "testcase_01_register_hosting.py" "backend_scripts.py" "st06ftpshare.py" "credentials.py")
+
+ ("/home/jboadas/" (23117 13665 769967 362000) ".smex-items" ".profile" ".bash_history" "Templates/" ".dbus/" ".config/" "Desktop/" ".themes/" "../" "./" ".emacs.d/" "Music/" ".cache/" ".lein/" ".pylint.d/" ".gconf/" ".xsession-errors.old" "Downloads/" ".sudo_as_admin_successful" "Videos/" ".bash_logout" ".Xauthority" ".linuxmint/" "jan03-07.avi" ".xsession-errors" ".bashrc" ".ssh/" ".gitconfig" ".wget-hsts" ".thunderbird/" "Public/" "Documents/" ".navicat64/" "devel/" ".electrum-ltc/" "Pictures/" "jan03-06.avi" ".pki/" ".ssr/" ".ICEauthority" ".m2/" "python.emacs.d.tar.gz" ".cinnamon/" "bin/" ".pylintrc" "jan03-05.avi" ".gksu.lock" ".dmrc" ".local/" "clojure.emacs.d.tar.gz" ".gnupg/" ".icons/" ".mozilla/")
+
+ ("/home/jboadas/devel/python/" (23117 5203 673976 425000) "test-scripts/" "../" "selenium/" "./" "reusing-browser/" "python.emacs.d/" "python.emacs.d.tar.gz")
+
+ ("/home/jboadas/devel/" (23117 4753 705553 989000) "python/" "../" "./" "clojure/")
+
+ ("/home/jboadas/devel/python/selenium/selenium2/coinimp/" (23115 43559 3831 928000) "testcase_00_dashboard.py" "run_all_tests_headless.sh" "../" "./" "testcase_01_client.py" "testcase_04_referals.py" "loadlogs.py" "st01dashboard.py" "logs/" "run_all_tests.sh" "data.py" "st03register.py" "st04referals.py" "st01dashboardshare.py" "testcase_02_register.py" "loadselenium.py" "__pycache__/" "geckodriver.log" "st02client.py" "customexception.py" "coinimp.json" "templates/" "credentials.py")
 
  ("/home/jboadas/devel/python/selenium/selenium2/coinimp/templates/" (23110 35080 217844 727000) "index.html" "../" "./")
-
- ("/home/jboadas/" (23110 30093 594299 336000) ".smex-items" ".profile" ".bash_history" "Templates/" ".dbus/" ".config/" "Desktop/" ".themes/" "../" "./" ".emacs.d/" "Music/" ".cache/" ".pylint.d/" ".gconf/" ".xsession-errors.old" "Downloads/" ".sudo_as_admin_successful" "Videos/" ".bash_logout" ".Xauthority" "Dic29-7.avi" ".linuxmint/" ".xsession-errors" ".bashrc" ".ssh/" ".gitconfig" ".wget-hsts" ".thunderbird/" "Public/" "Dic29-6.avi" "Documents/" "Dic29-5.avi" ".navicat64/" "devel/" ".electrum-ltc/" "Pictures/" ".pki/" ".ssr/" ".ICEauthority" ".cinnamon/" "bin/" ".gksu.lock" ".dmrc" ".local/" "Dic29-8.avi" ".icons/" ".mozilla/")
 
  ("/home/jboadas/devel/python/selenium/selenium2/" (23109 13011 213395 569000) "coinimp/" "headless/" "../" "./" "maintests/")
 
  ("/home/jboadas/devel/python/selenium/" (23109 13011 225395 640000) "../" "./" ".git/" "README.md" "selenium2/" "build/" "helper/" ".gitlab-ci.yml" "src/" ".gitignore" "backups/" "versions/")
-
- ("/home/jboadas/devel/python/" (23109 13370 446873 139000) "test-scripts/" "../" "selenium/" "./" "reusing-browser/")
-
- ("/home/jboadas/devel/" (23109 12907 540708 125000) "python.tar.gz" "python/" "../" "./")
-
- ("/home/jboadas/.emacs.d/" (23106 42943 606783 659000) "./" "semanticdb/" "opam-user-setup.el" "elpa/" "../" "init.el" "auto-save-list/" ".git/" "README.md" "snippets/" "ido.last")
-
- ("/home/jboadas/devel/python/selenium/selenium2/maintests/" (23101 10824 222830 301000) "testcase_00_general.py" "st06ftp.py" "otheraccounts.txt" "basetest.py" "fetchaccountsinfo.py" "testcase_01_register_hosting.py" "backend_scripts.py" "loadlogs.py" "st04vpsservers.py" "st05domains.py" "st01register.py" "run_all_tests.sh" "accounts.db" "credentials.py" "set_env_headless.sh" "changeregion.py" "testcase_02_register_vps.py" "__pycache__/" "testcase_03_hosting_accounts.py" "st03hostingshare.py" "ghostdriver.log" "set_env.sh" "st01registervps.py" "customexception.py" ".ropeproject/" "logs/" "testcase_05_domains.py" "ftp_helper.py" "data.py" "selenium.json" "st01share.py" "pytest.ini" "st05domainsshare.py" "php_scripts/" "testcase_06_ftp.py" "__init__.py" "../" "loadselenium.py" "run_all_tests_headless.sh" "./" "st02share.py" "st03hostingaccounts.py" "ftp_files/" "st04vpsshare.py" "st02checkallpanels.py" "testcase_04_vpsaccounts.py" "icingamysql.py" "geckodriver.log" "st06ftpshare.py")
 
  ("/home/jboadas/devel/python/selenium/selenium2/maintests/php_scripts/" (23082 59653 76884 744000) "php_version.php" "../" "./")
 

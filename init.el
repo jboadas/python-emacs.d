@@ -126,15 +126,18 @@
 ;;    (set-face-attribute
 ;;     'default nil :font "Source Code Pro 12"))
 ;; Configuracion de powerline
-(add-to-list 'load-path "~/.emacs.d/vendor/powerline")
-(require 'powerline)
-(powerline-center-theme)
+;; (add-to-list 'load-path "~/.emacs.d/vendor/powerline")
+;; (require 'powerline)
+;; (powerline-center-theme)
 ;; colores personalizados de powerline
 ;;(set-face-attribute 'mode-line nil
 ;;                    :foreground "light gray"
 ;;                    :background "midnight blue"
 ;;                    :box nil)
 ;;(setq powerline-arrow-shape 'curve)
+
+(set-face-attribute 'mode-line nil :box nil)
+(set-face-attribute 'mode-line-inactive nil :box nil)
 
 ;; tamaño inicial de la ventana
 (when window-system (set-frame-size (selected-frame) 80 24))
