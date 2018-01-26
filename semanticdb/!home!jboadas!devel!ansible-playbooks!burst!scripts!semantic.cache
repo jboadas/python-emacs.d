@@ -1,0 +1,47 @@
+;; Object scripts/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "scripts/"
+  :tables
+  (list
+    (semanticdb-table "get_nonces.py"
+      :major-mode 'python-mode
+      :tags 
+        '( ("\"\"\"get next nonce non overlapping\"\"\"" code nil nil [35 71])
+            ("subprocess" include nil nil [92 127])
+            ("subprocess" include nil nil [128 169])
+            ("os" include nil nil [170 179])
+            ("get_free_space_gb" function
+               (:documentation "get free space of the folder in GB"
+                :arguments 
+                  ( ("folder" variable nil (reparse-symbol function_parameters) [204 210]))                  )
+                nil [182 514])
+            ("check_plotter_running" function (:documentation "checks if the plotter is running in memory") nil [516 774])
+            ("get_mount_points" function (:documentation "gets all mounted disks") nil [776 1109])
+            ("main" function (:documentation "main procedure") nil [1111 1221])
+            ("get_mount_points" code nil nil [1223 1241]))          
+      :file "get_nonces.py"
+      :pointmax 1242
+      :fsize 1241
+      :lastmodtime '(23147 12782 719994 862000)
+      :unmatched-syntax nil)
+    (semanticdb-table "create_database.py"
+      :major-mode 'python-mode
+      :tags 
+        '( ("\"\"\"script to create the nonces database\"\"\"" code nil nil [1 43])
+            ("MySQLdb" include nil nil [44 58])
+            ("sshtunnel" include nil nil [59 99])
+            ("CREATE_TABLE" variable nil nil [297 774])
+            ("create_database" function
+               (:documentation "creates the nonce database"
+                :arguments 
+                  ( ("ip_host" variable nil (reparse-symbol function_parameters) [797 804]))                  )
+                nil [777 1562])
+            ("create_database" code nil nil [1564 1595]))          
+      :file "create_database.py"
+      :pointmax 1596
+      :fsize 1595
+      :lastmodtime '(23147 10457 423285 380000)
+      :unmatched-syntax nil))
+  :file "!home!jboadas!devel!ansible-playbooks!burst!scripts!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

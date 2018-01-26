@@ -224,9 +224,10 @@
 ;; resalta el parentesis que cierra
 (show-paren-mode 1)
 
-(setq elpy-rpc-python-command "python3")
 
 (elpy-enable)
+(setq elpy-rpc-python-command "python3")
+(elpy-use-cpython "/usr/bin/python3")
 
 (setq python-shell-completion-native-enable nil)
 ;; (when (require 'flycheck nil t)
@@ -270,3 +271,11 @@
  '(company-tooltip-selection ((t (:inherit font-lock-function-name-face :background "brown4" :foreground "snow1"))))
  '(highlight ((t (:background "dark slate gray"))))
  '(show-paren-match ((t (:background "black" :foreground "green")))))
+
+;; ansible
+(require 'yaml-mode)
+    (add-to-list 'auto-mode-alist '("\\.yml\\'" . yaml-mode))
+(add-hook 'yaml-mode-hook
+      '(lambda ()
+        (define-key yaml-mode-map "\C-m" 'newline-and-indent)))
+(add-hook 'yaml-mode-hook '(lambda () (ansible 1)))

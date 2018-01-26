@@ -2,6 +2,21 @@
 
 ;; ----- ido-last-directory-list -----
 (
+ ("/home/jboadas/devel/ansible-playbooks/burst/roles/mount/" . "tasks/")
+ ("/home/jboadas/devel/ansible-playbooks/burst/roles/checkmounts/" . "tasks/")
+ ("/home/jboadas/devel/ansible-playbooks/burst/roles/downloads/" . "tasks/")
+ ("/home/jboadas/devel/ansible-playbooks/burst/roles/disks/" . "tasks/")
+ ("/home/jboadas/devel/ansible-playbooks/burst/roles/" . "disks/")
+ ("/home/jboadas/devel/ansible-playbooks/burst/" . "roles/")
+ ("/home/jboadas/devel/ansible-playbooks/" . "burst/")
+ ("/home/jboadas/devel/ansible/roles/mount/" . "tasks/")
+ ("/home/jboadas/devel/ansible/roles/disks/" . "tasks/")
+ ("/home/jboadas/devel/ansible/roles/" . "disks/")
+ ("/home/jboadas/devel/ansible/" . "roles/")
+ ("/home/jboadas/devel/myansible/roles/disks/" . "tasks/")
+ ("/home/jboadas/devel/myansible/roles/basic/" . "tasks/")
+ ("/home/jboadas/devel/myansible/roles/" . "basic/")
+ ("/home/jboadas/devel/myansible/" . "roles/")
  ("/home/jboadas/devel/python/selenium/selenium2/coinimp/" . "templates/")
  ("/home/jboadas/devel/python/selenium/selenium2/maintests/" . "php_scripts/")
  ("/home/jboadas/devel/python/test-scripts/" . "testcases/")
@@ -12,8 +27,8 @@
  ("/home/" . "jboadas/")
  ("/home/jboadas/devel/python/" . "selenium/")
  ("/home/jboadas/Downloads/" . "infoman/")
- ("/home/jboadas/devel/" . "python/")
- ("/home/jboadas/" . ".emacs.d/")
+ ("/home/jboadas/devel/" . "ansible-playbooks/")
+ ("/home/jboadas/" . "devel/")
  ("c:/Lisp/home/" . ".emacs.d/")
  ("c:/Lisp/" . "home/")
  ("c:/devel/haskell/my-yesod/static/" . "tmp/")
@@ -25,11 +40,28 @@
 
 ;; ----- ido-work-directory-list -----
 (
- "/home/jboadas/.emacs.d/"
+ "/home/jboadas/devel/ansible-playbooks/burst/roles/disks/tasks/"
+ "/home/jboadas/devel/ansible-playbooks/burst/roles/downloads/tasks/"
  "/home/jboadas/devel/python/selenium/selenium2/maintests/"
- "/home/jboadas/devel/python/selenium/selenium2/coinimp/templates/"
- "/home/jboadas/devel/python/selenium/selenium2/coinimp/"
+ "/home/jboadas/devel/ansible-playbooks/burst/scripts/"
+ "/home/jboadas/devel/ansible-playbooks/burst/"
+ "/home/jboadas/devel/ansible-playbooks/burst/roles/mount/tasks/"
+ "/home/jboadas/devel/ansible-playbooks/burst/roles/reboot/tasks/"
+ "/home/jboadas/devel/ansible-playbooks/burst/roles/checkmounts/tasks/"
+ "/home/jboadas/.emacs.d/"
+ "/home/jboadas/devel/ansible-playbooks/burst/roles/credentials/tasks/"
+ "/home/jboadas/.ssh/"
+ "/home/jboadas/devel/ansible-playbooks/burst/roles/"
  "/home/jboadas/devel/python/test-scripts/"
+ "/home/jboadas/devel/ansible/roles/disks/tasks/"
+ "/home/jboadas/devel/ansible/roles/mount/tasks/"
+ "/home/jboadas/devel/ansible/"
+ "/home/jboadas/devel/myansible/roles/basic/tasks/"
+ "/home/jboadas/devel/myansible/roles/interfaces/tasks/"
+ "/home/jboadas/devel/myansible/roles/disks/tasks/"
+ "/home/jboadas/devel/myansible/"
+ "/home/jboadas/devel/python/selenium/selenium2/coinimp/"
+ "/home/jboadas/devel/python/selenium/selenium2/coinimp/templates/"
  "/home/jboadas/devel/python/selenium/selenium2/maintests/php_scripts/"
  "/home/jboadas/devel/python/test-scripts/testcases/"
  "/home/jboadas/.config/xfce4/xfconf/xfce-perchannel-xml/"
@@ -59,31 +91,93 @@
 
 ;; ----- ido-work-file-list -----
 (
+ "main.yml"
+ "icingamysql.py"
+ "get_nonces.py"
+ "hosts"
+ "playbookmount.yml"
+ "playbookreboot.yml"
+ "playbookcheckmounts.yml"
+ "playbookdisk.yml"
  "init.el"
- "st06ftp.py"
- "st02share.py"
- "st06ftpshare.py"
- "testcase_06_ftp.py"
- "ftp_helper.py"
- "data.py"
- "st01share.py"
- "credentials.py"
- "index.html"
+ "ansible.cfg"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/home/jboadas/.emacs.d/" (23117 13665 841968 195000) "elpa/" "../" "./" "semanticdb/" ".git/" "README.md" "snippets/" "auto-save-list/" "ido.last" "init.el")
+ ("/home/jboadas/devel/ansible-playbooks/burst/scripts/" (23146 8567 978914 880000) "get_nonces.py" "../" "./" "cba.key")
 
- ("/home/jboadas/devel/python/selenium/selenium2/maintests/" (23117 13693 538288 312000) "st03hostingaccounts.py" "testcase_00_general.py" "st01share.py" "run_all_tests_headless.sh" "ftp_files/" "testcase_05_domains.py" "st05domains.py" "../" "testcase_06_ftp.py" "st06ftp.py" "accounts.db" "./" "loadlogs.pyc" "selenium.json" "st01register.py" "st04vpsservers.py" "loadlogs.py" "testcase_02_register_vps.py" "logs/" "run_all_tests.sh" "data.py" "set_env_headless.sh" "st02share.py" "st02checkallpanels.py" "ftp_helper.py" "st04vpsshare.py" "pytest.ini" "data.pyc" "icingamysql.py" "st03hostingshare.py" "set_env.sh" "loadselenium.pyc" "__init__.py" "st05domainsshare.py" "loadselenium.py" "__pycache__/" "php_scripts/" "geckodriver.log" "st01registervps.py" "customexception.py" "changeregion.py" "fetchaccountsinfo.py" "testcase_03_hosting_accounts.py" "testcase_04_vpsaccounts.py" "basetest.py" "testcase_01_register_hosting.py" "backend_scripts.py" "st06ftpshare.py" "credentials.py")
+ ("/home/jboadas/devel/ansible-playbooks/burst/roles/" (23146 3954 189509 35000) "../" "./" "downloads/" "disks/" "checkmounts/" "credentials/" "reboot/")
 
- ("/home/jboadas/" (23117 13665 769967 362000) ".smex-items" ".profile" ".bash_history" "Templates/" ".dbus/" ".config/" "Desktop/" ".themes/" "../" "./" ".emacs.d/" "Music/" ".cache/" ".lein/" ".pylint.d/" ".gconf/" ".xsession-errors.old" "Downloads/" ".sudo_as_admin_successful" "Videos/" ".bash_logout" ".Xauthority" ".linuxmint/" "jan03-07.avi" ".xsession-errors" ".bashrc" ".ssh/" ".gitconfig" ".wget-hsts" ".thunderbird/" "Public/" "Documents/" ".navicat64/" "devel/" ".electrum-ltc/" "Pictures/" "jan03-06.avi" ".pki/" ".ssr/" ".ICEauthority" ".m2/" "python.emacs.d.tar.gz" ".cinnamon/" "bin/" ".pylintrc" "jan03-05.avi" ".gksu.lock" ".dmrc" ".local/" "clojure.emacs.d.tar.gz" ".gnupg/" ".icons/" ".mozilla/")
+ ("/home/jboadas/devel/python/selenium/selenium2/maintests/" (23146 7111 328323 679000) "st03hostingaccounts.py" "testcase_00_general.py" "st01share.py" "run_all_tests_headless.sh" "ftp_files/" "testcase_05_domains.py" "st05domains.py" "../" "testcase_06_ftp.py" "st06ftp.py" "accounts.db" "./" "loadlogs.pyc" "selenium.json" "st01register.py" "st04vpsservers.py" "loadlogs.py" "testcase_02_register_vps.py" "logs/" "run_all_tests.sh" "data.py" "set_env_headless.sh" "st02share.py" "st02checkallpanels.py" "ftp_helper.py" "st04vpsshare.py" "pytest.ini" "data.pyc" "icingamysql.py" "st03hostingshare.py" "set_env.sh" "loadselenium.pyc" "__init__.py" "st05domainsshare.py" "loadselenium.py" "__pycache__/" "php_scripts/" "geckodriver.log" "st01registervps.py" "customexception.py" "changeregion.py" "fetchaccountsinfo.py" "testcase_03_hosting_accounts.py" "testcase_04_vpsaccounts.py" "basetest.py" "testcase_01_register_hosting.py" "backend_scripts.py" "st06ftpshare.py" "credentials.py")
+
+ ("/home/jboadas/devel/ansible-playbooks/burst/" (23146 4149 991441 651000) "hosts" "playbookdownloads.retry" "playbookcheckmounts.retry" "../" "playbookcheckmounts.yml" "playbookkeys.retry" "./" "playbookdisk.yml" "ansible.cfg" "playbookreboot.yml" "playbookdownloads.yml" "roles/" "playbookdisk.retry" "scripts/" "playbookkeys.yml")
+
+ ("/home/jboadas/devel/" (23146 3889 264868 306000) "python/" "../" "./" "playbooks-examples/" "ansible-playbooks/" "clojure/")
+
+ ("/home/jboadas/" (23146 3863 712616 148000) ".smex-items" ".profile" ".bash_history" "Templates/" ".dbus/" ".config/" "Desktop/" ".oracle_jre_usage/" ".themes/" "V9.82  Build Number_ 4.26 (Testing)/" "../" "./" ".java/" ".emacs.d/" "Music/" ".cache/" ".lein/" ".pylint.d/" ".gimp-2.8/" ".gconf/" "jan25-02.avi" ".xsession-errors.old" "Downloads/" ".putty/" ".thumbnails/" ".sudo_as_admin_successful" "Videos/" ".macromedia/" "jan25-01.avi" ".bash_logout" ".Xauthority" ".linuxmint/" ".xsession-errors" ".bashrc" ".ssh/" ".gitconfig" ".wget-hsts" ".thunderbird/" ".appletviewer" "Public/" ".adobe/" "Documents/" ".navicat64/" "devel/" ".electrum-ltc/" "Pictures/" ".pki/" ".ssr/" ".ICEauthority" ".m2/" "python.emacs.d.tar.gz" ".cinnamon/" "bin/" ".pylintrc" ".python_history" ".gksu.lock" ".dmrc" ".local/" "clojure.emacs.d.tar.gz" ".gnupg/" ".icons/" ".git-credential-cache/" ".ansible/" ".mozilla/")
+
+ ("/home/jboadas/devel/ansible-playbooks/burst/roles/mount/tasks/" (23144 36957 306853 141000) "../" "./" "main.yml")
+
+ ("/home/jboadas/devel/ansible-playbooks/burst/roles/mount/" (23144 35544 63070 894000) "../" "./" "tasks/")
+
+ ("/home/jboadas/devel/ansible-playbooks/burst/roles/checkmounts/tasks/" (23146 3242 422487 458000) "../" "./" "main.yml")
+
+ ("/home/jboadas/devel/ansible-playbooks/burst/roles/reboot/" (23145 65000 629178 898000) "../" "./" "tasks/")
+
+ ("/home/jboadas/devel/ansible-playbooks/burst/roles/reboot/tasks/" (23145 65000 673179 335000) "../" "./" "main.yml")
+
+ ("/home/jboadas/Downloads/" (23145 62989 653297 952000) "Fedora-KDE-Live-x86_64-27-1.6.iso" "servers" "django/" "debian-live-9.3.0-amd64-kde+nonfree.iso" "../" "squirrel-sword.jpg" "./" "videoplayback (3).mp4" "ansible-facts" "videoplayback.mp4" "videoplayback (2).mp4" "burstcoin-1.3.6cg.tar.gz" "creepMiner.tar.gz" "pac-4.5.5.7-all.deb" "cg_obup.tar.gz" "videoplayback (4).mp4" "videoplayback (1).mp4" "neon-userltsedition-20180117-0018-amd64.iso" "videoplayback (5).mp4")
+
+ ("/home/jboadas/devel/ansible-playbooks/burst/roles/checkmounts/" (23145 55542 771066 908000) "../" "./" "tasks/")
+
+ ("/home/jboadas/devel/ansible-playbooks/burst/roles/disks/tasks/" (23145 53031 286774 49000) "../" "./" "main.yml")
+
+ ("/home/jboadas/.emacs.d/" (23144 62251 130070 915000) "elpa/" "../" "./" "semanticdb/" ".git/" "README.md" "snippets/" "auto-save-list/" "ido.last" "init.el")
+
+ ("/home/jboadas/devel/ansible-playbooks/burst/roles/downloads/tasks/" (23144 53296 103796 616000) "../" "./" "main.yml")
+
+ ("/home/jboadas/devel/ansible-playbooks/burst/roles/downloads/" (23144 52176 600538 244000) "../" "./" "tasks/")
+
+ ("/home/jboadas/devel/ansible-playbooks/burst/roles/credentials/" (23144 50775 286356 656000) "../" "./" "tasks/")
+
+ ("/home/jboadas/devel/ansible-playbooks/burst/roles/credentials/tasks/" (23144 51286 727552 738000) "../" "./" "main.yml")
+
+ ("/home/jboadas/devel/python/test-scripts/" (23144 43517 725012 42000) "mail-api.py" "convert-pdf-txt.py" "send-gmail.py" "headless/" "dropmail.py" "get_imap.py" "backend/" "testcases/" "debug.log" "nonces.py" "run_vps_expiration.py" "../" "iterating_dict.py" "curr-dir.py" "./" "python-emailvoid/" "example-siblings/" "imap_tests.py" "google_exchange.py" "paypal_calc.py" "bash-name/" "date_arithmetic.py" "mail-content.txt" "exception-else.py" "logrotation/" "test_python_org_search.py" "tem-email.py" "test-pygame.py" "unicode.py" "test_continue.py" "backup_coinimp_html/" "dict.py" "icinga-mysql.py" "jrs.pdf" "pathmagic.py" "ssh_delete_domain.py" "python_org_search.py" "exceptions.py" "other-accounts.txt" "test-unittest.py" "pop3.py")
+
+ ("/home/jboadas/.ssh/" (23144 44575 835652 8000) "id_rsa" "known_hosts.old" "../" "./" "id_rsa.pub" "known_hosts")
+
+ ("/home/jboadas/devel/ansible-playbooks/burst/roles/disks/" (23143 17802 870089 113000) "../" "./" "tasks/")
+
+ ("/home/jboadas/devel/ansible-playbooks/" (23144 40933 26677 145000) "../" "burst/" "./" ".git/" "README.md")
+
+ ("/home/jboadas/devel/ansible/" (23144 40252 95562 409000) "../" "./")
+
+ ("/home/jboadas/devel/ansible/roles/mount/tasks/" (23144 36957 306853 141000) "../" "./" "main.yml")
+
+ ("/home/jboadas/devel/ansible/roles/mount/" (23144 35544 63070 894000) "../" "./" "tasks/")
+
+ ("/home/jboadas/devel/ansible/roles/" (23144 35629 791891 413000) "basic/" "../" "./" "interfaces/" "disks/" "mount/")
+
+ ("/home/jboadas/devel/ansible/roles/disks/tasks/" (23144 34777 728196 850000) "../" "./" "main.yml")
+
+ ("/home/jboadas/devel/ansible/roles/disks/" (23143 17802 870089 113000) "../" "./" "tasks/")
+
+ ("/home/jboadas/devel/myansible/roles/disks/tasks/" (23143 33739 440001 419000) "../" "./" "main.yml")
+
+ ("/home/jboadas/devel/myansible/roles/" (23143 19491 445914 734000) "basic/" "../" "./" "interfaces/" "disks/")
+
+ ("/home/jboadas/devel/myansible/" (23143 18604 126454 956000) "hosts" "../" "./" "playbookdisk.yml" "playbook.retry" "ansible.cfg" "roles/" "playbook.yml")
+
+ ("/home/jboadas/devel/myansible/roles/disks/" (23143 17802 870089 113000) "../" "./" "tasks/")
+
+ ("/home/jboadas/devel/myansible/roles/basic/tasks/" (23142 4462 942012 965000) "../" "./" "main.yml")
+
+ ("/home/jboadas/devel/myansible/roles/basic/" (23142 4304 720446 268000) "../" "./" "tasks/")
+
+ ("/home/jboadas/devel/python/selenium/selenium2/coinimp/" (23137 62425 207846 409000) "testcase_00_dashboard.py" "run_all_tests_headless.sh" "st03registershare.py" "../" "./" "testcase_01_client.py" "testcase_04_referals.py" "loadlogs.py" "st01dashboard.py" "logs/" "run_all_tests.sh" "data.py" "st03register.py" "st04referals.py" "st01dashboardshare.py" "testcase_02_register.py" "loadselenium.py" "__pycache__/" "geckodriver.log" "st02client.py" "customexception.py" "coinimp.json" "templates/" "credentials.py")
 
  ("/home/jboadas/devel/python/" (23117 5203 673976 425000) "test-scripts/" "../" "selenium/" "./" "reusing-browser/" "python.emacs.d/" "python.emacs.d.tar.gz")
-
- ("/home/jboadas/devel/" (23117 4753 705553 989000) "python/" "../" "./" "clojure/")
-
- ("/home/jboadas/devel/python/selenium/selenium2/coinimp/" (23115 43559 3831 928000) "testcase_00_dashboard.py" "run_all_tests_headless.sh" "../" "./" "testcase_01_client.py" "testcase_04_referals.py" "loadlogs.py" "st01dashboard.py" "logs/" "run_all_tests.sh" "data.py" "st03register.py" "st04referals.py" "st01dashboardshare.py" "testcase_02_register.py" "loadselenium.py" "__pycache__/" "geckodriver.log" "st02client.py" "customexception.py" "coinimp.json" "templates/" "credentials.py")
 
  ("/home/jboadas/devel/python/selenium/selenium2/coinimp/templates/" (23110 35080 217844 727000) "index.html" "../" "./")
 
@@ -94,8 +188,6 @@
  ("/home/jboadas/devel/python/selenium/selenium2/maintests/php_scripts/" (23082 59653 76884 744000) "php_version.php" "../" "./")
 
  ("/home/jboadas/devel/python/test-scripts/testcases/" (23069 26858 62326 531000) "testcase_lp03_register_freeaccount_free_domain.py" "testcase_lp07_register_paidaccount_pl_domain_przelewy.py" "testcase_lp15_test_all_panels.py" "testcase_lp04_register_freeaccount_paid_domain.py" "testcase_lp00_changeregion.py" "testcase_lp09_register_vps1024.py" "testcase_lp13_register_vps_centospanel.py" "testcase_lp02_register_company.py" "testcase_lp01_register_natural_person.py" "testcase_lp12_register_vps_webmin.py" "testcase_lp06_register_paidaccount_com_domain_paypal.py" "testcase_lp11_register_vps_ispconfig.py" "../" "testcase_lp10_register_vps2048.py" "./" "testcase_lp05_register_paidaccount_no_domain_coupon.py" "testcase_lp14_register_vps_admin.py" "testcase_lp08_register_vps512.py")
-
- ("/home/jboadas/devel/python/test-scripts/" (23072 18177 568517 506000) "debug.log" "send-gmail.py" "test_python_org_search.py" "headless/" "tem-email.py" "pathmagic.py" "bash-name/" "unicode.py" "test_continue.py" "imap_tests.py" "get_imap.py" "logrotation/" "paypal_calc.py" "mail-api.py" "iterating_dict.py" "convert-pdf-txt.py" "mail-content.txt" "dropmail.py" "backend/" "python-emailvoid/" "curr-dir.py" "run_vps_expiration.py" "python_org_search.py" "icinga-mysql.py" "other-accounts.txt" "ssh_delete_domain.py" "jrs.pdf" "exception-else.py" "dict.py" "testcases/" "test-pygame.py" "../" "example-siblings/" "./" "test-unittest.py" "date_arithmetic.py" "exceptions.py" "pop3.py")
 
  ("/home/jboadas/.config/xfce4/xfconf/xfce-perchannel-xml/" (23070 47783 12320 47000) "xfce4-session.xml" "xfce4-keyboard-shortcuts.xml" "xfwm4.xml" "thunar.xml" "xfce4-mixer.xml" "xfce4-appfinder.xml" "xfce4-panel.xml" "keyboards.xml" "xfce4-notifyd.xml" "keyboard-layout.xml" "displays.xml" "xfce4-power-manager.xml" "parole.xml" "../" "./" "xfce4-desktop.xml" "xsettings.xml" "xfce4-settings-manager.xml" "ristretto.xml")
 
@@ -110,8 +202,6 @@
  ("/home/jboadas/devel/python/selenium/selenium2/testcases/" (23045 63730 832782 602000) "testcase_lp10_register_vps2048.py" "testcase_lp02_register_company.py" "testcase_lp06_register_paidaccount_com_domain_paypal.py" "testcase_lp07_register_paidaccount_pl_domain_przelewy.py" "testcase_lp00_changeregion.py" "testcase_lp11_register_vps_ispconfig.py" "testcase_lp12_register_vps_webmin.py" "testcase_lp01_register_natural_person.py" "testcase_lp15_test_all_panels.py" "testcase_lp13_register_vps_centospanel.py" "./" "testcase_lp09_register_vps1024.py" "testcase_lp05_register_paidaccount_no_domain_coupon.py" "testcase_lp14_register_vps_admin.py" "testcase_lp08_register_vps512.py" "testcase_lp03_register_freeaccount_free_domain.py" "../" "testcase_lp04_register_freeaccount_paid_domain.py")
 
  ("/home/jboadas/devel/python/selenium/selenium2/headless/" (23027 33115 369825 229000) "./" "geckodriver.log" "../" "headless.py")
-
- ("/home/jboadas/Downloads/" (23024 58893 103876 589000) "data-selenium.html~" "Danny Ocean - Me Rehúso [Mambo Remix] [720p].mp4" "breadcums.png" "selenium-python.pdf" "./" "Untitled spreadsheet - Sheet1.csv" "data-selenium.html" "Testing v315 new version.ods" "python-pypdf2-1.26.0-1-any.pkg.tar.xz" "pago-bomba.pdf" ".lockedbysupport" "../" "receipt.pdf" "Danny Ocean -  Me Rehúso (Official Audio) [720p].mp4" "mercadopago.png")
 
  ("/home/jboadas/devel/python/selenium/selenium2/V316/" (23016 58570 95361 122000) "screenshoots/" "__init__.py" "testcase_lp02_register_company.py" "testcase_lp07_register_paidaccount_pl_domain_przelewy.py" "changeregion.py" "loadselenium.py" "testcase_lp01_register_natural_person.py" "icinga.log" "./" "data.py" "testcase_lp05_register_paidaccount_nodomain_coupon.py" "loadlogs.py" "run_all_tests.sh" "testcase_lp03_register_freeaccount_free_domain.py" "geckodriver.log" "testcase_changeregion.py" "testcase_lp06_register_paidaccount_nodomain_paypal.py" "st01register.py" "__pycache__/" "../" "testcase_lp04_register_freeaccount_paid_domain.py")
 

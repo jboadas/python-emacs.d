@@ -4,26 +4,27 @@
   :tables
   (list
     (semanticdb-table "semanticdb-table"
-      :major-mode python-mode
+      :major-mode 'python-mode
       :tags 
-        '( ("mysql.connector" include nil nil [1 23])
-            ("sshtunnel" include nil nil [24 64])
-            ("ssh_host" variable nil nil [66 94])
-            ("ssh_user" variable nil nil [95 115])
-            ("ssh_password" variable nil nil [116 143])
-            ("ssh_port" variable nil nil [144 159])
-            ("sql_hostname" variable nil nil [161 187])
-            ("sql_username" variable nil nil [188 211])
-            ("sql_password" variable nil nil [212 241])
-            ("sql_main_database" variable nil nil [242 270])
-            ("sql_port" variable nil nil [271 286]))          
+        '( ("\"\"\"module to connects to mysql\"\"\"" code nil nil [35 68])
+            ("MySQLdb" include nil nil [69 83])
+            ("sshtunnel" include nil nil [84 124])
+            ("ssh_host" variable nil nil [126 154])
+            ("ssh_user" variable nil nil [155 175])
+            ("ssh_password" variable nil nil [176 203])
+            ("ssh_port" variable nil nil [204 219])
+            ("sql_hostname" variable nil nil [221 247])
+            ("sql_username" variable nil nil [248 271])
+            ("sql_password" variable nil nil [272 301])
+            ("sql_main_database" variable nil nil [302 330])
+            ("sql_port" variable nil nil [331 346]))          
       :file "icinga-mysql.py"
-      :pointmax 1139
-      :fsize 1138
-      :lastmodtime '(23042 12649 713404 0)
-      :unmatched-syntax '((INDENT_BLOCK 993 . 1039) (COLON 991 . 992) (ELSE 987 . 991) (INDENT_BLOCK 973 . 986) (COLON 971 . 972) (TRY 288 . 291) (AS 967 . 969) (INDENT_BLOCK 993 . 1039) (COLON 991 . 992) (ELSE 987 . 991) (INDENT_BLOCK 973 . 986) (COLON 971 . 972) (TRY 288 . 291) (AS 967 . 969)))
+      :pointmax 1191
+      :fsize 1190
+      :lastmodtime '(23144 43514 536980 36000)
+      :unmatched-syntax '((INDENT_BLOCK 1045 . 1091) (COLON 1043 . 1044) (ELSE 1039 . 1043) (INDENT_BLOCK 1025 . 1038) (COLON 1023 . 1024) (TRY 348 . 351) (AS 1019 . 1021) ($EOI 1191 . 1191) (INDENT_BLOCK 1032 . 1078) (COLON 1030 . 1031) (ELSE 1026 . 1030) (INDENT_BLOCK 1012 . 1025) (COLON 1010 . 1011) (TRY 335 . 338) (AS 1006 . 1008) ($EOI 1178 . 1178)))
     (semanticdb-table "semanticdb-table"
-      :major-mode python-mode
+      :major-mode 'python-mode
       :tags 
         '( ("\"\"\" demo of date arithmetic \"\"\"" code nil nil [1 32])
             ("datetime" include nil nil [33 48])
@@ -35,7 +36,7 @@
       :lastmodtime '(23052 47994 217528 0)
       :unmatched-syntax nil)
     (semanticdb-table "semanticdb-table"
-      :major-mode python-mode
+      :major-mode 'python-mode
       :tags 
         '( ("TEXTS" variable nil nil [1 678])
             ("upgrade_periods" variable nil nil [680 722])
@@ -47,7 +48,7 @@
       :lastmodtime '(23053 34771 551923 0)
       :unmatched-syntax nil)
     (semanticdb-table "semanticdb-table"
-      :major-mode python-mode
+      :major-mode 'python-mode
       :tags 
         '( ("sys" include nil nil [390 400])
             ("imaplib" include nil nil [401 415])
@@ -76,7 +77,7 @@
       :lastmodtime '(23055 20713 142566 0)
       :unmatched-syntax nil)
     (semanticdb-table "semanticdb-table"
-      :major-mode python-mode
+      :major-mode 'python-mode
       :tags 
         '( ("imaplib" include nil nil [1 15])
             ("M" variable nil nil [17 49])
@@ -92,7 +93,7 @@
       :lastmodtime '(23053 62515 187641 0)
       :unmatched-syntax nil)
     (semanticdb-table "semanticdb-table"
-      :major-mode python-mode
+      :major-mode 'python-mode
       :tags 
         '( ("os" include nil nil [21 30])
             ("socket" include nil nil [31 44])
@@ -104,7 +105,7 @@
       :lastmodtime '(23062 62070 492583 0)
       :unmatched-syntax nil)
     (semanticdb-table "semanticdb-table"
-      :major-mode python-mode
+      :major-mode 'python-mode
       :tags 
         '( ("os" include nil nil [22 31])
             ("subprocess" include nil nil [32 49])
@@ -127,7 +128,7 @@
       :lastmodtime '(23035 9346 0 0)
       :unmatched-syntax '((INDENT_BLOCK 468 . 485) (NEWLINE 467 . 468) (COLON 466 . 467) (TRY 379 . 382) (AS 462 . 464)))
     (semanticdb-table "semanticdb-table"
-      :major-mode python-mode
+      :major-mode 'python-mode
       :tags 
         '( ("\"\"\"utilities to make ssh-tunnel and connect to mysql\"\"\"" code nil nil [1 56])
             ("re" include nil nil [57 66])
@@ -150,10 +151,10 @@
       :file "ssh_delete_domain.py"
       :pointmax 3092
       :fsize 3091
-      :lastmodtime '(23097 13222 228783 612000)
+      :lastmodtime '(23097 13222 228783 0)
       :unmatched-syntax nil)
     (semanticdb-table "semanticdb-table"
-      :major-mode python-mode
+      :major-mode 'python-mode
       :tags 
         '( ("max_tries" variable nil nil [1 14])
             ("counter" variable nil nil [15 26])
@@ -161,10 +162,10 @@
       :file "test_continue.py"
       :pointmax 260
       :fsize 259
-      :lastmodtime '(23069 45370 31919 221000)
+      :lastmodtime '(23069 45370 31919 0)
       :unmatched-syntax nil)
     (semanticdb-table "semanticdb-table"
-      :major-mode python-mode
+      :major-mode 'python-mode
       :tags 
         '( ("\"utility to run expiration vps script\"" code nil nil [1 39])
             ("paramiko" include nil nil [40 70])
@@ -173,7 +174,18 @@
       :file "run_vps_expiration.py"
       :pointmax 1200
       :fsize 1199
-      :lastmodtime '(23071 6306 315867 15000)
+      :lastmodtime '(23071 6306 315867 0)
+      :unmatched-syntax nil)
+    (semanticdb-table "nonces.py"
+      :major-mode 'python-mode
+      :tags 
+        '( ("nonce" variable nil nil [1 15])
+            ("tera" variable nil nil [40 57])
+            ("bytes_in_megas" variable nil nil [87 108]))          
+      :file "nonces.py"
+      :pointmax 109
+      :fsize 86
+      :lastmodtime '(23123 36722 550460 442000)
       :unmatched-syntax nil))
   :file "!home!jboadas!devel!python!test-scripts!semantic.cache"
   :semantic-tag-version "2.0"
