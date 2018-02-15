@@ -3,27 +3,6 @@
 (semanticdb-project-database-file "scripts/"
   :tables
   (list
-    (semanticdb-table "get_nonces.py"
-      :major-mode 'python-mode
-      :tags 
-        '( ("\"\"\"get next nonce non overlapping\"\"\"" code nil nil [35 71])
-            ("subprocess" include nil nil [92 127])
-            ("subprocess" include nil nil [128 169])
-            ("os" include nil nil [170 179])
-            ("get_free_space_gb" function
-               (:documentation "get free space of the folder in GB"
-                :arguments 
-                  ( ("folder" variable nil (reparse-symbol function_parameters) [204 210]))                  )
-                nil [182 514])
-            ("check_plotter_running" function (:documentation "checks if the plotter is running in memory") nil [516 774])
-            ("get_mount_points" function (:documentation "gets all mounted disks") nil [776 1109])
-            ("main" function (:documentation "main procedure") nil [1111 1221])
-            ("get_mount_points" code nil nil [1223 1241]))          
-      :file "get_nonces.py"
-      :pointmax 1242
-      :fsize 1241
-      :lastmodtime '(23147 12782 719994 862000)
-      :unmatched-syntax nil)
     (semanticdb-table "create_database.py"
       :major-mode 'python-mode
       :tags 
@@ -41,6 +20,103 @@
       :pointmax 1596
       :fsize 1595
       :lastmodtime '(23147 10457 423285 380000)
+      :unmatched-syntax nil)
+    (semanticdb-table "get_info.py"
+      :major-mode 'python-mode
+      :tags 
+        '( ("\"\"\"get info of remote hosts\"\"\"" code nil nil [21 51])
+            ("paramiko" include nil nil [52 67])
+            ("paramiko.ssh_exception" include nil nil [68 115])
+            ("hosts" include nil nil [116 128])
+            ("hostinfo" include nil nil [129 144])
+            ("restart_miner_process" function
+               (:documentation "kills the miner process if suplicated or parameter true"
+                :arguments 
+                  ( ("ip_host" variable nil (reparse-symbol function_parameters) [173 180])
+                    ("kill" variable nil (reparse-symbol function_parameters) [182 186]))                  )
+                nil [147 1809])
+            ("change_hostname" function
+               (:documentation "change the name of a host"
+                :arguments 
+                  ( ("ip_host" variable nil (reparse-symbol function_parameters) [1831 1838])
+                    ("new_name" variable nil (reparse-symbol function_parameters) [1840 1848]))                  )
+                nil [1811 3131])
+            ("get_plots_space" function
+               (:documentation "get space used/avail on each plot"
+                :arguments 
+                  ( ("ip_host" variable nil (reparse-symbol function_parameters) [3153 3160])
+                    ("all_plots" variable nil (reparse-symbol function_parameters) [3162 3171]))                  )
+                nil [3133 3996])
+            ("get_mounted_plots" function
+               (:documentation "get_mounted_plots"
+                :arguments 
+                  ( ("ip_host" variable nil (reparse-symbol function_parameters) [4020 4027]))                  )
+                nil [3998 5009])
+            ("get_plotting_process_pid" function
+               (:documentation "execute_remote_command"
+                :arguments 
+                  ( ("ip_host" variable nil (reparse-symbol function_parameters) [5040 5047]))                  )
+                nil [5011 5802])
+            ("TEMP_HOSTS" variable nil nil [5804 5903])
+            ("get_plotting_info_from_hosts" function (:documentation "gets if a host is ploting") nil [5906 6230])
+            ("kill_restart_miner" function (:documentation "restart the miner process") nil [6232 6386])
+            ("change_name_of_host" function (:documentation "change the name of all host") nil [6388 6578])
+            ("change_name_of_host" code nil nil [6782 6803]))          
+      :file "get_info.py"
+      :pointmax 6850
+      :fsize 6849
+      :lastmodtime '(23163 19428 585977 680000)
+      :unmatched-syntax nil)
+    (semanticdb-table "hosts.py"
+      :major-mode 'python-mode
+      :tags 
+        '( ("\"\"\"hosts inventory\"\"\"" code nil nil [1 22]))          
+      :file "hosts.py"
+      :pointmax 1636
+      :fsize 1635
+      :lastmodtime '(23163 1479 913372 110000)
+      :unmatched-syntax nil)
+    (semanticdb-table "get_failing_disks.py"
+      :major-mode 'python-mode
+      :tags 
+        '( ("\"\"\"get info of remote hosts\"\"\"" code nil nil [21 51])
+            ("paramiko" include nil nil [52 67])
+            ("paramiko.ssh_exception" include nil nil [68 115])
+            ("hosts" include nil nil [116 128])
+            ("socket" include nil nil [129 142])
+            ("STATUS" variable nil nil [144 155])
+            ("get_hpaclucli_output" function
+               (:documentation "get hpacucli command output"
+                :arguments 
+                  ( ("ip_host" variable nil (reparse-symbol function_parameters) [183 190]))                  )
+                nil [158 6026])
+            ("process_results" function (:arguments 
+              ( ("list_servers" variable nil (reparse-symbol function_parameters) [6048 6060]))              ) nil [6028 7241])
+            ("get_failed_disks" function (:documentation "gets if a host is ploting") nil [7278 7497])
+            ("disk_list" include nil nil [7520 7536])
+            ("process_results" code nil nil [7563 7599]))          
+      :file "get_failing_disks.py"
+      :pointmax 7600
+      :fsize 7599
+      :lastmodtime '(23160 28460 35188 733000)
+      :unmatched-syntax nil)
+    (semanticdb-table "disk_list.py"
+      :major-mode 'python-mode
+      :tags 
+        '( ("disk_list" variable nil nil [1 333954]))          
+      :file "disk_list.py"
+      :pointmax 333955
+      :fsize 333954
+      :lastmodtime '(23160 28545 964064 179000)
+      :unmatched-syntax nil)
+    (semanticdb-table "hostinfo.py"
+      :major-mode 'python-mode
+      :tags 
+        '( ("\"\"\"info of hosts\"\"\"" code nil nil [21 40]))          
+      :file "hostinfo.py"
+      :pointmax 3688
+      :fsize 3687
+      :lastmodtime '(23163 21674 876424 544000)
       :unmatched-syntax nil))
   :file "!home!jboadas!devel!ansible-playbooks!burst!scripts!semantic.cache"
   :semantic-tag-version "2.0"

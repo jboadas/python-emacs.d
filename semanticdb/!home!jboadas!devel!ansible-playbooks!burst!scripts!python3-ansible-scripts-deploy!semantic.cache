@@ -1,0 +1,68 @@
+;; Object python3-ansible-scripts-deploy/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "python3-ansible-scripts-deploy/"
+  :tables
+  (list
+    (semanticdb-table "get_nonces.py"
+      :major-mode 'python-mode
+      :tags 
+        '( ("\"\"\"get next nonce non overlapping\"\"\"" code nil nil [36 72])
+            ("subprocess" include nil nil [93 128])
+            ("subprocess" include nil nil [129 170])
+            ("os" include nil nil [171 180])
+            ("socket" include nil nil [181 194])
+            ("MySQLdb" include nil nil [195 209])
+            ("sshtunnel" include nil nil [210 250])
+            ("WALLET_ID" variable nil nil [252 285])
+            ("get_ip_address" function (:documentation "gets own ip address") nil [288 400])
+            ("get_next_nonce" function
+               (:documentation "gets the next nonce to plot"
+                :arguments 
+                  ( ("ip_host" variable nil (reparse-symbol function_parameters) [421 428])
+                    ("avail_nonces" variable nil (reparse-symbol function_parameters) [430 442])
+                    ("mount_point" variable nil (reparse-symbol function_parameters) [444 455]))                  )
+                nil [402 1807])
+            ("get_free_space_gb" function
+               (:documentation "get free space of the folder in GB"
+                :arguments 
+                  ( ("folder" variable nil (reparse-symbol function_parameters) [1831 1837]))                  )
+                nil [1809 2221])
+            ("is_plotter_running" function (:documentation "checks if the plotter is running in memory") nil [2223 2572])
+            ("delete_lost_ploting_files" function (:documentation "gets all mounted disks") nil [2574 3427])
+            ("get_mount_points" function (:documentation "gets all mounted disks") nil [3429 4132])
+            ("launch_plot_script" function
+               (:documentation "launch the plot script"
+                :arguments 
+                  ( ("start_nonce" variable nil (reparse-symbol function_parameters) [4157 4168])
+                    ("number_of_nonces" variable nil (reparse-symbol function_parameters) [4170 4186])
+                    ("directory" variable nil (reparse-symbol function_parameters) [4188 4197]))                  )
+                nil [4134 4929])
+            ("main" function (:documentation "main procedure") nil [4931 5438])
+            ("if" code nil nil [5440 5478]))          
+      :file "get_nonces.py"
+      :pointmax 5478
+      :fsize 5468
+      :lastmodtime '(23164 17869 0 0)
+      :unmatched-syntax nil)
+    (semanticdb-table "start_dead_miner.py"
+      :major-mode 'python-mode
+      :tags 
+        '( ("\"\"\"scans process for the miner process if not running start it\"\"\"" code nil nil [1 66])
+            ("subprocess" include nil nil [67 102])
+            ("subprocess" include nil nil [103 144])
+            ("os" include nil nil [145 154])
+            ("launch_miner" function (:documentation "launch the miner process") nil [157 336])
+            ("get_creep_process" function nil nil [337 746])
+            ("ps_check_miner_process" function nil nil [747 1535])
+            ("is_miner_running" function (:documentation "checks if the miner is running in memory") nil [1536 1911])
+            ("check_miner_and_start" function (:documentation "check if the miner if running and start it if not") nil [1912 2030])
+            ("main" function (:documentation "main function") nil [2032 2096])
+            ("if" code nil nil [2098 2136]))          
+      :file "start_dead_miner.py"
+      :pointmax 2136
+      :fsize 2135
+      :lastmodtime '(23164 26806 651095 419000)
+      :unmatched-syntax '((INDENT_BLOCK 1514 . 1535) (NEWLINE 1513 . 1514) (COLON 1512 . 1513) (TRY 848 . 851) (AS 1504 . 1506))))
+  :file "!home!jboadas!devel!ansible-playbooks!burst!scripts!python3-ansible-scripts-deploy!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

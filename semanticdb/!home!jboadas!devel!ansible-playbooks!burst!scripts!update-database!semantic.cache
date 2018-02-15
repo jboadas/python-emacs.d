@@ -1,0 +1,37 @@
+;; Object update-database/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "update-database/"
+  :tables
+  (list
+    (semanticdb-table "BurstProjectCredentials.json"
+      :major-mode 'js-mode
+      :tags nil
+      :file "BurstProjectCredentials.json"
+      :pointmax 2344
+      :fsize 2343
+      :lastmodtime '(23172 19550 972256 671000)
+      :unmatched-syntax nil)
+    (semanticdb-table "update_database.py"
+      :major-mode 'python-mode
+      :tags 
+        '( ("gspread" include nil nil [1 15])
+            ("oauth2client.service_account" include nil nil [16 82])
+            ("scope" variable nil nil [85 134])
+            ("creds" variable nil nil [135 235])
+            ("client" variable nil nil [237 270])
+            ("sheet" variable nil nil [272 314])
+            ("all_servers" variable nil nil [317 354])
+            ("print" code nil nil [355 379])
+            ("found" variable nil nil [402 436])
+            ("print" code nil nil [437 449])
+            ("print" code nil nil [450 466])
+            ("print" code nil nil [467 483])
+            ("sheet" code nil nil [485 535]))          
+      :file "update_database.py"
+      :pointmax 536
+      :fsize 535
+      :lastmodtime '(23172 23186 969706 607000)
+      :unmatched-syntax nil))
+  :file "!home!jboadas!devel!ansible-playbooks!burst!scripts!update-database!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

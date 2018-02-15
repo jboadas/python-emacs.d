@@ -227,7 +227,8 @@
 
 (elpy-enable)
 (setq elpy-rpc-python-command "python3")
-(elpy-use-cpython "/usr/bin/python3")
+(setq python-shell-interpreter "python3"
+      python-shell-interpreter-args "-i")
 
 (setq python-shell-completion-native-enable nil)
 ;; (when (require 'flycheck nil t)

@@ -236,7 +236,7 @@
       :file "coinimp.json"
       :pointmax 964
       :fsize 963
-      :lastmodtime '(23133 64218 455092 924000)
+      :lastmodtime '(23165 36499 896290 540000)
       :unmatched-syntax nil)
     (semanticdb-table "semanticdb-table"
       :major-mode 'python-mode
@@ -492,20 +492,20 @@
                         :arguments 
                           ( ("self" variable nil (reparse-symbol function_parameters) [21895 21899]))                          
                         :documentation "log into the coinimp account")
-                        (reparse-symbol indented_block_body) [21876 23817])
+                        (reparse-symbol indented_block_body) [21876 23821])
                     ("test_local_miner" function
                        (:parent "dummy"
                         :arguments 
-                          ( ("self" variable nil (reparse-symbol function_parameters) [23843 23847]))                          
+                          ( ("self" variable nil (reparse-symbol function_parameters) [23847 23851]))                          
                         :documentation "test the local miner hashes")
-                        (reparse-symbol indented_block_body) [23822 25121]))                  
+                        (reparse-symbol indented_block_body) [23826 25125]))                  
                 :type "class")
-                nil [479 25121])
-            ("if" code nil nil [25123 25415]))          
+                nil [479 25125])
+            ("if" code nil nil [25127 25384]))          
       :file "st01dashboard.py"
-      :pointmax 25415
-      :fsize 25414
-      :lastmodtime '(23134 15208 678219 331000)
+      :pointmax 25418
+      :fsize 25417
+      :lastmodtime '(23152 29759 470661 541000)
       :unmatched-syntax nil)
     (semanticdb-table "semanticdb-table"
       :major-mode 'python-mode
@@ -733,38 +733,38 @@
                        (:parent "dummy"
                         :arguments 
                           ( ("self" variable nil (reparse-symbol function_parameters) [3912 3916]))                          )
-                        (reparse-symbol indented_block_body) [3886 4655])
+                        (reparse-symbol indented_block_body) [3886 4634])
                     ("go_to_sign_up" function
                        (:parent "dummy"
                         :arguments 
-                          ( ("self" variable nil (reparse-symbol function_parameters) [4678 4682]))                          
+                          ( ("self" variable nil (reparse-symbol function_parameters) [4657 4661]))                          
                         :documentation "go to sign-up screen")
-                        (reparse-symbol indented_block_body) [4660 5277])
+                        (reparse-symbol indented_block_body) [4639 5256])
                     ("_forgot_password" function
                        (:parent "dummy"
                         :arguments 
-                          ( ("self" variable nil (reparse-symbol function_parameters) [5303 5307]))                          
+                          ( ("self" variable nil (reparse-symbol function_parameters) [5282 5286]))                          
                         :documentation "go to forgot password screen")
-                        (reparse-symbol indented_block_body) [5282 6376])
+                        (reparse-symbol indented_block_body) [5261 6355])
                     ("test_register" function
                        (:parent "dummy"
                         :arguments 
-                          ( ("self" variable nil (reparse-symbol function_parameters) [6399 6403]))                          
+                          ( ("self" variable nil (reparse-symbol function_parameters) [6378 6382]))                          
                         :documentation "log into the coinimp account")
-                        (reparse-symbol indented_block_body) [6381 7873])
+                        (reparse-symbol indented_block_body) [6360 7956])
                     ("recover_password" function
                        (:parent "dummy"
                         :arguments 
-                          ( ("self" variable nil (reparse-symbol function_parameters) [7899 7903]))                          
+                          ( ("self" variable nil (reparse-symbol function_parameters) [7982 7986]))                          
                         :documentation "recover lost password")
-                        (reparse-symbol indented_block_body) [7878 9860]))                  
+                        (reparse-symbol indented_block_body) [7961 10047]))                  
                 :type "class")
-                nil [427 9860])
-            ("if" code nil nil [9862 10117]))          
+                nil [427 10047])
+            ("if" code nil nil [10049 10305]))          
       :file "st03register.py"
-      :pointmax 10148
-      :fsize 10147
-      :lastmodtime '(23119 41077 860807 451000)
+      :pointmax 10336
+      :fsize 10335
+      :lastmodtime '(23165 41820 47415 473000)
       :unmatched-syntax nil)
     (semanticdb-table "semanticdb-table"
       :major-mode 'python-mode
@@ -1017,25 +1017,31 @@
                         :arguments 
                           ( ("self" variable nil (reparse-symbol function_parameters) [5201 5205])
                             ("email_to_process" variable nil (reparse-symbol function_parameters) [5207 5223]))                          )
-                        (reparse-symbol indented_block_body) [5170 5700])
+                        (reparse-symbol indented_block_body) [5170 5813])
                     ("_get_email_url" function
                        (:parent "dummy"
                         :arguments 
-                          ( ("self" variable nil (reparse-symbol function_parameters) [5724 5728]))                          
+                          ( ("self" variable nil (reparse-symbol function_parameters) [5837 5841]))                          
                         :documentation "gets the email to reset the password")
-                        (reparse-symbol indented_block_body) [5705 7509])
+                        (reparse-symbol indented_block_body) [5818 7622])
                     ("change_password" function
                        (:parent "dummy"
                         :arguments 
-                          ( ("self" variable nil (reparse-symbol function_parameters) [7534 7538]))                          
+                          ( ("self" variable nil (reparse-symbol function_parameters) [7647 7651]))                          
                         :documentation "change the password of the account")
-                        (reparse-symbol indented_block_body) [7514 9129]))                  
+                        (reparse-symbol indented_block_body) [7627 9245])
+                    ("get_register_url" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [9271 9275]))                          
+                        :documentation "get the register url")
+                        (reparse-symbol indented_block_body) [9250 9650]))                  
                 :type "class")
-                nil [411 9129]))          
+                nil [411 9650]))          
       :file "st03registershare.py"
-      :pointmax 9129
-      :fsize 9128
-      :lastmodtime '(23119 40829 978244 286000)
+      :pointmax 9650
+      :fsize 9649
+      :lastmodtime '(23165 41626 309371 115000)
       :unmatched-syntax nil))
   :file "!home!jboadas!devel!python!selenium!selenium2!coinimp!semantic.cache"
   :semantic-tag-version "2.0"

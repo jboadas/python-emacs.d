@@ -1,0 +1,334 @@
+;; Object selenium/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "selenium/"
+  :tables
+  (list
+    (semanticdb-table "loadselenium.py"
+      :major-mode 'python-mode
+      :tags 
+        '( ("\"\"\"module to handle all selenium tasks\"\"\"" code nil nil [35 76])
+            ("selenium" include nil nil [77 107])
+            ("selenium.webdriver.support.ui" include nil nil [108 163])
+            ("data" include nil nil [164 175])
+            ("loadlogs" include nil nil [176 191])
+            ("credentials" include nil nil [192 210])
+            ("LoadWebDriver" type
+               (:documentation "load selenium configuration"
+                :members 
+                  ( ("__init__" function
+                       (:suite 
+                          ( ("self" variable nil (reparse-symbol indented_block_body) [306 354])
+                            ("self" code nil (reparse-symbol indented_block_body) [363 380])
+                            ("self" code nil (reparse-symbol indented_block_body) [389 445])
+                            ("self" variable nil (reparse-symbol indented_block_body) [454 498])
+                            ("self" code nil (reparse-symbol indented_block_body) [507 558])
+                            ("if" code nil (reparse-symbol indented_block_body) [567 782])
+                            ("self" code nil (reparse-symbol indented_block_body) [791 843])
+                            ("self" code nil (reparse-symbol indented_block_body) [852 881])
+                            ("self" variable nil (reparse-symbol indented_block_body) [890 963]))                          
+                        :parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [290 294]))                          
+                        :constructor-flag t)
+                        (reparse-symbol indented_block_body) [277 964])
+                    ("__setup_phantomjs" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [991 995]))                          )
+                        (reparse-symbol indented_block_body) [969 1110])
+                    ("__setup_chrome" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [1134 1138]))                          )
+                        (reparse-symbol indented_block_body) [1115 1244])
+                    ("__setup_firefox" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [1269 1273]))                          )
+                        (reparse-symbol indented_block_body) [1249 2247])
+                    ("get_test_account" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [2273 2277]))                          
+                        :documentation "get the test account")
+                        (reparse-symbol indented_block_body) [2252 2479])
+                    ("get_element_attributes" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [2511 2515])
+                            ("element" variable nil (reparse-symbol function_parameters) [2517 2524]))                          
+                        :documentation "get all attributes of an element")
+                        (reparse-symbol indented_block_body) [2484 2890]))                  
+                :type "class")
+                nil [213 2890]))          
+      :file "loadselenium.py"
+      :pointmax 2890
+      :fsize 2889
+      :lastmodtime '(23153 54121 398401 242000)
+      :unmatched-syntax nil)
+    (semanticdb-table "loadlogs.py"
+      :major-mode 'python-mode
+      :tags 
+        '( ("\"\"\"methos stub to use logs\"\"\"" code nil nil [35 64])
+            ("logging" include nil nil [65 79])
+            ("socket" include nil nil [80 93])
+            ("sys" include nil nil [94 104])
+            ("traceback" include nil nil [105 121])
+            ("datetime" include nil nil [122 137])
+            ("data" include nil nil [138 149])
+            ("LoadLogs" type
+               (:documentation "hide logs logic from main tests"
+                :members 
+                  ( ("__init__" function
+                       (:suite 
+                          ( ("self" variable nil (reparse-symbol indented_block_body) [254 285])
+                            ("self" variable nil (reparse-symbol indented_block_body) [294 309])
+                            ("self" variable nil (reparse-symbol indented_block_body) [318 332])
+                            ("self" variable nil (reparse-symbol indented_block_body) [341 355])
+                            ("self" code nil (reparse-symbol indented_block_body) [364 385])
+                            ("log_filename" variable nil (reparse-symbol indented_block_body) [394 432])
+                            ("logging" code nil (reparse-symbol indented_block_body) [441 503])
+                            ("logging" code nil (reparse-symbol indented_block_body) [512 545])
+                            ("self" variable nil (reparse-symbol indented_block_body) [554 598]))                          
+                        :parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [228 232])
+                            ("hierarchy" variable nil (reparse-symbol function_parameters) [234 243]))                          
+                        :constructor-flag t)
+                        (reparse-symbol indented_block_body) [215 599])
+                    ("set_name" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [617 621])
+                            ("name" variable nil (reparse-symbol function_parameters) [623 627]))                          
+                        :documentation "set the account name")
+                        (reparse-symbol indented_block_body) [604 690])
+                    ("_prepare_data" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [713 717])
+                            ("message_01" variable nil (reparse-symbol function_parameters) [719 729])
+                            ("message_02" variable nil (reparse-symbol function_parameters) [731 741]))                          )
+                        (reparse-symbol indented_block_body) [695 1258])
+                    ("info_to_log" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [1279 1283])
+                            ("kwargs" variable nil (reparse-symbol function_parameters) [1285 1293]))                          
+                        :documentation "send info to the log")
+                        (reparse-symbol indented_block_body) [1263 2108])
+                    ("error_to_log" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [2130 2134])
+                            ("kwargs" variable nil (reparse-symbol function_parameters) [2136 2144]))                          
+                        :documentation "write errors to the log")
+                        (reparse-symbol indented_block_body) [2113 2348])
+                    ("header" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [2364 2368]))                          
+                        :documentation "print a header in the log between each test")
+                        (reparse-symbol indented_block_body) [2353 2665])
+                    ("begin" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [2680 2684])
+                            ("test_name" variable nil (reparse-symbol function_parameters) [2686 2695]))                          
+                        :documentation "write a begin mark on the log")
+                        (reparse-symbol indented_block_body) [2670 2987])
+                    ("end" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [3000 3004])
+                            ("status" variable nil (reparse-symbol function_parameters) [3006 3012]))                          
+                        :documentation "write a end mark on the log")
+                        (reparse-symbol indented_block_body) [2992 3269])
+                    ("format_error" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [3291 3295])
+                            ("error" variable nil (reparse-symbol function_parameters) [3297 3302]))                          
+                        :documentation "format error messages to write on the log")
+                        (reparse-symbol indented_block_body) [3274 4093])
+                    ("findent" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [4110 4114]))                          
+                        :documentation "indent lines on the log")
+                        (reparse-symbol indented_block_body) [4098 4208])
+                    ("get_log_filename" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [4234 4238]))                          
+                        :documentation "gets the log file name")
+                        (reparse-symbol indented_block_body) [4213 4621]))                  
+                :type "class")
+                nil [152 4621]))          
+      :file "loadlogs.py"
+      :pointmax 4621
+      :fsize 4620
+      :lastmodtime '(23153 53802 587207 358000)
+      :unmatched-syntax nil)
+    (semanticdb-table "credentials.py"
+      :major-mode 'python-mode
+      :tags 
+        '( ("\"\"\"read credentials from a file\"\"\"" code nil nil [35 69])
+            ("loadlogs" include nil nil [70 85])
+            ("Credentials" type
+               (:documentation "read credentials from a file"
+                :members 
+                  ( ("__init__" function
+                       (:suite 
+                          ( ("self" variable nil (reparse-symbol indented_block_body) [180 228])
+                            ("self" variable nil (reparse-symbol indented_block_body) [237 261])
+                            ("self" variable nil (reparse-symbol indented_block_body) [270 298])
+                            ("self" variable nil (reparse-symbol indented_block_body) [307 335]))                          
+                        :parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [164 168]))                          
+                        :constructor-flag t)
+                        (reparse-symbol indented_block_body) [151 336])
+                    ("get_username" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [358 362]))                          
+                        :documentation "gets the username of the site")
+                        (reparse-symbol indented_block_body) [341 438])
+                    ("get_password" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [460 464]))                          
+                        :documentation "gets the password of the site")
+                        (reparse-symbol indented_block_body) [443 540]))                  
+                :type "class")
+                nil [88 540]))          
+      :file "credentials.py"
+      :pointmax 540
+      :fsize 539
+      :lastmodtime '(23153 53965 112837 106000)
+      :unmatched-syntax nil)
+    (semanticdb-table "data.py"
+      :major-mode 'python-mode
+      :tags 
+        '( ("\"\"\"module used to store data use by the tests\"\"\"" code nil nil [35 83])
+            ("WIDTH" variable nil nil [84 96])
+            ("HEIGHT" variable nil nil [97 109])
+            ("WEB_DRIVER_WAIT" variable nil nil [110 130])
+            ("GENERAL_PATH" variable nil nil [131 153]))          
+      :file "data.py"
+      :pointmax 154
+      :fsize 153
+      :lastmodtime '(23153 54173 518922 252000)
+      :unmatched-syntax nil)
+    (semanticdb-table "st01highscores.py"
+      :major-mode 'python-mode
+      :tags 
+        '( ("\"\"\"module to test domains on the panel\"\"\"" code nil nil [35 76])
+            ("selenium.webdriver.common.by" include nil nil [77 120])
+            ("" code nil nil [160 302])
+            ("selenium.webdriver.support" include nil nil [303 367])
+            ("loadselenium" include nil nil [368 387])
+            ("loadlogs" include nil nil [388 403])
+            ("customexception" include nil nil [404 444])
+            ("hosts" include nil nil [445 457])
+            ("HighScores" type
+               (:documentation "this class handles Coinimp dashboard tests"
+                :members 
+                  ( ("__init__" function
+                       (:suite 
+                          ( ("self" variable nil (reparse-symbol indented_block_body) [554 602])
+                            ("self" variable nil (reparse-symbol indented_block_body) [611 630]))                          
+                        :parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [551 555])
+                            ("selenium" variable nil (reparse-symbol function_parameters) [557 565]))                          
+                        :constructor-flag t)
+                        (reparse-symbol indented_block_body) [538 653])
+                    ("waiting_field" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [676 680])
+                            ("field" variable nil (reparse-symbol function_parameters) [682 687])
+                            ("value" variable nil (reparse-symbol function_parameters) [689 694]))                          
+                        :documentation "stub method to write on a textfield")
+                        (reparse-symbol indented_block_body) [658 1440])
+                    ("login" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [1455 1459]))                          
+                        :documentation "log in into the miner")
+                        (reparse-symbol indented_block_body) [1445 2188])
+                    ("get_highscore_values" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [2218 2222])
+                            ("ip_address" variable nil (reparse-symbol function_parameters) [2224 2234]))                          
+                        :documentation "get values from highscore table")
+                        (reparse-symbol indented_block_body) [2193 4008])
+                    ("_create_url" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [4029 4033])
+                            ("ip_address" variable nil (reparse-symbol function_parameters) [4035 4045]))                          )
+                        (reparse-symbol indented_block_body) [4013 4148])
+                    ("get_highscore" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [4171 4175])
+                            ("ip_address" variable nil (reparse-symbol function_parameters) [4177 4187]))                          
+                        :documentation "get highscore for selected site")
+                        (reparse-symbol indented_block_body) [4153 4517])
+                    ("get_all_highscores" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [4545 4549]))                          
+                        :documentation "get highscores from all sites")
+                        (reparse-symbol indented_block_body) [4522 5033]))                  
+                :type "class")
+                nil [460 5033])
+            ("if" code nil nil [5035 5180]))          
+      :file "st01highscores.py"
+      :pointmax 5180
+      :fsize 5179
+      :lastmodtime '(23161 56474 792784 491000)
+      :unmatched-syntax nil)
+    (semanticdb-table "customexception.py"
+      :file "customexception.py"
+      :fsize 240
+      :lastmodtime '(23109 13011 213395 0))
+    (semanticdb-table "hosts.py"
+      :major-mode 'python-mode
+      :tags 
+        '( ("\"\"\"hosts inventory\"\"\"" code nil nil [1 22])
+            ("HOSTS" variable nil nil [23 1635]))          
+      :file "hosts.py"
+      :pointmax 1636
+      :fsize 1635
+      :lastmodtime '(23151 33400 927613 0)
+      :unmatched-syntax nil)
+    (semanticdb-table "results.py"
+      :major-mode 'python-mode
+      :tags 
+        '( ("\"\"\"results\"\"\"" code nil nil [1 14])
+            ("RESULTS" variable nil nil [58 16604]))          
+      :file "results.py"
+      :pointmax 16605
+      :fsize 16604
+      :lastmodtime '(23156 51656 125993 820000)
+      :unmatched-syntax '(($EOI 16605 . 16605)))
+    (semanticdb-table "processresults.py"
+      :major-mode 'python-mode
+      :tags 
+        '( ("results" include nil nil [1 14])
+            ("total" variable nil nil [16 27])
+            ("for" code nil nil [29 826])
+            ("print" code nil nil [827 839]))          
+      :file "processresults.py"
+      :pointmax 840
+      :fsize 839
+      :lastmodtime '(23156 51998 365523 960000)
+      :unmatched-syntax nil))
+  :file "!home!jboadas!devel!ansible-playbooks!burst!scripts!selenium!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

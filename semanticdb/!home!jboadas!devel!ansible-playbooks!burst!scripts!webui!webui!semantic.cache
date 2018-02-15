@@ -1,0 +1,96 @@
+;; Object webui/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "webui/"
+  :tables
+  (list
+    (semanticdb-table "__init__.py"
+      :major-mode 'python-mode
+      :tags 
+        '( ("app" include nil nil [13 23]))          
+      :file "__init__.py"
+      :pointmax 24
+      :fsize 23
+      :lastmodtime '(23164 29148 746466 614000)
+      :unmatched-syntax '((PERIOD 6 . 7) (IMPORT 14 . 20) ($EOI 24 . 24) (PERIOD 6 . 7)))
+    (semanticdb-table "webui.py"
+      :major-mode 'python-mode
+      :tags 
+        '( ("\"\"\" webui main page and service render\"\"\"" code nil nil [1 42])
+            ("flask" include nil nil [43 83])
+            ("flask_restful" include nil nil [84 123])
+            ("hostinfo" include nil nil [131 146])
+            ("helper" include nil nil [154 167])
+            ("API" variable nil nil [303 317])
+            ("" code nil nil [330 335])
+            ("show_hosts" function (:documentation "renders the main page") nil [336 470])
+            ("AllHosts" type
+               (:documentation "get allhosts info"
+                :superclasses ("Resource")
+                :members 
+                  ( ("get" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [539 543]))                          
+                        :documentation "get method")
+                        (reparse-symbol indented_block_body) [531 640]))                  
+                :type "class")
+                nil [472 640])
+            ("PingHost" type
+               (:documentation "web-service to ping all host and see they are alive"
+                :superclasses ("Resource")
+                :members 
+                  ( ("get" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [743 747])
+                            ("host_ip" variable nil (reparse-symbol function_parameters) [749 756]))                          
+                        :documentation "get method")
+                        (reparse-symbol indented_block_body) [735 863]))                  
+                :type "class")
+                nil [642 863])
+            ("ServerStatus" type
+               (:documentation "webservice to get all server status"
+                :superclasses ("Resource")
+                :members 
+                  ( ("get" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [954 958]))                          
+                        :documentation "get method")
+                        (reparse-symbol indented_block_body) [946 1064]))                  
+                :type "class")
+                nil [865 1064]))          
+      :file "webui.py"
+      :pointmax 1156
+      :fsize 1155
+      :lastmodtime '(23173 30624 92874 943000)
+      :unmatched-syntax nil)
+    (semanticdb-table "hostinfo.py"
+      :major-mode 'python-mode
+      :tags 
+        '( ("\"\"\"info of hosts\"\"\"" code nil nil [21 40])
+            ("HOSTINFO" variable nil nil [41 3683]))          
+      :file "hostinfo.py"
+      :pointmax 3684
+      :fsize 3683
+      :lastmodtime '(23165 59000 536946 556000)
+      :unmatched-syntax nil)
+    (semanticdb-table "helper.py"
+      :major-mode 'python-mode
+      :tags 
+        '( ("\"\"\"helper script for webui\"\"\"" code nil nil [20 49])
+            ("os" include nil nil [50 59])
+            ("ping_server" function
+               (:documentation "ping a server to see is alive"
+                :arguments 
+                  ( ("host_ip" variable nil (reparse-symbol function_parameters) [78 85]))                  )
+                nil [62 236])
+            ("get_server_status" function (:documentation "gets all server status from google sheets") nil [238 329]))          
+      :file "helper.py"
+      :pointmax 329
+      :fsize 328
+      :lastmodtime '(23173 30659 249244 767000)
+      :unmatched-syntax '(($EOI 329 . 329) ($EOI 324 . 324) ($EOI 320 . 320) ($EOI 312 . 312))))
+  :file "!home!jboadas!devel!ansible-playbooks!burst!scripts!webui!webui!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

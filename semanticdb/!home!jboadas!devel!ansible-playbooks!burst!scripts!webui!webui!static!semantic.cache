@@ -1,0 +1,21 @@
+;; Object static/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "static/"
+  :tables
+  (list
+    (semanticdb-table "burst.js"
+      :major-mode 'js-mode
+      :tags 
+        '( ("hosts" variable nil nil [1 11])
+            ("setStatusOfHost" function (:arguments 
+              ( ("item" variable nil (reparse-symbol FormalParameterList) [38 42]))              ) nil [13 878])
+            ("setAllHostsStatus" function nil nil [2167 2280])
+            ("getAllHosts" function nil nil [2283 2499]))          
+      :file "burst.js"
+      :pointmax 2624
+      :fsize 2623
+      :lastmodtime '(23172 38619 427508 640000)
+      :unmatched-syntax '((PAREN_BLOCK 2614 . 2622) (PAREN_BLOCK 2501 . 2614))))
+  :file "!home!jboadas!devel!ansible-playbooks!burst!scripts!webui!webui!static!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

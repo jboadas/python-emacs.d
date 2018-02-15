@@ -1,0 +1,565 @@
+;; Object flask_restful/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "flask_restful/"
+  :tables
+  (list
+    (semanticdb-table "__init__.py"
+      :major-mode 'python-mode
+      :tags 
+        '( ("__future__" include nil nil [1 39])
+            ("difflib" include nil nil [40 54])
+            ("functools" include nil nil [55 91])
+            ("re" include nil nil [92 101])
+            ("flask" include nil nil [102 149])
+            ("flask" include nil nil [150 197])
+            ("flask" include nil nil [198 261])
+            ("flask.views" include nil nil [262 296])
+            ("flask.signals" include nil nil [297 344])
+            ("werkzeug.datastructures" include nil nil [345 388])
+            ("werkzeug.exceptions" include nil nil [389 498])
+            ("werkzeug.http" include nil nil [499 542])
+            ("werkzeug.wrappers" include nil nil [543 597])
+            ("flask_restful.utils" include nil nil [598 670])
+            ("flask_restful.representations.json" include nil nil [671 729])
+            ("sys" include nil nil [730 740])
+            ("flask.helpers" include nil nil [741 791])
+            ("types" include nil nil [792 820])
+            ("operator" include nil nil [821 836])
+            ("collections" include nil nil [837 868])
+            ("__all__" variable nil nil [871 958])
+            ("abort" function
+               (:documentation "Raise a HTTPException for the given http_status_code. Attach any keyword
+    arguments to the exception for later processing.
+    "
+                :arguments 
+                  ( ("http_status_code" variable nil (reparse-symbol function_parameters) [971 987])
+                    ("kwargs" variable nil (reparse-symbol function_parameters) [989 997]))                  )
+                nil [961 1335])
+            ("DEFAULT_REPRESENTATIONS" variable nil nil [1336 1397])
+            ("Api" type
+               (:documentation "
+    The main entry point for the application.
+    You need to initialize it with a Flask Application: ::
+
+    >>> app = Flask(__name__)
+    >>> api = restful.Api(app)
+
+    Alternatively, you can use :meth:`init_app` to set the Flask application
+    after it has been constructed.
+
+    :param app: the Flask application object
+    :type app: flask.Flask
+    :type app: flask.Blueprint
+    :param prefix: Prefix all routes with a value, eg v1 or 2010-04-01
+    :type prefix: str
+    :param default_mediatype: The default media type to return
+    :type default_mediatype: str
+    :param decorators: Decorators to attach to every resource
+    :type decorators: list
+    :param catch_all_404s: Use :meth:`handle_error`
+        to handle 404 errors throughout your app
+    :param serve_challenge_on_401: Whether to serve a challenge response to
+        clients on receiving 401. This usually leads to a username/password
+        popup in web browers.
+    :param url_part_order: A string that controls the order that the pieces
+        of the url are concatenated when the full url is constructed.  'b'
+        is the blueprint (or blueprint registration) prefix, 'a' is the api
+        prefix, and 'e' is the path component the endpoint is added with
+    :type catch_all_404s: bool
+    :param errors: A dictionary to define a custom response for each
+        exception or error raised during a request
+    :type errors: dict
+
+    "
+                :superclasses ("object")
+                :members 
+                  ( ("__init__" function
+                       (:suite 
+                          ( ("self" variable nil (reparse-symbol indented_block_body) [3102 3161])
+                            ("self" variable nil (reparse-symbol indented_block_body) [3170 3184])
+                            ("self" variable nil (reparse-symbol indented_block_body) [3193 3213])
+                            ("self" variable nil (reparse-symbol indented_block_body) [3222 3264])
+                            ("" code nil (reparse-symbol indented_block_body) [3321 3323])
+                            ("self" variable nil (reparse-symbol indented_block_body) [3332 3368])
+                            ("self" variable nil (reparse-symbol indented_block_body) [3377 3429])
+                            ("self" variable nil (reparse-symbol indented_block_body) [3438 3474])
+                            ("self" code nil (reparse-symbol indented_block_body) [3483 3509])
+                            ("self" variable nil (reparse-symbol indented_block_body) [3518 3545])
+                            ("self" variable nil (reparse-symbol indented_block_body) [3554 3576])
+                            ("self" variable nil (reparse-symbol indented_block_body) [3585 3604])
+                            ("self" variable nil (reparse-symbol indented_block_body) [3613 3628])
+                            ("self" variable nil (reparse-symbol indented_block_body) [3637 3658])
+                            ("if" code nil (reparse-symbol indented_block_body) [3668 3746]))                          
+                        :parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [2873 2877])
+                            ("app" variable nil (reparse-symbol function_parameters) [2879 2882])
+                            ("prefix" variable nil (reparse-symbol function_parameters) [2889 2895])
+                            ("default_mediatype" variable nil (reparse-symbol function_parameters) [2917 2934])
+                            ("decorators" variable nil (reparse-symbol function_parameters) [2955 2965])
+                            ("catch_all_404s" variable nil (reparse-symbol function_parameters) [2989 3003])
+                            ("serve_challenge_on_401" variable nil (reparse-symbol function_parameters) [3011 3033])
+                            ("url_part_order" variable nil (reparse-symbol function_parameters) [3058 3072])
+                            ("errors" variable nil (reparse-symbol function_parameters) [3080 3086]))                          
+                        :constructor-flag t)
+                        (reparse-symbol indented_block_body) [2860 3746])
+                    ("init_app" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [3764 3768])
+                            ("app" variable nil (reparse-symbol function_parameters) [3770 3773]))                          
+                        :documentation "Initialize this class with the given :class:`flask.Flask`
+        application or :class:`flask.Blueprint` object.
+
+        :param app: the Flask application or blueprint object
+        :type app: flask.Flask
+        :type app: flask.Blueprint
+
+        Examples::
+
+            api = Api()
+            api.add_resource(...)
+            api.init_app(app)
+
+        ")
+                        (reparse-symbol indented_block_body) [3751 4458])
+                    ("_complete_url" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [4481 4485])
+                            ("url_part" variable nil (reparse-symbol function_parameters) [4487 4495])
+                            ("registration_prefix" variable nil (reparse-symbol function_parameters) [4497 4516]))                          
+                        :documentation "This method is used to defer the construction of the final url in
+        the case that the Api is created with a Blueprint.
+
+        :param url_part: The part of the url the endpoint is registered with
+        :param registration_prefix: The part of the url contributed by the
+            blueprint.  Generally speaking, BlueprintSetupState.url_prefix
+        ")
+                        (reparse-symbol indented_block_body) [4463 5097])
+                    ("_blueprint_setup_add_url_rule_patch" function
+                       (:typemodifiers ("static")
+                        :decorators 
+                          ( ("staticmethod" function (:type "decorator") nil nil))                          
+                        :arguments 
+                          ( ("blueprint_setup" variable nil (reparse-symbol function_parameters) [5160 5175])
+                            ("rule" variable nil (reparse-symbol function_parameters) [5177 5181])
+                            ("endpoint" variable nil (reparse-symbol function_parameters) [5183 5191])
+                            ("view_func" variable nil (reparse-symbol function_parameters) [5198 5207])
+                            ("options" variable nil (reparse-symbol function_parameters) [5214 5223]))                          
+                        :documentation "Method used to patch BlueprintSetupState.add_url_rule for setup
+        state instance corresponding to this Api instance.  Exists primarily
+        to enable _complete_url's function.
+
+        :param blueprint_setup: The BlueprintSetupState instance (self)
+        :param rule: A string or callable that takes a string and returns a
+            string(_complete_url) that is the url rule for the endpoint
+            being registered
+        :param endpoint: See BlueprintSetupState.add_url_rule
+        :param view_func: See BlueprintSetupState.add_url_rule
+        :param **options: See BlueprintSetupState.add_url_rule
+        ")
+                        (reparse-symbol indented_block_body) [5102 6531])
+                    ("_deferred_blueprint_init" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [6565 6569])
+                            ("setup_state" variable nil (reparse-symbol function_parameters) [6571 6582]))                          
+                        :documentation "Synchronize prefix between blueprint/api and registration options, then
+        perform initialization with setup_state.app :class:`flask.Flask` object.
+        When a :class:`flask_restful.Api` object is initialized with a blueprint,
+        this method is recorded on the blueprint to be run when the blueprint is later
+        registered to a :class:`flask.Flask` object.  This method also monkeypatches
+        BlueprintSetupState.add_url_rule with _blueprint_setup_add_url_rule_patch.
+
+        :param setup_state: The setup state object passed to deferred functions
+            during blueprint registration
+        :type setup_state: flask.blueprints.BlueprintSetupState
+
+        ")
+                        (reparse-symbol indented_block_body) [6536 7818])
+                    ("_init_app" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [7837 7841])
+                            ("app" variable nil (reparse-symbol function_parameters) [7843 7846]))                          
+                        :documentation "Perform initialization actions with the given :class:`flask.Flask`
+        object.
+
+        :param app: The flask application object
+        :type app: flask.Flask
+        ")
+                        (reparse-symbol indented_block_body) [7823 8369])
+                    ("owns_endpoint" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [8392 8396])
+                            ("endpoint" variable nil (reparse-symbol function_parameters) [8398 8406]))                          
+                        :documentation "Tests if an endpoint name (not path) belongs to this Api.  Takes
+        in to account the Blueprint name part of the endpoint name.
+
+        :param endpoint: The name of the endpoint being checked
+        :return: bool
+        ")
+                        (reparse-symbol indented_block_body) [8374 8902])
+                    ("_should_use_fr_error_handler" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [8940 8944]))                          
+                        :documentation " Determine if error should be handled with FR or default Flask
+
+        The goal is to return Flask error handlers for non-FR-related routes,
+        and FR errors (with the correct media type) for FR endpoints. This
+        method currently handles 404 and 405 errors.
+
+        :return: bool
+        ")
+                        (reparse-symbol indented_block_body) [8907 9834])
+                    ("_has_fr_route" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [9857 9861]))                          
+                        :documentation "Encapsulating the rules for whether the request was to a Flask endpoint")
+                        (reparse-symbol indented_block_body) [9839 10267])
+                    ("error_router" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [10289 10293])
+                            ("original_handler" variable nil (reparse-symbol function_parameters) [10295 10311])
+                            ("e" variable nil (reparse-symbol function_parameters) [10313 10314]))                          
+                        :documentation "This function decides whether the error occured in a flask-restful
+        endpoint or not. If it happened in a flask-restful endpoint, our
+        handler will be dispatched. If it happened in an unrelated view, the
+        app's original error handler will be dispatched.
+        In the event that the error occurred in a flask-restful endpoint but
+        the local handler can't resolve the situation, the router will fall
+        back onto the original_handler as last resort.
+
+        :param original_handler: the original Flask error handler for the app
+        :type original_handler: function
+        :param e: the exception raised while handling the request
+        :type e: Exception
+
+        ")
+                        (reparse-symbol indented_block_body) [10272 11252])
+                    ("handle_error" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [11274 11278])
+                            ("e" variable nil (reparse-symbol function_parameters) [11280 11281]))                          
+                        :documentation "Error handler for the API transforms a raised exception into a Flask
+        response, with the appropriate HTTP status code and body.
+
+        :param e: the raised Exception object
+        :type e: Exception
+
+        ")
+                        (reparse-symbol indented_block_body) [11257 14795])
+                    ("mediatypes_method" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [14822 14826]))                          
+                        :documentation "Return a method that returns a list of mediatypes
+        ")
+                        (reparse-symbol indented_block_body) [14800 14983])
+                    ("add_resource" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [15005 15009])
+                            ("resource" variable nil (reparse-symbol function_parameters) [15011 15019])
+                            ("urls" variable nil (reparse-symbol function_parameters) [15021 15026])
+                            ("kwargs" variable nil (reparse-symbol function_parameters) [15028 15036]))                          
+                        :documentation "Adds a resource to the api.
+
+        :param resource: the class name of your resource
+        :type resource: :class:`Resource`
+
+        :param urls: one or more url routes to match for the resource, standard
+                     flask routing rules apply.  Any url variables will be
+                     passed to the resource method as args.
+        :type urls: str
+
+        :param endpoint: endpoint name (defaults to :meth:`Resource.__name__.lower`
+            Can be used to reference this route in :class:`fields.Url` fields
+        :type endpoint: str
+
+        :param resource_class_args: args to be forwarded to the constructor of
+            the resource.
+        :type resource_class_args: tuple
+
+        :param resource_class_kwargs: kwargs to be forwarded to the constructor
+            of the resource.
+        :type resource_class_kwargs: dict
+
+        Additional keyword arguments not specified above will be passed as-is
+        to :meth:`flask.Flask.add_url_rule`.
+
+        Examples::
+
+            api.add_resource(HelloWorld, '/', '/hello')
+            api.add_resource(Foo, '/foo', endpoint=\"foo\")
+            api.add_resource(FooSpecial, '/special/foo', endpoint=\"foo\")
+
+        ")
+                        (reparse-symbol indented_block_body) [14988 16429])
+                    ("resource" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [16447 16451])
+                            ("urls" variable nil (reparse-symbol function_parameters) [16453 16458])
+                            ("kwargs" variable nil (reparse-symbol function_parameters) [16460 16468]))                          
+                        :documentation "Wraps a :class:`~flask_restful.Resource` class, adding it to the
+        api. Parameters are the same as :meth:`~flask_restful.Api.add_resource`.
+
+        Example::
+
+            app = Flask(__name__)
+            api = restful.Api(app)
+
+            @api.resource('/foo')
+            class Foo(Resource):
+                def get(self):
+                    return 'Hello, World!'
+
+        ")
+                        (reparse-symbol indented_block_body) [16434 17000])
+                    ("_register_view" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [17024 17028])
+                            ("app" variable nil (reparse-symbol function_parameters) [17030 17033])
+                            ("resource" variable nil (reparse-symbol function_parameters) [17035 17043])
+                            ("urls" variable nil (reparse-symbol function_parameters) [17045 17050])
+                            ("kwargs" variable nil (reparse-symbol function_parameters) [17052 17060]))                          )
+                        (reparse-symbol indented_block_body) [17005 19304])
+                    ("output" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [19320 19324])
+                            ("resource" variable nil (reparse-symbol function_parameters) [19326 19334]))                          
+                        :documentation "Wraps a resource (as a flask view function), for cases where the
+        resource does not directly return a response object
+
+        :param resource: The resource as a flask view function
+        ")
+                        (reparse-symbol indented_block_body) [19309 19906])
+                    ("url_for" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [19923 19927])
+                            ("resource" variable nil (reparse-symbol function_parameters) [19929 19937])
+                            ("values" variable nil (reparse-symbol function_parameters) [19939 19947]))                          
+                        :documentation "Generates a URL to the given resource.
+
+        Works like :func:`flask.url_for`.")
+                        (reparse-symbol indented_block_body) [19911 20224])
+                    ("make_response" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [20247 20251])
+                            ("data" variable nil (reparse-symbol function_parameters) [20253 20257])
+                            ("args" variable nil (reparse-symbol function_parameters) [20259 20264])
+                            ("kwargs" variable nil (reparse-symbol function_parameters) [20266 20274]))                          
+                        :documentation "Looks up the representation transformer for the requested media
+        type, invoking the transformer to create a response object. This
+        defaults to default_mediatype if no transformer is found for the
+        requested mediatype. If default_mediatype is None, a 406 Not
+        Acceptable response will be sent as per RFC 2616 section 14.1
+
+        :param data: Python object containing response data to be transformed
+        ")
+                        (reparse-symbol indented_block_body) [20229 21472])
+                    ("mediatypes" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [21492 21496]))                          
+                        :documentation "Returns a list of requested mediatypes sent in the Accept header")
+                        (reparse-symbol indented_block_body) [21477 21721])
+                    ("representation" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [21745 21749])
+                            ("mediatype" variable nil (reparse-symbol function_parameters) [21751 21760]))                          
+                        :documentation "Allows additional representation transformers to be declared for the
+        api. Transformers are functions that must be decorated with this
+        method, passing the mediatype the transformer represents. Three
+        arguments are passed to the transformer:
+
+        * The data to be represented in the response body
+        * The http status code
+        * A dictionary of headers
+
+        The transformer should convert the data appropriately for the mediatype
+        and return a Flask response object.
+
+        Ex::
+
+            @api.representation('application/xml')
+            def xml(data, code, headers):
+                resp = make_response(convert_data_to_xml(data), code)
+                resp.headers.extend(headers)
+                return resp
+        ")
+                        (reparse-symbol indented_block_body) [21726 22674])
+                    ("unauthorized" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [22696 22700])
+                            ("response" variable nil (reparse-symbol function_parameters) [22702 22710]))                          
+                        :documentation " Given a response, change it to ask for credentials ")
+                        (reparse-symbol indented_block_body) [22679 23060]))                  
+                :type "class")
+                nil [1400 23060])
+            ("Resource" type
+               (:documentation "
+    Represents an abstract RESTful resource. Concrete resources should
+    extend from this class and expose methods for each supported HTTP
+    method. If a resource is invoked with an unsupported HTTP method,
+    the API will return a response with status 405 Method Not Allowed.
+    Otherwise the appropriate method is called and passed all arguments
+    from the url rule used when adding the resource to an Api instance. See
+    :meth:`~flask_restful.Api.add_resource` for details.
+    "
+                :superclasses ("MethodView")
+                :members 
+                  ( ("representations" variable nil (reparse-symbol indented_block_body) [23597 23619])
+                    ("method_decorators" variable nil (reparse-symbol indented_block_body) [23624 23646])
+                    ("dispatch_request" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [23673 23677])
+                            ("args" variable nil (reparse-symbol function_parameters) [23679 23684])
+                            ("kwargs" variable nil (reparse-symbol function_parameters) [23686 23694]))                          )
+                        (reparse-symbol indented_block_body) [23652 24871]))                  
+                :type "class")
+                nil [23062 24871])
+            ("marshal" function
+               (:documentation "Takes raw data (in the form of a dict, list, object) and a dict of
+    fields to output and filters the data based on those fields.
+
+    :param data: the actual object(s) from which the fields are taken from
+    :param fields: a dict of whose keys will make up the final serialized
+                   response output
+    :param envelope: optional key that will be used to envelop the serialized
+                     response
+
+
+    >>> from flask_restful import fields, marshal
+    >>> data = { 'a': 100, 'b': 'foo' }
+    >>> mfields = { 'a': fields.Raw }
+
+    >>> marshal(data, mfields)
+    OrderedDict([('a', 100)])
+
+    >>> marshal(data, mfields, envelope='data')
+    OrderedDict([('data', OrderedDict([('a', 100)]))])
+
+    "
+                :arguments 
+                  ( ("data" variable nil (reparse-symbol function_parameters) [24885 24889])
+                    ("fields" variable nil (reparse-symbol function_parameters) [24891 24897])
+                    ("envelope" variable nil (reparse-symbol function_parameters) [24899 24907]))                  )
+                nil [24873 26174])
+            ("marshal_with" type
+               (:documentation "A decorator that apply marshalling to the return values of your methods.
+
+    >>> from flask_restful import fields, marshal_with
+    >>> mfields = { 'a': fields.Raw }
+    >>> @marshal_with(mfields)
+    ... def get():
+    ...     return { 'a': 100, 'b': 'foo' }
+    ...
+    ...
+    >>> get()
+    OrderedDict([('a', 100)])
+
+    >>> @marshal_with(mfields, envelope='data')
+    ... def get():
+    ...     return { 'a': 100, 'b': 'foo' }
+    ...
+    ...
+    >>> get()
+    OrderedDict([('data', OrderedDict([('a', 100)]))])
+
+    see :meth:`flask_restful.marshal`
+    "
+                :superclasses ("object")
+                :members 
+                  ( ("__init__" function
+                       (:suite 
+                          ( ("\"\"\"
+        :param fields: a dict of whose keys will make up the final
+                       serialized response output
+        :param envelope: optional key that will be used to envelop the serialized
+                         response
+        \"\"\"" code nil (reparse-symbol indented_block_body) [26831 27079])
+                            ("self" variable nil (reparse-symbol indented_block_body) [27088 27108])
+                            ("self" variable nil (reparse-symbol indented_block_body) [27117 27141]))                          
+                        :parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [26793 26797])
+                            ("fields" variable nil (reparse-symbol function_parameters) [26799 26805])
+                            ("envelope" variable nil (reparse-symbol function_parameters) [26807 26815]))                          
+                        :documentation "
+        :param fields: a dict of whose keys will make up the final
+                       serialized response output
+        :param envelope: optional key that will be used to envelop the serialized
+                         response
+        "
+                        :constructor-flag t)
+                        (reparse-symbol indented_block_body) [26780 27142])
+                    ("__call__" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [27160 27164])
+                            ("f" variable nil (reparse-symbol function_parameters) [27166 27167]))                          )
+                        (reparse-symbol indented_block_body) [27147 27541]))                  
+                :type "class")
+                nil [26176 27541])
+            ("marshal_with_field" type
+               (:documentation "
+    A decorator that formats the return values of your methods with a single field.
+
+    >>> from flask_restful import marshal_with_field, fields
+    >>> @marshal_with_field(fields.List(fields.Integer))
+    ... def get():
+    ...     return ['1', 2, 3.0]
+    ...
+    >>> get()
+    [1, 2, 3]
+
+    see :meth:`flask_restful.marshal_with`
+    "
+                :superclasses ("object")
+                :members 
+                  ( ("__init__" function
+                       (:suite 
+                          ( ("\"\"\"
+        :param field: a single field with which to marshal the output.
+        \"\"\"" code nil (reparse-symbol indented_block_body) [27967 28053])
+                            ("if" code nil (reparse-symbol indented_block_body) [28062 28168]))                          
+                        :parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [27945 27949])
+                            ("field" variable nil (reparse-symbol function_parameters) [27951 27956]))                          
+                        :documentation "
+        :param field: a single field with which to marshal the output.
+        "
+                        :constructor-flag t)
+                        (reparse-symbol indented_block_body) [27932 28168])
+                    ("__call__" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [28186 28190])
+                            ("f" variable nil (reparse-symbol function_parameters) [28192 28193]))                          )
+                        (reparse-symbol indented_block_body) [28173 28511]))                  
+                :type "class")
+                nil [27543 28511]))          
+      :file "__init__.py"
+      :pointmax 28511
+      :fsize 28510
+      :lastmodtime '(23165 46133 817357 778000)
+      :unmatched-syntax '((RETURN 26085 . 26091) (IF 26138 . 26140) (ELSE 26150 . 26154) (NAME 14369 . 14387) (IF 14414 . 14416) (ELSE 14438 . 14442) (INDENT_BLOCK 9817 . 9834) (NEWLINE 9742 . 9743) (COLON 9741 . 9742) (EXCEPT 9735 . 9741) (INDENT_BLOCK 9688 . 9727) (NEWLINE 9687 . 9688) (COLON 9686 . 9687) (EXCEPT 9671 . 9677) (INDENT_BLOCK 9477 . 9663) (NEWLINE 9400 . 9401) (COLON 9399 . 9400) (TRY 9330 . 9333) (AS 9395 . 9397) (NAME 3273 . 3277) (IF 3302 . 3304) (ELSE 3316 . 3320) (INDENT_BLOCK 1269 . 1335) (NEWLINE 1268 . 1269) (COLON 1267 . 1268) (TRY 1186 . 1189) (AS 1263 . 1265))))
+  :file "!usr!local!lib!python3.5!dist-packages!flask_restful!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

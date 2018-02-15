@@ -1,0 +1,29 @@
+;; Object webui/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "webui/"
+  :tables
+  (list
+    (semanticdb-table "webui.py"
+      :major-mode 'python-mode
+      :tags 
+        '( ("os" include nil nil [19 28])
+            ("flask" include nil nil [29 129])
+            ("app" variable nil nil [131 152])
+            ("app" code nil nil [191 223]))          
+      :file "webui.py"
+      :pointmax 266
+      :fsize 265
+      :lastmodtime '(23164 28792 102953 673000)
+      :unmatched-syntax nil)
+    (semanticdb-table "setup.py"
+      :major-mode 'python-mode
+      :tags 
+        '( ("setuptools" include nil nil [1 29]))          
+      :file "setup.py"
+      :pointmax 160
+      :fsize 159
+      :lastmodtime '(23164 28963 408640 278000)
+      :unmatched-syntax nil))
+  :file "!home!jboadas!devel!ansible-playbooks!burst!scripts!webui!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")
