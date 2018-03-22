@@ -234,9 +234,9 @@
       :major-mode 'js-mode
       :tags nil
       :file "coinimp.json"
-      :pointmax 964
-      :fsize 963
-      :lastmodtime '(23165 36499 896290 540000)
+      :pointmax 965
+      :fsize 964
+      :lastmodtime '(23217 1961 233719 683000)
       :unmatched-syntax nil)
     (semanticdb-table "semanticdb-table"
       :major-mode 'python-mode
@@ -363,149 +363,155 @@
                     ("check_dashboard" function
                        (:parent "dummy"
                         :arguments 
-                          ( ("self" variable nil (reparse-symbol function_parameters) [789 793]))                          
+                          ( ("self" variable nil (reparse-symbol function_parameters) [1616 1620]))                          
                         :documentation "check the dasboard values")
-                        (reparse-symbol indented_block_body) [769 2013])
+                        (reparse-symbol indented_block_body) [1596 2950])
                     ("_get_threads_value" function
                        (:parent "dummy"
                         :arguments 
-                          ( ("self" variable nil (reparse-symbol function_parameters) [2041 2045]))                          )
-                        (reparse-symbol indented_block_body) [2018 2720])
+                          ( ("self" variable nil (reparse-symbol function_parameters) [2978 2982]))                          )
+                        (reparse-symbol indented_block_body) [2955 3664])
                     ("_threads_move" function
                        (:parent "dummy"
                         :arguments 
-                          ( ("self" variable nil (reparse-symbol function_parameters) [2743 2747])
-                            ("up_down" variable nil (reparse-symbol function_parameters) [2749 2756])
-                            ("value_before" variable nil (reparse-symbol function_parameters) [2758 2770]))                          )
-                        (reparse-symbol indented_block_body) [2725 3824])
+                          ( ("self" variable nil (reparse-symbol function_parameters) [3687 3691])
+                            ("up_down" variable nil (reparse-symbol function_parameters) [3693 3700])
+                            ("value_before" variable nil (reparse-symbol function_parameters) [3702 3714]))                          )
+                        (reparse-symbol indented_block_body) [3669 4768])
                     ("_check_threads" function
                        (:parent "dummy"
                         :arguments 
-                          ( ("self" variable nil (reparse-symbol function_parameters) [3848 3852]))                          )
-                        (reparse-symbol indented_block_body) [3829 4171])
+                          ( ("self" variable nil (reparse-symbol function_parameters) [4792 4796]))                          )
+                        (reparse-symbol indented_block_body) [4773 5115])
                     ("_get_speed_value" function
                        (:parent "dummy"
                         :arguments 
-                          ( ("self" variable nil (reparse-symbol function_parameters) [4197 4201]))                          )
-                        (reparse-symbol indented_block_body) [4176 4850])
+                          ( ("self" variable nil (reparse-symbol function_parameters) [5141 5145]))                          )
+                        (reparse-symbol indented_block_body) [5120 5801])
                     ("_speed_move" function
                        (:parent "dummy"
                         :arguments 
-                          ( ("self" variable nil (reparse-symbol function_parameters) [4871 4875])
-                            ("up_down" variable nil (reparse-symbol function_parameters) [4877 4884])
-                            ("value_before" variable nil (reparse-symbol function_parameters) [4886 4898]))                          )
-                        (reparse-symbol indented_block_body) [4855 5920])
+                          ( ("self" variable nil (reparse-symbol function_parameters) [5822 5826])
+                            ("up_down" variable nil (reparse-symbol function_parameters) [5828 5835])
+                            ("value_before" variable nil (reparse-symbol function_parameters) [5837 5849]))                          )
+                        (reparse-symbol indented_block_body) [5806 6871])
                     ("_check_speed" function
                        (:parent "dummy"
                         :arguments 
-                          ( ("self" variable nil (reparse-symbol function_parameters) [5942 5946]))                          )
-                        (reparse-symbol indented_block_body) [5925 6244])
+                          ( ("self" variable nil (reparse-symbol function_parameters) [6893 6897]))                          )
+                        (reparse-symbol indented_block_body) [6876 7195])
                     ("_get_hashes_sec" function
                        (:parent "dummy"
                         :arguments 
-                          ( ("self" variable nil (reparse-symbol function_parameters) [6269 6273]))                          )
-                        (reparse-symbol indented_block_body) [6249 7042])
+                          ( ("self" variable nil (reparse-symbol function_parameters) [7220 7224]))                          )
+                        (reparse-symbol indented_block_body) [7200 7997])
                     ("_get_hashes_tot" function
                        (:parent "dummy"
                         :arguments 
-                          ( ("self" variable nil (reparse-symbol function_parameters) [7067 7071]))                          )
-                        (reparse-symbol indented_block_body) [7047 7882])
+                          ( ("self" variable nil (reparse-symbol function_parameters) [8022 8026]))                          )
+                        (reparse-symbol indented_block_body) [8002 8845])
                     ("_start_stop_mining" function
                        (:parent "dummy"
                         :arguments 
-                          ( ("self" variable nil (reparse-symbol function_parameters) [7910 7914]))                          )
-                        (reparse-symbol indented_block_body) [7887 8457])
+                          ( ("self" variable nil (reparse-symbol function_parameters) [8873 8877]))                          )
+                        (reparse-symbol indented_block_body) [8850 9416])
                     ("_check_mining" function
                        (:parent "dummy"
                         :arguments 
-                          ( ("self" variable nil (reparse-symbol function_parameters) [8480 8484]))                          )
-                        (reparse-symbol indented_block_body) [8462 9614])
+                          ( ("self" variable nil (reparse-symbol function_parameters) [9439 9443]))                          )
+                        (reparse-symbol indented_block_body) [9421 10573])
+                    ("_mine_for_a_time" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [10599 10603])
+                            ("seconds" variable nil (reparse-symbol function_parameters) [10605 10612]))                          )
+                        (reparse-symbol indented_block_body) [10578 11349])
                     ("local_miner_keeps_value" function
                        (:parent "dummy"
                         :arguments 
-                          ( ("self" variable nil (reparse-symbol function_parameters) [10423 10427]))                          
+                          ( ("self" variable nil (reparse-symbol function_parameters) [11382 11386]))                          
                         :documentation "verify that the local miner keeps the value")
-                        (reparse-symbol indented_block_body) [10395 11438])
+                        (reparse-symbol indented_block_body) [11354 12777])
                     ("check_local_miner" function
                        (:parent "dummy"
                         :arguments 
-                          ( ("self" variable nil (reparse-symbol function_parameters) [11465 11469]))                          
+                          ( ("self" variable nil (reparse-symbol function_parameters) [12804 12808]))                          
                         :documentation "checks the local miner values")
-                        (reparse-symbol indented_block_body) [11443 12089])
+                        (reparse-symbol indented_block_body) [12782 13428])
                     ("_get_sites_counter" function
                        (:parent "dummy"
                         :arguments 
-                          ( ("self" variable nil (reparse-symbol function_parameters) [12117 12121]))                          )
-                        (reparse-symbol indented_block_body) [12094 12736])
+                          ( ("self" variable nil (reparse-symbol function_parameters) [13456 13460]))                          )
+                        (reparse-symbol indented_block_body) [13433 14075])
                     ("_delete_sites" function
                        (:parent "dummy"
                         :arguments 
-                          ( ("self" variable nil (reparse-symbol function_parameters) [12759 12763]))                          )
-                        (reparse-symbol indented_block_body) [12741 13737])
+                          ( ("self" variable nil (reparse-symbol function_parameters) [14098 14102]))                          )
+                        (reparse-symbol indented_block_body) [14080 15076])
                     ("_add_sites" function
                        (:parent "dummy"
                         :arguments 
-                          ( ("self" variable nil (reparse-symbol function_parameters) [13757 13761]))                          )
-                        (reparse-symbol indented_block_body) [13742 14994])
+                          ( ("self" variable nil (reparse-symbol function_parameters) [15096 15100]))                          )
+                        (reparse-symbol indented_block_body) [15081 16333])
                     ("_delete_toast_msgs" function
                        (:parent "dummy"
                         :arguments 
-                          ( ("self" variable nil (reparse-symbol function_parameters) [15022 15026]))                          
+                          ( ("self" variable nil (reparse-symbol function_parameters) [16361 16365]))                          
                         :documentation "delete toas messages")
-                        (reparse-symbol indented_block_body) [14999 15407])
+                        (reparse-symbol indented_block_body) [16338 16746])
                     ("check_sites" function
                        (:parent "dummy"
                         :arguments 
-                          ( ("self" variable nil (reparse-symbol function_parameters) [15428 15432]))                          
+                          ( ("self" variable nil (reparse-symbol function_parameters) [16767 16771]))                          
                         :documentation "check the sites")
-                        (reparse-symbol indented_block_body) [15412 15937])
+                        (reparse-symbol indented_block_body) [16751 17276])
                     ("_go_to_wallet" function
                        (:parent "dummy"
                         :arguments 
-                          ( ("self" variable nil (reparse-symbol function_parameters) [15960 15964]))                          )
-                        (reparse-symbol indented_block_body) [15942 16497])
+                          ( ("self" variable nil (reparse-symbol function_parameters) [17299 17303]))                          )
+                        (reparse-symbol indented_block_body) [17281 17836])
                     ("_get_address" function
                        (:parent "dummy"
                         :arguments 
-                          ( ("self" variable nil (reparse-symbol function_parameters) [16519 16523]))                          )
-                        (reparse-symbol indented_block_body) [16502 16908])
+                          ( ("self" variable nil (reparse-symbol function_parameters) [17858 17862]))                          )
+                        (reparse-symbol indented_block_body) [17841 18247])
                     ("check_wallet" function
                        (:parent "dummy"
                         :arguments 
-                          ( ("self" variable nil (reparse-symbol function_parameters) [16930 16934]))                          
+                          ( ("self" variable nil (reparse-symbol function_parameters) [18269 18273]))                          
                         :documentation "test the wallet")
-                        (reparse-symbol indented_block_body) [16913 18612])
+                        (reparse-symbol indented_block_body) [18252 19951])
                     ("check_invalid_address" function
                        (:parent "dummy"
                         :arguments 
-                          ( ("self" variable nil (reparse-symbol function_parameters) [18643 18647]))                          
+                          ( ("self" variable nil (reparse-symbol function_parameters) [19982 19986]))                          
                         :documentation "check invalid address")
-                        (reparse-symbol indented_block_body) [18617 20077])
+                        (reparse-symbol indented_block_body) [19956 21416])
                     ("check_payment" function
                        (:parent "dummy"
                         :arguments 
-                          ( ("self" variable nil (reparse-symbol function_parameters) [20100 20104]))                          
+                          ( ("self" variable nil (reparse-symbol function_parameters) [21439 21443]))                          
                         :documentation "check payment")
-                        (reparse-symbol indented_block_body) [20082 21871])
+                        (reparse-symbol indented_block_body) [21421 23205])
                     ("test_dashboard" function
                        (:parent "dummy"
                         :arguments 
-                          ( ("self" variable nil (reparse-symbol function_parameters) [21895 21899]))                          
+                          ( ("self" variable nil (reparse-symbol function_parameters) [23229 23233]))                          
                         :documentation "log into the coinimp account")
-                        (reparse-symbol indented_block_body) [21876 23821])
+                        (reparse-symbol indented_block_body) [23210 25269])
                     ("test_local_miner" function
                        (:parent "dummy"
                         :arguments 
-                          ( ("self" variable nil (reparse-symbol function_parameters) [23847 23851]))                          
+                          ( ("self" variable nil (reparse-symbol function_parameters) [25295 25299]))                          
                         :documentation "test the local miner hashes")
-                        (reparse-symbol indented_block_body) [23826 25125]))                  
+                        (reparse-symbol indented_block_body) [25274 26573]))                  
                 :type "class")
-                nil [479 25125])
-            ("if" code nil nil [25127 25384]))          
+                nil [479 26573])
+            ("if" code nil nil [26575 26833]))          
       :file "st01dashboard.py"
-      :pointmax 25418
-      :fsize 25417
-      :lastmodtime '(23152 29759 470661 541000)
+      :pointmax 26867
+      :fsize 26866
+      :lastmodtime '(23217 3682 351547 672000)
       :unmatched-syntax nil)
     (semanticdb-table "semanticdb-table"
       :major-mode 'python-mode
@@ -689,12 +695,12 @@
             ("datetime" include nil nil [89 104])
             ("selenium.webdriver.common.by" include nil nil [105 148])
             ("" code nil nil [188 284])
-            ("data" include nil nil [285 296])
-            ("loadlogs" include nil nil [297 312])
-            ("loadselenium" include nil nil [313 332])
-            ("st01dashboardshare" include nil nil [333 358])
-            ("st03registershare" include nil nil [359 383])
-            ("customexception" include nil nil [384 424])
+            ("selenium.webdriver.support" include nil nil [285 349])
+            ("loadlogs" include nil nil [362 377])
+            ("loadselenium" include nil nil [378 397])
+            ("st01dashboardshare" include nil nil [398 423])
+            ("st03registershare" include nil nil [424 448])
+            ("customexception" include nil nil [449 489])
             ("RegisterTests" type
                (:documentation "this class handles Coinimp register tests"
                 :members 
@@ -707,64 +713,64 @@
                             ("self" variable nil (reparse-symbol indented_block_body) [741 817]))                          
                         :parent "dummy"
                         :arguments 
-                          ( ("self" variable nil (reparse-symbol function_parameters) [520 524])
-                            ("selenium" variable nil (reparse-symbol function_parameters) [526 534]))                          
+                          ( ("self" variable nil (reparse-symbol function_parameters) [585 589])
+                            ("selenium" variable nil (reparse-symbol function_parameters) [591 599]))                          
                         :constructor-flag t)
-                        (reparse-symbol indented_block_body) [507 818])
+                        (reparse-symbol indented_block_body) [572 883])
                     ("_generate_email" function
                        (:parent "dummy"
                         :arguments 
-                          ( ("self" variable nil (reparse-symbol function_parameters) [843 847]))                          
+                          ( ("self" variable nil (reparse-symbol function_parameters) [908 912]))                          
                         :documentation "generate the name of the account")
-                        (reparse-symbol indented_block_body) [823 1300])
+                        (reparse-symbol indented_block_body) [888 1365])
                     ("_fill_register_fields" function
                        (:parent "dummy"
                         :arguments 
-                          ( ("self" variable nil (reparse-symbol function_parameters) [1331 1335])
-                            ("username" variable nil (reparse-symbol function_parameters) [1337 1345])
-                            ("password" variable nil (reparse-symbol function_parameters) [1347 1355]))                          )
-                        (reparse-symbol indented_block_body) [1305 2809])
+                          ( ("self" variable nil (reparse-symbol function_parameters) [1396 1400])
+                            ("username" variable nil (reparse-symbol function_parameters) [1402 1410])
+                            ("password" variable nil (reparse-symbol function_parameters) [1412 1420]))                          )
+                        (reparse-symbol indented_block_body) [1370 2874])
                     ("_register_existing_account" function
                        (:parent "dummy"
                         :arguments 
-                          ( ("self" variable nil (reparse-symbol function_parameters) [2845 2849]))                          )
-                        (reparse-symbol indented_block_body) [2814 3881])
+                          ( ("self" variable nil (reparse-symbol function_parameters) [2910 2914]))                          )
+                        (reparse-symbol indented_block_body) [2879 3946])
                     ("_register_new_account" function
                        (:parent "dummy"
                         :arguments 
-                          ( ("self" variable nil (reparse-symbol function_parameters) [3912 3916]))                          )
-                        (reparse-symbol indented_block_body) [3886 4634])
+                          ( ("self" variable nil (reparse-symbol function_parameters) [3977 3981]))                          )
+                        (reparse-symbol indented_block_body) [3951 4819])
                     ("go_to_sign_up" function
                        (:parent "dummy"
                         :arguments 
-                          ( ("self" variable nil (reparse-symbol function_parameters) [4657 4661]))                          
+                          ( ("self" variable nil (reparse-symbol function_parameters) [4842 4846]))                          
                         :documentation "go to sign-up screen")
-                        (reparse-symbol indented_block_body) [4639 5256])
+                        (reparse-symbol indented_block_body) [4824 5441])
                     ("_forgot_password" function
                        (:parent "dummy"
                         :arguments 
-                          ( ("self" variable nil (reparse-symbol function_parameters) [5282 5286]))                          
+                          ( ("self" variable nil (reparse-symbol function_parameters) [5467 5471]))                          
                         :documentation "go to forgot password screen")
-                        (reparse-symbol indented_block_body) [5261 6355])
+                        (reparse-symbol indented_block_body) [5446 6540])
                     ("test_register" function
                        (:parent "dummy"
                         :arguments 
-                          ( ("self" variable nil (reparse-symbol function_parameters) [6378 6382]))                          
+                          ( ("self" variable nil (reparse-symbol function_parameters) [6563 6567]))                          
                         :documentation "log into the coinimp account")
-                        (reparse-symbol indented_block_body) [6360 7956])
+                        (reparse-symbol indented_block_body) [6545 8141])
                     ("recover_password" function
                        (:parent "dummy"
                         :arguments 
-                          ( ("self" variable nil (reparse-symbol function_parameters) [7982 7986]))                          
+                          ( ("self" variable nil (reparse-symbol function_parameters) [8167 8171]))                          
                         :documentation "recover lost password")
-                        (reparse-symbol indented_block_body) [7961 10047]))                  
+                        (reparse-symbol indented_block_body) [8146 10232]))                  
                 :type "class")
-                nil [427 10047])
-            ("if" code nil nil [10049 10305]))          
+                nil [492 10232])
+            ("if" code nil nil [10234 10490]))          
       :file "st03register.py"
-      :pointmax 10336
-      :fsize 10335
-      :lastmodtime '(23165 41820 47415 473000)
+      :pointmax 10521
+      :fsize 10520
+      :lastmodtime '(23201 28006 101571 127000)
       :unmatched-syntax nil)
     (semanticdb-table "semanticdb-table"
       :major-mode 'python-mode
@@ -772,9 +778,10 @@
         '( ("\"\"\"module to test domains on the panel\"\"\"" code nil nil [35 76])
             ("time" include nil nil [77 88])
             ("selenium.webdriver.common.by" include nil nil [89 132])
-            ("" code nil nil [172 268])
-            ("loadlogs" include nil nil [269 284])
-            ("customexception" include nil nil [285 325])
+            ("selenium.webdriver.support" include nil nil [133 197])
+            ("" code nil nil [237 333])
+            ("loadlogs" include nil nil [334 349])
+            ("customexception" include nil nil [350 390])
             ("DashboardShare" type
                (:documentation "this class handles Coinimp dashboard tests"
                 :members 
@@ -784,56 +791,56 @@
                             ("self" variable nil (reparse-symbol indented_block_body) [505 524]))                          
                         :parent "dummy"
                         :arguments 
-                          ( ("self" variable nil (reparse-symbol function_parameters) [423 427])
-                            ("selenium" variable nil (reparse-symbol function_parameters) [429 437]))                          
+                          ( ("self" variable nil (reparse-symbol function_parameters) [488 492])
+                            ("selenium" variable nil (reparse-symbol function_parameters) [494 502]))                          
                         :constructor-flag t)
-                        (reparse-symbol indented_block_body) [410 525])
+                        (reparse-symbol indented_block_body) [475 590])
                     ("waiting_field" function
                        (:parent "dummy"
                         :arguments 
-                          ( ("self" variable nil (reparse-symbol function_parameters) [548 552])
-                            ("field" variable nil (reparse-symbol function_parameters) [554 559])
-                            ("value" variable nil (reparse-symbol function_parameters) [561 566]))                          
+                          ( ("self" variable nil (reparse-symbol function_parameters) [613 617])
+                            ("field" variable nil (reparse-symbol function_parameters) [619 624])
+                            ("value" variable nil (reparse-symbol function_parameters) [626 631]))                          
                         :documentation "stub method to write on a textfield")
-                        (reparse-symbol indented_block_body) [530 1519])
+                        (reparse-symbol indented_block_body) [595 1584])
                     ("goto_log_in" function
                        (:parent "dummy"
                         :arguments 
-                          ( ("self" variable nil (reparse-symbol function_parameters) [1540 1544]))                          
+                          ( ("self" variable nil (reparse-symbol function_parameters) [1605 1609]))                          
                         :documentation "goto log_in page")
-                        (reparse-symbol indented_block_body) [1524 2119])
+                        (reparse-symbol indented_block_body) [1589 2305])
                     ("fill_log_in_credentials" function
                        (:parent "dummy"
                         :arguments 
-                          ( ("self" variable nil (reparse-symbol function_parameters) [2152 2156])
-                            ("username" variable nil (reparse-symbol function_parameters) [2158 2166])
-                            ("password" variable nil (reparse-symbol function_parameters) [2168 2176]))                          
+                          ( ("self" variable nil (reparse-symbol function_parameters) [2338 2342])
+                            ("username" variable nil (reparse-symbol function_parameters) [2344 2352])
+                            ("password" variable nil (reparse-symbol function_parameters) [2354 2362]))                          
                         :documentation "_log_in")
-                        (reparse-symbol indented_block_body) [2124 3378])
+                        (reparse-symbol indented_block_body) [2310 3591])
                     ("try_invalid_login" function
                        (:parent "dummy"
                         :arguments 
-                          ( ("self" variable nil (reparse-symbol function_parameters) [3405 3409]))                          
+                          ( ("self" variable nil (reparse-symbol function_parameters) [3618 3622]))                          
                         :documentation "try_invalid_login")
-                        (reparse-symbol indented_block_body) [3383 4538])
+                        (reparse-symbol indented_block_body) [3596 4751])
                     ("log_in" function
                        (:parent "dummy"
                         :arguments 
-                          ( ("self" variable nil (reparse-symbol function_parameters) [4554 4558]))                          
+                          ( ("self" variable nil (reparse-symbol function_parameters) [4767 4771]))                          
                         :documentation "_log_in")
-                        (reparse-symbol indented_block_body) [4543 5056])
+                        (reparse-symbol indented_block_body) [4756 5269])
                     ("log_out" function
                        (:parent "dummy"
                         :arguments 
-                          ( ("self" variable nil (reparse-symbol function_parameters) [5626 5630]))                          
+                          ( ("self" variable nil (reparse-symbol function_parameters) [5839 5843]))                          
                         :documentation "_log_out")
-                        (reparse-symbol indented_block_body) [5614 6127]))                  
+                        (reparse-symbol indented_block_body) [5827 6741]))                  
                 :type "class")
-                nil [328 6127]))          
+                nil [393 6741]))          
       :file "st01dashboardshare.py"
-      :pointmax 6127
-      :fsize 6126
-      :lastmodtime '(23118 32953 862040 612000)
+      :pointmax 6741
+      :fsize 6740
+      :lastmodtime '(23201 30381 569988 818000)
       :unmatched-syntax nil)
     (semanticdb-table "semanticdb-table"
       :major-mode 'python-mode
@@ -876,11 +883,10 @@
         '( ("\"\"\"module to test referals\"\"\"" code nil nil [35 64])
             ("time" include nil nil [65 76])
             ("selenium.webdriver.common.by" include nil nil [77 120])
-            ("" code nil nil [160 219])
-            ("loadselenium" include nil nil [220 239])
-            ("loadlogs" include nil nil [240 255])
-            ("st01dashboardshare" include nil nil [256 281])
-            ("customexception" include nil nil [282 322])
+            ("selenium.webdriver.support" include nil nil [238 302])
+            ("loadlogs" include nil nil [323 338])
+            ("st01dashboardshare" include nil nil [339 364])
+            ("customexception" include nil nil [365 405])
             ("ReferalsTests" type
                (:documentation "this class handles Coinimp referals"
                 :members 
@@ -891,29 +897,29 @@
                             ("self" variable nil (reparse-symbol indented_block_body) [599 678]))                          
                         :parent "dummy"
                         :arguments 
-                          ( ("self" variable nil (reparse-symbol function_parameters) [412 416])
-                            ("selenium" variable nil (reparse-symbol function_parameters) [418 426]))                          
+                          ( ("self" variable nil (reparse-symbol function_parameters) [495 499])
+                            ("selenium" variable nil (reparse-symbol function_parameters) [501 509]))                          
                         :constructor-flag t)
-                        (reparse-symbol indented_block_body) [399 602])
+                        (reparse-symbol indented_block_body) [482 685])
                     ("get_referal_amount" function
                        (:parent "dummy"
                         :arguments 
-                          ( ("self" variable nil (reparse-symbol function_parameters) [630 634]))                          
+                          ( ("self" variable nil (reparse-symbol function_parameters) [713 717]))                          
                         :documentation "get the referal value")
-                        (reparse-symbol indented_block_body) [607 1549])
+                        (reparse-symbol indented_block_body) [690 1795])
                     ("test_referals" function
                        (:parent "dummy"
                         :arguments 
-                          ( ("self" variable nil (reparse-symbol function_parameters) [4825 4829]))                          
+                          ( ("self" variable nil (reparse-symbol function_parameters) [5226 5230]))                          
                         :documentation "test the referals amount in dashboard")
-                        (reparse-symbol indented_block_body) [4807 6542]))                  
+                        (reparse-symbol indented_block_body) [5208 6943]))                  
                 :type "class")
-                nil [325 6542])
-            ("if" code nil nil [6544 6812]))          
+                nil [408 6943])
+            ("if" code nil nil [6945 7213]))          
       :file "st04referals.py"
-      :pointmax 6812
-      :fsize 6811
-      :lastmodtime '(23119 48997 414409 488000)
+      :pointmax 7213
+      :fsize 7212
+      :lastmodtime '(23210 32926 80076 380000)
       :unmatched-syntax nil)
     (semanticdb-table "testcase_04_referals.py"
       :major-mode 'python-mode

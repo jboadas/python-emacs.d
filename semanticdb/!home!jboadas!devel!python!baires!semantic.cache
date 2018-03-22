@@ -1,0 +1,78 @@
+;; Object baires/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "baires/"
+  :tables
+  (list
+    (semanticdb-table "distancia.py"
+      :major-mode 'python-mode
+      :tags 
+        '( ("\"\"\"calcula el promedio de la distancia entre 3 puntos\"\"\"" code nil nil [20 76])
+            ("math" include nil nil [77 88])
+            ("distancia_dos_puntos" function
+               (:documentation "calcula la distancia entre 2 puntos"
+                :arguments 
+                  ( ("punto_1" variable nil (reparse-symbol function_parameters) [116 123])
+                    ("punto_2" variable nil (reparse-symbol function_parameters) [125 132]))                  )
+                nil [91 400])
+            ("promedio_distancia_tres_puntos" function
+               (:documentation "calcula el promedio de las tres distancias"
+                :arguments 
+                  ( ("punto_1" variable nil (reparse-symbol function_parameters) [437 444])
+                    ("punto_2" variable nil (reparse-symbol function_parameters) [446 453])
+                    ("punto_3" variable nil (reparse-symbol function_parameters) [455 462]))                  )
+                nil [402 811])
+            ("A" variable nil nil [813 823])
+            ("B" variable nil nil [824 834])
+            ("C" variable nil nil [835 846])
+            ("promedio_distancia_tres_puntos" code nil nil [848 887]))          
+      :file "distancia.py"
+      :pointmax 908
+      :fsize 909
+      :lastmodtime '(23176 55963 0 0)
+      :unmatched-syntax nil)
+    (semanticdb-table "casipalindrome.py"
+      :major-mode 'python-mode
+      :tags 
+        '( ("\"\"\"ejercicio casi palindrome\"\"\"" code nil nil [20 51])
+            ("cuasi_palindrome" function
+               (:documentation "retorna true si una palabra es casi palindrome"
+                :arguments 
+                  ( ("palabra" variable nil (reparse-symbol function_parameters) [75 82]))                  )
+                nil [54 1138])
+            ("cuasi_palindrome" code nil nil [1140 1173])
+            ("cuasi_palindrome" code nil nil [1181 1210])
+            ("cuasi_palindrome" code nil nil [1218 1241])
+            ("cuasi_palindrome" code nil nil [1249 1272])
+            ("cuasi_palindrome" code nil nil [1280 1309]))          
+      :file "casipalindrome.py"
+      :pointmax 1318
+      :fsize 1317
+      :lastmodtime '(23176 56183 0 0)
+      :unmatched-syntax nil)
+    (semanticdb-table "maspopular.py"
+      :major-mode 'python-mode
+      :tags 
+        '( ("\"\"\"calcula los numeros mas poulares de una lista\"\"\"" code nil nil [20 71])
+            ("mas_popular" function
+               (:documentation "funcion para calcular el numero mas popular"
+                :arguments 
+                  ( ("lista" variable nil (reparse-symbol function_parameters) [90 95]))                  )
+                nil [74 1400])
+            ("LISTA" variable nil nil [1402 1459])
+            ("mas_popular" code nil nil [1460 1478])
+            ("LISTA1" variable nil nil [1485 1496])
+            ("mas_popular" code nil nil [1497 1516])
+            ("LISTA2" variable nil nil [1532 1544])
+            ("mas_popular" code nil nil [1545 1564])
+            ("LISTA3" variable nil nil [1566 1587])
+            ("mas_popular" code nil nil [1588 1607])
+            ("LISTA4" variable nil nil [1651 1684])
+            ("mas_popular" code nil nil [1685 1704]))          
+      :file "maspopular.py"
+      :pointmax 1747
+      :fsize 1746
+      :lastmodtime '(23178 52733 197281 753000)
+      :unmatched-syntax nil))
+  :file "!home!jboadas!devel!python!baires!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

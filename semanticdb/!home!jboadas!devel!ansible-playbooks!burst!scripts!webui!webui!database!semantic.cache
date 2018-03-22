@@ -1,0 +1,9 @@
+;; Object database/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "database/"
+  :tables
+  (list
+)
+  :file "!home!jboadas!devel!ansible-playbooks!burst!scripts!webui!webui!database!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

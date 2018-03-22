@@ -1,0 +1,70 @@
+;; Object update-status/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "update-status/"
+  :tables
+  (list
+    (semanticdb-table "update_status.py"
+      :major-mode 'python-mode
+      :tags 
+        '( ("subprocess" include nil nil [22 57])
+            ("subprocess" include nil nil [58 99])
+            ("os" include nil nil [100 109])
+            ("math" include nil nil [110 121])
+            ("time" include nil nil [122 155])
+            ("gspread" include nil nil [156 170])
+            ("oauth2client.service_account" include nil nil [171 237])
+            ("MINER_COLUMN" variable nil nil [239 255])
+            ("PLOTTER_COLUMN" variable nil nil [256 274])
+            ("DATETIME_COLUMN" variable nil nil [275 294])
+            ("STATUS_COLUMN" variable nil nil [295 312])
+            ("PLOT_EXIST_COLUMN" variable nil nil [313 334])
+            ("PLOT_START_NONCE_COLUMN" variable nil nil [335 362])
+            ("PLOT_END_NONCE_COLUMN" variable nil nil [363 388])
+            ("PLOTTING_COLUMN" variable nil nil [389 408])
+            ("PLOT_SIZE_COLUMN" variable nil nil [409 429])
+            ("SCOPE" variable nil nil [431 480])
+            ("CREDS" variable nil nil [481 648])
+            ("CLIENT" variable nil nil [649 682])
+            ("SERVER_STATUS" variable nil nil [683 726])
+            ("PLOTS" variable nil nil [727 821])
+            ("get_ip_address" function nil nil [824 983])
+            ("get_sda_plot_files" function nil nil [985 2249])
+            ("get_plot_files" function nil nil [2251 3496])
+            ("get_disk_status" function nil nil [3498 3968])
+            ("extract_disk_name" function (:arguments 
+              ( ("route" variable nil (reparse-symbol function_parameters) [3992 3997]))              ) nil [3970 4073])
+            ("get_status_of_item" function (:arguments 
+              ( ("item" variable nil (reparse-symbol function_parameters) [4098 4102]))              ) nil [4075 4171])
+            ("get_status_of_disk" function (:arguments 
+              ( ("a_st" variable nil (reparse-symbol function_parameters) [4196 4200])
+                ("l_st" variable nil (reparse-symbol function_parameters) [4202 4206])
+                ("p_st" variable nil (reparse-symbol function_parameters) [4208 4212]))              ) nil [4173 4368])
+            ("filter_disk_status" function nil nil [4370 6157])
+            ("get_current_datetime" function nil nil [6159 6272])
+            ("get_creep_process" function nil nil [6274 6610])
+            ("get_plotter_status" function (:documentation "checks if the plotter is running in memory") nil [6612 6993])
+            ("get_miner_status" function nil nil [6995 7405])
+            ("update_single_plot_info" function (:arguments 
+              ( ("ip" variable nil (reparse-symbol function_parameters) [7435 7437])
+                ("plot" variable nil (reparse-symbol function_parameters) [7439 7443])
+                ("current_plots" variable nil (reparse-symbol function_parameters) [7445 7458]))              ) nil [7407 8771])
+            ("update_plot_info" function (:arguments 
+              ( ("ip" variable nil (reparse-symbol function_parameters) [8794 8796]))              ) nil [8773 9070])
+            ("update_single_disk_status" function (:arguments 
+              ( ("ip" variable nil (reparse-symbol function_parameters) [9102 9104])
+                ("disk" variable nil (reparse-symbol function_parameters) [9106 9110])
+                ("status" variable nil (reparse-symbol function_parameters) [9112 9118]))              ) nil [9072 9320])
+            ("update_disk_status" function (:arguments 
+              ( ("ip" variable nil (reparse-symbol function_parameters) [9345 9347]))              ) nil [9322 9525])
+            ("update_sheet_status" function (:arguments 
+              ( ("ip" variable nil (reparse-symbol function_parameters) [9551 9553]))              ) nil [9527 9946])
+            ("main" function nil nil [9948 10014])
+            ("if" code nil nil [10016 10054]))          
+      :file "update_status.py"
+      :pointmax 10054
+      :fsize 10053
+      :lastmodtime '(23192 24502 758523 853000)
+      :unmatched-syntax nil))
+  :file "!home!jboadas!devel!ansible-playbooks!burst!scripts!python3-ansible-scripts-deploy!update-status!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

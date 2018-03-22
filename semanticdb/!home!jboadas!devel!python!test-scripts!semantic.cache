@@ -186,6 +186,39 @@
       :pointmax 109
       :fsize 86
       :lastmodtime '(23123 36722 550460 442000)
+      :unmatched-syntax nil)
+    (semanticdb-table "casi_palindromo.py"
+      :major-mode 'python-mode
+      :tags 
+        '( ("math" include nil nil [1 12])
+            ("casipalindromo" function (:arguments 
+              ( ("palabra" variable nil (reparse-symbol function_parameters) [34 41]))              ) nil [15 485]))          
+      :file "casi_palindromo.py"
+      :pointmax 485
+      :fsize 487
+      :lastmodtime '(23175 20395 452829 70000)
+      :unmatched-syntax nil)
+
+    (semanticdb-table "test-kivy.py"
+      :major-mode 'python-mode
+      :tags 
+        '( ("kivy.app" include nil nil [1 25])
+            ("kivy.uix.button" include nil nil [26 60])
+            ("TestApp" type
+               (:superclasses ("App")
+                :members 
+                  ( ("build" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [97 101]))                          )
+                        (reparse-symbol indented_block_body) [87 146]))                  
+                :type "class")
+                nil [63 146])
+            ("TestApp" code nil nil [148 163]))          
+      :file "test-kivy.py"
+      :pointmax 164
+      :fsize 163
+      :lastmodtime '(23206 47789 636379 6000)
       :unmatched-syntax nil))
   :file "!home!jboadas!devel!python!test-scripts!semantic.cache"
   :semantic-tag-version "2.0"

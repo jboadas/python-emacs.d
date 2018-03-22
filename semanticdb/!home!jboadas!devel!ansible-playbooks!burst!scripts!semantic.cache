@@ -117,6 +117,16 @@
       :pointmax 3688
       :fsize 3687
       :lastmodtime '(23163 21674 876424 544000)
+      :unmatched-syntax nil)
+    (semanticdb-table "get_xmrig_huge_pages.py"
+      :major-mode 'python-mode
+      :tags 
+        '( ("requests" include nil nil [1 16])
+            ("r" variable nil nil [18 30]))          
+      :file "get_xmrig_huge_pages.py"
+      :pointmax 31
+      :fsize 30
+      :lastmodtime '(23206 48717 617727 595000)
       :unmatched-syntax nil))
   :file "!home!jboadas!devel!ansible-playbooks!burst!scripts!semantic.cache"
   :semantic-tag-version "2.0"

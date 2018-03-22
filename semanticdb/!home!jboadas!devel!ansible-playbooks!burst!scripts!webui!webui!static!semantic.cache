@@ -7,15 +7,28 @@
       :major-mode 'js-mode
       :tags 
         '( ("hosts" variable nil nil [1 11])
+            ("setDiskStatus" function (:arguments 
+              ( ("ip" variable nil (reparse-symbol FormalParameterList) [54 56])
+                ("name" variable nil (reparse-symbol FormalParameterList) [58 62]))              ) nil [31 1353])
             ("setStatusOfHost" function (:arguments 
-              ( ("item" variable nil (reparse-symbol FormalParameterList) [38 42]))              ) nil [13 878])
-            ("setAllHostsStatus" function nil nil [2167 2280])
-            ("getAllHosts" function nil nil [2283 2499]))          
+              ( ("item" variable nil (reparse-symbol FormalParameterList) [1381 1385]))              ) nil [1356 2649])
+            ("setUpdateDateTime" function (:arguments 
+              ( ("item" variable nil (reparse-symbol FormalParameterList) [2678 2682])
+                ("status" variable nil (reparse-symbol FormalParameterList) [2684 2690]))              ) nil [2651 2794])
+            ("setStatusOfMiner" function (:arguments 
+              ( ("item" variable nil (reparse-symbol FormalParameterList) [2822 2826])
+                ("status" variable nil (reparse-symbol FormalParameterList) [2828 2834]))              ) nil [2796 3776])
+            ("setStatusOfPloter" function (:arguments 
+              ( ("item" variable nil (reparse-symbol FormalParameterList) [3805 3809])
+                ("status" variable nil (reparse-symbol FormalParameterList) [3811 3817]))              ) nil [3778 4503])
+            ("setAllHostsStatus" function nil nil [4506 4603])
+            ("getDatabaseData" function nil nil [4605 4887])
+            ("getAllHosts" function nil nil [4890 5068]))          
       :file "burst.js"
-      :pointmax 2624
-      :fsize 2623
-      :lastmodtime '(23172 38619 427508 640000)
-      :unmatched-syntax '((PAREN_BLOCK 2614 . 2622) (PAREN_BLOCK 2501 . 2614))))
+      :pointmax 5193
+      :fsize 5192
+      :lastmodtime '(23187 65480 761336 959000)
+      :unmatched-syntax '((PAREN_BLOCK 5183 . 5191) (PAREN_BLOCK 5070 . 5183))))
   :file "!home!jboadas!devel!ansible-playbooks!burst!scripts!webui!webui!static!semantic.cache"
   :semantic-tag-version "2.0"
   :semanticdb-version "2.2")

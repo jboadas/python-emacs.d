@@ -7,42 +7,42 @@
       :major-mode 'python-mode
       :tags 
         '( ("\"\"\"get next nonce non overlapping\"\"\"" code nil nil [36 72])
-            ("subprocess" include nil nil [93 128])
-            ("subprocess" include nil nil [129 170])
-            ("os" include nil nil [171 180])
-            ("socket" include nil nil [181 194])
-            ("MySQLdb" include nil nil [195 209])
-            ("sshtunnel" include nil nil [210 250])
-            ("WALLET_ID" variable nil nil [252 285])
-            ("get_ip_address" function (:documentation "gets own ip address") nil [288 400])
+            ("subprocess" include nil nil [133 168])
+            ("subprocess" include nil nil [169 210])
+            ("os" include nil nil [211 220])
+            ("socket" include nil nil [221 234])
+            ("MySQLdb" include nil nil [235 249])
+            ("sshtunnel" include nil nil [250 290])
+            ("WALLET_ID" variable nil nil [292 325])
+            ("get_ip_address" function nil nil [328 487])
             ("get_next_nonce" function
                (:documentation "gets the next nonce to plot"
                 :arguments 
-                  ( ("ip_host" variable nil (reparse-symbol function_parameters) [421 428])
-                    ("avail_nonces" variable nil (reparse-symbol function_parameters) [430 442])
-                    ("mount_point" variable nil (reparse-symbol function_parameters) [444 455]))                  )
-                nil [402 1807])
+                  ( ("ip_host" variable nil (reparse-symbol function_parameters) [508 515])
+                    ("avail_nonces" variable nil (reparse-symbol function_parameters) [517 529])
+                    ("mount_point" variable nil (reparse-symbol function_parameters) [531 542]))                  )
+                nil [489 1946])
             ("get_free_space_gb" function
                (:documentation "get free space of the folder in GB"
                 :arguments 
-                  ( ("folder" variable nil (reparse-symbol function_parameters) [1831 1837]))                  )
-                nil [1809 2221])
-            ("is_plotter_running" function (:documentation "checks if the plotter is running in memory") nil [2223 2572])
-            ("delete_lost_ploting_files" function (:documentation "gets all mounted disks") nil [2574 3427])
-            ("get_mount_points" function (:documentation "gets all mounted disks") nil [3429 4132])
+                  ( ("folder" variable nil (reparse-symbol function_parameters) [1970 1976]))                  )
+                nil [1948 2360])
+            ("is_plotter_running" function (:documentation "checks if the plotter is running in memory") nil [2362 2711])
+            ("delete_lost_ploting_files" function (:documentation "gets all mounted disks") nil [2713 3566])
+            ("get_mount_points" function (:documentation "gets all mounted disks") nil [3568 4271])
             ("launch_plot_script" function
                (:documentation "launch the plot script"
                 :arguments 
-                  ( ("start_nonce" variable nil (reparse-symbol function_parameters) [4157 4168])
-                    ("number_of_nonces" variable nil (reparse-symbol function_parameters) [4170 4186])
-                    ("directory" variable nil (reparse-symbol function_parameters) [4188 4197]))                  )
-                nil [4134 4929])
-            ("main" function (:documentation "main procedure") nil [4931 5438])
-            ("if" code nil nil [5440 5478]))          
+                  ( ("start_nonce" variable nil (reparse-symbol function_parameters) [4296 4307])
+                    ("number_of_nonces" variable nil (reparse-symbol function_parameters) [4309 4325])
+                    ("directory" variable nil (reparse-symbol function_parameters) [4327 4336]))                  )
+                nil [4273 5200])
+            ("main" function (:documentation "main procedure") nil [5202 5709])
+            ("if" code nil nil [5711 5749]))          
       :file "get_nonces.py"
-      :pointmax 5478
-      :fsize 5468
-      :lastmodtime '(23164 17869 0 0)
+      :pointmax 5749
+      :fsize 5748
+      :lastmodtime '(23197 18988 723477 732000)
       :unmatched-syntax nil)
     (semanticdb-table "start_dead_miner.py"
       :major-mode 'python-mode
@@ -62,7 +62,49 @@
       :pointmax 2136
       :fsize 2135
       :lastmodtime '(23164 26806 651095 419000)
-      :unmatched-syntax '((INDENT_BLOCK 1514 . 1535) (NEWLINE 1513 . 1514) (COLON 1512 . 1513) (TRY 848 . 851) (AS 1504 . 1506))))
+      :unmatched-syntax '((INDENT_BLOCK 1514 . 1535) (NEWLINE 1513 . 1514) (COLON 1512 . 1513) (TRY 848 . 851) (AS 1504 . 1506)))
+    (semanticdb-table "sda_get_nonces.py"
+      :major-mode 'python-mode
+      :tags 
+        '( ("\"\"\"get next nonce non overlapping\"\"\"" code nil nil [21 57])
+            ("subprocess" include nil nil [78 113])
+            ("subprocess" include nil nil [114 155])
+            ("os" include nil nil [156 165])
+            ("socket" include nil nil [166 179])
+            ("MySQLdb" include nil nil [180 194])
+            ("sshtunnel" include nil nil [195 235])
+            ("WALLET_ID" variable nil nil [237 270])
+            ("SDA_PLOT_FOLDER" variable nil nil [271 313])
+            ("get_ip_address" function (:documentation "gets own ip address") nil [316 505])
+            ("get_next_nonce" function
+               (:documentation "gets the next nonce to plot"
+                :arguments 
+                  ( ("ip_host" variable nil (reparse-symbol function_parameters) [526 533])
+                    ("avail_nonces" variable nil (reparse-symbol function_parameters) [535 547])
+                    ("mount_point" variable nil (reparse-symbol function_parameters) [549 560]))                  )
+                nil [507 1968])
+            ("get_free_space_gb" function
+               (:documentation "get free space of the folder in GB"
+                :arguments 
+                  ( ("folder" variable nil (reparse-symbol function_parameters) [1992 1998]))                  )
+                nil [1970 2382])
+            ("is_plotter_running" function (:documentation "checks if the plotter is running in memory") nil [2384 2733])
+            ("delete_lost_ploting_files" function (:documentation "gets all mounted disks") nil [2735 3146])
+            ("get_free_space_sda" function (:documentation "gets all mounted disks") nil [3148 3546])
+            ("launch_plot_script" function
+               (:documentation "launch the plot script"
+                :arguments 
+                  ( ("start_nonce" variable nil (reparse-symbol function_parameters) [3571 3582])
+                    ("number_of_nonces" variable nil (reparse-symbol function_parameters) [3584 3600])
+                    ("directory" variable nil (reparse-symbol function_parameters) [3602 3611]))                  )
+                nil [3548 4475])
+            ("main" function (:documentation "main procedure") nil [4477 4986])
+            ("if" code nil nil [4988 5026]))          
+      :file "sda_get_nonces.py"
+      :pointmax 5026
+      :fsize 5025
+      :lastmodtime '(23197 22116 352631 821000)
+      :unmatched-syntax nil))
   :file "!home!jboadas!devel!ansible-playbooks!burst!scripts!python3-ansible-scripts-deploy!semantic.cache"
   :semantic-tag-version "2.0"
   :semanticdb-version "2.2")

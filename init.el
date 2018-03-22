@@ -36,6 +36,10 @@
   
 (unless (package-installed-p 'highlight-parentheses)
   (package-install 'highlight-parentheses))
+
+(unless (package-installed-p 'js2-mode)
+  (package-install 'js2-mode))
+
 ;;
 ;; UI
 ;;
@@ -280,3 +284,8 @@
       '(lambda ()
         (define-key yaml-mode-map "\C-m" 'newline-and-indent)))
 (add-hook 'yaml-mode-hook '(lambda () (ansible 1)))
+
+;;javascript
+
+(add-to-list 'auto-mode-alist '("\\.js\\'" . js2-mode))
+(add-to-list 'interpreter-mode-alist '("node" . js2-mode))

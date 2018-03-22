@@ -1,0 +1,21 @@
+;; Object connect-leaseweb/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "connect-leaseweb/"
+  :tables
+  (list
+    (semanticdb-table "connect-leaseweb.py"
+      :major-mode 'python-mode
+      :tags 
+        '( ("requests" include nil nil [1 16])
+            ("pprint" include nil nil [17 30])
+            ("response" variable nil nil [31 105])
+            ("print" code nil nil [106 133])
+            ("print" code nil nil [142 165]))          
+      :file "connect-leaseweb.py"
+      :pointmax 166
+      :fsize 165
+      :lastmodtime '(23209 18004 546693 596000)
+      :unmatched-syntax nil))
+  :file "!home!jboadas!devel!python!test-scripts!connect-leaseweb!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

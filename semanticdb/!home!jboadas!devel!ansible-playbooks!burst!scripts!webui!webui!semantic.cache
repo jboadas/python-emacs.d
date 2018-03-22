@@ -6,12 +6,12 @@
     (semanticdb-table "__init__.py"
       :major-mode 'python-mode
       :tags 
-        '( ("app" include nil nil [13 23]))          
+        '( ("APP" include nil nil [13 23]))          
       :file "__init__.py"
       :pointmax 24
       :fsize 23
-      :lastmodtime '(23164 29148 746466 614000)
-      :unmatched-syntax '((PERIOD 6 . 7) (IMPORT 14 . 20) ($EOI 24 . 24) (PERIOD 6 . 7)))
+      :lastmodtime '(23173 31916 442353 764000)
+      :unmatched-syntax '((PERIOD 6 . 7) (PERIOD 6 . 7) (IMPORT 14 . 20) ($EOI 24 . 24) (PERIOD 6 . 7)))
     (semanticdb-table "webui.py"
       :major-mode 'python-mode
       :tags 
@@ -20,9 +20,11 @@
             ("flask_restful" include nil nil [84 123])
             ("hostinfo" include nil nil [131 146])
             ("helper" include nil nil [154 167])
+            ("APP" variable nil nil [169 190])
+            ("APP" code nil nil [229 261])
             ("API" variable nil nil [303 317])
             ("" code nil nil [330 335])
-            ("show_hosts" function (:documentation "renders the main page") nil [336 470])
+            ("show_hosts" function (:documentation "renders the main page") nil [336 508])
             ("AllHosts" type
                (:documentation "get allhosts info"
                 :superclasses ("Resource")
@@ -30,11 +32,11 @@
                   ( ("get" function
                        (:parent "dummy"
                         :arguments 
-                          ( ("self" variable nil (reparse-symbol function_parameters) [539 543]))                          
+                          ( ("self" variable nil (reparse-symbol function_parameters) [577 581]))                          
                         :documentation "get method")
-                        (reparse-symbol indented_block_body) [531 640]))                  
+                        (reparse-symbol indented_block_body) [569 678]))                  
                 :type "class")
-                nil [472 640])
+                nil [510 678])
             ("PingHost" type
                (:documentation "web-service to ping all host and see they are alive"
                 :superclasses ("Resource")
@@ -42,12 +44,12 @@
                   ( ("get" function
                        (:parent "dummy"
                         :arguments 
-                          ( ("self" variable nil (reparse-symbol function_parameters) [743 747])
-                            ("host_ip" variable nil (reparse-symbol function_parameters) [749 756]))                          
+                          ( ("self" variable nil (reparse-symbol function_parameters) [781 785])
+                            ("host_ip" variable nil (reparse-symbol function_parameters) [787 794]))                          
                         :documentation "get method")
-                        (reparse-symbol indented_block_body) [735 863]))                  
+                        (reparse-symbol indented_block_body) [773 901]))                  
                 :type "class")
-                nil [642 863])
+                nil [680 901])
             ("ServerStatus" type
                (:documentation "webservice to get all server status"
                 :superclasses ("Resource")
@@ -55,42 +57,192 @@
                   ( ("get" function
                        (:parent "dummy"
                         :arguments 
-                          ( ("self" variable nil (reparse-symbol function_parameters) [954 958]))                          
+                          ( ("self" variable nil (reparse-symbol function_parameters) [992 996]))                          
                         :documentation "get method")
-                        (reparse-symbol indented_block_body) [946 1064]))                  
+                        (reparse-symbol indented_block_body) [984 1102]))                  
                 :type "class")
-                nil [865 1064]))          
+                nil [903 1102])
+            ("FilterStatus" type
+               (:documentation "webservice to filter server status"
+                :superclasses ("Resource")
+                :members 
+                  ( ("get" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [1192 1196]))                          
+                        :documentation "get method")
+                        (reparse-symbol indented_block_body) [1184 1305]))                  
+                :type "class")
+                nil [1104 1305])
+            ("UpdateDatabase" type
+               (:documentation "webservice to update the database"
+                :superclasses ("Resource")
+                :members 
+                  ( ("get" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [1396 1400]))                          
+                        :documentation "get method")
+                        (reparse-symbol indented_block_body) [1388 1504]))                  
+                :type "class")
+                nil [1307 1504])
+            ("API" code nil nil [1506 1545])
+            ("API" code nil nil [1546 1595])
+            ("API" code nil nil [1596 1643])
+            ("API" code nil nil [1644 1691])
+            ("API" code nil nil [1692 1743]))          
       :file "webui.py"
-      :pointmax 1156
-      :fsize 1155
-      :lastmodtime '(23173 30624 92874 943000)
+      :pointmax 1744
+      :fsize 1743
+      :lastmodtime '(23190 55173 345198 532000)
       :unmatched-syntax nil)
     (semanticdb-table "hostinfo.py"
       :major-mode 'python-mode
       :tags 
-        '( ("\"\"\"info of hosts\"\"\"" code nil nil [21 40])
-            ("HOSTINFO" variable nil nil [41 3683]))          
+        '( ("\"\"\"info of hosts\"\"\"" code nil nil [21 40]))          
       :file "hostinfo.py"
-      :pointmax 3684
-      :fsize 3683
-      :lastmodtime '(23165 59000 536946 556000)
+      :pointmax 3682
+      :fsize 3681
+      :lastmodtime '(23173 35502 306830 752000)
       :unmatched-syntax nil)
     (semanticdb-table "helper.py"
       :major-mode 'python-mode
       :tags 
         '( ("\"\"\"helper script for webui\"\"\"" code nil nil [20 49])
             ("os" include nil nil [50 59])
+            ("time" include nil nil [60 91])
+            ("datetime" include nil nil [92 121])
+            ("sqlite3" include nil nil [122 136])
+            ("gspread" include nil nil [137 151])
+            ("oauth2client.service_account" include nil nil [152 218])
+            ("DISKS" variable nil nil [220 330])
             ("ping_server" function
                (:documentation "ping a server to see is alive"
                 :arguments 
-                  ( ("host_ip" variable nil (reparse-symbol function_parameters) [78 85]))                  )
-                nil [62 236])
-            ("get_server_status" function (:documentation "gets all server status from google sheets") nil [238 329]))          
+                  ( ("host_ip" variable nil (reparse-symbol function_parameters) [349 356]))                  )
+                nil [333 507])
+            ("calculate_time_ago" function
+               (:documentation "calculate the last time update script was run"
+                :arguments 
+                  ( ("date_time" variable nil (reparse-symbol function_parameters) [532 541]))                  )
+                nil [509 948])
+            ("update_database_disks" function (:arguments 
+              ( ("conn" variable nil (reparse-symbol function_parameters) [976 980])
+                ("disk" variable nil (reparse-symbol function_parameters) [982 986]))              ) nil [950 1481])
+            ("update_database_host" function (:arguments 
+              ( ("conn" variable nil (reparse-symbol function_parameters) [1508 1512])
+                ("host" variable nil (reparse-symbol function_parameters) [1514 1518]))              ) nil [1483 1685])
+            ("update_database" function nil nil [1687 3222])
+            ("filter_server_status" function nil nil [3224 3885])
+            ("get_server_status" function (:documentation "gets all server status from database") nil [3887 5277]))          
       :file "helper.py"
-      :pointmax 329
-      :fsize 328
-      :lastmodtime '(23173 30659 249244 767000)
-      :unmatched-syntax '(($EOI 329 . 329) ($EOI 324 . 324) ($EOI 320 . 320) ($EOI 312 . 312))))
+      :pointmax 5277
+      :fsize 5276
+      :lastmodtime '(23190 56081 390333 616000)
+      :unmatched-syntax nil)
+    (semanticdb-table "populate_ip.py"
+      :major-mode 'python-mode
+      :tags 
+        '( ("os" include nil nil [1 10])
+            ("sqlite3" include nil nil [11 25])
+            ("webui.hostinfo" include nil nil [26 56])
+            ("insert_ip" function (:arguments 
+              ( ("ip" variable nil (reparse-symbol function_parameters) [73 75])
+                ("name" variable nil (reparse-symbol function_parameters) [77 81]))              ) nil [59 494])
+            ("main" function nil nil [496 638]))          
+      :file "populate_ip.py"
+      :pointmax 638
+      :fsize 637
+      :lastmodtime '(23190 48967 79049 646000)
+      :unmatched-syntax nil)
+    (semanticdb-table "get_duplicated_nonces.py"
+      :major-mode 'python-mode
+      :tags 
+        '( ("math" include nil nil [1 12])
+            ("sqlite3" include nil nil [13 27])
+            ("DISKS" variable nil nil [30 140])
+            ("ALL_PLOTS" variable nil nil [142 156])
+            ("TO_DELETE" variable nil nil [157 171])
+            ("get_all_nonces_disk" function (:arguments 
+              ( ("disk" variable nil (reparse-symbol function_parameters) [198 202]))              ) nil [174 665])
+            ("get_duplicates" function (:arguments 
+              ( ("sorted_plots" variable nil (reparse-symbol function_parameters) [686 698]))              ) nil [667 2327])
+            ("get_all_nonces" function nil nil [2347 2548])
+            ("get_all_nonces" code nil nil [2550 2566]))          
+      :file "get_duplicated_nonces.py"
+      :pointmax 2567
+      :fsize 2566
+      :lastmodtime '(23197 19594 1919 988000)
+      :unmatched-syntax nil)
+    (semanticdb-table "rebuild_maria_db.py"
+      :major-mode 'python-mode
+      :tags 
+        '( ("MySQLdb" include nil nil [1 15])
+            ("sshtunnel" include nil nil [16 56])
+            ("sqlite3" include nil nil [57 71])
+            ("DISKS" variable nil nil [73 183])
+            ("ALL_PLOTS" variable nil nil [185 199])
+            ("TO_DELETE" variable nil nil [200 214])
+            ("get_all_nonces_disk" function (:arguments 
+              ( ("disk" variable nil (reparse-symbol function_parameters) [241 245]))              ) nil [217 708])
+            ("rebuild_database" function (:documentation "rebuild the nonce database") nil [710 1702])
+            ("get_all_nonces" function nil nil [1704 1783])
+            ("main" function nil nil [1785 1841])
+            ("main" code nil nil [1843 1849]))          
+      :file "rebuild_maria_db.py"
+      :pointmax 1850
+      :fsize 1849
+      :lastmodtime '(23193 31843 313296 846000)
+      :unmatched-syntax nil)
+    (semanticdb-table "delete_duplicated_plots.py"
+      :major-mode 'python-mode
+      :tags 
+        '( ("\"\"\"get info of remote hosts\"\"\"" code nil nil [21 51])
+            ("socket" include nil nil [52 65])
+            ("paramiko" include nil nil [66 81])
+            ("paramiko.ssh_exception" include nil nil [82 129])
+            ("sqlite3" include nil nil [130 144])
+            ("DISKS" variable nil nil [146 256])
+            ("ALL_PLOTS" variable nil nil [258 272])
+            ("TO_DELETE" variable nil nil [273 287])
+            ("WALLET_ID" variable nil nil [288 321])
+            ("FULL_DUPLICATES" variable nil nil [322 342])
+            ("get_all_nonces_disk" function (:arguments 
+              ( ("disk" variable nil (reparse-symbol function_parameters) [369 373]))              ) nil [345 836])
+            ("get_duplicates" function (:arguments 
+              ( ("sorted_plots" variable nil (reparse-symbol function_parameters) [857 869]))              ) nil [838 2166])
+            ("get_all_nonces" function nil nil [2168 2369])
+            ("delete_plot" function
+               (:documentation "get hpacucli command output"
+                :arguments 
+                  ( ("ip_host" variable nil (reparse-symbol function_parameters) [2387 2394])
+                    ("command" variable nil (reparse-symbol function_parameters) [2396 2403]))                  )
+                nil [2371 3281])
+            ("delete_all_plots" function nil nil [3283 3927])
+            ("main" function nil nil [3929 3985])
+            ("main" code nil nil [3987 3993]))          
+      :file "delete_duplicated_plots.py"
+      :pointmax 3994
+      :fsize 3993
+      :lastmodtime '(23193 51436 209409 183000)
+      :unmatched-syntax nil)
+    (semanticdb-table "get_xmrig_huge_pages.py"
+      :major-mode 'python-mode
+      :tags 
+        '( ("requests" include nil nil [1 16])
+            ("pprint" include nil nil [17 30])
+            ("webui.hostinfo" include nil nil [58 88])
+            ("EDGES" variable nil nil [89 99])
+            ("HASHRATES" variable nil nil [100 114])
+            ("check_host" function (:arguments 
+              ( ("host_ip" variable nil (reparse-symbol function_parameters) [132 139])
+                ("name" variable nil (reparse-symbol function_parameters) [141 145]))              ) nil [117 1267])
+            ("main" function nil nil [1319 1552]))          
+      :file "get_xmrig_huge_pages.py"
+      :pointmax 1552
+      :fsize 1551
+      :lastmodtime '(23207 59101 529810 159000)
+      :unmatched-syntax nil))
   :file "!home!jboadas!devel!ansible-playbooks!burst!scripts!webui!webui!semantic.cache"
   :semantic-tag-version "2.0"
   :semanticdb-version "2.2")

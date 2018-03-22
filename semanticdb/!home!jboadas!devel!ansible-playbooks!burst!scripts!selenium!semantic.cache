@@ -311,24 +311,24 @@
       :major-mode 'python-mode
       :tags 
         '( ("\"\"\"results\"\"\"" code nil nil [1 14])
-            ("RESULTS" variable nil nil [58 16604]))          
+            ("RESULTS" variable nil nil [34 17407]))          
       :file "results.py"
-      :pointmax 16605
-      :fsize 16604
-      :lastmodtime '(23156 51656 125993 820000)
-      :unmatched-syntax '(($EOI 16605 . 16605)))
+      :pointmax 17408
+      :fsize 17407
+      :lastmodtime '(23182 62660 434780 356000)
+      :unmatched-syntax nil)
     (semanticdb-table "processresults.py"
       :major-mode 'python-mode
       :tags 
-        '( ("results" include nil nil [1 14])
-            ("total" variable nil nil [16 27])
-            ("for" code nil nil [29 826])
-            ("print" code nil nil [827 839]))          
+        '( ("results" include nil nil [1 15])
+            ("total" variable nil nil [17 28])
+            ("for" code nil nil [30 827])
+            ("print" code nil nil [828 840]))          
       :file "processresults.py"
-      :pointmax 840
-      :fsize 839
-      :lastmodtime '(23156 51998 365523 960000)
-      :unmatched-syntax nil))
+      :pointmax 841
+      :fsize 840
+      :lastmodtime '(23182 62665 662831 828000)
+      :unmatched-syntax '(($EOI 841 . 841))))
   :file "!home!jboadas!devel!ansible-playbooks!burst!scripts!selenium!semantic.cache"
   :semantic-tag-version "2.0"
   :semanticdb-version "2.2")
