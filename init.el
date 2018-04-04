@@ -105,7 +105,8 @@
 ;; elimina el marcador de fin de buffer
 (setq-default indicate-empty-lines nil)
 ;;carga el tema
-(load-theme 'deeper-blue)
+(when (display-graphic-p)
+  (load-theme 'deeper-blue))
 ;;(load-theme 'material t)
 
 ;; resalta la linea actual del cursor
