@@ -261,6 +261,7 @@
                             (- cur mid)))))
 
 (global-set-key (kbd "C-S-l") 'my-horizontal-recenter)
+(define-key elpy-mode-map (kbd "M-,") 'pop-tag-mark)
 
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
