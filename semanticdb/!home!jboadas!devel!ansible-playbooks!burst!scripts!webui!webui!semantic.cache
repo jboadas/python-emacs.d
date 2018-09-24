@@ -16,15 +16,17 @@
       :major-mode 'python-mode
       :tags 
         '( ("\"\"\" webui main page and service render\"\"\"" code nil nil [1 42])
-            ("flask" include nil nil [43 83])
-            ("flask_restful" include nil nil [84 123])
-            ("hostinfo" include nil nil [131 146])
-            ("helper" include nil nil [154 167])
-            ("APP" variable nil nil [169 190])
-            ("APP" code nil nil [229 261])
-            ("API" variable nil nil [303 317])
-            ("" code nil nil [330 335])
-            ("show_hosts" function (:documentation "renders the main page") nil [336 508])
+            ("flask" include nil nil [43 92])
+            ("flask_restful" include nil nil [93 132])
+            ("hostinfo" include nil nil [140 155])
+            ("helper" include nil nil [163 176])
+            ("APP" variable nil nil [178 199])
+            ("APP" code nil nil [238 270])
+            ("API" variable nil nil [312 326])
+            ("" code nil nil [339 344])
+            ("show_hosts" function (:documentation "renders the main page") nil [345 517])
+            ("" code nil nil [529 562])
+            ("update_host" function nil nil [563 675])
             ("AllHosts" type
                (:documentation "get allhosts info"
                 :superclasses ("Resource")
@@ -32,11 +34,11 @@
                   ( ("get" function
                        (:parent "dummy"
                         :arguments 
-                          ( ("self" variable nil (reparse-symbol function_parameters) [577 581]))                          
+                          ( ("self" variable nil (reparse-symbol function_parameters) [744 748]))                          
                         :documentation "get method")
-                        (reparse-symbol indented_block_body) [569 678]))                  
+                        (reparse-symbol indented_block_body) [736 845]))                  
                 :type "class")
-                nil [510 678])
+                nil [677 845])
             ("PingHost" type
                (:documentation "web-service to ping all host and see they are alive"
                 :superclasses ("Resource")
@@ -44,12 +46,12 @@
                   ( ("get" function
                        (:parent "dummy"
                         :arguments 
-                          ( ("self" variable nil (reparse-symbol function_parameters) [781 785])
-                            ("host_ip" variable nil (reparse-symbol function_parameters) [787 794]))                          
+                          ( ("self" variable nil (reparse-symbol function_parameters) [948 952])
+                            ("host_ip" variable nil (reparse-symbol function_parameters) [954 961]))                          
                         :documentation "get method")
-                        (reparse-symbol indented_block_body) [773 901]))                  
+                        (reparse-symbol indented_block_body) [940 1068]))                  
                 :type "class")
-                nil [680 901])
+                nil [847 1068])
             ("ServerStatus" type
                (:documentation "webservice to get all server status"
                 :superclasses ("Resource")
@@ -57,11 +59,23 @@
                   ( ("get" function
                        (:parent "dummy"
                         :arguments 
-                          ( ("self" variable nil (reparse-symbol function_parameters) [992 996]))                          
+                          ( ("self" variable nil (reparse-symbol function_parameters) [1159 1163]))                          
                         :documentation "get method")
-                        (reparse-symbol indented_block_body) [984 1102]))                  
+                        (reparse-symbol indented_block_body) [1151 1269]))                  
                 :type "class")
-                nil [903 1102])
+                nil [1070 1269])
+            ("MariadbServerStatus" type
+               (:documentation "webservice to get all server status from mariadb"
+                :superclasses ("Resource")
+                :members 
+                  ( ("get" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [1380 1384]))                          
+                        :documentation "get method")
+                        (reparse-symbol indented_block_body) [1372 1462]))                  
+                :type "class")
+                nil [1271 1462])
             ("FilterStatus" type
                (:documentation "webservice to filter server status"
                 :superclasses ("Resource")
@@ -69,11 +83,11 @@
                   ( ("get" function
                        (:parent "dummy"
                         :arguments 
-                          ( ("self" variable nil (reparse-symbol function_parameters) [1192 1196]))                          
+                          ( ("self" variable nil (reparse-symbol function_parameters) [1552 1556]))                          
                         :documentation "get method")
-                        (reparse-symbol indented_block_body) [1184 1305]))                  
+                        (reparse-symbol indented_block_body) [1544 1665]))                  
                 :type "class")
-                nil [1104 1305])
+                nil [1464 1665])
             ("UpdateDatabase" type
                (:documentation "webservice to update the database"
                 :superclasses ("Resource")
@@ -81,21 +95,22 @@
                   ( ("get" function
                        (:parent "dummy"
                         :arguments 
-                          ( ("self" variable nil (reparse-symbol function_parameters) [1396 1400]))                          
+                          ( ("self" variable nil (reparse-symbol function_parameters) [1756 1760]))                          
                         :documentation "get method")
-                        (reparse-symbol indented_block_body) [1388 1504]))                  
+                        (reparse-symbol indented_block_body) [1748 1864]))                  
                 :type "class")
-                nil [1307 1504])
-            ("API" code nil nil [1506 1545])
-            ("API" code nil nil [1546 1595])
-            ("API" code nil nil [1596 1643])
-            ("API" code nil nil [1644 1691])
-            ("API" code nil nil [1692 1743]))          
+                nil [1667 1864])
+            ("API" code nil nil [1866 1905])
+            ("API" code nil nil [1906 1955])
+            ("API" code nil nil [1956 2003])
+            ("API" code nil nil [2004 2065])
+            ("API" code nil nil [2066 2113])
+            ("API" code nil nil [2114 2165]))          
       :file "webui.py"
-      :pointmax 1744
-      :fsize 1743
-      :lastmodtime '(23190 55173 345198 532000)
-      :unmatched-syntax nil)
+      :pointmax 2166
+      :fsize 2165
+      :lastmodtime '(23209 22633 153345 176000)
+      :unmatched-syntax '((FROM 156 . 160) (PERIOD 161 . 162) (FROM 133 . 137) (PERIOD 138 . 139)))
     (semanticdb-table "hostinfo.py"
       :major-mode 'python-mode
       :tags 
@@ -110,35 +125,44 @@
       :tags 
         '( ("\"\"\"helper script for webui\"\"\"" code nil nil [20 49])
             ("os" include nil nil [50 59])
-            ("time" include nil nil [60 91])
-            ("datetime" include nil nil [92 121])
-            ("sqlite3" include nil nil [122 136])
-            ("gspread" include nil nil [137 151])
-            ("oauth2client.service_account" include nil nil [152 218])
-            ("DISKS" variable nil nil [220 330])
+            ("math" include nil nil [60 71])
+            ("time" include nil nil [72 103])
+            ("datetime" include nil nil [104 133])
+            ("pprint" include nil nil [134 147])
+            ("sqlite3" include nil nil [148 162])
+            ("MySQLdb" include nil nil [163 177])
+            ("gspread" include nil nil [178 192])
+            ("oauth2client.service_account" include nil nil [193 259])
+            ("DISKS" variable nil nil [261 371])
             ("ping_server" function
                (:documentation "ping a server to see is alive"
                 :arguments 
-                  ( ("host_ip" variable nil (reparse-symbol function_parameters) [349 356]))                  )
-                nil [333 507])
+                  ( ("host_ip" variable nil (reparse-symbol function_parameters) [390 397]))                  )
+                nil [374 548])
             ("calculate_time_ago" function
                (:documentation "calculate the last time update script was run"
                 :arguments 
-                  ( ("date_time" variable nil (reparse-symbol function_parameters) [532 541]))                  )
-                nil [509 948])
+                  ( ("date_time" variable nil (reparse-symbol function_parameters) [573 582]))                  )
+                nil [550 989])
             ("update_database_disks" function (:arguments 
-              ( ("conn" variable nil (reparse-symbol function_parameters) [976 980])
-                ("disk" variable nil (reparse-symbol function_parameters) [982 986]))              ) nil [950 1481])
+              ( ("conn" variable nil (reparse-symbol function_parameters) [1017 1021])
+                ("disk" variable nil (reparse-symbol function_parameters) [1023 1027]))              ) nil [991 1522])
             ("update_database_host" function (:arguments 
-              ( ("conn" variable nil (reparse-symbol function_parameters) [1508 1512])
-                ("host" variable nil (reparse-symbol function_parameters) [1514 1518]))              ) nil [1483 1685])
-            ("update_database" function nil nil [1687 3222])
-            ("filter_server_status" function nil nil [3224 3885])
-            ("get_server_status" function (:documentation "gets all server status from database") nil [3887 5277]))          
+              ( ("conn" variable nil (reparse-symbol function_parameters) [1549 1553])
+                ("host" variable nil (reparse-symbol function_parameters) [1555 1559]))              ) nil [1524 1726])
+            ("update_database" function nil nil [1728 3263])
+            ("filter_server_status" function nil nil [3265 3926])
+            ("get_duplicates" function (:arguments 
+              ( ("sorted_plots" variable nil (reparse-symbol function_parameters) [3947 3959])
+                ("all_servers" variable nil (reparse-symbol function_parameters) [3961 3972]))              ) nil [3928 6231])
+            ("get_server_status_mariadb" function (:documentation "gets all server status from mariadb database") nil [6233 8417])
+            ("get_server_status" function (:documentation "gets all server status from database") nil [8419 9809])
+            ("update_host_mariadb" function (:arguments 
+              ( ("host_data" variable nil (reparse-symbol function_parameters) [9835 9844]))              ) nil [9811 10970]))          
       :file "helper.py"
-      :pointmax 5277
-      :fsize 5276
-      :lastmodtime '(23190 56081 390333 616000)
+      :pointmax 10970
+      :fsize 10969
+      :lastmodtime '(23209 31704 204881 452000)
       :unmatched-syntax nil)
     (semanticdb-table "populate_ip.py"
       :major-mode 'python-mode

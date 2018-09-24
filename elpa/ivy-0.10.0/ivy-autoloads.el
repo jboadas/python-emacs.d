@@ -1,10 +1,19 @@
 ;;; ivy-autoloads.el --- automatically extracted autoloads
 ;;
 ;;; Code:
-(add-to-list 'load-path (or (file-name-directory #$) (car load-path)))
+
+(add-to-list 'load-path (directory-file-name
+                         (or (file-name-directory #$) (car load-path))))
+
 
-;;;### (autoloads nil "counsel" "counsel.el" (23106 42859 610753
-;;;;;;  79000))
+;;;### (autoloads nil "colir" "colir.el" (0 0 0 0))
+;;; Generated autoloads from colir.el
+
+(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "colir" '("colir-")))
+
+;;;***
+
+;;;### (autoloads nil "counsel" "counsel.el" (0 0 0 0))
 ;;; Generated autoloads from counsel.el
 
 (autoload 'counsel-el "counsel" "\
@@ -369,7 +378,8 @@ Switch to a shell buffer, or create one.
 
 (defvar counsel-mode nil "\
 Non-nil if Counsel mode is enabled.
-See the command `counsel-mode' for a description of this minor mode.
+See the `counsel-mode' command
+for a description of this minor mode.
 Setting this variable directly does not take effect;
 either customize it (see the info node `Easy Customization')
 or call the function `counsel-mode'.")
@@ -384,9 +394,11 @@ replacements.
 
 \(fn &optional ARG)" t nil)
 
+(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "counsel" '("counsel-" "tmm-km-list" "ivy-function-called-at-point")))
+
 ;;;***
 
-;;;### (autoloads nil "ivy" "ivy.el" (23106 42859 690752 964000))
+;;;### (autoloads nil "ivy" "ivy.el" (0 0 0 0))
 ;;; Generated autoloads from ivy.el
 
 (autoload 'ivy-resume "ivy" "\
@@ -466,7 +478,8 @@ INHERIT-INPUT-METHOD is currently ignored.
 
 (defvar ivy-mode nil "\
 Non-nil if Ivy mode is enabled.
-See the command `ivy-mode' for a description of this minor mode.
+See the `ivy-mode' command
+for a description of this minor mode.
 Setting this variable directly does not take effect;
 either customize it (see the info node `Easy Customization')
 or call the function `ivy-mode'.")
@@ -502,9 +515,32 @@ Switch to another buffer in another window.
 
 \(fn)" t nil)
 
+(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "ivy" '("ivy-" "with-ivy-window")))
+
 ;;;***
 
-;;;### (autoloads nil "swiper" "swiper.el" (23106 42859 922752 629000))
+;;;### (autoloads nil "ivy-hydra" "ivy-hydra.el" (0 0 0 0))
+;;; Generated autoloads from ivy-hydra.el
+
+(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "ivy-hydra" '("ivy-" "hydra-ivy")))
+
+;;;***
+
+;;;### (autoloads nil "ivy-overlay" "ivy-overlay.el" (0 0 0 0))
+;;; Generated autoloads from ivy-overlay.el
+
+(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "ivy-overlay" '("ivy-")))
+
+;;;***
+
+;;;### (autoloads nil "ivy-test" "ivy-test.el" (0 0 0 0))
+;;; Generated autoloads from ivy-test.el
+
+(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "ivy-test" '("ivy-" "command-execute-setting-this-command")))
+
+;;;***
+
+;;;### (autoloads nil "swiper" "swiper.el" (0 0 0 0))
 ;;; Generated autoloads from swiper.el
 
 (autoload 'swiper-avy "swiper" "\
@@ -523,10 +559,11 @@ Run `swiper' for all open buffers.
 
 \(fn)" t nil)
 
+(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "swiper" '("swiper-")))
+
 ;;;***
 
-;;;### (autoloads nil nil ("colir.el" "ivy-hydra.el" "ivy-overlay.el"
-;;;;;;  "ivy-pkg.el" "ivy-test.el") (23106 42860 217814 738000))
+;;;### (autoloads nil nil ("ivy-pkg.el") (0 0 0 0))
 
 ;;;***
 
@@ -534,5 +571,6 @@ Run `swiper' for all open buffers.
 ;; version-control: never
 ;; no-byte-compile: t
 ;; no-update-autoloads: t
+;; coding: utf-8
 ;; End:
 ;;; ivy-autoloads.el ends here

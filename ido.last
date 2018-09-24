@@ -2,6 +2,24 @@
 
 ;; ----- ido-last-directory-list -----
 (
+ ("/home/jboadas/devel/serverless/firsttest/" . ".serverless/")
+ ("/home/jboadas/devel/serverless/" . "prototype/")
+ ("/home/jboadas/devel/ansible-playbooks/burst/roles/installengraver/" . "tasks/")
+ ("/home/jboadas/devel/ansible-playbooks/burst/roles/sshkey/" . "tasks/")
+ ("/home/jboadas/devel/ansible-playbooks/burst/roles/convertplotstopoc2/" . "tasks/")
+ ("/home/jboadas/devel/ansible-playbooks/burst/roles/viewwebchain/" . "tasks/")
+ ("/home/jboadas/devel/ansible-playbooks/burst/roles/startxmrig/" . "tasks/")
+ ("/home/jboadas/devel/ansible-playbooks/burst/roles/installhpacucli/" . "tasks/")
+ ("/home/jboadas/devel/ansible-playbooks/burst/roles/viewhostname/" . "tasks/")
+ ("/home/jboadas/devel/ansible-playbooks/burst/roles/changesshport/" . "tasks/")
+ ("/home/jboadas/devel/gitlab-ci/scripts/coinimp/" . "phpunit/")
+ ("/home/jboadas/devel/gitlab-ci/scripts/" . "coinimp/")
+ ("/home/jboadas/devel/gitlab-ci/" . "scripts/")
+ ("/home/jboadas/devel/ansible-playbooks/burst/roles/installzabbixclient/" . "tasks/")
+ ("/home/jboadas/devel/ansible-playbooks/burst/roles/stopxmrig/" . "tasks/")
+ ("/home/jboadas/devel/ansible-playbooks/burst/roles/replacecreepMinerbin/" . "tasks/")
+ ("/home/jboadas/devel/javascript/" . "viewpools/")
+ ("/home/jboadas/devel/ansible-playbooks/burst/roles/deployxmrigbinary/" . "tasks/")
  ("/home/jboadas/devel/ansible-playbooks/burst/roles/mariadbupdatestatuscronjob/" . "tasks/")
  ("/home/jboadas/devel/ansible-playbooks/burst/roles/mariadbupdatestatus/" . "tasks/")
  ("/home/jboadas/devel/ansible-playbooks/burst/roles/viewxmrig/" . "tasks/")
@@ -29,7 +47,7 @@
  ("/home/jboadas/devel/ansible-playbooks/burst/roles/minercronjob/" . "tasks/")
  ("/usr/local/" . "bin/")
  ("/usr/" . "local/")
- ("/" . "usr/")
+ ("/" . "home/")
  ("/home/jboadas/devel/ansible-playbooks/burst/roles/plottercronjob/" . "tasks/")
  ("/home/jboadas/devel/ansible-playbooks/burst/roles/replaceminingconf/" . "tasks/")
  ("/home/jboadas/devel/ansible-playbooks/burst/roles/deploybashrc/" . "tasks/")
@@ -46,7 +64,7 @@
  ("/home/jboadas/devel/ansible-playbooks/burst/roles/checkmounts/" . "tasks/")
  ("/home/jboadas/devel/ansible-playbooks/burst/roles/downloads/" . "tasks/")
  ("/home/jboadas/devel/ansible-playbooks/burst/roles/disks/" . "tasks/")
- ("/home/jboadas/devel/ansible-playbooks/burst/roles/" . "deployxmrig/")
+ ("/home/jboadas/devel/ansible-playbooks/burst/roles/" . "sshkey/")
  ("/home/jboadas/devel/ansible-playbooks/burst/" . "roles/")
  ("/home/jboadas/devel/ansible-playbooks/" . "burst/")
  ("/home/jboadas/devel/ansible/roles/mount/" . "tasks/")
@@ -59,16 +77,16 @@
  ("/home/jboadas/devel/myansible/" . "roles/")
  ("/home/jboadas/devel/python/selenium/selenium2/coinimp/" . "templates/")
  ("/home/jboadas/devel/python/selenium/selenium2/maintests/" . "php_scripts/")
- ("/home/jboadas/devel/python/test-scripts/" . "testcases/")
+ ("/home/jboadas/devel/python/test-scripts/" . "filter_emails/")
  ("/home/jboadas/devel/python/selenium/selenium2/V316/" . "test/")
- ("/home/jboadas/devel/python/selenium/selenium2/" . "maintests/")
+ ("/home/jboadas/devel/python/selenium/selenium2/" . "coinimp/")
  ("/home/jboadas/devel/python/selenium/V316/" . "utils/")
  ("/home/jboadas/devel/python/selenium/" . "selenium2/")
  ("/home/" . "jboadas/")
- ("/home/jboadas/devel/python/" . "selenium/")
+ ("/home/jboadas/devel/python/" . "test-scripts/")
  ("/home/jboadas/Downloads/" . "infoman/")
  ("/home/jboadas/devel/" . "python/")
- ("/home/jboadas/" . "devel/")
+ ("/home/jboadas/" . ".emacs.d/")
  ("c:/Lisp/home/" . ".emacs.d/")
  ("c:/Lisp/" . "home/")
  ("c:/devel/haskell/my-yesod/static/" . "tmp/")
@@ -80,135 +98,141 @@
 
 ;; ----- ido-work-directory-list -----
 (
- "/home/jboadas/devel/python/selenium/selenium2/maintests/"
- "/home/jboadas/devel/ansible-playbooks/burst/"
- "/home/jboadas/devel/ansible-playbooks/burst/roles/installzabbixclient/tasks/"
- "/home/jboadas/devel/python/selenium/selenium2/coinimp/"
- "/home/jboadas/devel/ansible-playbooks/burst/roles/deployxmrig/tasks/"
- "/home/jboadas/devel/ansible-playbooks/burst/roles/replaceminingconf/tasks/"
- "/home/jboadas/devel/python/test-scripts/connect-leaseweb/"
- "/home/jboadas/devel/ansible-playbooks/burst/scripts/webui/webui/"
- "/home/jboadas/devel/ansible-playbooks/burst/scripts/"
- "/home/jboadas/devel/python/test-scripts/"
- "/home/jboadas/devel/ansible-playbooks/burst/roles/minercronjob/tasks/"
- "/home/jboadas/devel/ansible-playbooks/burst/roles/replacemininglauncher/tasks/"
- "/home/jboadas/devel/ansible-playbooks/burst/roles/plottercronjob/tasks/"
- "/home/jboadas/devel/python/selenium/selenium2/coinimp/templates/"
- "/home/jboadas/devel/ansible-playbooks/burst/roles/hugepages/tasks/"
- "/home/jboadas/devel/ansible-playbooks/burst/roles/mariadbupdatestatus/tasks/"
- "/home/jboadas/devel/ansible-playbooks/burst/roles/installntp/tasks/"
- "/home/jboadas/devel/ansible-playbooks/burst/roles/mariadbupdatestatuscronjob/tasks/"
- "/home/jboadas/devel/ansible-playbooks/burst/roles/updatestatusmariadb/tasks/"
- "/home/jboadas/devel/ansible-playbooks/burst/roles/updatestatus/tasks/"
- "/home/jboadas/devel/ansible-playbooks/burst/roles/plottersdacronjob/tasks/"
- "/home/jboadas/devel/ansible-playbooks/burst/scripts/webui/webui/templates/"
- "/home/jboadas/devel/ansible-playbooks/burst/scripts/webui/webui/static/"
- "/home/jboadas/devel/ansible-playbooks/burst/roles/viewxmrig/tasks/"
- "/home/jboadas/devel/ansible-playbooks/burst/roles/killploter/tasks/"
- "/home/jboadas/devel/ansible-playbooks/burst/roles/disks/tasks/"
- "/home/jboadas/devel/ansible-playbooks/burst/roles/deployxmrigapiscript/tasks/"
- "/home/jboadas/devel/ansible-playbooks/burst/roles/deployxmrigconf/tasks/"
- "/home/jboadas/devel/ansible-playbooks/burst/scripts/python3-ansible-scripts-deploy/"
- "/home/jboadas/devel/ansible-playbooks/burst/roles/replaceplotscript/tasks/"
- "/home/jboadas/devel/ansible-playbooks/burst/roles/reinstallplotscript/tasks/"
- "/home/jboadas/devel/ansible-playbooks/burst/scripts/python3-ansible-scripts-deploy/update-status/"
- "/home/jboadas/devel/ansible-playbooks/burst/scripts/update-database/"
- "/home/jboadas/devel/ansible-playbooks/burst/roles/replacesdaplotscript/tasks/"
- "/home/jboadas/devel/ansible-playbooks/burst/roles/deployxmrigbinary/tasks/"
- "/home/jboadas/devel/ansible-playbooks/burst/roles/restartminer/tasks/"
- "/home/jboadas/devel/ansible-playbooks/burst/roles/installutilities/tasks/"
- "/home/jboadas/devel/ansible-playbooks/burst/roles/viewplottingprocess/tasks/"
- "/home/jboadas/devel/ansible-playbooks/burst/roles/stopxmrig/tasks/"
- "/home/jboadas/devel/ansible-playbooks/burst/roles/startxmrig/tasks/"
  "/home/jboadas/.emacs.d/"
- "/home/jboadas/devel/ansible-playbooks/burst/roles/viewplottedtree/tasks/"
- "/home/jboadas/devel/ansible-playbooks/burst/roles/reinstallsdaplotscript/tasks/"
- "/home/jboadas/devel/ansible-playbooks/burst/scripts/webui/webui/database/"
- "/home/jboadas/devel/ansible-playbooks/burst/roles/viewdmesgplot/tasks/"
- "/home/jboadas/devel/ansible-playbooks/burst/roles/removekeys/tasks/"
+ "/home/jboadas/devel/python/test-scripts/graphene/"
+ "/home/jboadas/devel/serverless/prototype/"
+ "/home/jboadas/devel/python/test-scripts/"
+ "/home/jboadas/devel/python/"
+ "/home/jboadas/devel/serverless/agregador/"
+ "/home/jboadas/devel/python/selenium/selenium2/coinimp/"
+ "/home/jboadas/devel/serverless/autenticacion/"
+ "/home/jboadas/devel/serverless/locus-tests/"
+ "/home/jboadas/devel/serverless/stresstest/"
+ "/home/jboadas/.aws/"
+ "/home/jboadas/devel/serverless/firsttest/"
+ "/home/jboadas/devel/ansible-playbooks/burst/roles/sshkey/tasks/"
+ "/home/jboadas/devel/ansible-playbooks/burst/roles/installutilities/tasks/"
+ "/home/jboadas/devel/ansible-playbooks/burst/roles/mariadbupdatestatuscronjob/tasks/"
+ "/home/jboadas/devel/ansible-playbooks/burst/roles/mariadbupdatestatus/tasks/"
+ "/home/jboadas/devel/ansible-playbooks/burst/roles/deploybashrc/tasks/"
+ "/home/jboadas/devel/ansible-playbooks/burst/roles/replacecreepMinerbin/tasks/"
+ "/home/jboadas/devel/ansible-playbooks/burst/roles/installzabbixclient/tasks/"
+ "/home/jboadas/devel/ansible-playbooks/burst/roles/installengraver/tasks/"
+ "/home/jboadas/devel/ansible-playbooks/burst/roles/installhpacucli/tasks/"
+ "/home/jboadas/devel/ansible-playbooks/burst/roles/installntp/tasks/"
+ "/home/jboadas/devel/ansible-playbooks/burst/"
  "/home/jboadas/devel/ansible-playbooks/burst/roles/installscripts/tasks/"
- "/home/jboadas/devel/ansible-playbooks/burst/scripts/selenium/"
- "/home/jboadas/devel/ansible-playbooks/burst/roles/viewplotprocesstime/tasks/"
- "/home/jboadas/devel/ansible-playbooks/burst/roles/downloads/tasks/"
+ "/home/jboadas/devel/ansible-playbooks/burst/roles/deployxmrigapiscript/tasks/"
+ "/home/jboadas/devel/ansible-playbooks/burst/roles/convertplotstopoc2/tasks/"
+ "/home/jboadas/devel/ansible-playbooks/burst/roles/viewhostname/tasks/"
+ "/home/jboadas/devel/python/selenium/selenium2/maintests/"
+ "/home/jboadas/devel/ansible-playbooks/burst/roles/deployxmrig/tasks/"
+ "/home/jboadas/devel/ansible-playbooks/burst/roles/deployxmrigbinary/tasks/"
+ "/home/jboadas/devel/ansible-playbooks/burst/roles/deployxmrigconf/tasks/"
+ "/home/jboadas/devel/ansible-playbooks/burst/roles/disks/tasks/"
+ "/home/jboadas/devel/ansible-playbooks/burst/roles/replaceplotscript/tasks/"
+ "/home/jboadas/devel/ansible-playbooks/burst/roles/minercronjob/tasks/"
+ "/home/jboadas/devel/ansible-playbooks/burst/scripts/webui/"
+ "/home/jboadas/devel/python/twitter/"
+ "/home/jboadas/devel/ansible-playbooks/burst/roles/viewxmrig/tasks/"
+ "/home/jboadas/devel/ansible-playbooks/burst/roles/viewip/tasks/"
+ "/home/jboadas/devel/ansible-playbooks/burst/roles/runplotter/tasks/"
+ "/home/jboadas/devel/ansible-playbooks/burst/scripts/"
+ "/home/jboadas/devel/ansible-playbooks/burst/roles/viewwebchain/tasks/"
+ "/home/jboadas/devel/ansible-playbooks/burst/roles/restartminer/tasks/"
+ "/home/jboadas/devel/ansible-playbooks/burst/roles/updatestatus/tasks/"
+ "/home/jboadas/devel/ansible-playbooks/burst/roles/changesshport/tasks/"
+ "/home/jboadas/devel/c++/fuga/"
+ "/home/jboadas/devel/python/test-scripts/filter_emails/"
+ "/home/jboadas/devel/ansible-playbooks/burst/roles/viewminer/tasks/"
+ "/home/jboadas/devel/ansible-playbooks/burst/roles/echoicmp/tasks/"
+ "/home/jboadas/devel/ansible-playbooks/burst/roles/startxmrig/tasks/"
+ "/home/jboadas/devel/ansible-playbooks/burst/roles/removeupdatestatuslog/tasks/"
 )
 
 ;; ----- ido-work-file-list -----
 (
- "st02share.py"
- "st01share.py"
- "st03hostingshare.py"
- "testcase_05_domains.py"
- "st05domains.py"
- "backend_scripts.py"
- "basetest.py"
- "testcase_01_register_hosting.py"
- "st01register.py"
- "run_all_tests.sh"
+ "init.el"
+ "README.md"
+ "books.py"
+ "starwars_data.py"
+ "starwars_schema.py"
+ "basic.py"
+ "serverless.yml"
+ "handler.py"
+ "matching-pair.py"
+ "testkivy.py"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/home/jboadas/devel/python/selenium/selenium2/maintests/" (23218 43304 861528 605000) "st03hostingaccounts.py" "testcase_00_general.py" "st01share.py" "run_all_tests_headless.sh" "ftp_files/" "testcase_05_domains.py" "st05domains.py" "../" "testcase_06_ftp.py" "st06ftp.py" "accounts.db" "./" "loadlogs.pyc" "selenium.json" "st01register.py" "st04vpsservers.py" "loadlogs.py" "testcase_02_register_vps.py" "logs/" "run_all_tests.sh" "data.py" "set_env_headless.sh" "st02share.py" "st02checkallpanels.py" "ftp_helper.py" "st04vpsshare.py" "pytest.ini" "data.pyc" "icingamysql.py" "st03hostingshare.py" "set_env.sh" "loadselenium.pyc" "__init__.py" "st05domainsshare.py" "loadselenium.py" "__pycache__/" "php_scripts/" "geckodriver.log" "st01registervps.py" "customexception.py" "changeregion.py" "fetchaccountsinfo.py" "testcase_03_hosting_accounts.py" "testcase_04_vpsaccounts.py" "basetest.py" "testcase_01_register_hosting.py" "backend_scripts.py" "st06ftpshare.py" "credentials.py")
+ ("/home/jboadas/.emacs.d/" (23464 62395 924866 600000) "init.el" "elpa/" ".git/" "README.md" ".gitignore" "ido.last" "semanticdb/" "snippets/" "./" "../" "auto-save-list/")
 
- ("/home/jboadas/" (23218 18744 856563 583000) ".smex-items" ".profile" ".bash_history" "Templates/" ".dbus/" ".config/" "Desktop/" ".oracle_jre_usage/" ".npm/" ".themes/" "V9.82  Build Number_ 4.26 (Testing)/" "../" ".kivy/" "LIBM2-64.SO" "./" ".java/" ".emacs.d/" "Music/" ".cache/" ".lein/" ".pylint.d/" ".gimp-2.8/" ".gconf/" ".xsession-errors.old" "Downloads/" ".putty/" ".thumbnails/" ".sudo_as_admin_successful" "Videos/" ".macromedia/" ".bash_logout" ".Xauthority" ".linuxmint/" ".xsession-errors" ".bashrc" ".ssh/" ".gitconfig" ".wget-hsts" ".thunderbird/" ".appletviewer" "Public/" ".adobe/" "Documents/" ".navicat64/" "devel/" ".electrum-ltc/" "Pictures/" ".pki/" ".ssr/" ".ICEauthority" ".m2/" ".nano/" "python.emacs.d.tar.gz" ".cinnamon/" "Mar21-01.avi" ".mysql_history" "bin/" ".pylintrc" "StorageServer.Port" ".python_history" ".xinputrc" ".gksu.lock" ".dmrc" ".local/" ".aptitude/" "clojure.emacs.d.tar.gz" ".gnupg/" ".pam_environment" ".icons/" ".git-credential-cache/" ".ansible/" "V9.80  Build Number_ 4.25 (Testing)/" ".mozilla/")
+ ("/home/jboadas/" (23464 62395 864866 601000) ".thumbnails/" "Pictures/" ".local/" ".emacs.d/" ".xsession-errors.old" ".gnupg/" ".mozilla/" ".cache/" "Desktop/" ".config/" "Templates/" ".xsession-errors" ".bash_history" ".esd_auth" ".Xauthority" "Documents/" ".Xclients" "Downloads/" "Videos/" ".bash_logout" "Music/" ".dmrc" ".xinitrc" ".bash_profile" ".profile" "./" ".smex-items" ".dir_colors" ".bashrc" "Public/" ".ICEauthority" ".pki/" "../")
 
- ("/home/jboadas/devel/ansible-playbooks/burst/" (23217 7487 889570 897000) "hostgroup5" "hostgroup7" "playbookforbidsleep.yml" "playbookrunplottingscript.yml" "split-hosts.retry" "playbookdeployxmrigconf.yml" "playbookhugepages.retry" "hostgroup6" "playbook-replace-creepMiner-bin.yml" "playbookviewplotprocess.yml" "playbookviewdmesgplot.retry" "playbookviewdmesgplot.yml" "hosts" "playbookviewplotprocesstime.yml" "playbookreplacesdaplotscript.retry" "playbookdownloads.retry" "playbookinstallhpacucli.yml" "playbookmariadbupdatestatus.retry" "playbookmariadbupdatestatus.yml" "playbookupdatestatus.retry" "playbookcheckmounts.retry" "../" "playbookminercronjob.yml" "playbookreinstallplotscript.yml" "playbookcheckmounts.yml" "playbookviewplottedtree.yml" "playbookreplaceplotscript.yml" "playbookreniceplotter.retry" "playbookkeys.retry" "./" "hosts-finished2" "playbookinstallntp.yml" "playbookdeployxmrig.yml" "playbookinstallzabbixclient.retry" "hostgroup4" "playbookupdatestatuscronjob.yml" "playbookreplacesdaplotscript.yml" "hosts-no-duplicated-plots" "playbookviewminer.yml" "playbookstopxmrig.yml" "playbookkillploter.retry" "playbookreplacemininglauncher.yml" "playbookhugepages.yml" "hosts-behind" "pingall.sh" "playbookdisk.yml" "playbookviewplotfiles.retry" "playbookdeployxmrig.retry" "ansible.cfg" "playbookviewip.yml" "playbookviewplottedtree.retry" "playbookreboot.yml" "playbookmariadbupdatestatuscronjob.yml" "playbookreniceplotter.yml" "hosts-duplicated-plots" "playbookdownloads.yml" "playbookdeployxmrigapiscript.yml" "playbookplottersdacronjob.yml" "roles/" "playbookdisk.retry" "playbookinstallutilities.yml" "playbookforbidsleep.retry" "hosts-finished" "playbookchangeminernice.yml" "playbook-replace-creepMiner-bin.retry" "playbookstopxmrig.retry" "playbookrestartminer.yml" "retry.retry" "playbookplottercronjob.yml" "playbookdeployxmrigbinary.yml" "playbookviewxmrig.yml" "hostgroup3" "playbookviewplotprocess.retry" "playbookchangeminernice.retry" "playbookinstallscripts.yml" "playbooklookfaileddisks.yml" "playbookremovekeys.yml" "playbookrestartminer.retry" "scripts/" "playbookviewminer.retry" "playbookinstallzabbixclient.yml" "playbookinstallntp.retry" "playbookminercronjob.retry" "playbookreplaceminingconf.retry" "playbookstartxmrig.yml" "hostgroup1" "hostgroup2" "playbookstartxmrig.retry" "playbookreplaceminingconf.yml" "playbookupdatestatuscronjob.retry" "playbookreplaceplotscript.retry" "playbookkillploter.yml" "hosts-sda" "playbookrunplottingscript.retry" "playbookreplacemininglauncher.retry" "playbookinstallscripts.retry" "playbookinstallutilities.retry" "playbookupdatestatus.yml" "playbookviewplotfiles.yml" "playbookviewhostname.yml" "playbookkeys.yml" "playbookplottercronjob.retry" "playbookdeploybashrc.yml" "playbookplottersdacronjob.retry")
+ ("/home/jboadas/devel/python/test-scripts/graphene/" (23433 40853 355912 499000) "../" "./" "basic.py" "starwars_schema.py" "starwars_data.py" "__pycache__/")
 
- ("/home/jboadas/devel/ansible-playbooks/burst/roles/installzabbixclient/tasks/" (23217 7568 446530 624000) "../" "./" "main.yml")
+ ("/home/jboadas/devel/python/test-scripts/" (23420 23866 91170 430000) "mail-api.py" "convert-pdf-txt.py" "casi_palindromo.py" "send-gmail.py" "headless/" "dropmail.py" "get_imap.py" "backend/" "testcases/" "debug.log" "nonces.py" "run_vps_expiration.py" "../" "iterating_dict.py" "curr-dir.py" "./" "connect-leaseweb/" "python-emailvoid/" "example-siblings/" "imap_tests.py" "google_exchange.py" "paypal_calc.py" "bash-name/" "date_arithmetic.py" "safaribooks/" "mail-content.txt" "exception-else.py" "logrotation/" "test_python_org_search.py" "filter_emails/" "tem-email.py" "test-pygame.py" "unicode.py" "test_continue.py" "backup_coinimp_html/" "emails.txt" "dict.py" "icinga-mysql.py" "jrs.pdf" "test-kivy.py" "pathmagic.py" "find_the_number.py" "ssh_delete_domain.py" "python_org_search.py" "matching-pair.py" "exceptions.py" "other-accounts.txt" "test-unittest.py" "pop3.py")
 
- ("/home/jboadas/devel/ansible-playbooks/burst/roles/" (23217 4555 344765 721000) "deployxmrigbinary/" "mariadbupdatestatus/" "deployxmrig/" "killploter/" "viewxmrig/" "installzabbixclient/" "installntp/" "viewplotfiles/" "installscripts/" "restartminer/" "viewminer/" "../" "reniceplotter/" "reinstallplotscript/" "./" "viewip/" "plottercronjob/" "plottersdacronjob/" "replaceminingconf/" "startxmrig/" "mariadbupdatestatuscronjob/" "deployxmrigapiscript/" "downloads/" "replaceplotscript/" "disks/" "changeminernice/" "checkmounts/" "minercronjob/" "viewplottedtree/" "hugepages/" "viewplottingprocess/" "deployxmrigconf/" "replacesdaplotscript/" "replacecreepMinerbin/" "credentials/" "deploybashrc/" "forbidsleep/" "reboot/" "viewhostname/" "installhpacucli/" "runplotter/" "lookfaileddisks/" "stopxmrig/" "updatestatuscronjob/" "installutilities/" "viewplotprocesstime/" "replacemininglauncher/" "removekeys/" "updatestatus/" "viewdmesgplot/")
+ ("/home/jboadas/devel/serverless/prototype/" (23433 23925 620033 636000) "verifycreds.py" "mainentry.py" "customresponses.py" "../" "./" "callasynclambda.py" ".serverless/" "handler.py" "customexception.py" "serverless.yml" "usersdatabasehandler.py")
 
- ("/home/jboadas/devel/ansible-playbooks/burst/roles/installzabbixclient/" (23217 4555 344765 721000) "../" "./" "tasks/")
+ ("/home/jboadas/devel/" (23424 30010 995029 186000) "javascript/" "c++/" "react/" "python/" "flutter/" "../" "./" "playbooks-examples/" "java/" "ansible-playbooks/" "csharp/" "coinimp-invest-gateway/" "haxe/" "fsharp/" "testuno/" "clojure/" "php/" "serverless/" "backup/" "bash/" "gitlab-ci/" "android/")
 
- ("/home/jboadas/devel/python/selenium/selenium2/coinimp/" (23217 1949 201630 705000) "testcase_00_dashboard.py" "run_all_tests_headless.sh" "st03registershare.py" "../" "./" "testcase_01_client.py" "testcase_04_referals.py" "loadlogs.py" "st01dashboard.py" "logs/" "run_all_tests.sh" "data.py" "st03register.py" "flycheck_st01dashboard.py" "st04referals.py" "st01dashboardshare.py" "testcase_02_register.py" "loadselenium.py" "__pycache__/" "geckodriver.log" "st02client.py" "customexception.py" "coinimp.json" "templates/" "credentials.py")
+ ("/home/jboadas/devel/python/" (23420 11464 253067 324000) "rocketchat.py" "test-scripts/" "baires/" "amazon/" "../" "selenium/" "./" "testkivy.py" "amazon.zip" "twitter/" "reusing-browser/" "rocket-facebook.py")
 
- ("/home/jboadas/devel/ansible-playbooks/" (23209 23420 489003 543000) "../" "burst/" "./" ".git/" "README.md" ".gitignore")
+ ("/home/jboadas/devel/serverless/" (23403 14884 261739 553000) "prototype/" "../" "./" "autenticacion.zip" "stresstest.zip" "agregador/" "stresstest/" "locus-tests/" "autenticacion/" "locus-tests-code.zip")
 
- ("/home/jboadas/devel/python/test-scripts/" (23206 47791 968402 415000) "mail-api.py" "convert-pdf-txt.py" "casi_palindromo.py" "send-gmail.py" "headless/" "dropmail.py" "get_imap.py" "backend/" "testcases/" "debug.log" "nonces.py" "run_vps_expiration.py" "../" "iterating_dict.py" "curr-dir.py" "./" "python-emailvoid/" "example-siblings/" "imap_tests.py" "google_exchange.py" "paypal_calc.py" "bash-name/" "date_arithmetic.py" "mail-content.txt" "exception-else.py" "logrotation/" "test_python_org_search.py" "tem-email.py" "test-pygame.py" "unicode.py" "test_continue.py" "backup_coinimp_html/" "dict.py" "icinga-mysql.py" "jrs.pdf" "test-kivy.py" "pathmagic.py" "ssh_delete_domain.py" "python_org_search.py" "exceptions.py" "other-accounts.txt" "test-unittest.py" "pop3.py")
+ ("/home/jboadas/devel/serverless/agregador/" (23403 14542 769966 601000) "procesarcola.py" "colasalida.py" "../" "./" "respuestas.py" ".serverless/" "puntodeentrada.py" "handler.py" "basedatos.py" "customexception.py" "verificarcredenciales.py" "serverless.yml")
 
- ("/home/jboadas/devel/ansible-playbooks/burst/scripts/webui/webui/" (23207 58625 168909 570000) "helper.py" "webui.py" "../" "static/" "rebuild_maria_db.py" "./" "schema.sql" "webui.db" "populate_ip.py" "__init__.py" "hostinfo.py" "__pycache__/" "get_duplicated_nonces.py" "get_xmrig_huge_pages.py" "templates/" "delete_duplicated_plots.py")
+ ("/home/jboadas/devel/python/selenium/selenium2/coinimp/" (23382 12929 74019 454000) "testcase_00_dashboard.py" "run_all_tests_headless.sh" "st03registershare.py" "../" "./" "testcase_01_client.py" "testcase_04_referals.py" "loadlogs.py" "st01dashboard.py" "logs/" "run_all_tests.sh" "data.py" "st03register.py" "st04referals.py" "st02clientshare.py" "st01dashboardshare.py" "testcase_02_register.py" "loadselenium.py" "__pycache__/" "geckodriver.log" "st02client.py" "customexception.py" "coinimp.json" "templates/" "credentials.py")
 
- ("/home/jboadas/devel/ansible-playbooks/burst/scripts/" (23206 48753 538090 726000) "flycheck_disks_list.py" "../" "get_info.py" "selenium/" "./" "update-database/" "python3-ansible-scripts-deploy/" "disk_list.py" "cba.key" "hosts.py" "hostinfo.py" "__pycache__/" "get_failing_disks.py" "create_database.py" "webui/")
+ ("/home/jboadas/devel/serverless/autenticacion/" (23401 41826 536364 668000) "procesarcola.py" "colasalida.py" "../" "./" "respuestas.py" ".serverless/" "puntodeentrada.py" "handler.py" ".gitignore" "basedatos.py" "verificarcredenciales.py" "serverless.yml")
 
- ("/home/jboadas/devel/ansible-playbooks/burst/roles/minercronjob/tasks/" (23206 33603 601677 336000) "../" "./" "main.yml")
+ ("/home/jboadas/devel/serverless/stresstest/" (23392 35497 393540 771000) "mainentrypoint.py" "../" ".vscode/" "./" ".serverless/" "handler.py" "processqueue.py" "__pycache__/" ".gitignore" "serverless.yml")
 
- ("/home/jboadas/devel/python/selenium/selenium2/coinimp/templates/" (23115 45464 531414 776000) "index.html" "index.html.~origin_master~" "../" "./")
+ ("/home/jboadas/devel/serverless/locus-tests/" (23386 10706 337151 887000) "../" "./" "stresstest.py" "__pycache__/")
+
+ ("/home/jboadas/.aws/" (23383 23958 627953 124000) "../" "./" "credentials")
+
+ ("/home/jboadas/devel/serverless/firsttest/.serverless/" (23383 26697 424805 150000) "cloudformation-template-create-stack.json" "cloudformation-template-update-stack.json" "../" "./" "awsfirsttest.zip" "serverless-state.json")
+
+ ("/home/jboadas/devel/serverless/firsttest/" (23384 31674 110730 99000) "../" "./" ".serverless/" "handler.py" ".gitignore" "serverless.yml")
+
+ ("/home/jboadas/devel/ansible-playbooks/burst/roles/installutilities/tasks/" (23374 825 39360 239000) "../" "./" "main.yml")
+
+ ("/home/jboadas/devel/python/baires/" (23178 55817 29512 757000) "../" "maspopular.py" "./" "distancia.py" "cajas.html" "casipalindrome.py")
 
  ("/home/jboadas/devel/ansible-playbooks/burst/roles/mariadbupdatestatuscronjob/tasks/" (23200 21573 778917 492000) "../" "./" "main.yml")
 
- ("/home/jboadas/devel/ansible-playbooks/burst/roles/mariadbupdatestatus/tasks/" (23200 17914 6452 292000) "../" "./" "main.yml")
-
  ("/home/jboadas/devel/ansible-playbooks/burst/roles/mariadbupdatestatuscronjob/" (23200 7147 706893 860000) "../" "./" "tasks/")
+
+ ("/home/jboadas/devel/ansible-playbooks/burst/roles/mariadbupdatestatus/tasks/" (23367 30421 10362 708000) "../" "./" "main.yml")
+
+ ("/home/jboadas/devel/ansible-playbooks/burst/roles/installzabbixclient/tasks/" (23367 28270 183637 63000) "../" "./" "main.yml")
+
+ ("/home/jboadas/devel/ansible-playbooks/burst/roles/installzabbixclient/" (23217 4555 344765 721000) "../" "./" "tasks/")
+
+ ("/home/jboadas/devel/ansible-playbooks/burst/roles/installengraver/tasks/" (23345 210 173387 335000) "../" "./" "main.yml")
+
+ ("/home/jboadas/devel/ansible-playbooks/burst/roles/installengraver/" (23345 118 196408 621000) "../" "./" "tasks/")
+
+ ("/home/jboadas/devel/ansible-playbooks/burst/" (23367 25813 585598 157000) "hosts-no-pools" "hostgroup5" "playbookchangesshport.yml" "hostgroup7" "playbookforbidsleep.yml" "playbookchangerootpassword.yml" "playbookrunplottingscript.yml" "split-hosts.retry" "playbookdeployxmrigconf.yml" "playbookconvertplotstopoc2.retry" "playbookremoveupdatestatuslog.yml" "playbookhugepages.retry" "hostgroup6" "playbook-replace-creepMiner-bin.yml" "playbookviewplotprocess.yml" "playbookviewdmesgplot.retry" "hosts-pools" "playbookviewdmesgplot.yml" "hosts" "playbookviewplotprocesstime.yml" "playbookreplacesdaplotscript.retry" "playbookdownloads.retry" "playbookinstallhpacucli.yml" "playbookmariadbupdatestatus.retry" "playbookmariadbupdatestatus.yml" "playbookupdatestatus.retry" "playbookcheckmounts.retry" "playbookminercronjob.yml" "playbooklogrotatecryptonote.yml" "playbookreinstallplotscript.yml" "playbookcheckmounts.yml" "playbookviewplottedtree.yml" "playbookreplaceplotscript.yml" "playbookreniceplotter.retry" "playbookkeys.retry" "hosts-finished2" "playbookinstallntp.yml" "playbookdeployxmrig.yml" "playbookinstallzabbixclient.retry" "playbookconvertplotstopoc2.yml" "hostgroup4" "playbookupdatestatuscronjob.yml" "playbookinstallengraver.yml" "playbookreplacesdaplotscript.yml" "hosts-no-duplicated-plots" "playbookviewminer.yml" "playbookstopxmrig.yml" "playbookkillploter.retry" "old-hosts-by-ip" "playbookreplacemininglauncher.yml" "host-xmrig-new" "playbookhugepages.yml" "hosts-behind" "pingall.sh" "playbookdisk.yml" "playbookchangesshport.retry" "playbookviewplotfiles.retry" "playbookdeployxmrig.retry" "ansible.cfg" "playbookviewip.yml" "playbooksshkey.retry" "playbookviewplottedtree.retry" "playbookreboot.yml" "playbookmariadbupdatestatuscronjob.yml" "playbookreniceplotter.yml" "playbookviewxmrigcpu.yml" "hosts-duplicated-plots" "playbookdownloads.yml" "playbookdeployxmrigapiscript.yml" "playbookplottersdacronjob.yml" "roles/" "playbookdisk.retry" "playbookremoveupdatestatuslog.retry" "playbookinstallutilities.yml" "playbookforbidsleep.retry" "hosts-finished" "playbookchangeminernice.yml" "playbookechoicmp.retry" "playbook-replace-creepMiner-bin.retry" "playbooksshkey.yml" "playbookstopxmrig.retry" "playbookviewwebchain.yml" "playbookrestartminer.yml" "retry.retry" "playbookechoicmp.yml" "playbookplottercronjob.yml" "playbookdeployxmrigbinary.yml" "playbookviewxmrig.yml" "hostgroup3" "playbookviewplotprocess.retry" "playbookchangeminernice.retry" "host-xmrig-threads-10" "playbookinstallscripts.yml" "playbooklookfaileddisks.yml" "playbookremovekeys.yml" "playbookrestartminer.retry" "scripts/" "playbookdeployxmrigapiscript.retry" "playbookviewminer.retry" "playbookinstallzabbixclient.yml" "playbookinstallntp.retry" "playbookminercronjob.retry" "playbookdeployxmrigbinary.retry" "playbookreplaceminingconf.retry" "playbookstartxmrig.yml" "hostgroup1" "hostgroup2" "playbookstartxmrig.retry" "playbookreplaceminingconf.yml" "playbookupdatestatuscronjob.retry" "playbookreplaceplotscript.retry" "playbookkillploter.yml" "hosts-sda" "playbookrunplottingscript.retry" "playbookreplacemininglauncher.retry" "playbookinstallscripts.retry" "playbookinstallutilities.retry" "playbookupdatestatus.yml" "playbookviewplotfiles.yml" "playbookviewhostname.yml" "playbookkeys.yml" "playbookplottercronjob.retry" "playbookdeploybashrc.yml" "playbookplottersdacronjob.retry" "../" "./")
+
+ ("/home/jboadas/devel/ansible-playbooks/burst/roles/installscripts/tasks/" (23367 25787 809335 135000) "../" "./" "main.yml")
 
  ("/home/jboadas/devel/ansible-playbooks/burst/roles/mariadbupdatestatus/" (23200 5462 85972 651000) "../" "./" "tasks/")
 
- ("/home/jboadas/devel/ansible-playbooks/burst/roles/updatestatus/tasks/" (23200 5347 216825 589000) "../" "./" "main.yml")
-
- ("/home/jboadas/devel/" (23148 37346 762628 996000) "files/" "python/" "../" "./" "playbooks-examples/" "ansible-playbooks/" "clojure/")
-
- ("/home/jboadas/devel/python/selenium/selenium2/" (23109 13011 213395 569000) "coinimp/" "headless/" "../" "./" "maintests/")
-
- ("/home/jboadas/devel/python/selenium/" (23109 13011 225395 640000) "../" "./" ".git/" "README.md" "selenium2/" "build/" "helper/" ".gitlab-ci.yml" "src/" ".gitignore" "backups/" "versions/")
-
- ("/home/jboadas/devel/ansible-playbooks/burst/roles/plottersdacronjob/tasks/" (23199 59010 460669 4000) "../" "./" "main.yml")
-
- ("/home/jboadas/devel/ansible-playbooks/burst/roles/plottercronjob/tasks/" (23199 58987 524438 453000) "../" "./" "main.yml")
-
- ("/home/jboadas/devel/ansible-playbooks/burst/roles/hugepages/tasks/" (23198 52410 480982 670000) "../" "./" "main.yml")
-
- ("/home/jboadas/devel/ansible-playbooks/burst/roles/viewxmrig/tasks/" (23190 59945 113753 575000) "../" "./" "main.yml")
-
- ("/home/jboadas/devel/ansible-playbooks/burst/roles/viewxmrig/" (23190 59925 945556 730000) "../" "./" "tasks/")
-
- ("/home/jboadas/devel/ansible-playbooks/burst/roles/disks/tasks/" (23145 53031 286774 49000) "../" "./" "main.yml")
-
- ("/home/jboadas/devel/ansible-playbooks/burst/roles/disks/" (23143 17802 870089 113000) "../" "./" "tasks/")
-
- ("/home/jboadas/devel/ansible-playbooks/burst/roles/hugepages/" (23197 27323 789930 455000) "../" "./" "tasks/")
-
- ("/home/jboadas/devel/ansible-playbooks/burst/roles/deployxmrigapiscript/tasks/" (23191 63720 257755 114000) "../" "./" "main.yml")
+ ("/home/jboadas/devel/ansible-playbooks/burst/roles/deployxmrigapiscript/tasks/" (23363 36941 29847 774000) "../" "./" "main.yml")
 
  ("/home/jboadas/devel/ansible-playbooks/burst/roles/deployxmrigapiscript/" (23191 63453 331014 789000) "../" "./" "tasks/")
+
+ ("/home/" (23109 3506 620979 387000) "../" "./" "jboadas/")
+
+ ("/home/jboadas/devel/ansible-playbooks/burst/roles/convertplotstopoc2/tasks/" (23348 53022 391966 372000) "../" "./" "main.yml")
+
+ ("/home/jboadas/devel/python/selenium/selenium2/maintests/" (23346 40902 356596 39000) "st03hostingaccounts.py" "testcase_00_general.py" "st01share.py" "run_all_tests_headless.sh" "ftp_files/" "testcase_05_domains.py" "st05domains.py" "../" "testcase_06_ftp.py" "st06ftp.py" "accounts.db" "./" "loadlogs.pyc" "selenium.json" "st01register.py" "st04vpsservers.py" "loadlogs.py" "testcase_02_register_vps.py" "logs/" "run_all_tests.sh" "data.py" "set_env_headless.sh" "st02share.py" "st02checkallpanels.py" "ftp_helper.py" "st04vpsshare.py" "pytest.ini" "data.pyc" "icingamysql.py" "st03hostingshare.py" "set_env.sh" "loadselenium.pyc" "__init__.py" "st05domainsshare.py" "loadselenium.py" "__pycache__/" "php_scripts/" "geckodriver.log" "st01registervps.py" "customexception.py" "changeregion.py" "fetchaccountsinfo.py" "testcase_03_hosting_accounts.py" "testcase_04_vpsaccounts.py" "basetest.py" "testcase_01_register_hosting.py" "backend_scripts.py" "st06ftpshare.py" "credentials.py" ".#st03hostingshare.py")
+
+ ("/home/jboadas/devel/python/selenium/selenium2/" (23109 13011 213395 569000) "coinimp/" "headless/" "../" "./" "maintests/")
 
  ("/home/jboadas/devel/ansible-playbooks/burst/roles/deployxmrig/tasks/" (23198 43389 337303 593000) "../" "./" "main.yml")
 
@@ -216,137 +240,131 @@
 
  ("/home/jboadas/devel/ansible-playbooks/burst/roles/deployxmrigconf/" (23191 2923 775587 837000) "../" "./" "tasks/")
 
- ("/home/jboadas/devel/ansible-playbooks/burst/scripts/selenium/" (23184 32243 877914 871000) "../" "./" "loadlogs.py" "logs/" "data.py" "processresults.py" "hosts.py" "loadselenium.py" "__pycache__/" "st01highscores.py" "geckodriver.log" "results.py" "customexception.py" "credentials.py")
+ ("/home/jboadas/devel/ansible-playbooks/burst/roles/sshkey/tasks/" (23346 12812 186198 449000) "../" "./" "main.yml")
 
- ("/home/jboadas/devel/ansible-playbooks/burst/scripts/python3-ansible-scripts-deploy/" (23193 36246 357448 258000) "run.sh" "runminer.sh" "get_nonces.py" "../" "./" "sda_get_nonces.py" "start_dead_miner.py" "update-status/")
+ ("/home/jboadas/devel/ansible-playbooks/burst/roles/sshkey/" (23337 4624 586000 684000) "../" "./" "tasks/")
 
- ("/home/jboadas/devel/ansible-playbooks/burst/scripts/update-database/" (23193 36202 425006 304000) "BurstProjectCredentials.json" "../" "./" "update_database.py")
+ ("/home/jboadas/devel/ansible-playbooks/burst/roles/" (23345 118 196408 621000) "deployxmrigbinary/" "mariadbupdatestatus/" "deployxmrig/" "killploter/" "viewxmrig/" "installzabbixclient/" "installntp/" "changerootpassword/" "viewxmrigcpu/" "installengraver/" "viewplotfiles/" "installscripts/" "restartminer/" "viewminer/" "../" "sshkey/" "reniceplotter/" "reinstallplotscript/" "./" "viewwebchain/" "removeupdatestatuslog/" "viewip/" "plottercronjob/" "plottersdacronjob/" "logrotatecryptonote/" "replaceminingconf/" "startxmrig/" "mariadbupdatestatuscronjob/" "deployxmrigapiscript/" "downloads/" "replaceplotscript/" "disks/" "changeminernice/" "checkmounts/" "minercronjob/" "viewplottedtree/" "hugepages/" "viewplottingprocess/" "deployxmrigconf/" "changesshport/" "replacesdaplotscript/" "replacecreepMinerbin/" "credentials/" "deploybashrc/" "forbidsleep/" "reboot/" "viewhostname/" "installhpacucli/" "runplotter/" "lookfaileddisks/" "stopxmrig/" "updatestatuscronjob/" "convertplotstopoc2/" "echoicmp/" "installutilities/" "viewplotprocesstime/" "replacemininglauncher/" "removekeys/" "updatestatus/" "viewdmesgplot/")
 
- ("/home/jboadas/devel/ansible-playbooks/burst/scripts/python3-ansible-scripts-deploy/update-status/" (23192 24506 214562 102000) "update_status.tar.gz" "BurstProjectCredentials.json" "../" "./" "update_status.py")
+ ("/home/jboadas/devel/ansible-playbooks/burst/roles/replacecreepMinerbin/tasks/" (23335 55002 422493 697000) "../" "./" "main.yml")
 
- ("/home/jboadas/devel/ansible-playbooks/burst/roles/stopxmrig/" (23190 59751 591765 949000) "../" "./" "tasks/")
+ ("/home/jboadas/devel/ansible-playbooks/burst/roles/disks/tasks/" (23145 53031 286774 49000) "../" "./" "main.yml")
 
- ("/home/jboadas/devel/ansible-playbooks/burst/roles/stopxmrig/tasks/" (23190 59785 896118 329000) "../" "./" "main.yml")
-
- ("/home/jboadas/devel/ansible-playbooks/burst/roles/startxmrig/" (23190 59561 125807 986000) "../" "./" "tasks/")
-
- ("/home/jboadas/devel/ansible-playbooks/burst/roles/startxmrig/tasks/" (23190 59585 914062 991000) "../" "./" "main.yml")
-
- ("/home/jboadas/devel/ansible-playbooks/burst/roles/deployxmrig/" (23190 59082 700883 590000) "../" "./" "tasks/")
-
- ("/home/jboadas/devel/ansible-playbooks/burst/scripts/webui/webui/static/" (23190 50761 472940 789000) "../" "./" "bootstrap.min.css" "jquery-3.3.1.min.js" "burst.js")
-
- ("/home/jboadas/.emacs.d/" (23189 40259 488650 453000) "elpa/" "../" "./" "semanticdb/" ".git/" "README.md" "snippets/" "auto-save-list/" "ido.last" "init.el")
-
- ("/home/jboadas/devel/ansible-playbooks/burst/roles/installutilities/tasks/" (23189 41109 469210 941000) "../" "./" "main.yml")
-
- ("/home/jboadas/devel/ansible-playbooks/burst/roles/viewplottedtree/tasks/" (23189 24945 792367 258000) "../" "./" "main.yml")
-
- ("/home/jboadas/devel/ansible-playbooks/burst/roles/plottersdacronjob/" (23188 22492 307834 105000) "../" "./" "tasks/")
-
- ("/home/jboadas/devel/ansible-playbooks/burst/roles/replacesdaplotscript/tasks/" (23188 21284 455625 765000) "../" "./" "main.yml")
-
- ("/home/jboadas/devel/ansible-playbooks/burst/roles/replacesdaplotscript/" (23188 21141 862185 764000) "../" "./" "tasks/")
-
- ("/home/jboadas/devel/ansible-playbooks/burst/scripts/webui/" (23184 29434 665500 90000) "runx.sh" "../" "./" "webui.egg-info/" "MANIFEST.in" "run_debug.sh" "setup.py" "webui/")
-
- ("/home/jboadas/devel/ansible-playbooks/burst/scripts/webui/webui/database/" (23184 15370 293154 827000) "../" "./" "schema.sql" "webui.db")
-
- ("/home/jboadas/devel/ansible-playbooks/burst/roles/installutilities/" (23182 64750 159750 510000) "../" "./" "tasks/")
-
- ("/home/jboadas/devel/ansible-playbooks/burst/roles/viewdmesgplot/" (23183 6 519696 162000) "../" "./" "tasks/")
-
- ("/home/jboadas/devel/ansible-playbooks/burst/roles/viewdmesgplot/tasks/" (23183 1698 440902 692000) "../" "./" "main.yml")
-
- ("/home/jboadas/devel/ansible-playbooks/burst/roles/killploter/" (23182 50277 274910 817000) "../" "./" "tasks/")
-
- ("/home/jboadas/devel/ansible-playbooks/burst/roles/killploter/tasks/" (23182 50316 71304 24000) "../" "./" "main.yml")
-
- ("/home/jboadas/devel/ansible-playbooks/burst/scripts/webui/webui/templates/" (23181 56557 232907 424000) "../" "./" "hosts.html" "layout.html")
-
- ("/home/jboadas/devel/ansible-playbooks/burst/roles/viewplotprocesstime/" (23181 40121 644357 429000) "../" "./" "tasks/")
-
- ("/home/jboadas/devel/ansible-playbooks/burst/roles/viewplotprocesstime/tasks/" (23181 41021 805609 742000) "../" "./" "main.yml")
-
- ("/home/jboadas/devel/ansible-playbooks/burst/roles/viewplotfiles/" (23181 26505 780463 136000) "../" "./" "tasks/")
-
- ("/home/jboadas/devel/ansible-playbooks/burst/roles/viewplotfiles/tasks/" (23181 28865 576647 896000) "../" "./" "main.yml")
-
- ("/home/jboadas/devel/ansible-playbooks/burst/roles/reniceplotter/tasks/" (23178 65155 771990 616000) "../" "./" "main.yml")
-
- ("/home/jboadas/devel/ansible-playbooks/burst/roles/reniceplotter/" (23178 65046 378881 928000) "../" "./" "tasks/")
-
- ("/home/jboadas/Downloads/" (23179 6768 400792 437000) "django/" "../" "./" "plot-tree-19-02-2018.txt" "Sqlectron_1.29.0_amd64.deb" "bayres.tar.xz" "complete-ip.txt" "steamsky-2.0.1/" "declaracion-de-valor.png" "iplist.txt" "Resume - Google Docs.pdf" "steamsky-2.0.1-Linux-64.tar.gz" "declaracion-de-valor.pdf" "Using The Top Command [720p].mp4")
-
- ("/home/jboadas/devel/ansible-playbooks/burst/roles/replacemininglauncher/tasks/" (23164 27006 225085 154000) "../" "./" "main.yml")
-
- ("/home/jboadas/devel/ansible-playbooks/burst/roles/replacemininglauncher/" (23164 26963 244656 494000) "../" "./" "tasks/")
-
- ("/home/jboadas/devel/ansible-playbooks/burst/roles/updatestatuscronjob/tasks/" (23178 59673 90132 988000) "../" "./" "main.yml")
-
- ("/home/jboadas/devel/ansible-playbooks/burst/roles/updatestatuscronjob/" (23173 37473 448318 973000) "../" "./" "tasks/")
-
- ("/home/jboadas/devel/python/baires/" (23178 52734 85290 878000) "../" "maspopular.py" "./" "distancia.py" "casipalindrome.py")
-
- ("/home/jboadas/devel/python/" (23178 51167 961304 882000) "test-scripts/" "baires/" "../" "selenium/" "./" "reusing-browser/" "python.emacs.d/" "python.emacs.d.tar.gz")
-
- ("/home/jboadas/devel/ansible-playbooks/burst/roles/updatestatus/" (23172 27080 460603 710000) "../" "./" "tasks/")
-
- ("/home/jboadas/devel/ansible-playbooks/burst/roles/installscripts/tasks/" (23156 34061 496981 706000) "../" "./" "main.yml")
-
- ("/home/jboadas/devel/ansible-playbooks/burst/roles/viewip/tasks/" (23172 15210 912748 714000) "../" "./" "main.yml")
-
- ("/home/jboadas/devel/ansible-playbooks/burst/roles/viewip/" (23172 15045 190824 20000) "../" "./" "tasks/")
-
- ("/home/jboadas/devel/ansible-playbooks/burst/roles/viewplottingprocess/tasks/" (23172 14988 410128 670000) "../" "./" "main.yml")
-
- ("/usr/local/bin/" (23164 28626 497296 613000) "sshicinga" "ansible-galaxy" "ansible-vault" "ansible" "pyflakes" "search" "pip2.7" "mint-sha256sum" "easy_install" "sshtraining" "pip3.5" "electrum-ltc" "symilar" "../" "ansible-inventory" "mypy" "apt" "./" "gnome-help" "ticinga" "ansible-connection" "sshburst1" "pip" "autopep8" "highlight" "chardetect" "ansible-doc" "qr" "pip3" "pip2" "sshburst" "dmypy" "epylint" "ansible-config" "easy_install-2.7" "yapf" "flask" "stubgen" "ansible-console" "geckodriver" "sshtunnel" "nginx_start" "sshcba110" "__pycache__/" "pycodestyle" "sshburst2" "flake8" "ansible-pull" "calc_time_bash" "easy_install-3.5" "sqlectron" "transcrypt" "nginx_stop" "pylint" "yahoo-finance" "ansible-playbook" "rocketchat" "cv" "pyreverse" "calc_time" "isort" "yelp" "pdb" "django-admin" "django-admin.py")
-
- ("/home/jboadas/devel/ansible-playbooks/burst/roles/replacecreepMinerBin/tasks/" (23164 43087 192417 898000) "../" "./" "main.yml")
-
- ("/home/jboadas/devel/ansible-playbooks/burst/roles/replacecreepMinerBin/" (23164 43038 963938 683000) "../" "./" "tasks/")
+ ("/home/jboadas/devel/ansible-playbooks/burst/roles/disks/" (23143 17802 870089 113000) "../" "./" "tasks/")
 
  ("/home/jboadas/devel/ansible-playbooks/burst/roles/replaceplotscript/tasks/" (23164 18648 387454 803000) "../" "./" "main.yml")
 
  ("/home/jboadas/devel/ansible-playbooks/burst/roles/replaceplotscript/" (23164 18562 598575 762000) "../" "./" "tasks/")
 
- ("/home/jboadas/devel/ansible-playbooks/burst/roles/installntp/tasks/" (23163 13890 726807 133000) "../" "./" "main.yml")
+ ("/home/jboadas/devel/ansible-playbooks/burst/roles/minercronjob/tasks/" (23344 62635 267830 414000) "../" "./" "main.yml")
 
- ("/home/jboadas/devel/ansible-playbooks/burst/roles/viewminer/tasks/" (23163 9869 258261 191000) "../" "./" "main.yml")
+ ("/home/jboadas/devel/python/twitter/" (23341 21491 731863 266000) "../" "./" "post-twitter.py")
 
- ("/home/jboadas/devel/ansible-playbooks/burst/roles/restartminer/tasks/" (23152 45108 196301 733000) "../" "./" "main.yml")
-
- ("/home/jboadas/devel/ansible-playbooks/burst/roles/restartminer/" (23152 43163 24344 295000) "../" "./" "tasks/")
+ ("/home/jboadas/devel/ansible-playbooks/burst/roles/convertplotstopoc2/" (23333 6971 548020 654000) "../" "./" "tasks/")
 
  ("/home/jboadas/devel/ansible-playbooks/burst/roles/minercronjob/" (23156 29400 601570 569000) "../" "./" "tasks/")
 
- ("/usr/local/" (23109 16952 395026 729000) "include/" "../" "selenium/" "./" "man/" "sbin/" "etc/" "share/" "games/" "src/" "bin/" "lib/")
+ ("/home/jboadas/devel/ansible-playbooks/burst/roles/viewip/tasks/" (23172 15210 912748 714000) "../" "./" "main.yml")
 
- ("/usr/" (23064 4662 0 0) "include/" "../" "./" "sbin/" "local/" "share/" "games/" "src/" "bin/" "lib/")
-
- ("/home/" (23109 3506 620979 387000) "../" "./" "jboadas/")
-
- ("/home/jboadas/devel/ansible-playbooks/burst/roles/replaceminingconf/tasks/" (23160 39210 250254 811000) "../" "./" "main.yml")
-
- ("/home/jboadas/devel/ansible-playbooks/burst/roles/forbidsleep/" (23160 30175 788699 80000) "../" "./" "tasks/")
-
- ("/home/jboadas/devel/ansible-playbooks/burst/roles/forbidsleep/tasks/" (23160 30250 145460 102000) "../" "./" "main.yml")
-
- ("/home/jboadas/devel/ansible-playbooks/burst/roles/plottercronjob/" (23152 46176 335265 516000) "../" "./" "tasks/")
-
- ("/home/jboadas/devel/ansible-playbooks/burst/roles/replaceminingconf/" (23155 12934 534272 313000) "../" "./" "tasks/")
-
- ("/home/jboadas/devel/ansible-playbooks/burst/roles/downloads/tasks/" (23151 42170 454738 395000) "../" "./" "main.yml")
+ ("/home/jboadas/devel/ansible-playbooks/burst/roles/viewip/" (23172 15045 190824 20000) "../" "./" "tasks/")
 
  ("/home/jboadas/devel/ansible-playbooks/burst/roles/runplotter/tasks/" (23148 52752 609678 990000) "../" "./" "main.yml")
 
- ("/home/jboadas/devel/ansible-playbooks/burst/roles/viewminer/" (23151 40485 501981 688000) "../" "./" "tasks/")
+ ("/home/jboadas/devel/ansible-playbooks/burst/roles/runplotter/" (23148 40878 635227 242000) "../" "./" "tasks/")
 
- ("/home/jboadas/devel/ansible-playbooks/burst/roles/installntp/" (23151 10180 115680 104000) "../" "./" "tasks/")
+ ("/home/jboadas/devel/ansible-playbooks/burst/roles/deployxmrig/" (23190 59082 700883 590000) "../" "./" "tasks/")
 
- ("/home/jboadas/devel/ansible-playbooks/burst/roles/viewplottedtree/" (23151 5751 379904 120000) "../" "./" "tasks/")
+ ("/home/jboadas/devel/ansible-playbooks/burst/scripts/python3-ansible-scripts-deploy/update-status/" (23209 22633 141345 57000) "mariadb_update_status.py" "BurstProjectCredentials.json" "../" "./" "mysql-schema.sql" "populate_ip.py" "update_status.py" "hostinfo.py")
+
+ ("/home/jboadas/devel/ansible-playbooks/burst/scripts/" (23322 45188 656486 318000) "wonblocks/" "flycheck_disks_list.py" "../" "get_info.py" "selenium/" "./" "update-database/" "python3-ansible-scripts-deploy/" "disk_list.py" "newips.py" "cba.key" "hosts.py" "hostinfo.py" "__pycache__/" "get_failing_disks.py" "create_database.py" "webui/")
+
+ ("/home/jboadas/devel/ansible-playbooks/burst/roles/installntp/tasks/" (23318 48798 703306 434000) "../" "./" "main.yml")
+
+ ("/home/jboadas/devel/ansible-playbooks/burst/roles/updatestatus/tasks/" (23318 48186 248814 340000) "../" "./" "main.yml")
+
+ ("/home/jboadas/devel/ansible-playbooks/burst/roles/updatestatus/" (23172 27080 460603 710000) "../" "./" "tasks/")
+
+ ("/home/jboadas/devel/ansible-playbooks/burst/roles/installutilities/" (23182 64750 159750 510000) "../" "./" "tasks/")
+
+ ("/home/jboadas/devel/c++/fuga/" (23313 41195 665963 824000) "Makefile" "../" "./" "ex01.cpp" "collections.cpp" "fuga.c" "ex01" "fuga" "collections")
+
+ ("/home/jboadas/devel/python/test-scripts/filter_emails/" (23304 17397 255253 163000) "disposable_email_blacklist.conf" "../" "./" "blacklist_emails.txt" "bademails_emails.txt" "clean-disposable-emails.py" "emails.txt" "whitelist_emails.txt")
+
+ ("/home/jboadas/devel/ansible-playbooks/burst/roles/viewminer/tasks/" (23163 9869 258261 191000) "../" "./" "main.yml")
+
+ ("/home/jboadas/devel/ansible-playbooks/burst/roles/removekeys/tasks/" (23147 19480 962929 729000) "../" "./" "main.yml")
+
+ ("/home/jboadas/devel/ansible-playbooks/burst/roles/removekeys/" (23147 19027 578422 354000) "../" "./" "tasks/")
+
+ ("/home/jboadas/devel/ansible-playbooks/burst/roles/installhpacucli/tasks/" (23152 28886 933525 700000) "../" "./" "main.yml")
+
+ ("/home/jboadas/devel/ansible-playbooks/burst/roles/installhpacucli/" (23152 28481 445272 262000) "../" "./" "tasks/")
+
+ ("/home/jboadas/devel/ansible-playbooks/" (23299 1149 580990 317000) "../" "burst/" "coinimp-scripts/" "./" ".git/" "README.md" "pool/" ".gitignore")
+
+ ("/home/jboadas/devel/ansible-playbooks/burst/roles/replaceminingconf/tasks/" (23160 39210 250254 811000) "../" "./" "main.yml")
+
+ ("/home/jboadas/devel/ansible-playbooks/burst/roles/replaceminingconf/" (23155 12934 534272 313000) "../" "./" "tasks/")
+
+ ("/home/jboadas/devel/python/amazon/" (23298 54808 724621 424000) "soup.py" "products.csv" "../" "./" "loadlogs.py" "logs/" "data.py" "loadselenium.py" "__pycache__/" "geckodriver.log" "customexception.py" "scrap.py")
+
+ ("/home/jboadas/devel/ansible-playbooks/burst/roles/restartminer/" (23152 43163 24344 295000) "../" "./" "tasks/")
+
+ ("/usr/local/lib/python3.5/dist-packages/" (23255 24997 133827 594000) "cffi-1.11.2.dist-info/" "pyximport/" "pytz/" "Jinja2-2.10.dist-info/" "ansible/" "jinja2/" "jedi/" "simplejson-3.13.2-py3.5.egg-info/" "libpasteurize/" "chardet-3.0.4.dist-info/" "pyflakes/" "lazy_object_proxy/" "chardet/" "rope/" "pyflakes-1.6.0.dist-info/" "pygame/" "rope-0.10.7-py3.5.egg-info/" "paramiko-2.4.0.dist-info/" "pygame-1.9.3.dist-info/" "oauthlib-2.0.6-py3.5.egg-info/" "Django-2.0.1.dist-info/" "paramiko/" "mysqlclient-1.3.12-py3.5.egg-info/" "certifi/" "idna-2.6.dist-info/" "_rjsmin.cpython-35m-x86_64-linux-gnu.so" "pyasn1/" "user_agents-1.1.0-py3.5.egg-info/" "pycodestyle.py" "oauth2client-4.1.2.dist-info/" "gspread/" "requests-2.18.4.dist-info/" "libfuturize/" "rest_framework/" "social_django/" "gspread-0.6.2-py3.5.egg-info/" "cryptography/" "fake_useragent-0.1.10-py3.5.egg-info/" "django_compressor-2.2.dist-info/" "django/" "astroid/" "rsa/" "whois/" "google_auth_oauthlib-0.2.0.dist-info/" "rjsmin-1.0.12-py3.5.egg-info/" "selenium/" "autopep8-1.3.4-py3.5.egg-info/" "cython.py" "ua_parser/" "mypy/" "pyasn1_modules-0.2.1.dist-info/" "requests_oauthlib/" "diff_match_patch/" "disposable_email_domains/" "easy_install.py" "siphashc.cpython-35m-x86_64-linux-gnu.so" "pylint-1.8.1.dist-info/" "PyNaCl-1.2.1.dist-info/" "rsa-3.4.2.dist-info/" "lazy_object_proxy-1.3.1.dist-info/" "google/" "Cython-0.27.3.dist-info/" "cffi/" "click/" "Flask_RESTful-0.3.6.dist-info/" "cachetools/" "parso/" "sshtunnel-0.1.2-py3.5.egg-info/" "translate/" "wrapt-1.10.11-py3.5.egg-info/" "pip/" "docutils/" "jwt/" "yapftests/" "social_core/" "pyasn1-0.4.2.dist-info/" "python_dateutil-2.7.2.dist-info/" "typed_ast/" "google_auth_oauthlib/" "rjsmin.py" "ansible-2.4.2.0-py3.5.egg-info/" "_ast27.cpython-35m-x86_64-linux-gnu.so" "flask_restful/" "_ast3.cpython-35m-x86_64-linux-gnu.so" "translate_toolkit-2.3.0-py3.5.egg-info/" "yapf/" "defusedxml-0.5.0.dist-info/" "pycparser/" "flask/" "importmagic-0.1.7-py3.5.egg-info/" "_mysql.cpython-35m-x86_64-linux-gnu.so" "yahoo_finance/" "Cython/" "google_auth-1.4.1.dist-info/" "yapf-0.20.2.dist-info/" "six-1.11.0.dist-info/" "importmagic/" "itsdangerous.py" "oauth2client/" "google_auth-1.4.1-py3.6-nspkg.pth" "itsdangerous-0.24-py3.5.egg-info/" "parso-0.1.1.dist-info/" "pyasn1_modules/" "selenium-3.8.0.dist-info/" "asn1crypto-0.24.0.dist-info/" "test/" "docutils-0.14.dist-info/" "setuptools/" "pycparser-2.18-py3.5.egg-info/" "django_crispy_forms-1.7.2.dist-info/" "Pygments-2.2.0.dist-info/" "ua_parser-0.7.3.dist-info/" "future/" "rcssmin-1.0.6-py3.5.egg-info/" "_cffi_backend.cpython-35m-x86_64-linux-gnu.so" "future-0.16.0-py3.5.egg-info/" "werkzeug/" "crispy_forms/" ".libs_cffi_backend/" "Kivy_Garden-0.1.4-py3.5.egg-info/" "_rcssmin.cpython-35m-x86_64-linux-gnu.so" "nacl/" "whoosh/" "djangorestframework-3.7.7.dist-info/" "setuptools-38.2.5.dist-info/" "bcrypt/" "flake8-3.5.0.dist-info/" "pygments/" "oauthlib/" "urllib3-1.22.dist-info/" "fake_useragent/" "PyJWT-1.6.1.dist-info/" "rcssmin.py" "click-6.7.dist-info/" "aniso8601/" "MySQLdb/" "social_auth_app_django-2.1.0.dist-info/" "compressor/" "autopep8.py" "psutil/" "Werkzeug-0.14.1.dist-info/" "python3_openid-3.1.0.dist-info/" "idna/" "__pycache__/" "webui.egg-link" "social_auth_core-1.7.0.dist-info/" "diff_match_patch-20121119-py3.5.egg-info/" "isort-4.2.15.dist-info/" "siphashc-1.0-py3.5.egg-info/" "flake8/" "aniso8601-2.0.0-py3.5.egg-info/" "jedi-0.11.1.dist-info/" "appconf/" "mccabe-0.6.1.dist-info/" "bcrypt-3.1.4.dist-info/" "simplejson/" "PyYAML-3.12-py3.5.egg-info/" "six.py" "python_whois-0.6.9-py3.5.egg-info/" "asn1crypto/" "yaml/" "bs4/" "requests/" "mypy-0.560.dist-info/" "pip-10.0.0.dist-info/" "mccabe.py" "beautifulsoup4-4.6.0.dist-info/" "transcrypt/" "pylint/" "garden/" "defusedxml/" "Flask-0.12.2.dist-info/" "openid/" "astroid-1.6.0.dist-info/" "certifi-2018.1.18.dist-info/" "_mysql_exceptions.py" "urllib3/" "Kivy-1.10.1.dev0-py3.5.egg-info/" "requests_oauthlib-0.8.0.dist-info/" "disposable_email_domains-0.0.24.dist-info/" "psutil-5.4.3-py3.5.egg-info/" "isort/" "kivy/" "yahoo_finance-1.4.0-py3.5.egg-info/" "Whoosh-2.7.4.dist-info/" "cryptography-2.1.4.dist-info/" "pycodestyle-2.3.1.dist-info/" "sshtunnel.py" "typed_ast-1.1.0.dist-info/" "pytz-2017.3.dist-info/" "Transcrypt-3.6.82-py3.5.egg-info/" "dateutil/" "past/" "user_agents/" "pkg_resources/" "cachetools-2.0.1.dist-info/" "wrapt/" "django_appconf-1.0.2.dist-info/" "easy-install.pth" "../" "./")
+
+ ("/usr/local/lib/python3.5/dist-packages/paramiko/" (23109 19897 513639 833000) "sftp_handle.py" "kex_gex.py" "compress.py" "common.py" "util.py" "channel.py" "pkey.py" "primes.py" "auth_handler.py" "sftp_client.py" "../" "win_pageant.py" "ber.py" "./" "client.py" "transport.py" "pipe.py" "server.py" "buffered_pipe.py" "ecdsakey.py" "py3compat.py" "kex_group1.py" "proxy.py" "sftp_server.py" "ed25519key.py" "hostkeys.py" "packet.py" "kex_ecdh_nist.py" "ssh_exception.py" "sftp_si.py" "__init__.py" "dsskey.py" "_version.py" "kex_gss.py" "__pycache__/" "ssh_gss.py" "kex_group14.py" "agent.py" "file.py" "config.py" "_winapi.py" "sftp.py" "sftp_file.py" "message.py" "rsakey.py" "sftp_attr.py")
+
+ ("/home/jboadas/devel/python/selenium/" (23290 61078 631426 677000) "../" "./" ".git/" "README.md" "selenium2/" "build/" "helper/" ".gitlab-ci.yml" "src/" ".gitignore" "backups/" "versions/")
+
+ ("/home/jboadas/devel/javascript/viewpools/" (23267 25243 110349 630000) "viewpools.js" "../" "viewpools.html" "./" "bootstrap.min.css" "jquery-3.3.1.min.js" ".flowconfig" "jquery.sortElements.js")
+
+ ("/home/jboadas/devel/javascript/" (23284 31217 195106 766000) "Hellotns/" "../" "./" "viewpools/" "test01/")
+
+ ("/home/jboadas/devel/ansible-playbooks/burst/roles/downloads/tasks/" (23151 42170 454738 395000) "../" "./" "main.yml")
+
+ ("/home/jboadas/devel/ansible-playbooks/burst/roles/downloads/" (23144 52176 600538 244000) "../" "./" "tasks/")
+
+ ("/home/jboadas/devel/ansible-playbooks/burst/roles/viewhostname/tasks/" (23163 19827 773943 878000) "../" "./" "main.yml")
+
+ ("/home/jboadas/devel/ansible-playbooks/burst/roles/viewhostname/" (23163 19800 477672 607000) "../" "./" "tasks/")
+
+ ("/home/jboadas/devel/ansible-playbooks/burst/roles/viewwebchain/tasks/" (23282 60284 879257 224000) "../" "./" "main.yml")
+
+ ("/home/jboadas/devel/ansible-playbooks/burst/roles/viewwebchain/" (23282 60178 862134 20000) "../" "./" "tasks/")
+
+ ("/home/jboadas/devel/ansible-playbooks/burst/roles/changesshport/tasks/" (23227 39014 951466 829000) "../" "./" "main.yml")
+
+ ("/home/jboadas/devel/ansible-playbooks/burst/roles/changesshport/" (23227 38866 329955 379000) "../" "./" "tasks/")
+
+ ("/home/jboadas/devel/ansible-playbooks/burst/roles/logrotatecryptonote/" (23273 46682 757327 640000) "../" "./" "tasks/")
+
+ ("/home/jboadas/devel/ansible-playbooks/burst/roles/logrotatecryptonote/tasks/" (23273 46753 458115 762000) "../" "./" "main.yml")
+
+ ("/home/jboadas/devel/ansible-playbooks/burst/roles/deploybashrc/tasks/" (23151 9629 582542 927000) "../" "./" "main.yml")
 
  ("/home/jboadas/devel/ansible-playbooks/burst/roles/deploybashrc/" (23151 9588 546155 172000) "../" "./" "tasks/")
+
+ ("/home/jboadas/devel/python/selenium/selenium2/coinimp/templates/" (23256 44495 912234 280000) "index.html" "index.html.~origin_master~" "../" "./")
+
+ ("/home/jboadas/devel/gitlab-ci/scripts/coinimp/phpunit/" (23258 19231 288168 200000) "test-integration-coinimp.sh" "../" "./" "coverage-control.sh" "phpunit-test-coverage.sh")
+
+ ("/home/jboadas/devel/gitlab-ci/scripts/coinimp/" (23258 19131 79204 800000) "phpunit/" "build-sites-coinimp.sh" "../" "coinimp-payment/" "./" "auto-merge/" "coinimp-pool-aggregator/" "clean-unused-sites-coinimp.py")
+
+ ("/home/jboadas/devel/gitlab-ci/scripts/backend/" (23258 18863 16632 976000) "pylint-analysis-backend.sh" "../" "./" "pythonunit_template.conf" "pythonunit-test-coverage.sh" "update-backend.sh")
+
+ ("/home/jboadas/devel/gitlab-ci/scripts/" (23258 18863 44633 244000) "coinimp/" "panel/" "backend/" "../" "./" "regions/" "sandbox/" "3rdparty/" "emails/" "translations/")
+
+ ("/home/jboadas/devel/gitlab-ci/.git/" (23271 4702 7318 547000) "HEAD" "description" "../" "info/" "./" "COMMIT_EDITMSG" "branches/" "logs/" "refs/" "config" "objects/" "index" "packed-refs" "hooks/")
+
+ ("/home/jboadas/devel/gitlab-ci/" (23258 18863 44633 244000) "../" "./" ".git/" "README.md" "scripts/" "templates/")
+
+ ("/home/jboadas/devel/python/selenium/.git/" (23271 3730 945178 778000) "HEAD" "description" "../" "info/" "./" "COMMIT_EDITMSG" "branches/" "logs/" "refs/" "config" "objects/" "index" "packed-refs" "hooks/" "ORIG_HEAD" "FETCH_HEAD")
+
+ ("/home/jboadas/devel/ansible-playbooks/.git/" (23271 3487 578636 829000) "HEAD" "description" "../" "info/" "./" "COMMIT_EDITMSG" "branches/" "logs/" "refs/" "config" "objects/" "index" "packed-refs" "hooks/" "ORIG_HEAD" "FETCH_HEAD")
+
+ ("/home/jboadas/devel/ansible-playbooks/burst/roles/installscripts/" (23148 39329 627299 678000) "../" "./" "tasks/")
+
+ ("/home/jboadas/devel/python/test-scripts/connect-leaseweb/" (23261 63438 223869 131000) "../" "./" "connect-leaseweb.py")
 )
 
 ;; ----- ido-unc-hosts-cache -----

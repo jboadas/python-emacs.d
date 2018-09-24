@@ -3,18 +3,7 @@
 (semanticdb-project-database-file "webui/"
   :tables
   (list
-    (semanticdb-table "webui.py"
-      :major-mode 'python-mode
-      :tags 
-        '( ("os" include nil nil [19 28])
-            ("flask" include nil nil [29 129])
-            ("app" variable nil nil [131 152])
-            ("app" code nil nil [191 223]))          
-      :file "webui.py"
-      :pointmax 266
-      :fsize 265
-      :lastmodtime '(23164 28792 102953 673000)
-      :unmatched-syntax nil)
+
     (semanticdb-table "setup.py"
       :major-mode 'python-mode
       :tags 
@@ -23,6 +12,19 @@
       :pointmax 160
       :fsize 159
       :lastmodtime '(23164 28963 408640 278000)
+      :unmatched-syntax nil)
+    (semanticdb-table "getwalletinfo.py"
+      :major-mode 'python-mode
+      :tags 
+        '( ("json" include nil nil [1 12])
+            ("requests" include nil nil [13 28])
+            ("url" variable nil nil [30 125])
+            ("resp" variable nil nil [126 154])
+            ("with" code nil nil [156 238]))          
+      :file "getwalletinfo.py"
+      :pointmax 238
+      :fsize 237
+      :lastmodtime '(23258 8966 881702 407000)
       :unmatched-syntax nil))
   :file "!home!jboadas!devel!ansible-playbooks!burst!scripts!webui!semantic.cache"
   :semantic-tag-version "2.0"

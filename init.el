@@ -40,6 +40,15 @@
 (unless (package-installed-p 'js2-mode)
   (package-install 'js2-mode))
 
+(unless (package-installed-p 'elpy)
+  (package-install 'elpy))
+
+(unless (package-installed-p 'py-autopep8)
+  (package-install 'py-autopep8))
+
+(unless (package-installed-p 'yaml-mode)
+  (package-install 'yaml-mode))
+
 ;;
 ;; UI
 ;;
@@ -291,3 +300,11 @@
 
 (add-to-list 'auto-mode-alist '("\\.js\\'" . js2-mode))
 (add-to-list 'interpreter-mode-alist '("node" . js2-mode))
+(custom-set-variables
+ ;; custom-set-variables was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(package-selected-packages
+   (quote
+    (yaml-mode web-mode smex smartparens py-autopep8 js2-mode ido-vertical-mode ido-completing-read+ hl-todo highlight-parentheses flx-ido elpy))))

@@ -29,43 +29,70 @@
             ("paramiko.ssh_exception" include nil nil [68 115])
             ("hosts" include nil nil [116 128])
             ("hostinfo" include nil nil [129 144])
+            ("newips" include nil nil [145 158])
+            ("requests" include nil nil [159 174])
+            ("bs4" include nil nil [175 204])
+            ("fake_useragent" include nil nil [205 241])
             ("restart_miner_process" function
                (:documentation "kills the miner process if suplicated or parameter true"
                 :arguments 
-                  ( ("ip_host" variable nil (reparse-symbol function_parameters) [173 180])
-                    ("kill" variable nil (reparse-symbol function_parameters) [182 186]))                  )
-                nil [147 1809])
+                  ( ("ip_host" variable nil (reparse-symbol function_parameters) [270 277])
+                    ("kill" variable nil (reparse-symbol function_parameters) [279 283]))                  )
+                nil [244 1906])
+            ("search_host_info" function
+               (:documentation "change the name of a host"
+                :arguments 
+                  ( ("name_host" variable nil (reparse-symbol function_parameters) [1929 1938]))                  )
+                nil [1908 2276])
+            ("add_ip_to_host" function (:arguments 
+              ( ("curr_ip" variable nil (reparse-symbol function_parameters) [2297 2304])
+                ("add_ip" variable nil (reparse-symbol function_parameters) [2306 2312])
+                ("mask" variable nil (reparse-symbol function_parameters) [2314 2318])
+                ("gateway" variable nil (reparse-symbol function_parameters) [2320 2327]))              ) nil [2278 2837])
             ("change_hostname" function
                (:documentation "change the name of a host"
                 :arguments 
-                  ( ("ip_host" variable nil (reparse-symbol function_parameters) [1831 1838])
-                    ("new_name" variable nil (reparse-symbol function_parameters) [1840 1848]))                  )
-                nil [1811 3131])
+                  ( ("ip_host" variable nil (reparse-symbol function_parameters) [4325 4332])
+                    ("new_name" variable nil (reparse-symbol function_parameters) [4334 4342]))                  )
+                nil [4305 5625])
             ("get_plots_space" function
                (:documentation "get space used/avail on each plot"
                 :arguments 
-                  ( ("ip_host" variable nil (reparse-symbol function_parameters) [3153 3160])
-                    ("all_plots" variable nil (reparse-symbol function_parameters) [3162 3171]))                  )
-                nil [3133 3996])
+                  ( ("ip_host" variable nil (reparse-symbol function_parameters) [5647 5654])
+                    ("all_plots" variable nil (reparse-symbol function_parameters) [5656 5665]))                  )
+                nil [5627 6510])
             ("get_mounted_plots" function
                (:documentation "get_mounted_plots"
                 :arguments 
-                  ( ("ip_host" variable nil (reparse-symbol function_parameters) [4020 4027]))                  )
-                nil [3998 5009])
+                  ( ("ip_host" variable nil (reparse-symbol function_parameters) [6534 6541]))                  )
+                nil [6512 7543])
+            ("get_key_from_creepminer" function
+               (:documentation "execute_remote_command"
+                :arguments 
+                  ( ("ip_host" variable nil (reparse-symbol function_parameters) [7573 7580]))                  )
+                nil [7545 8538])
             ("get_plotting_process_pid" function
                (:documentation "execute_remote_command"
                 :arguments 
-                  ( ("ip_host" variable nil (reparse-symbol function_parameters) [5040 5047]))                  )
-                nil [5011 5802])
-            ("TEMP_HOSTS" variable nil nil [5804 5903])
-            ("get_plotting_info_from_hosts" function (:documentation "gets if a host is ploting") nil [5906 6230])
-            ("kill_restart_miner" function (:documentation "restart the miner process") nil [6232 6386])
-            ("change_name_of_host" function (:documentation "change the name of all host") nil [6388 6578])
-            ("change_name_of_host" code nil nil [6782 6803]))          
+                  ( ("ip_host" variable nil (reparse-symbol function_parameters) [8569 8576]))                  )
+                nil [8540 9351])
+            ("get_creepminer_web" function
+               (:documentation "verify creepminer page is up"
+                :arguments 
+                  ( ("host_ip" variable nil (reparse-symbol function_parameters) [9376 9383]))                  )
+                nil [9353 9684])
+            ("TEMP_HOSTS" variable nil nil [9686 9785])
+            ("get_plotting_info_from_hosts" function (:documentation "gets if a host is ploting") nil [9788 10112])
+            ("kill_restart_miner" function (:documentation "restart the miner process") nil [10114 10268])
+            ("change_name_of_host" function (:documentation "change the name of all host") nil [10270 10460])
+            ("get_creep_miner_key" function (:documentation "reads the creepminer key passphrace") nil [10462 10622])
+            ("get_all_creepminer_webpages" function (:documentation "reads the creepminer webpage") nil [10624 10780])
+            ("add_ip_to_interfaces" function (:documentation "add a new ip to interface") nil [10782 11033])
+            ("add_ip_to_interfaces" code nil nil [11379 11401]))          
       :file "get_info.py"
-      :pointmax 6850
-      :fsize 6849
-      :lastmodtime '(23163 19428 585977 680000)
+      :pointmax 11402
+      :fsize 11401
+      :lastmodtime '(23317 35774 771778 182000)
       :unmatched-syntax nil)
     (semanticdb-table "hosts.py"
       :major-mode 'python-mode
@@ -118,15 +145,14 @@
       :fsize 3687
       :lastmodtime '(23163 21674 876424 544000)
       :unmatched-syntax nil)
-    (semanticdb-table "get_xmrig_huge_pages.py"
+    (semanticdb-table "newips.py"
       :major-mode 'python-mode
       :tags 
-        '( ("requests" include nil nil [1 16])
-            ("r" variable nil nil [18 30]))          
-      :file "get_xmrig_huge_pages.py"
-      :pointmax 31
-      :fsize 30
-      :lastmodtime '(23206 48717 617727 595000)
+        '( ("\"\"\" new hosts ip \"\"\"" code nil nil [21 41]))          
+      :file "newips.py"
+      :pointmax 6384
+      :fsize 6383
+      :lastmodtime '(23317 32308 810896 664000)
       :unmatched-syntax nil))
   :file "!home!jboadas!devel!ansible-playbooks!burst!scripts!semantic.cache"
   :semantic-tag-version "2.0"

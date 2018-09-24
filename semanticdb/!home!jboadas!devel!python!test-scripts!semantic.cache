@@ -192,13 +192,12 @@
       :tags 
         '( ("math" include nil nil [1 12])
             ("casipalindromo" function (:arguments 
-              ( ("palabra" variable nil (reparse-symbol function_parameters) [34 41]))              ) nil [15 485]))          
+              ( ("palabra" variable nil (reparse-symbol function_parameters) [34 41]))              ) nil [15 488]))          
       :file "casi_palindromo.py"
-      :pointmax 485
+      :pointmax 488
       :fsize 487
       :lastmodtime '(23175 20395 452829 70000)
       :unmatched-syntax nil)
-
     (semanticdb-table "test-kivy.py"
       :major-mode 'python-mode
       :tags 
@@ -218,8 +217,64 @@
       :file "test-kivy.py"
       :pointmax 164
       :fsize 163
-      :lastmodtime '(23206 47789 636379 6000)
-      :unmatched-syntax nil))
+      :lastmodtime '(23319 63263 932874 564000)
+      :unmatched-syntax '((NAME 146 . 153) ($EOI 161 . 161) (NAME 146 . 153) ($EOI 161 . 161)))
+    (semanticdb-table "find_the_number.py"
+      :major-mode 'python-mode
+      :tags 
+        '( ("count_digits" function (:arguments 
+              ( ("nx" variable nil (reparse-symbol function_parameters) [2439 2441]))              ) nil [2422 2550])
+            ("findSimilar" function (:arguments 
+              ( ("a" variable nil (reparse-symbol function_parameters) [2568 2569])
+                ("b" variable nil (reparse-symbol function_parameters) [2571 2572]))              ) nil [2552 2699]))          
+      :file "find_the_number.py"
+      :pointmax 2699
+      :fsize 2698
+      :lastmodtime '(23373 1609 739379 721000)
+      :unmatched-syntax '((IF 2671 . 2673) (NEWLINE 2698 . 2699)))
+    (semanticdb-table "matching-pair.py"
+      :major-mode 'python-mode
+      :tags 
+        '( ("matching_pair" function (:arguments 
+              ( ("arr" variable nil (reparse-symbol function_parameters) [19 22])
+                ("given_sum" variable nil (reparse-symbol function_parameters) [24 33]))              ) nil [1 319])
+            ("matching_pair2" function (:arguments 
+              ( ("arr" variable nil (reparse-symbol function_parameters) [340 343])
+                ("given_sum" variable nil (reparse-symbol function_parameters) [345 354]))              ) nil [321 615])
+            ("main" function nil nil [617 828])
+            ("if" code nil nil [830 868]))          
+      :file "matching-pair.py"
+      :pointmax 868
+      :fsize 867
+      :lastmodtime '(23420 23864 499130 683000)
+      :unmatched-syntax nil)
+    (semanticdb-table "dict.py"
+      :major-mode 'python-mode
+      :tags 
+        '( ("regions" variable nil nil [1 1411]))          
+      :file "dict.py"
+      :pointmax 1412
+      :fsize 1516
+      :lastmodtime '(22978 39798 555095 0)
+      :unmatched-syntax nil)
+    (semanticdb-table "test-pygame.py"
+      :major-mode 'python-mode
+      :tags 
+        '( ("pygame" include nil nil [1 14])
+            ("pygame" code nil nil [16 29]))          
+      :file "test-pygame.py"
+      :pointmax 30
+      :fsize 29
+      :lastmodtime '(23041 50648 190473 0)
+      :unmatched-syntax nil)
+    (semanticdb-table "dropmail.py"
+      :major-mode 'python-mode
+      :tags nil
+      :file "dropmail.py"
+      :pointmax 3745
+      :fsize 3744
+      :lastmodtime '(23026 18076 439468 0)
+      :unmatched-syntax '((INDENT_BLOCK 1 . 3745))))
   :file "!home!jboadas!devel!python!test-scripts!semantic.cache"
   :semantic-tag-version "2.0"
   :semanticdb-version "2.2")
